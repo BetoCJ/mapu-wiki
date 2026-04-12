@@ -8,41 +8,76 @@ El desconocimiento de las reglas **no exime de sanciones**.
 
 ## Reglas Generales
 
-**1. Respeto ante todo**
-Trata a todos los jugadores con respeto. No se toleran insultos, discriminación ni acoso de ningún tipo.
+**1. No Publicidad**
+Está prohibido publicitar o promocionar cualquier servidor ajeno a Mapucraft, ya sea en el chat, mensajes privados o signos.
 
-**2. No al spam**
-Evita repetir mensajes en el chat o usar mayúsculas en exceso.
+**2. Respeto**
+Trata a todos con respeto: jugadores y Staff. No se tolerará ninguna forma de discriminación, incluyendo sexismo, racismo o xenofobia.
 
-**3. No al hack o trampas**
-El uso de hacks, cheats, exploits o cualquier mod que otorgue ventajas no está permitido.
+**3. Chat**
+Evita el spam, flood y el uso excesivo de MAYÚSCULAS. Comunícate con claridad.
 
-**4. No al griefing**
-Destruir construcciones ajenas o robar de cofres de otros jugadores está prohibido.
-
-**5. No al PvP no consensuado**
-El PvP fuera de zonas habilitadas requiere consentimiento de ambos jugadores.
-
-**6. No a la publicidad**
-No se permite publicitar otros servidores de Minecraft.
-
-**7. Respeta el idioma**
-El idioma principal del servidor es el **español**.
+**4. Staff**
+No solicites beneficios especiales al Staff, como ítems, teletransportes o ayuda con construcciones personales.
 
 ***
 
-## Sanciones
+## Reglas Técnicas
 
-Las sanciones se aplican según la gravedad de la infracción y quedan a criterio del staff.
+**5. Rendimiento del Servidor**
+Está prohibido construir mega-granjas o estructuras que generen lag excesivo: redstone intensivo, pistones, entidades, granjas 0-tick, entre otros.
 
-| Tipo | Consecuencia |
-|---|---|
-| Faltas leves | Advertencia / Mute temporal |
-| Faltas graves | Ban temporal |
-| Faltas muy graves | Ban permanente |
+**6. Bugs y Glitches**
+No aproveches ni abuses de bugs o glitches. Si encuentras alguno, repórtalo al Staff de inmediato. Es obligatorio hacerlo.
+
+**7. Duplicación**
+Está estrictamente prohibido duplicar o intentar duplicar objetos por cualquier método disponible.
+
+***
+
+## Reglas de Jugabilidad
+
+**8. Hacks / Mods Ilegales**
+Prohibido usar hacks, mods como X-Ray o cualquier cliente modificado que otorgue ventaja injusta sobre otros jugadores.
+
+**9. Seguridad de Cuentas**
+Mapucraft no se responsabiliza por robos de cuentas del servidor, de Minecraft u otras plataformas. ¡Protege tus datos!
+
+**10. Estafas**
+Está prohibido estafar o intentar estafar a otros jugadores, tanto dentro del servidor como en el Discord de Mapucraft.
+
+***
+
+## Reglas de Mundos y Protección
+
+**11. Grifeo y Construcción**
+Prohibido grifear, robar, construir o destruir en zonas cercanas a towns ajenas. La sanción dependerá de la gravedad del caso.
+
+**12. Mundo End**
+No está permitido crear Towns, claimear chunks ni crear Outposts en la isla principal del End.
+
+**13. Robo en Cofres**
+Está prohibido robar en cofres que se encuentren protegidos por cartel.
+
+***
+
+## Reglas Finales
+
+**14. Multicuentas**
+Se permite un máximo de 3 cuentas por usuario. Queda prohibido usarlas con fines maliciosos o para evadir sanciones activas.
+> Puedes informar al Staff sobre tus cuentas adicionales.
+
+**15. Conducta General**
+Cualquier comportamiento perjudicial para jugadores o el servidor podrá ser sancionado a discreción del Staff.
+
+**16. Comportamiento Tóxico**
+Las actitudes tóxicas o negativas serán sancionadas de acuerdo a la gravedad.
+
+**17. Historial del Jugador**
+El Staff podrá considerar el historial (positivo o negativo) de un jugador al momento de aplicar una sanción.
 
 ***
 
 {% hint style="warning" %}
-Las reglas pueden actualizarse. Se notificará en el Discord ante cualquier cambio.
+El desconocimiento de las reglas no te exime de su cumplimiento. ¡Juega limpio y disfruta Mapucraft!
 {% endhint %}
