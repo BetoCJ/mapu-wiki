@@ -9,6 +9,7 @@
 ## Contenido
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody>
+<tr><td><a href="towns.md">🏘️ Towns y Naciones</a></td></tr>
 <tr><td><a href="skills.md">⚡ Skills</a></td></tr>
 <tr><td><a href="jobs.md">💼 Jobs</a></td></tr>
 <tr><td><a href="encantamientos.md">✨ Encantamientos</a></td></tr>
