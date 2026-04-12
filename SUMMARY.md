@@ -12,6 +12,8 @@
 * [Jobs](towny/jobs.md)
 * [Encantamientos](towny/encantamientos.md)
 * [Crafteos Custom](towny/crafteos.md)
+* [Battle Pass](towny/battlepass.md)
+* [Misiones y Recompensas](towny/misiones-y-recompensas.md)
 * [Dungeons](towny/dungeons/README.md)
   * [Dungeon 1](towny/dungeons/dungeon-1.md)
   * [Dungeon 2](towny/dungeons/dungeon-2.md)

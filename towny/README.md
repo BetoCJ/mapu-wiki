@@ -14,6 +14,8 @@
 <tr><td><a href="jobs.md">💼 Jobs</a></td></tr>
 <tr><td><a href="encantamientos.md">✨ Encantamientos</a></td></tr>
 <tr><td><a href="crafteos.md">🔨 Crafteos Custom</a></td></tr>
+<tr><td><a href="battlepass.md">🎖️ Battle Pass</a></td></tr>
+<tr><td><a href="misiones-y-recompensas.md">📋 Misiones y Recompensas</a></td></tr>
 <tr><td><a href="dungeons/README.md">🏰 Dungeons</a></td></tr>
 <tr><td><a href="eventos/README.md">🎯 Eventos</a></td></tr>
 <tr><td><a href="economia/README.md">💰 Economía</a></td></tr>
