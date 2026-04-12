@@ -8,9 +8,9 @@ Mapucraft cuenta con un sistema de **encantamientos personalizados** que va más
 
 Los encantamientos custom se pueden obtener de las siguientes formas:
 
-* 📦 **Cajas de recompensas** — Algunas cajas contienen libros de encantamientos custom
-* 🏰 **Dungeons** — Los jefes dropean libros exclusivos
-* 🛒 **Tiendas de jugadores** — Otros jugadores pueden venderlos
+* 🧙 **Enchanter** — Usa `/enchanter` para obtener encantamientos gastando **experiencia** o **dinero** directamente desde el menú
+* 🏰 **Dungeons** — Al matar mobs dentro de los dungeons existe una probabilidad de que suelten libros de encantamientos custom
+* 🛒 **Auction House** — Otros jugadores pueden publicar libros de encantamientos a la venta en `/ah`
 
 ***
 
