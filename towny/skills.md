@@ -1,37 +1,47 @@
 # ⚡ Skills
 
-El sistema de **Skills** te permite mejorar las habilidades de tu personaje a medida que juegas. Cuanto más uses una habilidad, más la dominarás.
+El sistema de **Skills** (AuraSkills) permite mejorar las habilidades de tu personaje a medida que juegas. Cada skill sube de nivel realizando su actividad correspondiente y desbloquea habilidades pasivas y activas únicas. El nivel máximo de cada skill es **100**.
 
 ***
 
 ## Habilidades disponibles
 
-| Habilidad | Descripción |
-|---|---|
-| ⚔️ **Combate** | Mejora el daño que haces a enemigos |
-| ⛏️ **Minería** | Desbloquea bonus al minar bloques |
-| 🌾 **Agricultura** | Mejora la producción de cultivos |
-| 🪵 **Tala** | Bonificaciones al cortar árboles |
-| 🎣 **Pesca** | Mejores recompensas al pescar |
-| 🏃 **Atletismo** | Velocidad y resistencia mejoradas |
-| 🛡️ **Defensa** | Reduce el daño recibido |
-| 🪄 **Magia** | Potencia el uso de encantamientos |
+| Skill | Cómo subir | Habilidades pasivas destacadas |
+|---|---|---|
+| 🌾 **Agricultura** | Cosechar cultivos | Cosecha en área, mayor producción, aura de crecimiento |
+| 🪵 **Silvicultura** | Talar árboles | Tala múltiple, dominio del hacha, reducción de daño |
+| ⛏️ **Minería** | Minar bloques | Drops extra, velocidad de pico, armadura reforzada |
+| 🎣 **Pesca** | Pescar | Drops dobles, tesoros raros, gancho de combate |
+| 🪣 **Excavación** | Cavar tierra y arena | Pala más potente, detector de metales, suerte |
+| 🏹 **Arquería** | Disparar con arco | Recuperar flechas, perforación, aturdir enemigos |
+| 🛡️ **Defensa** | Recibir daño | Escudo mejorado, dominio de mobs, inmunidad a efectos |
+| ⚔️ **Combate** | Matar mobs y jugadores | Parada, maestría de espadas, golpe inicial, sangrado |
+| 🏃 **Agilidad** | Moverse y saltar | Caída suave, salto mayor, curación dorada, velocidad |
+| ⚗️ **Alquimia** | Preparar pociones | Pociones mejoradas, splash y lingering, robo de vida |
+| ✨ **Encantamiento** | Encantar objetos | Conversión de XP, maestría de yunque, fuerza encantada |
 
 ***
 
-## Cómo subir de nivel
+## Habilidades de Maná
 
-Cada habilidad sube de nivel al realizar su acción correspondiente. Por ejemplo, minar bloques sube **Minería**, pescar sube **Pesca**, etc.
+Cada skill tiene una **habilidad de maná** que se activa manualmente gastando maná:
+
+| Skill | Habilidad de Maná |
+|---|---|
+| 🌾 Agricultura | Recolección masiva de cultivos |
+| 🪵 Silvicultura | Tala un árbol entero de golpe |
+| ⛏️ Minería | Velocidad de minería extrema |
+| 🎣 Pesca | Gancho afilado |
+| 🪣 Excavación | Terraformación rápida |
+| 🏹 Arquería | Disparo cargado de gran daño |
+| 🛡️ Defensa | Absorción de daño |
+| ⚔️ Combate | Golpe relámpago |
+
+***
 
 ## Comandos
 
 | Comando | Descripción |
 |---|---|
-| `/skills` | Ver tus skills actuales |
-| `/skills [habilidad]` | Ver detalle de una habilidad |
-
-***
-
-{% hint style="info" %}
-Añade aquí información específica sobre niveles máximos, desbloqueables, o cualquier otro detalle de tu configuración.
-{% endhint %}
+| `/skills` | Ver todas tus habilidades y niveles |
+| `/skills [skill]` | Ver detalle, habilidades y progreso de un skill |
