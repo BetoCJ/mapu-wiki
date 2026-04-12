@@ -1,16 +1,20 @@
 # ⚔️ KOTH — MapuKoth
 
-El **MapuKoth** (King of the Hill) es un evento PvP donde los jugadores se enfrentan para controlar una zona durante el mayor tiempo posible. ¡El que aguante más, gana!
+El **MapuKoth** (King of the Hill) es un evento PvP donde los jugadores compiten por acumular la mayor cantidad de puntos controlando una zona. ¡El que más tiempo aguante en el punto, gana!
 
 ***
 
 ## ¿Cómo funciona?
 
-1. El evento se activa automáticamente cada **2 horas**
-2. Se anuncia en el chat global para todos los jugadores
-3. Dirígete a la zona del KOTH en el mundo **dungeons**
-4. Captura y mantén el control de la zona
-5. Al finalizar el tiempo, el jugador con mayor tiempo en la zona gana
+El KOTH usa el modo **Score**: cada segundo que pasas dentro de la zona sumas un punto. Al terminar el tiempo, los jugadores con más puntos se llevan las recompensas.
+
+1. El evento se anuncia automáticamente en el chat global
+2. Usa `/warp koth` para ir directamente a la zona
+3. Entra al punto marcado y mantente dentro para acumular puntos
+4. Si te sacan del punto, dejas de sumar — ¡defiéndete!
+5. Al terminar el tiempo, se entregan las recompensas según posición
+
+Durante el evento, la barra de jefe y el marcador lateral muestran en tiempo real quién va primero y cuánto tiempo queda.
 
 ***
 
@@ -18,10 +22,12 @@ El **MapuKoth** (King of the Hill) es un evento PvP donde los jugadores se enfre
 
 | | |
 |---|---|
-| **Frecuencia** | Cada 2 horas |
+| **Frecuencia** | Cada 4 horas |
+| **Duración máxima** | 10 minutos |
 | **Mínimo de jugadores** | 5 |
 | **Mundo** | dungeons |
-| **Duración** | *(completa con la duración)* |
+| **Warp** | `/warp koth` |
+| **Modo** | Score (puntos por tiempo en zona) |
 
 ***
 
@@ -29,11 +35,11 @@ El **MapuKoth** (King of the Hill) es un evento PvP donde los jugadores se enfre
 
 | Posición | Recompensa |
 |---|---|
-| 🥇 1° lugar | 2 llaves MapuKoth |
-| 🥈 2° lugar | 1 llave MapuKoth |
-| 🥉 3° lugar | 1 llave MapuKoth |
+| 🥇 1° lugar | 2x Llave MapuKoth |
+| 🥈 2° lugar | 1x Llave MapuKoth |
+| 🥉 3° lugar | 1x Llave Netherite |
 
-Las llaves se canjean en la caja **MapuKoth** para obtener premios exclusivos.
+Las llaves se usan en las cajas de recompensas del servidor para obtener ítems exclusivos.
 
 ***
 
@@ -41,10 +47,11 @@ Las llaves se canjean en la caja **MapuKoth** para obtener premios exclusivos.
 
 | Comando | Descripción |
 |---|---|
-| `/axkoth` | Ver información del evento actual |
+| `/warp koth` | Teleportarte a la zona del evento |
+| `/axkoth` | Ver información del KOTH activo |
 
 ***
 
-{% hint style="info" %}
-El KOTH tiene zona PvP habilitada. ¡Ven preparado con buen equipo!
+{% hint style="warning" %}
+El KOTH tiene PvP habilitado. ¡Ven con buen equipo y listo para combatir!
 {% endhint %}
