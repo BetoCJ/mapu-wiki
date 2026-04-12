@@ -19,9 +19,7 @@
   * [KOTH — MapuKoth](towny/eventos/koth.md)
   * [Piñata](towny/eventos/pinata.md)
 * [Economía](towny/economia/README.md)
-  * [Tiendas](towny/economia/tiendas.md)
-  * [CoinFlip](towny/economia/coinflip.md)
-  * [Cajas](towny/economia/cajas.md)
+  * [Tiendas y Mercado](towny/economia/tiendas.md)
 
 ## 🌌 Skyblock
 * [Próximamente](skyblock/README.md)
