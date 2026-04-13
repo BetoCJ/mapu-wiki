@@ -21,6 +21,6 @@ Nuestro objetivo es crear una comunidad donde los jugadores puedan disfrutar de 
 |             |                                                        |
 | ----------- | ------------------------------------------------------ |
 | **IP**      | `mapucraft.com`                                        |
-| **Versión** | `1.21.1`                                               |
+| **Versión** | `1.21.11`                                              |
 | **Modo**    | Survival / Towny                                       |
 | **Discord** | [discord.gg/bRjP5ruEwM](https://discord.gg/bRjP5ruEwM) |
