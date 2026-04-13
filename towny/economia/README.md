@@ -8,6 +8,7 @@ El sistema económico de Mapucraft gira en torno al **dinero del servidor**, que
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody>
 <tr><td><a href="tiendas.md">🛒 Tiendas y Mercado</a></td></tr>
+<tr><td><a href="../coinflip.md">🪙 CoinFlip</a></td></tr>
 </tbody></table>
 
 ***

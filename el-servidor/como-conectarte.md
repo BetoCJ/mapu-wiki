@@ -34,6 +34,16 @@ Si juegas en **Bedrock** (móvil, consola o Windows 10/11 Edition), usa los sigu
 
 ***
 
+## Chat de Voz
+
+Mapucraft tiene integración con **Simple Voice Chat**, un mod que permite hablar con jugadores cercanos usando el micrófono.
+
+Para activarlo, descarga el mod **Simple Voice Chat** para tu versión de Minecraft desde el servidor de [Discord](https://discord.gg/bRjP5ruEwM) o buscalo en Modrinth/CurseForge. Una vez instalado, el chat de voz funciona automáticamente al conectarte.
+
+> El chat de voz es opcional — el servidor funciona perfectamente sin él.
+
+***
+
 {% hint style="info" %}
 Si tienes problemas para conectarte, revisa que estés usando la versión correcta de Minecraft o pide ayuda en nuestro [Discord](https://discord.gg/bRjP5ruEwM).
 {% endhint %}

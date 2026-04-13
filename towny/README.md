@@ -23,4 +23,8 @@
 <tr><td><a href="cajas.md">🗝️ Cajas y Llaves</a></td></tr>
 <tr><td><a href="eventos/README.md">🎯 Eventos</a></td></tr>
 <tr><td><a href="economia/README.md">💰 Economía</a></td></tr>
+<tr><td><a href="coinflip.md">🪙 CoinFlip</a></td></tr>
+<tr><td><a href="minijuegos.md">🎮 Mini-juegos</a></td></tr>
+<tr><td><a href="cosmeticos.md">🎨 Cosméticos</a></td></tr>
+<tr><td><a href="brewery.md">🍺 Brewery</a></td></tr>
 </tbody></table>

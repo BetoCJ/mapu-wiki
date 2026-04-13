@@ -27,6 +27,10 @@
 * [Cajas y Llaves](towny/cajas.md)
 * [Economía](towny/economia/README.md)
   * [Tiendas y Mercado](towny/economia/tiendas.md)
+  * [CoinFlip](towny/coinflip.md)
+* [Mini-juegos](towny/minijuegos.md)
+* [Cosméticos](towny/cosmeticos.md)
+* [Brewery](towny/brewery.md)
 
 ## 🌌 Skyblock
 * [Próximamente](skyblock/README.md)

@@ -160,7 +160,7 @@ Se obtiene derrotando a **Tralkan, Lonko del Rayo**, el boss semanal. Contiene e
 | Nether Star x2 | 5% |
 | Nether Star x3 | 3% |
 
-El invocador de Tralkan cuesta **$50,000** en `/warp cajas`.
+El invocador de Tralkan cuesta **$50,000** y se compra en `/adminshops`. La sala del Boss Semanal se accede con `/warp BossSemanal` — al entrar se cobran **$1,000** adicionales.
 
 ***
 

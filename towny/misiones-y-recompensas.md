@@ -39,6 +39,30 @@ Cada misión completada otorga una recompensa en **dinero del servidor** y **exp
 
 ***
 
+## Votar — /vote
+
+Votar por el servidor en sitios externos activa la **Caja Diaria** y es la principal forma de obtener MapuPoints para cosméticos.
+
+Cada vez que votas recibes automáticamente:
+
+| Recompensa | Cantidad |
+|---|---|
+| 🗝️ Llave Diaria | 2x |
+| 🗝️ Llave VoteParty | 2x |
+| 🗝️ Llave Netherite | 1x |
+| 💰 Dinero | $500 |
+| ⭐ MapuPoints | 1 |
+
+Con `/vote` se abren los enlaces a los sitios de votación. Acumular votos también activa el evento **Piñata** al llegar a 20 votos.
+
+### Comandos
+
+| Comando | Descripción |
+|---|---|
+| `/vote` | Ver sitios donde votar y tu progreso |
+
+***
+
 ## Recompensas de Sesión — /rewards
 
 El sistema de **Recompensas de Inicio de Sesión** (DailyRewards) permite reclamar recompensas periódicas simplemente conectándose al servidor. Hay tres tipos según la frecuencia: **diaria**, **semanal** y **mensual**.
