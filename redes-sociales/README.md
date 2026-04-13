@@ -10,7 +10,6 @@
 |---|---|
 | 💬 **Discord** | [discord.gg/bRjP5ruEwM](https://discord.gg/bRjP5ruEwM) |
 | 🌐 **Web** | [mapucraft.com](https://mapucraft.com) |
-| *(Añade aquí TikTok, Instagram, YouTube, etc.)* | |
 
 ***
 

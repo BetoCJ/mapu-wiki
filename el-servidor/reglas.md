@@ -2,8 +2,6 @@
 
 Para mantener una comunidad sana y divertida para todos, es importante respetar las siguientes normas.
 
-El desconocimiento de las reglas **no exime de sanciones**.
-
 ***
 
 ## Reglas Generales

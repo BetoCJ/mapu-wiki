@@ -6,7 +6,7 @@ Los **Dungeons** de Mapucraft son mazmorras con mobs custom, mini-bosses y jefes
 
 ## Acceso
 
-Usa `/warp predungeon` para llegar a la zona de entrada. Desde allí tienes **3 caminos**: la sala del Boss, la Zona de Crafteo y el acceso a la Dungeon 2.
+Usa `/warp predungeon` para llegar a la zona de entrada de los dungeons. Desde allí puedes acceder a las tres mazmorras. Dentro de la **Dungeon 1** encontrarás tres áreas: la sala del Boss, la Zona de Crafteo y el acceso interno a la Dungeon 2.
 
 {% hint style="info" %}
 **KeepInventory activado:** al morir en los dungeons **no pierdes ítems**, pero **sí pierdes tu EXP**. Para salir puedes encontrar las 4 salidas o usar una **Llave Escapatoria**.

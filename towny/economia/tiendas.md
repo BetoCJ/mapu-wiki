@@ -23,21 +23,21 @@ El sistema **QuickShop** permite crear tiendas físicas en el mundo colocando un
 
 ### Información
 
-| | |
-|---|---|
-| **Plugin** | QuickShop-Hikari |
-| **Costo de crear tienda** | $1,000 |
-| **Límite de tiendas por jugador** | 50 |
-| **Mercado principal** | `/warp mercado` |
+|                                   |                  |
+| ********************************* | ***************- |
+| **Plugin**                        | QuickShop-Hikari |
+| **Costo de crear tienda**         | $1,000           |
+| **Límite de tiendas por jugador** | 50               |
+| **Mercado principal**             | `/warp mercado`  |
 
 ### Comandos
 
-| Comando | Descripción |
-|---|---|
+| Comando           | Descripción                                  |
+| ***************-- | ******************************************-- |
 | `/qs find [ítem]` | Buscar tiendas que venden un ítem específico |
 
 {% hint style="info" %}
-El mercado principal está en `/warp mercado`, donde puedes alquilar un local para instalar tus tiendas.
+El mercado principal está en `/warp comercio`, donde puedes alquilar un local para instalar tus tiendas.
 {% endhint %}
 
 ***
@@ -54,12 +54,12 @@ El **Auction House** es una casa de subastas global donde cualquier jugador pued
 
 ### Comandos
 
-| Comando | Descripción |
-|---|---|
-| `/ah` | Abrir la casa de subastas |
+| Comando             | Descripción                         |
+| ******************- | *********************************-- |
+| `/ah`               | Abrir la casa de subastas           |
 | `/ah sell [precio]` | Publicar el ítem en mano a la venta |
-| `/ah cancel` | Cancelar tus publicaciones activas |
-| `/ah expired` | Recoger ítems que no se vendieron |
+| `/ah cancel`        | Cancelar tus publicaciones activas  |
+| `/ah expired`       | Recoger ítems que no se vendieron   |
 
 ***
 
@@ -69,7 +69,7 @@ El `/mercado` (también `/market`) es el **mercado oficial del servidor**, admin
 
 ### Comandos
 
-| Comando | Descripción |
-|---|---|
+| Comando    | Descripción                            |
+| *********- | ************************************-- |
 | `/mercado` | Abrir el menú del mercado del servidor |
-| `/market` | Alias del mismo comando |
+| `/market`  | Alias del mismo comando                |

@@ -4,7 +4,7 @@ Bienvenido a la wiki oficial de **Mapucraft**, el servidor de Minecraft con iden
 
 Aquí encontrarás información sobre todas las modalidades, mecánicas, sistemas y mucho más.
 
-¿Tienes dudas o encontraste algo incorrecto? Únete a nuestro Discord y cuéntanos.
+¿Tienes dudas o encontraste algo incorrecto? Cuéntanos en el [Discord](https://discord.gg/bRjP5ruEwM).
 
 ***
 

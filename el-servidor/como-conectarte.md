@@ -6,7 +6,7 @@ Conectarse a Mapucraft es muy sencillo. Sigue estos pasos:
 
 ## Pasos
 
-**1.** Abre Minecraft Java Edition (versión `1.21.11`)
+**1.** Abre Minecraft Java Edition (versión `1.21.1`)
 
 **2.** Ve a **Multijugador** → **Añadir servidor**
 

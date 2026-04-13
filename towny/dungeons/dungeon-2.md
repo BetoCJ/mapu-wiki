@@ -87,7 +87,7 @@ El monarca de las profundidades abisales. Usa la **bossbar azul**.
 - **Maldición Abisal** — aplica efectos negativos
 - Invoca **Guardias Ahogados** y **Sirenas Ahogadas** como refuerzos
 
-**Drops:** 200–300 XP + llaves de crate (de skills al morir)
+**Drops:** 200–300 XP + llaves de crate al morir (ver [Llave Boss D2](../cajas.md#llave-boss-d2))
 
 ***
 
