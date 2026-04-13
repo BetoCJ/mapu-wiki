@@ -142,6 +142,21 @@ Los miembros de un town pueden activar el **vuelo** dentro de los límites de su
 | `/n enemy add [nación]` | Declarar enemistad con otra nación |
 | `/n delete` | Disolver la nación |
 
+### Plot
+
+| Comando | Descripción |
+|---|---|
+| `/plot claim` | Reclamar una parcela puesta a la venta |
+| `/plot unclaim` | Devolver una parcela al town |
+| `/plot forsale [precio]` | Poner tu parcela a la venta |
+| `/plot notforsale` | Quitar tu parcela de la venta |
+| `/plot set [tipo]` | Cambiar el tipo de la parcela (shop, farm, arena…) |
+| `/plot set name [nombre]` | Dar nombre a una parcela |
+| `/plot set perm [grupo] [acción] [on/off]` | Configurar permisos de la parcela |
+| `/plot perm` | Ver los permisos actuales de la parcela |
+| `/plot trust add [jugador]` | Dar acceso de confianza a un jugador en la parcela |
+| `/plot trust remove [jugador]` | Revocar acceso de confianza |
+
 ### Residente
 
 | Comando | Descripción |

@@ -26,7 +26,14 @@ Las primeras veces que alcanzas ciertos saltos se entregan recompensas únicas (
 | 100 | $1,250 + 7 MapuPoints + 25 niveles de XP |
 | 150 | 12 MapuPoints |
 
-Las recompensas periódicas (cada ciertos saltos) incluyen dinero y llaves adicionales.
+Además, hay recompensas periódicas que se repiten indefinidamente:
+
+| Cada X saltos | Recompensa |
+|---|---|
+| 9 | $2 |
+| 20 | $4 |
+| 35 | $8 |
+| 80 | 1× Llave Diaria |
 
 ***
 
