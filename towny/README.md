@@ -20,6 +20,7 @@
 <tr><td><a href="pyromining.md">⛏️ PyroMining</a></td></tr>
 <tr><td><a href="pyrofarming.md">🌱 PyroFarming</a></td></tr>
 <tr><td><a href="dungeons/README.md">🏰 Dungeons</a></td></tr>
+<tr><td><a href="cajas.md">🗝️ Cajas y Llaves</a></td></tr>
 <tr><td><a href="eventos/README.md">🎯 Eventos</a></td></tr>
 <tr><td><a href="economia/README.md">💰 Economía</a></td></tr>
 </tbody></table>

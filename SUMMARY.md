@@ -24,6 +24,7 @@
 * [Eventos](towny/eventos/README.md)
   * [KOTH — MapuKoth](towny/eventos/koth.md)
   * [Piñata](towny/eventos/pinata.md)
+* [Cajas y Llaves](towny/cajas.md)
 * [Economía](towny/economia/README.md)
   * [Tiendas y Mercado](towny/economia/tiendas.md)
 
