@@ -1,6 +1,5 @@
 root: ./
 
-icon: .gitbook/assets/icon.png
 
 structure:
   readme: README.md
