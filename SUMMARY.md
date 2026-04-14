@@ -8,6 +8,7 @@
 ## 🏘️ Towny
 * [Introducción](towny/README.md)
 * [Towns y Naciones](towny/towns.md)
+* [Rangos](towny/rangos.md)
 * [Skills](towny/skills.md)
 * [Jobs](towny/jobs.md)
 * [Encantamientos](towny/encantamientos.md)
