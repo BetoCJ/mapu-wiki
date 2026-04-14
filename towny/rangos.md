@@ -70,6 +70,39 @@ Al **boostear el Discord** de Mapucraft recibes la **Caja Bosteo**, que contiene
 
 ***
 
+## Rango Especial
+
+El **Rango Especial** es un rango premium en el que el jugador **elige libremente el prefijo** entre una selección de nombres con gradientes de colores únicos. Hereda todos los beneficios del rango **Cacique** y añade lo siguiente:
+
+| Beneficio | Detalle |
+|---|---|
+| **Hogares** | 11 |
+| **Battle Pass Premium** | Incluido |
+| `/glow` con todos los colores | ✔ |
+| `/dye` | Teñir objetos |
+| `/smithingtable` | Mesa de herrería portátil |
+| `/walkspeed` | Ajustar velocidad al caminar |
+| **Mascotas** | 10 ranuras |
+| **Kit exclusivo** | Según el prefijo elegido |
+
+### Prefijos disponibles
+
+El jugador elige uno de los siguientes prefijos, cada uno con gradiente de color propio y efecto de obfuscación a los lados:
+
+| Prefijo | Color |
+|---|---|
+| **Millangeru** | Rosa / Magenta |
+| **Rayen** | Verde |
+| **Küyen** | Naranja |
+| **Nahuel** | Rojo |
+| **Llampuzken** | Carmesí |
+| **Nguru** | Púrpura |
+| **Mawun** | Turquesa |
+| **Liwen** | Amarillo-verde |
+| **Colocolo** | Escala de grises |
+
+***
+
 ## Comandos
 
 | Comando | Descripción |
