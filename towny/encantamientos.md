@@ -29,21 +29,29 @@ Al encantar objetos en la mesa vanilla hay un **45% de probabilidad** de que el 
 
 Con el nivel mas alto de encantamiento puedes recibir entre 2 y 3 encantamientos custom a la vez.
 
+Ademas, hay un **3% de probabilidad separado** de que la mesa te de directamente un **libro de encantamiento personalizado** (en lugar de encantarlo en el objeto). El nivel de encantamiento de la mesa determina la rareza del libro:
+
+| Nivel de mesa | Rarezas posibles del libro |
+|--------------|---------------------------|
+| Nivel bajo | Simple, Unico |
+| Nivel medio | Elite, Ultimate |
+| Nivel alto | Legendario, Fabled |
+
 ### Tinkerer (`/tinkerer`)
 
-Intercambia libros de encantamiento que no quieras por **Gemas de la Suerte**. Util para deshacerse de encantamientos duplicados o de rarezas bajas.
+Intercambia libros de encantamiento que no quieras por **Gemas de Suerte**. Util para deshacerse de encantamientos duplicados o de rarezas bajas.
 
 ![](<../.gitbook/assets/ae_tinkerer.png>)
 
-El menu tiene dos columnas: **INPUT** (izquierda) donde arrastras los libros que quieres cambiar, y **RESULT** (derecha) donde aparecen las Gemas de la Suerte obtenidas. Puedes procesar varios libros a la vez en un solo intercambio.
+El menu tiene dos columnas: **INPUT** (izquierda) donde arrastras los libros que quieres cambiar, y **RESULT** (derecha) donde aparecen las Gemas de Suerte obtenidas. Puedes procesar varios libros a la vez en un solo intercambio.
 
 ### Alchemist (`/alchemist`)
 
-Combina Gemas de la Suerte para obtener **Paquetes Arcanos**, que tienen una tasa de exito mayor al aplicar libros de encantamiento.
+Combina Gemas de Suerte para obtener **Paquetes Arcanos**. Un Paquete Arcano es un envoltorio misterioso que al abrirse (clic derecho) puede contener una Gema de Suerte, aunque el resultado no esta garantizado.
 
 ![](<../.gitbook/assets/ae_alchemist.png>)
 
-El menu tiene un slot central donde colocas las Gemas de la Suerte. Las flechas indican la conversion: varias Gemas de la Suerte se fusionan en un Paquete Arcano de mayor potencia.
+El menu tiene un slot central donde colocas las Gemas de Suerte. Las flechas indican la conversion: varias Gemas de Suerte se combinan en un Paquete Arcano.
 
 ### Diccionario de Encantamientos (`/enchantdex`)
 
@@ -72,20 +80,33 @@ Cada objeto tiene un numero limitado de **ranuras de encantamiento**:
 - **Maximo base:** 15 ranuras
 - **Maximo con mejoras:** 20 ranuras
 
-Las ranuras se pueden aumentar usando **Tomos Universales**, que se obtienen en el Enchanter o como loot. Agregan una ranura extra al objeto y tienen textura personalizada. Agregar encantamientos consume ranuras segun el grupo del encantamiento.
+Las ranuras se pueden aumentar usando:
 
-El numero de ranuras disponibles se puede ver en el objeto si el servidor lo tiene habilitado.
+- **Libro Universal** — agrega +1 ranura al objeto (no tiene tasa de fallo)
+- **Tomo de Armas / Tomo de Armadura / Tomo de Herramientas** — agrega varias ranuras a la vez segun el tipo de objeto, pero tiene una **Tasa de Exito** (puede fallar sin romper el objeto)
+
+Agregar encantamientos consume ranuras segun el grupo del encantamiento. Las ranuras no se muestran en el lore del objeto por defecto.
 
 ---
 
 ## Sistema de Aplicacion
 
-Cuando aplicas un libro de encantamiento arrastandolo sobre un objeto, hay dos metricas importantes:
+Para aplicar un encantamiento, **arrastra el libro encima del objeto** en el inventario. Cada libro tiene dos metricas:
 
 - **Tasa de exito:** Probabilidad de que el encantamiento se aplique correctamente.
-- **Tasa de destruccion:** Probabilidad de que el objeto se destruya si el encantamiento falla.
+- **Tasa de destruccion:** Probabilidad de que el objeto sea destruido si el encantamiento falla.
 
-Puedes modificar estas tasas con la **Gema de la Suerte** (aumenta el exito) y la **Runa de la Proteccion** (protege de destruccion). Si combinas dos libros del mismo encantamiento en el yunque o directamente sobre el objeto, el encantamiento sube de nivel. Todos estos items tienen textura personalizada en el servidor.
+Puedes modificar estas tasas antes de aplicar el libro:
+
+| Item | Como se usa | Efecto |
+|------|-------------|--------|
+| **Gema de Suerte** | Arrastrala sobre el **libro** antes de aplicarlo | Reduce la Tasa de Destruccion del libro en un porcentaje segun su rareza |
+| **Runa de la Proteccion** | Arrastrala sobre el **objeto** antes de encantar | Protege el objeto de ser destruido si el encantamiento falla |
+| **Paquete Arcano** | Abrir hace clic derecho | Puede contener una Gema de Suerte aleatoria segun la suerte |
+
+**Subir de nivel un encantamiento:** combina dos libros del mismo encantamiento en el yunque, o arrastra directamente el libro sobre el objeto que ya lo tiene. Los objetos nunca se destruyen al combinar (solo podria eliminarse la proteccion de la Runa si hubiera fallo).
+
+> Los items con la etiqueta **No Modificable** en su descripcion no pueden recibir encantamientos personalizados.
 
 ---
 
@@ -122,12 +143,13 @@ Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 | Comando | Descripcion |
 |---------|-------------|
 | `/enchanter` | Abre el menu del encantador (XP o dinero) |
-| `/tinkerer` | Intercambia libros por Gemas de la Suerte |
-| `/alchemist` | Combina Gemas de la Suerte en Paquetes Arcanos |
+| `/tinkerer` | Intercambia libros por Gemas de Suerte |
+| `/alchemist` | Combina Gemas de Suerte para obtener Paquetes Arcanos |
 | `/enchantdex` | Abre el diccionario de encantamientos en el juego |
 | `/ae list` | Lista todos los encantamientos custom por consola/chat |
 | `/ae info [nombre]` | Informacion detallada de un encantamiento por consola/chat |
 | `/withdrawsouls` | Retira almas acumuladas de un objeto |
+| `/apply` | Reactiva los efectos de la armadura que llevas puesta (util si un efecto permanente deja de funcionar) |
 
 ---
 
@@ -394,24 +416,24 @@ Todos estos items tienen **textura personalizada** en el servidor. Ademas de los
 
 | Item (nombre en servidor) | Nombre original del plugin | Funcion |
 |---------------------------|---------------------------|---------|
-| **Encantamiento Aleatorio** | Random Enchantment Book | Se limpia al hacer clic derecho para revelar un encantamiento aleatorio del grupo indicado |
-| **Gema de la Suerte** | Magic Dust | Aumenta la tasa de exito al aplicar libros de encantamiento |
-| **Paquete Arcano** | Secret Dust | Aumenta aun mas la tasa de exito al aplicar libros |
-| **Piedra del Abandono** | Mystery Dust | Elimina los encantamientos de un objeto |
-| **Runa de la Proteccion** | White Scroll | Protege el objeto de ser destruido si un encantamiento falla |
-| **Runa de la Extraccion** | Black Scroll | Extrae un encantamiento aleatorio del objeto y lo convierte en libro |
-| **Tomo Universal** | Slot Increaser | Agrega una ranura de encantamiento adicional al objeto (hasta maximo de 20) |
-| **Runa del Alma** | Soul Tracker | Activa el rastreo de almas en un arma o herramienta |
-| **Gema del Alma** | Soul Gem | Item relacionado con el sistema de almas |
-| **Runa de la Revelacion** | Transmog Scroll | Cambia el aspecto visual del objeto sin alterar sus encantamientos |
-| **Runa del Vinculo** | Holy White Scroll | Proteccion permanente: el objeto no puede ser destruido nunca |
-| **Pluma del Renombre** | Item Nametag | Permite renombrar un objeto con nombre personalizado |
-| **Pergamino del Minero** | BlockTrak | Rastrea los bloques minados con la herramienta |
-| **Pergamino del Pescador** | FishTrak | Rastrea los peces capturados con la cana |
-| **Pergamino del Guerrero** | StatTrak | Rastrea las estadisticas de combate del arma |
-| **Pergamino del Cazador** | MobTrak | Rastrea los mobs eliminados con el arma |
-| **Tomo del Arma** | Weapon Enchantment Orb | Permite encantar armas con un encantamiento aleatorio |
-| **Tomo de la Armadura** | Armor Enchantment Orb | Permite encantar armaduras con un encantamiento aleatorio |
-| **Tomo de la Herramienta** | Tool Enchantment Orb | Permite encantar herramientas con un encantamiento aleatorio |
-| **Totem de Renovacion** | Randomization Scroll | Reemplaza un encantamiento aleatorio del objeto por otro aleatorio del mismo grupo |
-| **Libro Cosmico** | Cosmo Book | Libro especial de rareza cosmica, exclusivo de eventos y administracion del servidor |
+| **Encantamiento Aleatorio** | Random Enchantment Book | Haz clic derecho para limpiar el libro y revelar un encantamiento aleatorio de la rareza indicada |
+| **Gema de Suerte** | Magic Dust | Arrastra sobre un **libro** antes de aplicarlo: reduce su Tasa de Destruccion segun la rareza de la gema |
+| **Paquete Arcano** | Secret Dust | Paquete misterioso que al abrirse puede contener una Gema de Suerte (resultado aleatorio) |
+| **Piedra Abandonada** | Mystery Dust | Item sin valor practico que puede obtenerse del Tinkerer en tiradas bajas |
+| **Runa de la Proteccion** | White Scroll | Arrastra sobre el **objeto** antes de encantar: protege el objeto de ser destruido si un encantamiento falla |
+| **Runa de Extraccion** | Black Scroll | Extrae un encantamiento aleatorio del objeto y lo convierte en libro (95% exito, 5% destruccion del objeto) |
+| **Libro Universal** | Slot Increaser | Agrega +1 ranura de encantamiento al objeto sin riesgo (hasta el maximo de 20) |
+| **Runa del Alma** | Soul Tracker | Arrastra sobre un arma o herramienta para activar el rastreo de almas recolectadas de kills |
+| **Gema de Alma** | Soul Gem | Aplica a un objeto con la Runa del Alma activa para añadirle almas directamente |
+| **Runa de la Revelacion** | Transmog Scroll | Arrastra sobre un objeto: ordena sus encantamientos por rareza en el lore y añade un contador de encantamientos al nombre |
+| **Runa del Ligado al Alma** | Holy White Scroll | Arrastra sobre armadura o armas: da 100% de probabilidad de no perder el objeto al morir |
+| **Pluma Renombradora** | Item Nametag | Permite escribir un nombre personalizado (con colores) a cualquier objeto encantado |
+| **Pergamino Minero** | BlockTrak | Registra el numero de bloques rotos con la herramienta; el contador aparece en el lore |
+| **Pergamino Pescador** | FishTrak | Registra el numero de peces capturados con la cana de pescar |
+| **Pergamino Guerrero** | StatTrak | Registra el numero de eliminaciones de jugadores con el arma |
+| **Pergamino Cazador** | MobTrak | Registra el numero de mobs eliminados con el arma |
+| **Tomo de Armas** | Weapon Enchantment Orb | Aumenta las ranuras de encantamiento de un arma en varios puntos; tiene Tasa de Exito (puede fallar) |
+| **Tomo de Armadura** | Armor Enchantment Orb | Aumenta las ranuras de encantamiento de una pieza de armadura; tiene Tasa de Exito |
+| **Tomo de Herramientas** | Tool Enchantment Orb | Aumenta las ranuras de encantamiento de una herramienta; tiene Tasa de Exito |
+| **Totem de Renovacion** | Randomization Scroll | Arrastra sobre un **libro de encantamiento** para rerollear su Tasa de Destruccion por una nueva aleatoria |
+| **Libro Cosmico** | Cosmo Book | Libro de rareza cosmica exclusivo de eventos y administracion; contiene encantamientos especiales |
