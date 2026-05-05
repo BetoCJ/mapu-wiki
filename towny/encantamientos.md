@@ -1,15 +1,21 @@
 # Encantamientos Personalizados
 
-Mapucraft usa el plugin **AdvancedEnchantments v9.10.1** para ofrecer un sistema de encantamientos completamente personalizado. Todos los encantamientos son adicionales a los vanilla y funcionan con el mismo equipo de siempre.
+Mapucraft usa un sistema de encantamientos completamente personalizado con mas de 160 encantamientos adicionales a los vanilla. Todos funcionan con el mismo equipo de siempre y tienen libros con **texturas personalizadas** segun su rareza.
 
 ---
 
 ## Como obtenerlos
 
 ### Enchanter (`/enchanter`)
-El metodo principal. Abre el menu del encantador y compra libros de encantamiento gastando **experiencia** o **dinero**. Puedes comprar libros de cualquier rareza o un libro aleatorio de un grupo especifico.
+
+El metodo principal. Abre el menu del encantador y compra libros de encantamiento gastando **experiencia** o **dinero**.
+
+![](<../.gitbook/assets/ae_enchanter.png>)
+
+El menu muestra los **8 tipos de libros** disponibles segun su rareza: Simple, Unico, Elite, Ultimate, Legendario, Fabled, y libros especiales de Arma, Armadura, Herramienta y Aleatorio. Al hacer clic en uno se abre una confirmacion de compra antes de efectuar la transaccion. Los botones del fondo permiten filtrar por categoria, resetear filtros o cerrar el menu.
 
 ### Mesa de Encantamiento
+
 Al encantar objetos en la mesa vanilla hay un **45% de probabilidad** de que el objeto reciba adicionalmente un encantamiento personalizado. Las chances por grupo son:
 
 | Rareza | Probabilidad de aparecer |
@@ -24,13 +30,38 @@ Al encantar objetos en la mesa vanilla hay un **45% de probabilidad** de que el 
 Con el nivel mas alto de encantamiento puedes recibir entre 2 y 3 encantamientos custom a la vez.
 
 ### Tinkerer (`/tinkerer`)
+
 Intercambia libros de encantamiento que no quieras por **Gemas de la Suerte**. Util para deshacerse de encantamientos duplicados o de rarezas bajas.
 
+![](<../.gitbook/assets/ae_tinkerer.png>)
+
+El menu tiene dos columnas: **INPUT** (izquierda) donde arrastras los libros que quieres cambiar, y **RESULT** (derecha) donde aparecen las Gemas de la Suerte obtenidas. Puedes procesar varios libros a la vez en un solo intercambio.
+
 ### Alchemist (`/alchemist`)
+
 Combina Gemas de la Suerte para obtener **Paquetes Arcanos**, que tienen una tasa de exito mayor al aplicar libros de encantamiento.
 
+![](<../.gitbook/assets/ae_alchemist.png>)
+
+El menu tiene un slot central donde colocas las Gemas de la Suerte. Las flechas indican la conversion: varias Gemas de la Suerte se fusionan en un Paquete Arcano de mayor potencia.
+
+### Diccionario de Encantamientos (`/enchantdex`)
+
+Consulta todos los encantamientos del servidor directamente en el juego sin salir.
+
+![](<../.gitbook/assets/ae_enchantdex.png>)
+
+Al abrir el diccionario aparece una barra de categorias para filtrar por tipo. Al seleccionar una categoria se muestra la **lista de encantamientos** con paginacion:
+
+![](<../.gitbook/assets/ae_enchantdex_list.png>)
+
+Al hacer clic en cualquier encantamiento de la lista se abre su **ficha de detalle** con descripcion, niveles, items compatibles y como conseguirlo:
+
+![](<../.gitbook/assets/ae_enchantdex_detail.png>)
+
 ### Auction House (`/ah`)
-Otros jugadores pueden publicar libros de encantamiento a la venta.
+
+Otros jugadores pueden publicar libros de encantamiento a la venta. Es una fuente util para conseguir libros raros de Legendario o Fabled sin depender del Enchanter.
 
 ---
 
@@ -91,11 +122,12 @@ Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 | Comando | Descripcion |
 |---------|-------------|
 | `/enchanter` | Abre el menu del encantador (XP o dinero) |
-| `/tinkerer` | Intercambia libros por polvo magico |
-| `/alchemist` | Combina polvo de encantamiento |
-| `/ae list` | Lista todos los encantamientos custom |
-| `/ae info [nombre]` | Informacion detallada de un encantamiento |
-| `/withdrawsouls` | Retira almas de un objeto |
+| `/tinkerer` | Intercambia libros por Gemas de la Suerte |
+| `/alchemist` | Combina Gemas de la Suerte en Paquetes Arcanos |
+| `/enchantdex` | Abre el diccionario de encantamientos en el juego |
+| `/ae list` | Lista todos los encantamientos custom por consola/chat |
+| `/ae info [nombre]` | Informacion detallada de un encantamiento por consola/chat |
+| `/withdrawsouls` | Retira almas acumuladas de un objeto |
 
 ---
 
@@ -381,4 +413,5 @@ Todos estos items tienen **textura personalizada** en el servidor. Ademas de los
 | **Tomo del Arma** | Weapon Enchantment Orb | Permite encantar armas con un encantamiento aleatorio |
 | **Tomo de la Armadura** | Armor Enchantment Orb | Permite encantar armaduras con un encantamiento aleatorio |
 | **Tomo de la Herramienta** | Tool Enchantment Orb | Permite encantar herramientas con un encantamiento aleatorio |
-| **Tomo de la Renovacion** | Randomization Scroll | Reemplaza un encantamiento aleatorio del objeto por otro aleatorio |
+| **Totem de Renovacion** | Randomization Scroll | Reemplaza un encantamiento aleatorio del objeto por otro aleatorio del mismo grupo |
+| **Libro Cosmico** | Cosmo Book | Libro especial de rareza cosmica, exclusivo de eventos y administracion del servidor |
