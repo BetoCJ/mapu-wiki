@@ -24,10 +24,10 @@ Al encantar objetos en la mesa vanilla hay un **45% de probabilidad** de que el 
 Con el nivel mas alto de encantamiento puedes recibir entre 2 y 3 encantamientos custom a la vez.
 
 ### Tinkerer (`/tinkerer`)
-Intercambia libros de encantamiento que no quieras por **Polvo Magico**. Util para deshacerse de encantamientos duplicados o de rarezas bajas.
+Intercambia libros de encantamiento que no quieras por **Gemas de la Suerte**. Util para deshacerse de encantamientos duplicados o de rarezas bajas.
 
 ### Alchemist (`/alchemist`)
-Combina polvo magico para obtener **polvo de mayor calidad**, que aumenta la tasa de exito al aplicar libros.
+Combina Gemas de la Suerte para obtener **Paquetes Arcanos**, que tienen una tasa de exito mayor al aplicar libros de encantamiento.
 
 ### Auction House (`/ah`)
 Otros jugadores pueden publicar libros de encantamiento a la venta.
@@ -41,7 +41,7 @@ Cada objeto tiene un numero limitado de **ranuras de encantamiento**:
 - **Maximo base:** 15 ranuras
 - **Maximo con mejoras:** 20 ranuras
 
-Las ranuras se pueden aumentar usando **Aumentadores de Ranura** (Slot Increasers), que se obtienen en el Enchanter o como loot. Agregar encantamientos consume ranuras segun el grupo del encantamiento.
+Las ranuras se pueden aumentar usando **Tomos Universales**, que se obtienen en el Enchanter o como loot. Agregan una ranura extra al objeto y tienen textura personalizada. Agregar encantamientos consume ranuras segun el grupo del encantamiento.
 
 El numero de ranuras disponibles se puede ver en el objeto si el servidor lo tiene habilitado.
 
@@ -54,7 +54,7 @@ Cuando aplicas un libro de encantamiento arrastandolo sobre un objeto, hay dos m
 - **Tasa de exito:** Probabilidad de que el encantamiento se aplique correctamente.
 - **Tasa de destruccion:** Probabilidad de que el objeto se destruya si el encantamiento falla.
 
-Puedes modificar estas tasas con **Polvo Magico** (aumenta el exito) y **Pergamino Blanco** (protege de destruccion). Si combinas dos libros del mismo encantamiento en el yunque o directamente sobre el objeto, el encantamiento sube de nivel.
+Puedes modificar estas tasas con la **Gema de la Suerte** (aumenta el exito) y la **Runa de la Proteccion** (protege de destruccion). Si combinas dos libros del mismo encantamiento en el yunque o directamente sobre el objeto, el encantamiento sube de nivel. Todos estos items tienen textura personalizada en el servidor.
 
 ---
 
@@ -62,7 +62,7 @@ Puedes modificar estas tasas con **Polvo Magico** (aumenta el exito) y **Pergami
 
 Algunos encantamientos de rareza **Fabled** consumen **Almas** al activarse. Para usar este sistema:
 
-1. Obtiene una **Runa del Alma** (`/ae giveitem`o eventos del servidor).
+1. Obtiene una **Runa del Alma** (eventos del servidor o el Enchanter).
 2. Arrastra la runa sobre el arma para activar el rastreo de almas.
 3. Cada kill con esa arma acumula almas en ella.
 4. Los encantamientos que consumen almas se activan automaticamente cuando tienes suficientes y se cumplen sus condiciones.
@@ -358,17 +358,27 @@ Para activar el rastreo de almas, aplica una **Runa del Alma** al arma o herrami
 
 ## Items Especiales del Plugin
 
-Ademas de los encantamientos, el plugin incluye items que modifican el sistema:
+Todos estos items tienen **textura personalizada** en el servidor. Ademas de los encantamientos, el plugin incluye items que modifican el sistema:
 
-| Item | Funcion |
-|------|---------|
-| **Libro de Encantamiento** | Libro con un encantamiento especifico para aplicar a un objeto |
-| **Libro Aleatorio** | Se limpia al hacer clic derecho para revelar un encantamiento aleatorio del grupo indicado |
-| **Polvo Magico** | Aumenta la tasa de exito al aplicar libros |
-| **Polvo Secreto** | Aumenta aun mas la tasa de exito |
-| **Pergamino Blanco** | Protege el objeto de ser destruido si un encantamiento falla |
-| **Pergamino Negro** | Elimina un encantamiento aleatorio del objeto |
-| **Aumentador de Ranura** | Agrega una ranura de encantamiento adicional al objeto (hasta maximo de 20) |
-| **Runa del Alma** | Activa el rastreo de almas en un arma o herramienta |
-| **Orbe de Transmog** | Cambia el aspecto visual del objeto sin alterar sus encantamientos |
-| **Orbe de Arma/Armadura/Herramienta** | Items especiales de administracion |
+| Item (nombre en servidor) | Nombre original del plugin | Funcion |
+|---------------------------|---------------------------|---------|
+| **Encantamiento Aleatorio** | Random Enchantment Book | Se limpia al hacer clic derecho para revelar un encantamiento aleatorio del grupo indicado |
+| **Gema de la Suerte** | Magic Dust | Aumenta la tasa de exito al aplicar libros de encantamiento |
+| **Paquete Arcano** | Secret Dust | Aumenta aun mas la tasa de exito al aplicar libros |
+| **Piedra del Abandono** | Mystery Dust | Elimina los encantamientos de un objeto |
+| **Runa de la Proteccion** | White Scroll | Protege el objeto de ser destruido si un encantamiento falla |
+| **Runa de la Extraccion** | Black Scroll | Extrae un encantamiento aleatorio del objeto y lo convierte en libro |
+| **Tomo Universal** | Slot Increaser | Agrega una ranura de encantamiento adicional al objeto (hasta maximo de 20) |
+| **Runa del Alma** | Soul Tracker | Activa el rastreo de almas en un arma o herramienta |
+| **Gema del Alma** | Soul Gem | Item relacionado con el sistema de almas |
+| **Runa de la Revelacion** | Transmog Scroll | Cambia el aspecto visual del objeto sin alterar sus encantamientos |
+| **Runa del Vinculo** | Holy White Scroll | Proteccion permanente: el objeto no puede ser destruido nunca |
+| **Pluma del Renombre** | Item Nametag | Permite renombrar un objeto con nombre personalizado |
+| **Pergamino del Minero** | BlockTrak | Rastrea los bloques minados con la herramienta |
+| **Pergamino del Pescador** | FishTrak | Rastrea los peces capturados con la cana |
+| **Pergamino del Guerrero** | StatTrak | Rastrea las estadisticas de combate del arma |
+| **Pergamino del Cazador** | MobTrak | Rastrea los mobs eliminados con el arma |
+| **Tomo del Arma** | Weapon Enchantment Orb | Permite encantar armas con un encantamiento aleatorio |
+| **Tomo de la Armadura** | Armor Enchantment Orb | Permite encantar armaduras con un encantamiento aleatorio |
+| **Tomo de la Herramienta** | Tool Enchantment Orb | Permite encantar herramientas con un encantamiento aleatorio |
+| **Tomo de la Renovacion** | Randomization Scroll | Reemplaza un encantamiento aleatorio del objeto por otro aleatorio |
