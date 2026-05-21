@@ -35,7 +35,22 @@ Desbloqueas mejoras permanentes
 | Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery |
 | Central | Power |
 
-Cada skill sube con su actividad: Mining minando, Light Weapons pegando con espadas/dagas, Heavy Armor recibiendo daño con armadura pesada, etc.
+| Skill | Como ganar XP |
+|---|---|
+| Mining | Minando bloques (diamante, obsidiana y minerales raros dan mas XP) |
+| Woodcutting | Talando troncos de madera |
+| Digging | Cavando tierra, arena, grava, barro |
+| Farming | Cosechando cultivos maduros |
+| Fishing | Pescando |
+| Alchemy | Preparando pociones en el caldero |
+| Smithing | Usando equipo con durabilidad — el desgaste al pegar bloques o mobs da XP |
+| Enchanting | Encantando items en la mesa de encantamiento |
+| Light Weapons | Pegando con espadas, dagas o cuchillos |
+| Heavy Weapons | Pegando con hachas o mazas |
+| Light Armor | Recibiendo daño con armadura ligera equipada |
+| Heavy Armor | Recibiendo daño con armadura pesada equipada |
+| Archery | Disparando flechas con arco o ballesta |
+| Power | Sube automaticamente cada vez que sube cualquier otro skill |
 
 ### Que es Power
 
@@ -83,7 +98,43 @@ ValhallaTrinkets es un plugin complementario que añade **accesorios equipables*
 
 ### Como conseguir trinkets
 
-Los trinkets se obtienen como drops raros al jugar. Revisa la seccion de trinkets mas abajo para ver todos los disponibles y sus estadisticas.
+Los trinkets **no se consiguen matando mobs ni minando bloques** normales. Se encuentran explorando estructuras del mundo, haciendo arqueologia, o pescando.
+
+**Estructuras con cofres:**
+
+| Estructura | Notas |
+|---|---|
+| Mazmorra (dungeon) | Cofres de spawner subterraneos |
+| Mina Abandonada | Cofres en los mineshafts |
+| Fortaleza (stronghold) | Pasillo y biblioteca |
+| Puesto Pillager | Cofres superiores |
+| Mansion del Bosque | Woodland Mansion |
+| Portal Arruinado | En superficie o subterraneo |
+| Bastion (Nether) | Cofre del tesoro |
+| Fortaleza del Nether | Nether Bridge |
+| Ciudad Antigua | Deep Dark |
+| Ciudad del End | End City |
+| Templo de la Jungla | Jungle Temple |
+| Templo del Desierto | Desert Pyramid |
+| Ruinas Submarinas | Underwater Ruin (grandes) |
+| Nave Hundida | Cofre del tesoro |
+| Tesoro Enterrado | Buried Treasure |
+| Iglú | Cofre del sotano |
+| Aldea | Herrero, armero y herramienta |
+
+**Arqueologia:**
+
+| Sitio | Como excavarlo |
+|---|---|
+| Templo del Desierto | Bloques de arena sospechosa |
+| Ruinas del Camino | Trail Ruins, bloque raro |
+| Ruinas Oceanicas | Warm y cold ocean ruins |
+
+**Pesca:** Los trinkets pueden aparecer como tesoro al pescar.
+
+**Probabilidad:** ~20% de que aparezca un trinket en cualquier cofre de estas estructuras. Los 17 trinkets tienen igual probabilidad entre ellos.
+
+Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus estadisticas.
 
 ---
 
