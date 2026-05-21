@@ -507,42 +507,42 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 
 | Trinket | Atributo principal | Valor |
 |---|---|---|
-| Pureza | Resistencia al veneno | +45% |
-| Bezoar | Resistencia al veneno | +15% |
-| Amuleto de Vitalidad | HP maxima | +2 (1 corazon) |
-| Erinle | HP maxima | +6 (3 corazones) |
-| Fuerza de Gungnir | Alcance de ataque | +0.75 |
-| Anillo de Alcance | Alcance de ataque | +0.25 |
-| Collar Divino | Inmunidad plana | +6 |
-| Collar de Cruz | Inmunidad plana | +2 |
-| Narya | Resistencia al fuego | +37.5% |
-| Anillo de Obsidiana | Resistencia al fuego | +12.5% |
-| Banda de Precision | Prob. critico +3.5%, Daño critico +7.5% | — |
-| Deathbringer | Prob. critico +7.5%, Daño critico +20% | — |
-| Juggernaut | Armadura +7.5, Resistencia knockback +20% | — |
-| Brazal Blindado | Armadura +2.5, Resistencia knockback +5% | — |
-| Kratos | Daño melee | +15% |
-| Amuleto del Vengador | Daño melee | +5% |
-| Furia | Daño total +30%, Daño recibido +50% | — |
-| Amuleto de Mania | Daño total +10%, Daño recibido +17.5% | — |
-| Anillo de Shattering | Penetracion de armadura | +5% |
-| Bane del Paladin | Penetracion de armadura | +15% |
-| Anillo de Magnus | Resistencia magica | +37.5% |
-| Anillo de Warding | Resistencia magica | +12.5% |
-| Anillo de Defleccion | Resistencia a proyectiles | +7.5% |
-| Athena | Resistencia a proyectiles | +25% |
-| Renacimiento (Rebirth) | Bonus de curacion | +37.5% |
-| Banda de Regeneracion | Bonus de curacion | +12.5% |
-| Anillo de Proteccion | Resistencia al daño | +3.5% |
-| Anillo Primordial | Resistencia al daño | +12.5% |
-| Transfusion | Resistencia al sangrado | +37.5% |
-| Vendaje Adhesivo | Resistencia al sangrado | +12.5% |
-| Titan's Glove | Knockback | +0.5 |
-| Banda de Fuerza | Knockback | +0.175 |
-| Artemis | Precision flecha +2.5, Ahorro municion -15%, Velocidad flecha +15% | — |
-| Carcaj Magico | Precision flecha +1.0, Ahorro municion -5%, Velocidad flecha +5% | — |
-| Hermes | Velocidad +15% (escalar), Altura de salto +0.5, Saltos extra +1.5 | — |
-| Amuleto de Adrenalina | Velocidad +5% (escalar), Altura de salto +0.175, Saltos extra +0.5 | — |
+| Pureza | Resistencia al veneno | +22.5% |
+| Bezoar | Resistencia al veneno | +7.5% |
+| Amuleto de Vitalidad | HP maxima | +1.0 (0.5 corazones) |
+| Erinle | HP maxima | +3.0 (1.5 corazones) |
+| Fuerza de Gungnir | Alcance de ataque | +0.375 |
+| Anillo de Alcance | Alcance de ataque | +0.125 |
+| Collar Divino | Inmunidad plana | +3.0 |
+| Collar de Cruz | Inmunidad plana | +1.0 |
+| Narya | Resistencia al fuego | +18.75% |
+| Anillo de Obsidiana | Resistencia al fuego | +6.25% |
+| Banda de Precision | Prob. critico +1.75%, Daño critico +3.75% | — |
+| Deathbringer | Prob. critico +3.75%, Daño critico +10% | — |
+| Juggernaut | Armadura +3.75, Resistencia knockback +10% | — |
+| Brazal Blindado | Armadura +1.25, Resistencia knockback +2.5% | — |
+| Kratos | Daño melee | +7.5% |
+| Amuleto del Vengador | Daño melee | +2.5% |
+| Furia | Daño total +15%, Daño recibido +25% | — |
+| Amuleto de Mania | Daño total +5%, Daño recibido +8.75% | — |
+| Anillo de Shattering | Penetracion de armadura | +2.5% |
+| Bane del Paladin | Penetracion de armadura | +7.5% |
+| Anillo de Magnus | Resistencia magica | +18.75% |
+| Anillo de Warding | Resistencia magica | +6.25% |
+| Anillo de Defleccion | Resistencia a proyectiles | +3.75% |
+| Athena | Resistencia a proyectiles | +12.5% |
+| Renacimiento (Rebirth) | Bonus de curacion | +18.75% |
+| Banda de Regeneracion | Bonus de curacion | +6.25% |
+| Anillo de Proteccion | Resistencia al daño | +1.75% |
+| Anillo Primordial | Resistencia al daño | +6.25% |
+| Transfusion | Resistencia al sangrado | +18.75% |
+| Vendaje Adhesivo | Resistencia al sangrado | +6.25% |
+| Titan's Glove | Knockback | +0.25 |
+| Banda de Fuerza | Knockback | +0.0875 |
+| Artemis | Precision flecha +1.25, Ahorro municion -7.5%, Velocidad flecha +7.5% | — |
+| Carcaj Magico | Precision flecha +0.5, Ahorro municion -2.5%, Velocidad flecha +2.5% | — |
+| Hermes | Velocidad +7.5% (escalar), Altura de salto +0.25, Saltos extra +0.75 | — |
+| Amuleto de Adrenalina | Velocidad +2.5% (escalar), Altura de salto +0.0875, Saltos extra +0.25 | — |
 
 **Nota:** DAMAGE_ALL y DAMAGE_MELEE son multiplicadores del sistema de combate de ValhallaMMO, no del sistema vanilla. DAMAGE_TAKEN aumenta el daño que recibes (trinkets de alto riesgo/alta recompensa como Furia).
 
