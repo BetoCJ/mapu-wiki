@@ -416,11 +416,31 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 
 ## Comandos
 
+### ValhallaMMO
+
 | Comando | Descripcion |
 |---|---|
 | `/val` | Menu principal de ValhallaMMO |
+| `/val help` | Lista todos los comandos disponibles |
 | `/val skills` | Ver todos tus skills y niveles actuales |
-| `/val stats` | Ver tus estadisticas personales de combate |
 | `/val skilltree [skill]` | Abrir el arbol de perks de un skill especifico |
+| `/val stats` | Ver tus estadisticas personales de combate |
+| `/val profile [jugador]` | Ver estadisticas detalladas de un jugador |
+| `/val recipes` | Abrir el gestor de recetas personalizadas de ValhallaMMO |
+| `/val resourcepack download` | Descargar el resource pack del plugin |
 
-**Nombres de skills para el comando:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `smithing`, `enchanting`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
+**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `smithing`, `enchanting`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
+
+### ValhallaTrinkets
+
+| Comando | Descripcion |
+|---|---|
+| `/trinkets` | Abrir el menu de accesorios (trinkets) |
+
+### Parties (grupos)
+
+| Comando | Descripcion |
+|---|---|
+| `/party` | Menu de gestion de grupos |
+| `/party join [id]` | Unirse a un grupo con su ID |
+| `/party shareitem` | Compartir informacion de un item con el grupo |
