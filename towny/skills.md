@@ -1,6 +1,89 @@
-# Skills — ValhallaMMO
+# Skills — ValhallaMMO y ValhallaTrinkets
 
-El sistema de **Skills** (ValhallaMMO) reemplaza las habilidades vanilla y añade 14 habilidades con árboles de perks propios. Cada skill sube de nivel realizando su actividad correspondiente y desbloquea mejoras pasivas mediante un sistema de puntos de habilidad.
+## Introduccion — Empieza aqui
+
+Si es la primera vez que ves este sistema, lee esto antes de continuar.
+
+### ¿Que es ValhallaMMO?
+
+ValhallaMMO es un plugin RPG que reemplaza el sistema de habilidades vanilla de Minecraft. Al jugar normalmente — minar, talar, pelear, pescar — vas subiendo de nivel en 14 skills distintas. Subir de nivel desbloquea mejoras permanentes llamadas **perks**.
+
+No necesitas hacer nada especial para empezar: desde el primer bloque que mines o el primer mob que mates ya estaras ganando XP.
+
+### El loop de juego
+
+```
+Juegas normalmente
+       ↓
+Ganas XP en el skill correspondiente
+       ↓
+El skill sube de nivel → Power recibe XP automaticamente
+       ↓
+Power sube de nivel → obtienes puntos de habilidad
+       ↓
+Gastas puntos en el arbol de perks de cualquier skill
+       ↓
+Desbloqueas mejoras permanentes
+```
+
+### Las 14 skills
+
+| Categoria | Skills |
+|---|---|
+| Recoleccion | Mining, Woodcutting, Digging, Farming, Fishing |
+| Artesania | Alchemy, Smithing, Enchanting |
+| Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery |
+| Central | Power |
+
+Cada skill sube con su actividad: Mining minando, Light Weapons pegando con espadas/dagas, Heavy Armor recibiendo daño con armadura pesada, etc.
+
+### Que es Power
+
+**Power** es el skill central (nivel maximo 256). No lo subes directamente: cada vez que cualquier otra skill sube de nivel, Power recibe 70 XP automaticamente. Al subir Power obtienes **0.25 puntos de habilidad** por nivel, que son los que usas para desbloquear perks.
+
+### Que son los Perks
+
+Los perks son mejoras permanentes organizadas en un arbol visual. Cada perk tiene:
+- Un **nivel minimo** del skill requerido para desbloquearlo
+- Un **costo en puntos de habilidad** (obtenidos de Power)
+
+Para ver el arbol de un skill usa `/val skilltree [skill]` en el juego. Los perks desbloqueados no se pierden al morir ni al reiniciar el servidor.
+
+### Como es diferente el combate
+
+ValhallaMMO reemplaza el sistema de daño vanilla por completo:
+
+| Mecanica | Descripcion |
+|---|---|
+| Criticos | Probabilidad propia del plugin, no del vanilla |
+| Sangrado | Dano en ticks tras un golpe, apilable |
+| Parry | Bloqueo activo que contraataca al atacante |
+| Evasion | Chance de esquivar un ataque completamente |
+| Stun | Ralentizacion + ceguera + debilidad temporales |
+| Tipos de dano | Melee, bludgeoning, projectile, fire, magic, radiant, necrotic |
+| Armadura | Formula propia: 10 puntos = x2 vida efectiva aproximado |
+| Anti-oneshot | Ningun jugador puede morir de un solo golpe por defecto |
+
+La armadura ligera y pesada funcionan diferente entre si. La ligera da mas evasion y movilidad; la pesada da mas resistencia bruta y reflejo de dano.
+
+---
+
+## ¿Que es ValhallaTrinkets?
+
+ValhallaTrinkets es un plugin complementario que añade **accesorios equipables** (trinkets) con bonos pasivos permanentes. Se accede con `/trinkets`.
+
+### Como funcionan los trinkets
+
+- Abres el menu con `/trinkets` — se abre una ventana separada de tu inventario normal
+- Tienes hasta **7 ranuras** de trinket (las primeras 5 disponibles para todos; las ultimas 2 requieren rango)
+- Cada trinket da uno o varios atributos: daño, velocidad, resistencia, critico, etc.
+- Solo puedes equipar **un trinket por tipo** (anillo, collar, brazalete, cinturon, mascara, pin, circulo)
+- Los trinkets **se dropean al morir** (a menos que el servidor tenga keepInventory activo)
+- Los bonos son pasivos: no tienes que hacer nada, se aplican solos mientras los tengas equipados
+
+### Como conseguir trinkets
+
+Los trinkets se obtienen como drops raros al jugar. Revisa la seccion de trinkets mas abajo para ver todos los disponibles y sus estadisticas.
 
 ---
 
