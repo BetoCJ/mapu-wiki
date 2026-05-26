@@ -81,6 +81,8 @@ ValhallaMMO reemplaza el sistema de daño vanilla por completo:
 
 La armadura ligera y pesada funcionan diferente entre si. La ligera da mas evasion y movilidad; la pesada da mas resistencia bruta y reflejo de dano.
 
+Desde nivel 0 en los skills de combate, las armas y armaduras funcionan con su efectividad vanilla completa. Subir los skills de armadura y armas añade bonificaciones **por encima** de esa base, no recupera ningun deficit.
+
 ---
 
 ## ¿Que es ValhallaTrinkets?
@@ -365,9 +367,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 **Como subir XP:** Golpear con espadas, dagas, rapiers, lanzas. 4.9 XP por punto de daño.
 
-**Penalizacion inicial:** -30% daño, -30% knockback. Estas penalizaciones se recuperan completamente subiendo el skill.
-
-**Bono pasivo por nivel:** +0.25% velocidad de ataque, +0.25% daño.
+**Bono pasivo por nivel:** +0.25% velocidad de ataque, +0.25% daño (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
@@ -389,9 +389,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 **Como subir XP:** Golpear con hachas, martillos de guerra, mazas, mandobles. 7 XP por punto de daño.
 
-**Penalizacion inicial:** -30% velocidad de ataque, -30% daño.
-
-**Bono pasivo por nivel:** +0.25% velocidad de ataque, +0.25% daño.
+**Bono pasivo por nivel:** +0.25% velocidad de ataque, +0.25% daño (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
@@ -413,9 +411,9 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 **Como subir XP:** Recibir daño con armadura ligera (cuero, cota de malla). 7 XP base por pieza, 3.5 XP adicional por segunda pieza o mas.
 
-**Penalizacion inicial:** -30% efectividad de armadura, -2.5% velocidad/pieza, -6.25% ahorro hambre/pieza, -6.25% curacion/pieza. Bonus inicial: +2.5% esquiva/pieza.
+**Bonus inicial:** +2.5% esquiva por pieza equipada.
 
-**Bono pasivo por nivel:** +0.25% efectividad de armadura.
+**Bono pasivo por nivel:** +0.25% efectividad de armadura (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
@@ -437,9 +435,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 **Como subir XP:** Recibir daño con armadura pesada (hierro, diamante, netherite, dorada). Mismo sistema que Light Armor.
 
-**Penalizacion inicial:** -30% efectividad armadura, -5% velocidad/pieza, -12.5% hambre/pieza, -12.5% curacion/pieza, +3 imprecision de archeria.
-
-**Bono pasivo por nivel:** +0.25% efectividad de armadura.
+**Bono pasivo por nivel:** +0.25% efectividad de armadura (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
