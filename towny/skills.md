@@ -66,7 +66,7 @@ Para ver el arbol de un skill usa `/val skilltree [skill]` en el juego. Los perk
 
 ### Como es diferente el combate
 
-ValhallaMMO reemplaza el sistema de daño vanilla por completo:
+ValhallaMMO añade mecanicas de combate encima del sistema vanilla:
 
 | Mecanica | Descripcion |
 |---|---|
@@ -76,7 +76,7 @@ ValhallaMMO reemplaza el sistema de daño vanilla por completo:
 | Evasion | Chance de esquivar un ataque completamente |
 | Stun | Ralentizacion + ceguera + debilidad temporales |
 | Tipos de dano | Melee, bludgeoning, projectile, fire, magic, radiant, necrotic |
-| Armadura | Formula propia: 10 puntos = x2 vida efectiva aproximado |
+| Armadura | Formula vanilla — la proteccion funciona igual que en Minecraft base |
 | Anti-oneshot | Ningun jugador puede morir de un solo golpe por defecto |
 
 La armadura ligera y pesada funcionan diferente entre si. La ligera da mas evasion y movilidad; la pesada da mas resistencia bruta y reflejo de dano.
