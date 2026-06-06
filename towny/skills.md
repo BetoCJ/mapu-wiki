@@ -31,7 +31,7 @@ Desbloqueas mejoras permanentes
 | Categoria | Skills |
 |---|---|
 | Recoleccion | Mining, Woodcutting, Digging, Farming, Fishing |
-| Artesania | Alchemy, Smithing, Enchanting |
+| Artesania | Smithing, Enchanting |
 | Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery |
 | Central | Power |
 
@@ -42,8 +42,7 @@ Desbloqueas mejoras permanentes
 | Digging | Cavando tierra, arena, grava, barro |
 | Farming | Cosechando cultivos maduros |
 | Fishing | Pescando |
-| Alchemy | Preparando pociones en el caldero |
-| Smithing | Usando equipo con durabilidad — el desgaste al pegar bloques o mobs da XP |
+| Smithing | Crafteando desde la GUI de ValhallaMMO (click derecho en la mesa de crafteo) o usando equipo — el desgaste al pegar bloques o mobs da XP |
 | Enchanting | Encantando items en la mesa de encantamiento |
 | Light Weapons | Pegando con espadas, dagas o cuchillos |
 | Heavy Weapons | Pegando con hachas o mazas |
@@ -289,31 +288,17 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Alchemy (max nivel 100)
+## Alchemy — no disponible
 
-**Como subir XP:** Preparar pociones en stand de pociones manualmente. El XP se multiplica por la calidad del resultado. Preparacion manual da 1.4x bonus vs automatica.
-
-**Bono pasivo por nivel:** +0.75 habilidad de alquimia generica.
-
-**Arbol de perks:**
-
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | -25% tiempo de preparacion, +10 habilidad de alquimia |
-| Perk 2 | 20 | +10% ahorro de ingredientes, +15 habilidad |
-| Perk A1 — Debuff | 40 | +15% intensidad splash, +10 habilidad debuff |
-| Perk B1 — Buff | 40 | +10 habilidad buff, -37.5% tiempo de preparacion |
-| Perk A2 — Splash | 60 | +10 habilidad debuff, +15% intensidad splash, +25% duracion/radio persistente, +25% velocidad lanzamiento |
-| Perk B2 — Brew | 60 | +15 habilidad buff, +15% ahorro ingredientes, desbloquea pociones Haste y Health Boost |
-| Perk Combo (LW o HW perk3) | 50 | +5 cargas de coating para armas, desbloquea recetas de viales (veneno, sagrado, anti-cura, daño) |
-| Perk 3 — Combiner | 80 | -62.5% tiempo preparacion, desbloquea combinacion de pociones (hasta 1.5 combinaciones, -10% duracion) |
-| Perk 4 — Transmutation | 100 | +25 habilidad general, radio de transmutacion +1, desbloquea pocion de transmutacion |
+El skill de Alchemy no esta activo actualmente en el servidor. Hornos, destiladores y calderos funcionan en modo vanilla estandar, sin modificadores de ValhallaMMO. No se gana XP de Alchemy ni se puede acceder a su arbol de perks.
 
 ---
 
 ## Smithing (max nivel 100)
 
-**Como subir XP:** Usar equipo — la durabilidad consumida al golpear bloques o mobs da XP. El tier del equipo importa: madera/cuero dan poca XP al principio, luego se penalizan al subir nivel y se prioriza el tier superior.
+**Como subir XP:** Craftear desde la GUI de ValhallaMMO (click derecho en la mesa de crafteo abre la interfaz propia del plugin, que es la que otorga XP). Tambien da XP la durabilidad consumida al golpear bloques o mobs. El tier del equipo importa: madera/cuero dan poca XP al principio, luego se penalizan al subir nivel y se prioriza el tier superior.
+
+> La mesa de crafteo tiene dos modos: click derecho abre la GUI de ValhallaMMO (da XP de Smithing), shift-click abre la GUI vanilla estandar.
 
 **Sistema de tier:** Al nivel 20 madera/cuero se penalizan y se desbloquea piedra/cobre; al 40 piedra/cobre se penalizan y sube hierro/oro; y asi sucesivamente.
 
@@ -356,10 +341,10 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 | Perk Radiant/Necrotic | req. B2 | Exclusivo: elige tipo elemental Radiant (sagrado) o Necrotic (oscuro) |
 | Perk Combo (Farming 50) | 70 | +0.5 suerte global |
 | Perk 3 | 80 | +15 habilidad encantamiento/yunque |
-| Perk Sharpnesses/Protections | req. 2 | Exclusivo: +0.5 nivel efectivo a encantamientos de daño O de proteccion |
+| Perk Sharpnesses/Protections | req. 2 | Exclusivo: +1 nivel efectivo a encantamientos de daño O de proteccion |
 | Perk 4 | 100 | +25 habilidad encantamiento/yunque |
 | Perk Looting/Fortune/Unbreaking | req. 3 | Exclusivo: +1 nivel efectivo al encantamiento elegido |
-| Perk Offensive/Defensive/Utility | req. 4 | Exclusivo: +0.5 nivel a categoria de encantamientos elegida |
+| Perk Offensive/Defensive/Utility | req. 4 | Exclusivo: +1 nivel a categoria de encantamientos elegida |
 
 ---
 
@@ -375,11 +360,11 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 |---|---|---|
 | Perk 1 | 0 | +5% daño, +5% probabilidad de sangrado |
 | Perk 2 | 20 | +5% velocidad ataque, +5% probabilidad critico |
-| Perk 3 — Parry | 40 | +5% daño. Desbloquea parry: ventana efect. 3.5t, vuln. 7t, CD 50, reduccion daño 37.5%, debuff enemigo 15t |
+| Perk 3 — Parry | 40 | +5% daño. Desbloquea parry: ventana efect. 4t, vuln. 7t, CD 50, reduccion daño 37.5%, debuff enemigo 15t |
 | Perk 4 | 60 | +10% velocidad, +5% reduccion inmunidad, +5% sangrado |
-| Perk A1 — Coating I | 50 | Desbloquea coating de arma (+1.5 cargas, -40% duracion, -25% amplificador) |
+| Perk A1 — Coating I | 50 | Desbloquea coating de arma (+2 cargas, -40% duracion, -25% amplificador) |
 | Perk A2 — Coating II | 70 | +2 cargas coating, +5% duracion, +12.5% amplificador |
-| Perk 5 | 80 | +5% sangrado, +5% daño, +10% reduccion inmunidad, mejora estadisticas de parry |
+| Perk 5 | 80 | +5% sangrado, +5% daño, +10% reduccion inmunidad. Mejora parry: +4t ventana efectiva, -30 CD, +5t debuff enemigo, -5t debuff propio, +12.5% reduccion daño, +25% reduccion CD en parry exitoso |
 | Perk Combo (Heavy Armor 70) | 70 | +5 penetracion plana de armadura, +0.5 alcance de ataque, +15% knockback |
 | Perk 6 — Max | 100 | +5% crit, +15% daño critico, sangrado al critico, +1 daño de sangrado |
 
@@ -467,12 +452,12 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 |---|---|---|
 | Perk 1 | 0 | -0.5 imprecision, +5% daño arco, +5% daño ballesta |
 | Perk 2 | 20 | +5% ahorro de flechas, desbloquea receta flechas de piedra |
-| Perk C1 — Charged Shot | 40 | Desbloquea disparo cargado (CD 300, 1.5 cargas, pierce 0.5, knockback 0.5, velocidad +25%) |
+| Perk C1 — Charged Shot | 40 | Desbloquea disparo cargado (CD 300, 2 cargas, pierce 1, knockback 1, velocidad +25%) |
 | Perk 3 | 40 | -0.75 imprecision, +5% crit arco/ballesta, flechas de cobre y doradas |
 | Perk Stealth (Light Armor 50) | 50 | Crit garantizado desde sigilo, sangrado al critico, +25% daño critico |
 | Perk 4 | 60 | +5% daño arco/ballesta, +10% ahorro flechas, +2.5% daño por distancia, flechas de hierro y teleportacion |
 | Perk 5 | 80 | +10% crit, -1.25 imprecision, +15% daño critico, flechas de diamante |
-| Perk C2 — Charged II | 80 | Mejora charged shot: velocidad maxima, recarga instantanea ballesta, sin gravedad, +10% daño, -100 CD, +1 carga |
+| Perk C2 — Charged II | 80 | Mejora charged shot: velocidad maxima, recarga instantanea ballesta, sin gravedad, +10% daño, -100 CD, +1 carga, +1 knockback |
 | Perk 6 — Max | 100 | +5% daño por distancia, +15% daño con Infinity, flechas de netherite y anti-inmunidad |
 
 ---
@@ -559,7 +544,7 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 | `/val recipes` | Abrir el gestor de recetas personalizadas de ValhallaMMO |
 | `/val resourcepack download` | Descargar el resource pack del plugin |
 
-**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `smithing`, `enchanting`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
+**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `smithing`, `enchanting`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
 
 ### ValhallaTrinkets
 
