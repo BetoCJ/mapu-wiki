@@ -42,7 +42,7 @@ Desbloqueas mejoras permanentes
 | Digging | Cavando tierra, arena, grava, barro |
 | Farming | Cosechando cultivos maduros |
 | Fishing | Pescando |
-| Smithing | Crafteando desde la GUI de ValhallaMMO (click derecho en la mesa de crafteo) o usando equipo — el desgaste al pegar bloques o mobs da XP |
+| Smithing | Crafteando desde la GUI de ValhallaMMO (shift-click en la mesa de crafteo) o usando equipo — el desgaste al pegar bloques o mobs da XP |
 | Enchanting | Encantando items en la mesa de encantamiento |
 | Light Weapons | Pegando con espadas, dagas o cuchillos |
 | Heavy Weapons | Pegando con hachas o mazas |
@@ -296,9 +296,9 @@ El skill de Alchemy no esta activo actualmente en el servidor. Hornos, destilado
 
 ## Smithing (max nivel 100)
 
-**Como subir XP:** Craftear desde la GUI de ValhallaMMO (click derecho en la mesa de crafteo abre la interfaz propia del plugin, que es la que otorga XP). Tambien da XP la durabilidad consumida al golpear bloques o mobs. El tier del equipo importa: madera/cuero dan poca XP al principio, luego se penalizan al subir nivel y se prioriza el tier superior.
+**Como subir XP:** Craftear desde la GUI de ValhallaMMO (shift-click en la mesa de crafteo abre la interfaz propia del plugin, que es la que otorga XP). Tambien da XP la durabilidad consumida al golpear bloques o mobs. El tier del equipo importa: madera/cuero dan poca XP al principio, luego se penalizan al subir nivel y se prioriza el tier superior.
 
-> La mesa de crafteo tiene dos modos: click derecho abre la GUI de ValhallaMMO (da XP de Smithing), shift-click abre la GUI vanilla estandar.
+> La mesa de crafteo tiene dos modos: shift-click abre la GUI de ValhallaMMO (da XP de Smithing), click derecho abre la GUI vanilla estandar.
 
 **Sistema de tier:** Al nivel 20 madera/cuero se penalizan y se desbloquea piedra/cobre; al 40 piedra/cobre se penalizan y sube hierro/oro; y asi sucesivamente.
 
