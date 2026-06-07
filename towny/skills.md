@@ -31,7 +31,7 @@ Desbloqueas mejoras permanentes
 | Categoria | Skills |
 |---|---|
 | Recoleccion | Mining, Woodcutting, Digging, Farming, Fishing |
-| Artesania | Smithing, Enchanting |
+| Artesania | — |
 | Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery |
 | Central | Power |
 
@@ -42,7 +42,6 @@ Desbloqueas mejoras permanentes
 | Digging | Cavando tierra, arena, grava, barro |
 | Farming | Cosechando cultivos maduros |
 | Fishing | Pescando |
-| Smithing | Crafteando desde la GUI de ValhallaMMO (shift-click en la mesa de crafteo) o usando equipo — el desgaste al pegar bloques o mobs da XP |
 | Enchanting | Encantando items en la mesa de encantamiento |
 | Light Weapons | Pegando con espadas, dagas o cuchillos |
 | Heavy Weapons | Pegando con hachas o mazas |
@@ -294,57 +293,15 @@ El skill de Alchemy no esta activo actualmente en el servidor. Hornos, destilado
 
 ---
 
-## Smithing (max nivel 100)
+## Smithing — no disponible
 
-**Como subir XP:** Craftear desde la GUI de ValhallaMMO (shift-click en la mesa de crafteo abre la interfaz propia del plugin, que es la que otorga XP). Tambien da XP la durabilidad consumida al golpear bloques o mobs. El tier del equipo importa: madera/cuero dan poca XP al principio, luego se penalizan al subir nivel y se prioriza el tier superior.
-
-> La mesa de crafteo tiene dos modos: shift-click abre la GUI de ValhallaMMO (da XP de Smithing), click derecho abre la GUI vanilla estandar.
-
-**Sistema de tier:** Al nivel 20 madera/cuero se penalizan y se desbloquea piedra/cobre; al 40 piedra/cobre se penalizan y sube hierro/oro; y asi sucesivamente.
-
-**Bono pasivo por nivel:** +0.75 habilidad de crafteo generica (mejora calidad de items crafteados).
-
-**Arbol de perks:**
-
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 — Madera/Cuero | 0 | +25 habilidad crafteo madera, +25 habilidad cuero |
-| Perk 2 — Piedra/Cobre | 20 | +25 habilidad piedra, +25 habilidad cadena, +25 habilidad cobre |
-| Perk 3 — Hierro/Oro | 40 | +25 habilidad hierro/oro, desbloquea recetas de equipo de diamante |
-| Perk Bows (Archery 50) | 50 | +25 habilidad arcos, +25 habilidad ballestas |
-| Perk 4 — Diamante | 60 | +25 habilidad diamante, desbloquea reparacion de inventario sin perder encantamientos |
-| Perk Prismarine | 70 | +25 habilidad prismarina, desbloquea receta de tridente |
-| Perk 5 — Netherite | 80 | +25 habilidad netherite |
-| Perk Enderic | 90 | +25 habilidad ender, desbloquea receta de elytra y cuero coral |
-| Perk 6 — Max | 100 | +25 habilidad crafteo generica adicional |
+El skill de Smithing no esta activo actualmente en el servidor. La mesa de crafteo y el yunque funcionan en modo vanilla estandar. No se gana XP de Smithing ni se puede acceder a su arbol de perks.
 
 ---
 
-## Enchanting (max nivel 100)
+## Enchanting — no disponible
 
-**Como subir XP:** Encantar objetos en mesa o yunque. XP base varia por encantamiento: Silk Touch/Infinity 700, Mending/Multishot/Flame 525, Fortune/Looting/Luck of the Sea 315, Sharpness/Efficiency/Piercing 126. Se multiplica por nivel del encantamiento.
-
-**Penalizacion inicial:** -30% multiplicador de esencia, +100% refund y amplificacion (todo se recupera con perks).
-
-**Bono pasivo por nivel:** +0.5 habilidad de encantamiento, +0.5 habilidad de yunque.
-
-**Arbol de perks:**
-
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +10 habilidad encantamiento, +10 habilidad yunque |
-| Perk A1 — Lapis | 20 | +5% refund de esencia, +10% ahorro de lapislazuli |
-| Perk B1 — Esencia | 20 | +15% multiplicador esencia, +2.5% XP de todos los skills |
-| Perk 2 | 40 | +15 habilidad encantamiento/yunque, +5% refund esencia |
-| Perk A2 | 40 | +5% refund, +15% ahorro lapis, +10 habilidad enchant/yunque |
-| Perk B2 — Elemental | 60 | +25% esencia, +7.5% XP todos skills, +20% conversion daño elemental, +25% multiplicador elemental |
-| Perk Radiant/Necrotic | req. B2 | Exclusivo: elige tipo elemental Radiant (sagrado) o Necrotic (oscuro) |
-| Perk Combo (Farming 50) | 70 | +0.5 suerte global |
-| Perk 3 | 80 | +15 habilidad encantamiento/yunque |
-| Perk Sharpnesses/Protections | req. 2 | Exclusivo: +1 nivel efectivo a encantamientos de daño O de proteccion |
-| Perk 4 | 100 | +25 habilidad encantamiento/yunque |
-| Perk Looting/Fortune/Unbreaking | req. 3 | Exclusivo: +1 nivel efectivo al encantamiento elegido |
-| Perk Offensive/Defensive/Utility | req. 4 | Exclusivo: +1 nivel a categoria de encantamientos elegida |
+El skill de Enchanting no esta activo actualmente en el servidor. La mesa de encantamiento y el yunque funcionan en modo vanilla estandar. No se gana XP de Enchanting ni se puede acceder a su arbol de perks.
 
 ---
 
@@ -544,7 +501,7 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 | `/val recipes` | Abrir el gestor de recetas personalizadas de ValhallaMMO |
 | `/val resourcepack download` | Descargar el resource pack del plugin |
 
-**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `smithing`, `enchanting`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
+**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
 
 ### ValhallaTrinkets
 
