@@ -193,7 +193,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 | Perk B1 — Drilling | 40 | +10% velocidad, +10% XP, desbloquea perforacion (velocidad x2, CD 600, dur. 100) |
 | Perk A1 — Blast I | 40 | +25% radio TNT, +25% reduccion daño TNT, +10% drops de voladura |
 | Perk B2 — Vein | 60 | +10% drops, +1.5 suerte, desbloquea vein mining (todos los minerales) |
-| Perk A2 — Blast II | 60 | +25% radio TNT, +25% reduccion, +15% drops voladura, receta TNT x3 |
+| Perk A2 — Blast II | 60 | +25% radio TNT, +25% reduccion daño TNT, +15% drops voladura |
 | Perk A3 — Blast Mode | 70 | Req. tambien Enchanting 70. Elige: Silk Touch o Fortune para voladuras |
 | Perk 3 — Mastery | 80 | +1.5 velocidad drill, -300 CD drill, +50% multiplicador XP bloque, +12.5% coccion |
 | Perk 4 — Max | 100 | Pickup instantaneo en vein mining, extiende vein a piedra y basalto |
@@ -215,7 +215,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 | Perk Combo (Digging 50) | 50 | +15% bonos de comida (todos tipos), +15% regen HP, +15% ahorro de hambre |
 | Perk 3 — Treecapitator | 40 | Desbloquea tala de arboles completos (CD 100, limite 8 bloques) |
 | Perk Capitator A | 60 | -30 CD treecapitator, +16 limite de bloques (total 24) |
-| Perk Carpentry | 60 | Recetas mejoradas de madera (6 tablas por tronco en vez de 4, escaleras x8, etc.) |
+| Perk Carpentry | 60 | Bonos de tala adicionales |
 | Perk Capitator B | 80 | -40 CD treecapitator, +40 limite de bloques (total 64) |
 | Perk 4 | 80 | +15% XP, +5% velocidad, +100% tasa de crecimiento instantaneo |
 | Perk 5 | 100 | +5 suerte adicional |
@@ -234,8 +234,8 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 |---|---|---|
 | Perk 1 | 0 | +15% velocidad de excavar, +5% XP |
 | Perk 2 | 20 | +1.5 suerte, +10% XP |
-| Perk Combo (Mining 50) | 50 | Desbloquea conversiones de bloque: musgo, derretir, hacer hierba, crear concrete, etc. |
-| Perk 3 — Crafter | 40 | Desbloquea recetas: arcilla, concrete x16 colores, podzol, mycelium, soul sand/soil |
+| Perk Combo (Mining 50) | 50 | +15% bonos de comida (todos tipos), +15% regen HP, +15% ahorro de hambre |
+| Perk 3 | 40 | Desbloquea conversiones de bloque: podzol, mycelium, arcilla, concrete, soul sand/soil (via bloque de conversion, no mesa de crafteo) |
 | Perk A1 — Archeology I | 60 | +10% probabilidad de repeticion arqueologica, +1.5 suerte arqueologica |
 | Perk B1 — Speed | 60 | +25% velocidad de excavacion adicional |
 | Perk A2 — Archeology II | 80 | +15% repeticion, probabilidad de generar arena/grava sospechosa cerca de estructuras |
@@ -278,7 +278,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 | Perk | Nivel req. | Bonos |
 |---|---|---|
 | Perk 1 | 0 | +0.75 suerte de pesca |
-| Perk Combo (Smithing 70) | 50 | Desbloquea recetas de salvage: recuperar materiales de equipo danado |
+| Perk Combo (Smithing 70) | 50 | Requiere Smithing 70 (skill desactivado — perk no disponible actualmente) |
 | Perk 2 | 20 | +25% multiplicador de esencia de pesca |
 | Perk 3 | 40 | +20% velocidad de pesca, +1 suerte |
 | Perk 4 | 60 | +12.5% drops de pesca |
@@ -408,14 +408,14 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 | Perk | Nivel req. | Bonos |
 |---|---|---|
 | Perk 1 | 0 | -0.5 imprecision, +5% daño arco, +5% daño ballesta |
-| Perk 2 | 20 | +5% ahorro de flechas, desbloquea receta flechas de piedra |
+| Perk 2 | 20 | +5% ahorro de flechas |
 | Perk C1 — Charged Shot | 40 | Desbloquea disparo cargado (CD 300, 2 cargas, pierce 1, knockback 1, velocidad +25%) |
-| Perk 3 | 40 | -0.75 imprecision, +5% crit arco/ballesta, flechas de cobre y doradas |
+| Perk 3 | 40 | -0.75 imprecision, +5% crit arco/ballesta |
 | Perk Stealth (Light Armor 50) | 50 | Crit garantizado desde sigilo, sangrado al critico, +25% daño critico |
-| Perk 4 | 60 | +5% daño arco/ballesta, +10% ahorro flechas, +2.5% daño por distancia, flechas de hierro y teleportacion |
-| Perk 5 | 80 | +10% crit, -1.25 imprecision, +15% daño critico, flechas de diamante |
+| Perk 4 | 60 | +5% daño arco/ballesta, +10% ahorro flechas, +2.5% daño por distancia |
+| Perk 5 | 80 | +10% crit, -1.25 imprecision, +15% daño critico |
 | Perk C2 — Charged II | 80 | Mejora charged shot: velocidad maxima, recarga instantanea ballesta, sin gravedad, +10% daño, -100 CD, +1 carga, +1 knockback |
-| Perk 6 — Max | 100 | +5% daño por distancia, +15% daño con Infinity, flechas de netherite y anti-inmunidad |
+| Perk 6 — Max | 100 | +5% daño por distancia, +15% daño con Infinity |
 
 ---
 
