@@ -63,7 +63,7 @@ Dentro de tu town puedes asignar distintos tipos de parcelas según su uso:
 
 ### Upkeep
 
-Los towns pagan un **mantenimiento diario** de **$100** al banco del servidor para seguir activos. Si el banco del town se queda sin fondos, el town puede entrar en deuda y eventualmente caer en ruinas.
+Los towns pagan un **mantenimiento diario** al banco del servidor para seguir activos, calculado como $50 multiplicados por el modificador de su nivel actual — por ejemplo, **$100/día** en un Asentamiento recién creado, subiendo hasta **$1,600/día** en una Metrópolis. Si el banco del town se queda sin fondos, el town puede entrar en deuda y eventualmente caer en ruinas.
 
 Asegúrate de que tu town tenga siempre saldo suficiente con `/t deposit [cantidad]`.
 

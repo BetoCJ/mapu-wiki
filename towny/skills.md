@@ -1,4 +1,4 @@
-# Skills — ValhallaMMO y ValhallaTrinkets
+# ⚔️ Skills — ValhallaMMO y ValhallaTrinkets
 
 ## Introduccion — Empieza aqui
 
@@ -28,12 +28,15 @@ Desbloqueas mejoras permanentes
 
 ### Las 14 skills
 
+De las 14 skills del plugin, **13 están activas** en el servidor. Solo **Enchanting** está desactivada (ver más abajo).
+
 | Categoria | Skills |
 |---|---|
 | Recoleccion | Mining, Woodcutting, Digging, Farming, Fishing |
-| Artesania | — |
+| Artesania | Alchemy, Smithing |
 | Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery |
 | Central | Power |
+| ❌ Desactivada | Enchanting |
 
 | Skill | Como ganar XP |
 |---|---|
@@ -42,7 +45,8 @@ Desbloqueas mejoras permanentes
 | Digging | Cavando tierra, arena, grava, barro |
 | Farming | Cosechando cultivos maduros |
 | Fishing | Pescando |
-| Enchanting | Encantando items en la mesa de encantamiento |
+| Alchemy | Elaborando pociones en calderos y soportes de pociones |
+| Smithing | Gastando la durabilidad de herramientas y armaduras que craftees |
 | Light Weapons | Pegando con espadas, dagas o cuchillos |
 | Heavy Weapons | Pegando con hachas o mazas |
 | Light Armor | Recibiendo daño con armadura ligera equipada |
@@ -52,7 +56,7 @@ Desbloqueas mejoras permanentes
 
 ### Que es Power
 
-**Power** es el skill central (nivel maximo 256). No lo subes directamente: cada vez que cualquier otra skill sube de nivel, Power recibe 70 XP automaticamente. Al subir Power obtienes **0.25 puntos de habilidad** por nivel, que son los que usas para desbloquear perks.
+**Power** es el skill central (nivel maximo 256). No lo subes directamente: cada vez que cualquier otra skill sube de nivel, Power recibe XP automaticamente. Al subir Power obtienes **1 punto de habilidad** por nivel, que son los que usas para desbloquear perks.
 
 ### Que son los Perks
 
@@ -90,9 +94,9 @@ ValhallaTrinkets es un plugin complementario que añade **accesorios equipables*
 ### Como funcionan los trinkets
 
 - Abres el menu con `/trinkets` — se abre una ventana separada de tu inventario normal
-- Tienes hasta **7 ranuras** de trinket (las primeras 5 disponibles para todos; las ultimas 2 requieren rango)
+- Tienes hasta **7 ranuras** de trinket (las primeras 5 disponibles para todos; las ultimas 2 requieren el permiso de un rango)
 - Cada trinket da uno o varios atributos: daño, velocidad, resistencia, critico, etc.
-- Solo puedes equipar **un trinket por tipo** (anillo, collar, brazalete, cinturon, mascara, pin, circulo)
+- Todos los trinkets del servidor comparten la misma categoria interna ("Accesorio"), asi que **puedes combinar hasta 7 trinkets distintos a la vez** — no hay una restriccion de "uno por tipo" como anillo/collar/etc.
 - Los trinkets **se dropean al morir** (a menos que el servidor tenga keepInventory activo)
 - Los bonos son pasivos: no tienes que hacer nada, se aplican solos mientras los tengas equipados
 
@@ -132,7 +136,9 @@ Los trinkets **no se consiguen matando mobs ni minando bloques** normales. Se en
 
 **Pesca:** Los trinkets pueden aparecer como tesoro al pescar.
 
-**Probabilidad:** ~20% de que aparezca un trinket en cualquier cofre de estas estructuras. Los 17 trinkets tienen igual probabilidad entre ellos.
+**Probabilidad:** cada cofre de estas estructuras tiene una probabilidad cercana al **10%** de incluir un trinket adicional, repartida entre los **36 trinkets** del servidor con el mismo peso entre ellos.
+
+**Crafteo de mejora:** algunos trinkets básicos se pueden combinar con una **Estrella del Nether** para mejorarlos directamente a su versión avanzada (por ejemplo, Vendaje Adhesivo + Estrella del Nether → Transfusión), sin depender de la suerte del loot.
 
 Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus estadisticas.
 
@@ -157,7 +163,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 - +0.5% daño crítico, +2 daño de sangrado, +80 ticks de duración de sangrado
 - +2% resistencia radiante, +10% protección contra oneshot (CD 6000 ticks)
 
-**Bono pasivo por cada nivel de Power:** +0.25 puntos de habilidad
+**Bono pasivo por cada nivel de Power:** +1 punto de habilidad
 
 **Perks especiales por nivel (acumulables):**
 - Cada 10 niveles hasta el 80: +0.1 resistencia PvP (máximo +0.8 al nivel 80)
@@ -287,15 +293,64 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Alchemy — no disponible
+## 🧪 Alchemy (max nivel 100)
 
-El skill de Alchemy no esta activo actualmente en el servidor. Hornos, destiladores y calderos funcionan en modo vanilla estandar, sin modificadores de ValhallaMMO. No se gana XP de Alchemy ni se puede acceder a su arbol de perks.
+**Como subir XP:** Elaborando pociones en calderos y soportes de pociones. El XP depende de la **calidad** de la poción resultante (no hay una cifra fija por receta): elaborar manualmente da un multiplicador de **x1.4**, mientras que elaborar de forma automatizada (con droppers/hoppers) reduce el XP a un multiplicador de **x0.25**.
+
+**Calidad de las pociones:** cada poción tiene una puntuación de calidad que le da una etiqueta cosmética: Rancid (0), Tainted (30), Dirty (60), Cloudy (90), Clear (120), Refined (150), Pure (200), Shimmering (300+).
+
+**Bono pasivo por nivel:** +0.75 a la habilidad general de elaboración (`genericbrewingskill`).
+
+**Arbol de perks:**
+
+| Perk | Nivel req. | Bonos |
+|---|---|---|
+| Perk 1 | 0 | -25% tiempo de fermentación, +10 habilidad de elaboración |
+| Perk 2 | 20 | +10% probabilidad de ahorrar ingredientes, +15 habilidad de elaboración |
+| Perk A1 — Debuffs I | 40 | +0.15 intensidad mínima de splash, +10 habilidad de pociones debilitantes |
+| Perk B1 — Buffs I | 40 | +10 habilidad de pociones de beneficio, -37.5% tiempo de fermentación |
+| Perk Combo (Light/Heavy Weapons 50) | 50 | Desbloquea untar armas con viales (veneno, santo, anti-curación, daño) |
+| Perk A2 — Debuffs II | 60 | +15 habilidad debilitante, +0.15 intensidad splash, +25% duración/radio de poción persistente, +25% velocidad de lanzamiento |
+| Perk B2 — Buffs II | 60 | +15 habilidad de beneficio, +15% ahorro de ingredientes. Desbloquea recetas de Prisa y Aumento de Salud |
+| Perk 3 — Combinación | 80 | -62.5% tiempo de fermentación. Desbloquea combinar hasta 1.5 efectos de poción en una sola |
+| Perk 4 — Transmutación | 100 | +25 habilidad de elaboración, +1 radio de transmutación. Desbloquea todas las transmutaciones y la receta de Poción de Transmutación |
+
+**Sistema de Transmutación:** con la Poción de Transmutación (desbloqueada en el perk final) puedes convertir ciertos bloques en otros usando un caldero — por ejemplo, troncos de un tipo de madera a otro, o minerales/bloques de valor (Hierro→Oro, Cobre→Hierro, Esmeralda↔Diamante) en lo que el plugin llama transmutación "Midas".
 
 ---
 
-## Smithing — no disponible
+## 🔨 Smithing (max nivel 100)
 
-El skill de Smithing no esta activo actualmente en el servidor. La mesa de crafteo y el yunque funcionan en modo vanilla estandar. No se gana XP de Smithing ni se puede acceder a su arbol de perks.
+**Como subir XP:** A diferencia de los demás skills, Smithing **no da XP por craftear** directamente — la XP se gana **gastando la durabilidad** de las herramientas y armaduras que hayas forjado con el plugin. Cada punto de durabilidad gastado en una herramienta da **0.01 XP** (máximo 1000 XP por ítem), y cada punto gastado en una pieza de armadura da **0.005 XP** (máximo 200 XP por pieza).
+
+**Penalización inicial por material:** cada material tiene su propio multiplicador de XP, que empieza en negativo para los metales y se va corrigiendo a medida que subes de nivel y desbloqueas perks:
+
+| Material | Penalización inicial |
+|---|---|
+| Piedra / Cadena / Cobre | -50% XP |
+| Oro / Hierro | -75% XP |
+| Diamante | -90% XP |
+| Netherite | -100% XP (sin XP hasta avanzar) |
+
+Madera y cuero no tienen penalización inicial, pero **reciben una propia de -75% a partir del nivel 20** — el sistema está diseñado para empujarte a progresar de materiales básicos a avanzados en vez de quedarte minando XP fácil indefinidamente.
+
+**Bono pasivo por nivel:** +0.75 a la habilidad general de crafteo (`genericcraftingskill`).
+
+**Arbol de perks:**
+
+| Perk | Nivel req. | Bonos |
+|---|---|---|
+| Perk 1 | 0 | +25 habilidad de crafteo en madera y cuero |
+| Perk 2 | 20 | +25 habilidad en piedra, cadena y cobre |
+| Perk 3 | 40 | +25 habilidad en hierro y oro. Desbloquea las 16 recetas de equipo de Diamante (armadura completa, espada, hacha, pico, pala, azada, martillo de guerra, mandoble, lanza, daga, estoque, maza, lanza real) |
+| Perk Arcos (Archery 50) | 50 | Requiere Archery 50. +25 habilidad de arcos y ballestas |
+| Perk Prismarino | 70 | Requiere Perk 3. +25 habilidad con prismarina. Desbloquea receta del Tridente |
+| Perk 4 | 60 | +25 habilidad en diamante. Permite reparar conservando encantamientos al usar el inventario |
+| Perk Enderico | 90 | Requiere Perk 4. +25 habilidad enderica. Desbloquea recetas de Élitros y Cuero Coral |
+| Perk 5 | 80 | +25 habilidad en netherite |
+| Perk 6 — Maestria | 100 | +25 habilidad de crafteo general |
+
+**Calidad del equipo:** cada pieza que crafteas tiene una puntuación de calidad que determina su etiqueta: Terrible (-500 a -60), Shoddy (-60 a -30), Decent (-30 a 0), Good (0 a 30), Great (30 a 60), Flawless (60 a 90), Masterful (90 a 120), Fabled (120 a 150), Peerless (150+).
 
 ---
 
@@ -439,42 +494,42 @@ ValhallaMMO reemplaza el sistema de combate vanilla con mecánicas propias:
 
 ## ValhallaTrinkets
 
-Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes al equiparlos. Solo puedes equipar un trinket del mismo tipo a la vez.
+Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes al equiparlos. Hay **36 trinkets** en el servidor, normalmente organizados en parejas básico/avanzado del mismo efecto.
 
 ### Lista completa de trinkets
 
 | Trinket | Atributo principal | Valor |
 |---|---|---|
-| Pureza | Resistencia al veneno | +22.5% |
-| Bezoar | Resistencia al veneno | +7.5% |
-| Amuleto de Vitalidad | HP maxima | +1.0 (0.5 corazones) |
-| Erinle | HP maxima | +3.0 (1.5 corazones) |
+| Pureza | Resistencia al veneno | +9% |
+| Bezoar | Resistencia al veneno | +3% |
+| Amuleto de Vitalidad | HP maxima | +0.4 |
+| Erinle | HP maxima | +1.2 |
 | Fuerza de Gungnir | Alcance de ataque | +0.375 |
 | Anillo de Alcance | Alcance de ataque | +0.125 |
-| Collar Divino | Inmunidad plana | +3.0 |
-| Collar de Cruz | Inmunidad plana | +1.0 |
-| Narya | Resistencia al fuego | +18.75% |
-| Anillo de Obsidiana | Resistencia al fuego | +6.25% |
-| Banda de Precision | Prob. critico +1.75%, Daño critico +3.75% | — |
-| Deathbringer | Prob. critico +3.75%, Daño critico +10% | — |
-| Juggernaut | Armadura +3.75, Resistencia knockback +10% | — |
-| Brazal Blindado | Armadura +1.25, Resistencia knockback +2.5% | — |
-| Kratos | Daño melee | +7.5% |
-| Amuleto del Vengador | Daño melee | +2.5% |
-| Furia | Daño total +15%, Daño recibido +25% | — |
-| Amuleto de Mania | Daño total +5%, Daño recibido +8.75% | — |
-| Anillo de Shattering | Penetracion de armadura | +2.5% |
-| Bane del Paladin | Penetracion de armadura | +7.5% |
-| Anillo de Magnus | Resistencia magica | +18.75% |
-| Anillo de Warding | Resistencia magica | +6.25% |
-| Anillo de Defleccion | Resistencia a proyectiles | +3.75% |
-| Athena | Resistencia a proyectiles | +12.5% |
-| Renacimiento (Rebirth) | Bonus de curacion | +18.75% |
-| Banda de Regeneracion | Bonus de curacion | +6.25% |
-| Anillo de Proteccion | Resistencia al daño | +1.75% |
-| Anillo Primordial | Resistencia al daño | +6.25% |
-| Transfusion | Resistencia al sangrado | +18.75% |
-| Vendaje Adhesivo | Resistencia al sangrado | +6.25% |
+| Collar Divino | Inmunidad plana | +1.2 |
+| Collar de Cruz | Inmunidad plana | +0.4 |
+| Narya | Resistencia al fuego | +7.5% |
+| Anillo de Obsidiana | Resistencia al fuego | +2.5% |
+| Banda de Precision | Prob. critico +0.35%, Daño critico +0.75% | — |
+| Deathbringer | Prob. critico +0.75%, Daño critico +2% | — |
+| Juggernaut | Armadura +1.5, Resistencia knockback +4% | — |
+| Brazal Blindado | Armadura +0.5, Resistencia knockback +1% | — |
+| Kratos | Daño melee | +1.5% |
+| Amuleto del Vengador | Daño melee | +0.5% |
+| Furia | Daño total +3%, Daño recibido +5% | — |
+| Amuleto de Mania | Daño total +1%, Daño recibido +1.75% | — |
+| Anillo de Shattering | Penetracion de armadura | +0.5% |
+| Bane del Paladin | Penetracion de armadura | +1.5% |
+| Anillo de Magnus | Resistencia magica | +7.5% |
+| Anillo de Warding | Resistencia magica | +2.5% |
+| Anillo de Defleccion | Resistencia a proyectiles | +1.5% |
+| Athena | Resistencia a proyectiles | +5% |
+| Renacimiento (Rebirth) | Bonus de curacion | +7.5% |
+| Banda de Regeneracion | Bonus de curacion | +2.5% |
+| Anillo de Proteccion | Resistencia al daño | +0.7% |
+| Anillo Primordial | Resistencia al daño | +2.5% |
+| Transfusion | Resistencia al sangrado | +7.5% |
+| Vendaje Adhesivo | Resistencia al sangrado | +2.5% |
 | Titan's Glove | Knockback | +0.25 |
 | Banda de Fuerza | Knockback | +0.0875 |
 | Artemis | Precision flecha +1.25, Ahorro municion -7.5%, Velocidad flecha +7.5% | — |
@@ -501,7 +556,7 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 | `/val recipes` | Abrir el gestor de recetas personalizadas de ValhallaMMO |
 | `/val resourcepack download` | Descargar el resource pack del plugin |
 
-**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
+**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `smithing`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
 
 ### ValhallaTrinkets
 

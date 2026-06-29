@@ -1,4 +1,4 @@
-# Encantamientos Personalizados
+# ✨ Encantamientos Personalizados
 
 Mapucraft usa un sistema de encantamientos completamente personalizado con mas de 160 encantamientos adicionales a los vanilla. Todos funcionan con el mismo equipo de siempre y tienen libros con **texturas personalizadas** segun su rareza.
 
@@ -77,8 +77,8 @@ Otros jugadores pueden publicar libros de encantamiento a la venta. Es una fuent
 
 Cada objeto tiene un numero limitado de **ranuras de encantamiento**:
 
-- **Maximo base:** 15 ranuras
-- **Maximo con mejoras:** 20 ranuras
+- **Maximo base:** 8 ranuras
+- **Maximo con mejoras:** 13 ranuras (+5 con Libro Universal o Tomos)
 
 Las ranuras se pueden aumentar usando:
 
