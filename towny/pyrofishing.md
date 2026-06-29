@@ -4,7 +4,7 @@
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 1. Toma una caña de pescar y lánzala al agua normalmente
 2. Al atrapar algo, puede salir un **pez personalizado** en lugar del pez vanilla
@@ -17,7 +17,7 @@ Pescar también te da **XP de pesca** y **Entropía**, la moneda especial del pl
 
 ***
 
-## Niveles de peces
+## 🐟 Niveles de peces
 
 Los peces están organizados en 6 niveles de rareza. Los más raros se anuncian en el chat global al ser atrapados.
 
@@ -32,7 +32,7 @@ Los peces están organizados en 6 niveles de rareza. Los más raros se anuncian 
 
 Capturar un pez **Platinum** o **Mythical** se anuncia automáticamente a todo el servidor.
 
-### Ejemplos de peces por nivel
+### 📋 Ejemplos de peces por nivel
 
 | Nivel | Ejemplos |
 |---|---|
@@ -45,7 +45,7 @@ Capturar un pez **Platinum** o **Mythical** se anuncia automáticamente a todo e
 
 ***
 
-## Cebos
+## 🪱 Cebos
 
 Los cebos se aplican a la caña de pescar arrastrándolos sobre ella. Cada cebo tiene usos limitados y desbloquea peces específicos de ciertos niveles.
 
@@ -62,7 +62,7 @@ Los cebos se compran en `/fish shop`.
 
 ***
 
-## Torneos
+## 🏆 Torneos
 
 Los torneos de pesca se activan automáticamente **cada 2 horas**. Durante el torneo, compite por atrapar la mayor cantidad (o el pez más valioso) antes de que se acabe el tiempo.
 
@@ -75,7 +75,7 @@ Los torneos de pesca se activan automáticamente **cada 2 horas**. Durante el to
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

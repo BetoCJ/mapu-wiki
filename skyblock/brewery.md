@@ -4,7 +4,7 @@ El sistema de fermentación te permite crear bebidas alcohólicas propias, desde
 
 ***
 
-## Cómo funciona
+## ⚙️ Cómo funciona
 
 1. **Cocina** los ingredientes en un caldero durante un tiempo determinado.
 2. Opcionalmente **destila** el resultado en un alambique (varias pasadas aumentan la graduación alcohólica).
@@ -13,7 +13,7 @@ El sistema de fermentación te permite crear bebidas alcohólicas propias, desde
 
 Beber alcohol aumenta tu nivel de embriaguez; si llega a 100 te desmayas. Comer pan o beber leche reduce ese nivel.
 
-## Bebidas clásicas
+## 🍻 Bebidas clásicas
 
 | Bebida | Ingrediente principal | Notas |
 |---|---|---|
@@ -25,7 +25,7 @@ Beber alcohol aumenta tu nivel de embriaguez; si llega a 100 te desmayas. Comer 
 | **Vodka** | Papa | Alta graduación, sin envejecer |
 | **Absinthe** | Hierba corta | Múltiples destilaciones |
 
-## Bebidas Mapuches
+## 🌿 Bebidas Mapuches
 
 | Bebida | Efecto |
 |---|---|

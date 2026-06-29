@@ -6,15 +6,15 @@ Usa `/rankup` para ver tus requisitos actuales y subir de rango cuando los cumpl
 
 ***
 
-## Rangos de Progresión
+## 🪜 Rangos de Progresión
 
 Estos rangos se ganan de forma gratuita cumpliendo requisitos de tiempo, dinero, votos y actividad. Cada ascenso se anuncia al servidor.
 
-### Jerarquía
+### 👑 Jerarquía
 
 **Winka → Che → KumeChe → Weupife → Genpin → Machife**
 
-### Requisitos por rango
+### 📋 Requisitos por rango
 
 | Rango | Costo | Votos | Tiempo jugado | Cuenta | Bloques recorridos | Mobs |
 |---|---|---|---|---|---|---|
@@ -27,7 +27,7 @@ Estos rangos se ganan de forma gratuita cumpliendo requisitos de tiempo, dinero,
 
 > **"Días de cuenta"** = días desde que creaste tu cuenta en el servidor (no días jugados).
 
-### Beneficios por rango
+### 🎁 Beneficios por rango
 
 | Rango | Hogares | Almacenamiento de mascotas | Comandos nuevos |
 |---|---|---|---|
@@ -40,7 +40,7 @@ Estos rangos se ganan de forma gratuita cumpliendo requisitos de tiempo, dinero,
 
 ***
 
-## Rangos de Donación
+## 💎 Rangos de Donación
 
 Los rangos de donación son temporales (**30 días**) y se activan con un ítem especial que se entrega al apoyar el servidor. Al activarlos, también recibes materiales de bienvenida directamente en tu inventario.
 
@@ -48,7 +48,7 @@ Los rangos de donación son temporales (**30 días**) y se activan con un ítem 
 Los rangos de donación son temporales. Al vencer los 30 días, el rango se retira automáticamente. Se recomienda tener el inventario libre antes de activar el ítem.
 {% endhint %}
 
-### Tabla de rangos
+### 📊 Tabla de rangos
 
 | Rango | Duración | Materiales al activar | Beneficios destacados |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Los rangos de donación son temporales. Al vencer los 30 días, el rango se reti
 | **Cacique** | 30 días | $60,000 · 64 diamantes · 64 oro · 64 hierro · 6 llaves aleatorias | Todo lo de Toki · `/heal` · `/repair all` · Editor de armaduras completo · `/ext` · `/ride` · Colores en letreros · 9 hogares · Cofre ender 5 filas |
 | **Ulmen** | 30 días | $90,000 · 128 diamantes · 128 oro · 128 hierro · 12 llaves aleatorias | Todo lo de Cacique · `/glow` con colores · `/anvil` · **Battle Pass Premium** · `/repair` (cooldown 30 min) · 12 hogares |
 
-### Caja Bosteo
+### 📦 Caja Bosteo
 
 Al **boostear el Discord** de Mapucraft recibes la **Caja Bosteo**, que contiene un rango temporal de 7 días:
 
@@ -70,7 +70,7 @@ Al **boostear el Discord** de Mapucraft recibes la **Caja Bosteo**, que contiene
 
 ***
 
-## Rango Especial
+## ⭐ Rango Especial
 
 El **Rango Especial** es un rango premium en el que el jugador **elige libremente el prefijo** entre una selección de nombres con gradientes de colores únicos. Hereda todos los beneficios del rango **Cacique** y añade lo siguiente:
 
@@ -85,7 +85,7 @@ El **Rango Especial** es un rango premium en el que el jugador **elige librement
 | **Mascotas** | 10 ranuras |
 | **Kit exclusivo** | Según el prefijo elegido |
 
-### Prefijos disponibles
+### 🏷️ Prefijos disponibles
 
 El jugador elige uno de los siguientes prefijos, cada uno con gradiente de color propio y efecto de obfuscación a los lados:
 
@@ -103,7 +103,7 @@ El jugador elige uno de los siguientes prefijos, cada uno con gradiente de color
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

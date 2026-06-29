@@ -4,7 +4,7 @@ El servidor tiene **18 cajas** distintas, cada una con su propia llave y tabla d
 
 ***
 
-## Cajas disponibles
+## 📦 Cajas disponibles
 
 | Caja | Temática |
 |---|---|
@@ -26,7 +26,7 @@ El servidor tiene **18 cajas** distintas, cada una con su propia llave y tabla d
 | **Caja Wenu Mapu** | Cielo (la de mayor rareza) |
 | **Caja Voteparty** | Exclusiva de la fiesta de votos comunitaria |
 
-## Cómo se abren
+## 🔑 Cómo se abren
 
 - **Clic izquierdo** sobre una caja: vista previa de los premios posibles (no consume llave).
 - **Clic derecho**: abre la caja consumiendo la llave correspondiente.
@@ -34,7 +34,7 @@ El servidor tiene **18 cajas** distintas, cada una con su propia llave y tabla d
 
 Las llaves se obtienen principalmente votando por el servidor (ver [Votaciones](votaciones.md)), completando el [Battle Pass](battlepass.md) o como premio de eventos.
 
-## Ejemplo de premios — Caja Antü
+## 🎁 Ejemplo de premios — Caja Antü
 
 | Premio | Rareza aproximada |
 |---|---|

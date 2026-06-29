@@ -4,7 +4,7 @@
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 1. Consigue una **Growstation** (crafteable o comprable en `/farm shop`)
 2. Colócala en el suelo y plántale una semilla
@@ -17,7 +17,7 @@ Abre el menú principal con `/farm` o haciendo **Shift + clic** con una azada.
 
 ***
 
-## Growstation
+## 🌿 Growstation
 
 La Growstation es la "maceta especial" donde crecen las plantas. Se craftea así:
 
@@ -33,7 +33,7 @@ Las Growstations **no son destruidas por explosiones ni pistones**. Para recoger
 
 ***
 
-## Plantas
+## 🌾 Plantas
 
 Las plantas se desbloquean según tu nivel de farming. Cada una tiene un tiempo de crecimiento y precio de venta diferente.
 
@@ -63,7 +63,7 @@ Las plantas de nivel alto (como la Orquídea Abisal) pueden producir múltiples 
 
 ***
 
-## Arbustos
+## 🫐 Arbustos
 
 Los arbustos son plantas especiales que crecen directamente en el suelo. También se desbloquean por nivel.
 
@@ -83,7 +83,7 @@ Para recoger un arbusto, agáchate y rompe el bloque.
 
 ***
 
-## Árbol de Habilidades
+## 🌳 Árbol de Habilidades
 
 Al nivel 25 puedes craftear un **Archivo de Habilidades** que desbloquea el árbol de habilidades de farming. Se craftea con lechugas, chiles y un Atril.
 
@@ -99,13 +99,13 @@ Cada rango también requiere entregar plantas específicas de alto nivel.
 
 ***
 
-## Mercado de Farming
+## 🛒 Mercado de Farming
 
 El mercado de `/farm market` incluye una **tienda rotativa** que renueva su stock **3 veces al día**: a las 00:00, 08:00 y 16:00. Requiere nivel 15 para acceder. Tiene stock limitado por ítem y por jugador.
 
 ***
 
-## Torneos
+## 🏆 Torneos
 
 Los torneos de cosecha se activan automáticamente **6 veces al día**: 01:00, 05:00, 08:00, 13:00, 17:00 y 21:00. Cosecha la mayor cantidad posible durante el tiempo del torneo para ganar.
 
@@ -120,7 +120,7 @@ Los torneos de cosecha se activan automáticamente **6 veces al día**: 01:00, 0
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

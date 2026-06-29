@@ -4,7 +4,7 @@ La minería tiene su propio sistema de niveles, drops especiales y jefes de mine
 
 ***
 
-## Subir de nivel
+## 📈 Subir de nivel
 
 Minar bloques otorga experiencia de minería según el mineral:
 
@@ -21,7 +21,7 @@ Minar bloques otorga experiencia de minería según el mineral:
 
 El primer nivel requiere **2,000 XP**, y cada nivel siguiente necesita un 12.5% más de experiencia que el anterior (multiplicador x1.125).
 
-## Drops especiales al minar
+## 💎 Drops especiales al minar
 
 Además del mineral normal, tienes una pequeña probabilidad de obtener materiales raros:
 
@@ -30,7 +30,7 @@ Además del mineral normal, tienes una pequeña probabilidad de obtener material
 - **Mysterious Dust** — al refinarlo puede convertirse en Rune Dust, Oracleite, Ancient Relic o Shattered Orb
 - **Artifacts** — 9 tiers de rareza, desde Basic hasta Divine
 
-## Guardianes de Runas y Oráculos
+## 🛡️ Guardianes de Runas y Oráculos
 
 Minar **mineral de Redstone** tiene probabilidad de invocar a un **Guardián de Runas**, un mini-jefe que al morir puede dropear una Runa.
 
@@ -46,11 +46,11 @@ Solo puedes invocar un Oráculo cada hora (cooldown de 3,600 segundos).
 
 ***
 
-## Mercado de Generadores (PyroSpawners)
+## 🏭 Mercado de Generadores (PyroSpawners)
 
 Más allá de los generadores básicos de tu isla, puedes **comprar generadores de mobs directamente** para colocarlos donde quieras. La tienda se divide en 3 categorías:
 
-### Generadores Pasivos (animales)
+### 🐄 Generadores Pasivos (animales)
 
 | Spawner | Precio |
 |---|---|
@@ -58,7 +58,7 @@ Más allá de los generadores básicos de tu isla, puedes **comprar generadores 
 | Cerdo | $150,000 |
 | Oveja | — |
 
-### Generadores Enemigos (monstruos)
+### 👹 Generadores Enemigos (monstruos)
 
 | Spawner | Precio |
 |---|---|
@@ -67,7 +67,7 @@ Más allá de los generadores básicos de tu isla, puedes **comprar generadores 
 | Araña | $220,000 |
 | Creeper | $540,000 |
 
-### Generadores Útiles (golems y especiales)
+### 🤖 Generadores Útiles (golems y especiales)
 
 | Spawner | Precio |
 |---|---|

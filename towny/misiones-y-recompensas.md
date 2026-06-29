@@ -4,13 +4,13 @@ Mapucraft cuenta con dos sistemas independientes de recompensas por actividad di
 
 ***
 
-## Misiones Diarias — /misiones
+## 📋 Misiones Diarias — /misiones
 
 El sistema de **Misiones Diarias** (ODailyQuests) asigna cada día **3 misiones** aleatorias a cada jugador. Completarlas otorga dinero y experiencia directamente.
 
 Las misiones se renuevan todos los días a la **medianoche (00:00)**.
 
-### Tipos de misiones
+### 🗂️ Tipos de misiones
 
 Las misiones cubren una amplia variedad de actividades del servidor:
 
@@ -27,11 +27,11 @@ Las misiones cubren una amplia variedad de actividades del servidor:
 | ✨ **Encantamiento** | Encantar objetos en la mesa |
 | 🐄 **Crianza** | Criar animales del servidor |
 
-### Recompensas
+### 🎁 Recompensas
 
 Cada misión completada otorga una recompensa en **dinero del servidor** y **experiencia**. La cantidad varía según el objetivo requerido.
 
-### Comandos
+### 📜 Comandos
 
 | Comando | Descripción |
 |---|---|
@@ -39,7 +39,7 @@ Cada misión completada otorga una recompensa en **dinero del servidor** y **exp
 
 ***
 
-## Votar — /vote
+## 🗳️ Votar — /vote
 
 Votar por el servidor en sitios externos activa la **Caja Diaria** y es la principal forma de obtener MapuPoints para cosméticos.
 
@@ -55,7 +55,7 @@ Cada vez que votas recibes automáticamente:
 
 Con `/vote` se abren los enlaces a los sitios de votación. Acumular votos también activa el evento **Piñata** al llegar a 20 votos.
 
-### Comandos
+### 📜 Comandos
 
 | Comando | Descripción |
 |---|---|
@@ -63,13 +63,13 @@ Con `/vote` se abren los enlaces a los sitios de votación. Acumular votos tambi
 
 ***
 
-## Recompensas de Sesión — /rewards
+## ⏱️ Recompensas de Sesión — /rewards
 
 El sistema de **Recompensas de Inicio de Sesión** (DailyRewards) permite reclamar recompensas periódicas simplemente conectándose al servidor. Hay tres tipos según la frecuencia: **diaria**, **semanal** y **mensual**.
 
 Los jugadores con rango **Premium** reciben el doble de recompensas en todas las categorías.
 
-### Recompensas Diarias
+### ☀️ Recompensas Diarias
 
 Se pueden reclamar **cada 24 horas**.
 
@@ -78,7 +78,7 @@ Se pueden reclamar **cada 24 horas**.
 | 🗝️ Llave Diaria | 1x | 2x |
 | 💰 Dinero | $500 | $1,000 |
 
-### Recompensas Semanales
+### 📅 Recompensas Semanales
 
 Se pueden reclamar **cada 7 días**.
 
@@ -88,7 +88,7 @@ Se pueden reclamar **cada 7 días**.
 | 🎉 Llave VoteParty | 1x | 2x |
 | 💰 Dinero | $1,000 | $2,000 |
 
-### Recompensas Mensuales
+### 🗓️ Recompensas Mensuales
 
 Se pueden reclamar **cada 30 días**.
 
@@ -99,7 +99,7 @@ Se pueden reclamar **cada 30 días**.
 | 🏆 Llave Aleatoria de Rango | 1x | 2x |
 | 💰 Dinero | $10,000 | $20,000 |
 
-### Comandos
+### 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

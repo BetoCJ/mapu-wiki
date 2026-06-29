@@ -6,7 +6,7 @@ Disponible en `/warp casino`.
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 1. Usa `/cf [cantidad]` para crear una apuesta con tu monto
 2. Tu oferta queda publicada en la lista de CoinFlips activos
@@ -18,7 +18,7 @@ Puedes ver todas las apuestas activas con `/cf` o `/coinflip`.
 
 ***
 
-## Impuesto por apuesta
+## 💸 Impuesto por apuesta
 
 El servidor retiene un porcentaje del premio según el monto apostado:
 
@@ -32,7 +32,7 @@ El servidor retiene un porcentaje del premio según el monto apostado:
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

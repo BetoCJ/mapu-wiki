@@ -4,7 +4,7 @@ El servidor tiene un sistema de **cajas de recompensas** que se abren con llaves
 
 ***
 
-## Cajas de Progresión
+## 📦 Cajas de Progresión
 
 Las 6 cajas principales forman una jerarquía de tierras de recompensas con temática Mapuche. Las llaves más altas dan acceso a ítems exclusivos del set **Meli Witran Mapu**.
 
@@ -19,37 +19,37 @@ Las 6 cajas principales forman una jerarquía de tierras de recompensas con tem�
 
 Cada caja también tiene un **Kit Legendario** con probabilidad muy baja (~0.1%) inspirado en seres de la mitología Mapuche: Kit Alicanto, Kit Kai-Kai Vilú, Kit Lautaro, Kit Tren-Tren y Kit Tue-Tue.
 
-### Caja Mapu — Alicanto
+### 🟤 Caja Mapu — Alicanto
 Temática dorada. Drops destacados:
 - 🪶 Botas Mapu / Arco Mapu (piezas del set)
 - 🦅 Kit Alicanto (0.1%) — set completo con lore
 - Elytra, Totem, Manzana Dorada, Gold Blocks, Diamantes, Beacon, End Crystal
 
-### Caja Lafken — Tren-Tren
+### 🔵 Caja Lafken — Tren-Tren
 Temática roja/dorada. Drops destacados:
 - 🛡️ Grebas Lafken / Escudo Lafken (piezas del set)
 - 🐍 Kit Tren-Tren (0.1%)
 - Tridente, Arco, Corazón del Mar, Shulker Shell, Ghast Tear, Dragon Head
 
-### Caja Wenumapu — Kai-Kai Vilú
+### ⚪ Caja Wenumapu — Kai-Kai Vilú
 Temática azul/acuática. Drops destacados:
 - 🔱 Peto Wenumapu / Picota Wenumapu (piezas del set)
 - 🌊 Kit Kai-Kai Vilú (0.1%) — incluye Tridente Lágrima de Kai-Kai con Lealtad V, Canalización e Impaling VI
 - Diamantes, Elytra, Beacon, Shulker Shell, End Crystal
 
-### Caja Kutral — Lautaro
+### 🟠 Caja Kutral — Lautaro
 Temática naranja/fuego. Drops destacados:
 - 🪖 Casco Kutral / Hacha Kutral (piezas del set)
 - ⚔️ Kit Lautaro (0.1%) — Hacha Venganza de Lautaro + Poncho de batalla + Escudo
 - Netherite Ingot, Elytra, Wither Skull, Totem, Dragon Head, Diamantes, Blaze Rod
 
-### Caja Wallmapu — Tue-Tue
+### 🟢 Caja Wallmapu — Tue-Tue
 Temática rosa/blanca. Drops destacados:
 - ⚒️ Espada Wallmapu / Pico Wallmapu (piezas del set)
 - 🦉 Kit Tue-Tue (0.1%) — incluye Pico Tue-Tue con Efficiency VI, Fortune IV y Caña de Pescar Mulichinco Luck V
 - Manzana Dorada Encantada, End Crystal, Beacon, Shulker Shell
 
-### Caja Netherite — Set Meli Witran Mapu
+### ⚫ Caja Netherite — Set Meli Witran Mapu
 La caja más poderosa. Otorga piezas del **Set Completo Meli Witran Mapu** en Netherite. Cada pieza tiene **~3% de probabilidad**, pero la mayoría del tiempo (~60%) da un Yunque como relleno.
 
 | Recompensa | Probabilidad |
@@ -63,7 +63,7 @@ Las piezas del set incluyen: Casco Kutral, Peto Wenumapu, Pantalones Lafken, Bot
 
 ***
 
-## Cajas de Eventos
+## 🎉 Cajas de Eventos
 
 ### 🎉 Caja Piñata
 
@@ -164,7 +164,7 @@ El invocador de Tralkan cuesta **$50,000** y se compra en `/adminshops`. La sala
 
 ***
 
-## Cajas de Dungeons
+## 🏰 Cajas de Dungeons
 
 ### 🟡 Llave Boss D1
 
@@ -230,7 +230,7 @@ Obtenida derrotando al **Zoglin Rey del Nether** o al **Señor de la Lava Eterna
 
 ***
 
-## Caja Diaria
+## ☀️ Caja Diaria
 
 La **Caja Diaria** se obtiene votando en `/vote`. Sus recompensas son variadas y balanceadas.
 

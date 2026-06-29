@@ -4,14 +4,14 @@ Cada 10 minutos, el servidor lanza un **reto aleatorio** para todos los jugadore
 
 ***
 
-## Cómo funciona
+## ⚙️ Cómo funciona
 
 - Un nuevo reto aparece automáticamente cada **600 segundos** (10 minutos).
 - Tienes **120 segundos** para completarlo antes de que expire.
 - Se anuncia con el prefijo **"RETOS DEL WENU MAPU"** en el chat.
 - Los primeros 3 jugadores en completarlo entran al ranking del reto.
 
-## Tipos de retos
+## 🎯 Tipos de retos
 
 | Categoría | Ejemplo |
 |---|---|
@@ -27,7 +27,7 @@ Cada 10 minutos, el servidor lanza un **reto aleatorio** para todos los jugadore
 | **Mini-retos** | Acciones especiales (saltar, tocar una campana, comerciar con un aldeano) |
 | **Daño** | Recibir daño de un tipo específico (caída, fuego, ahogamiento) |
 
-## Trivia
+## ❓ Trivia
 
 Existen alrededor de **90 preguntas** de trivia sobre el lore Mapuche del servidor y curiosidades generales, por ejemplo:
 

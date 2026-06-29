@@ -1,16 +1,16 @@
 # ⚔️ Skills — ValhallaMMO y ValhallaTrinkets
 
-## Introduccion — Empieza aqui
+## 📖 Introduccion — Empieza aqui
 
 Si es la primera vez que ves este sistema, lee esto antes de continuar.
 
-### ¿Que es ValhallaMMO?
+### ❓ ¿Que es ValhallaMMO?
 
 ValhallaMMO es un plugin RPG que reemplaza el sistema de habilidades vanilla de Minecraft. Al jugar normalmente — minar, talar, pelear, pescar — vas subiendo de nivel en 14 skills distintas. Subir de nivel desbloquea mejoras permanentes llamadas **perks**.
 
 No necesitas hacer nada especial para empezar: desde el primer bloque que mines o el primer mob que mates ya estaras ganando XP.
 
-### El loop de juego
+### 🔁 El loop de juego
 
 ```
 Juegas normalmente
@@ -26,7 +26,7 @@ Gastas puntos en el arbol de perks de cualquier skill
 Desbloqueas mejoras permanentes
 ```
 
-### Las 14 skills
+### 📋 Las 14 skills
 
 De las 14 skills del plugin, **13 están activas** en el servidor. Solo **Enchanting** está desactivada (ver más abajo).
 
@@ -54,11 +54,11 @@ De las 14 skills del plugin, **13 están activas** en el servidor. Solo **Enchan
 | Archery | Disparando flechas con arco o ballesta |
 | Power | Sube automaticamente cada vez que sube cualquier otro skill |
 
-### Que es Power
+### ❓ Que es Power
 
 **Power** es el skill central (nivel maximo 256). No lo subes directamente: cada vez que cualquier otra skill sube de nivel, Power recibe XP automaticamente. Al subir Power obtienes **1 punto de habilidad** por nivel, que son los que usas para desbloquear perks.
 
-### Que son los Perks
+### ❓ Que son los Perks
 
 Los perks son mejoras permanentes organizadas en un arbol visual. Cada perk tiene:
 - Un **nivel minimo** del skill requerido para desbloquearlo
@@ -66,7 +66,7 @@ Los perks son mejoras permanentes organizadas en un arbol visual. Cada perk tien
 
 Para ver el arbol de un skill usa `/val skilltree [skill]` en el juego. Los perks desbloqueados no se pierden al morir ni al reiniciar el servidor.
 
-### Como es diferente el combate
+### ⚔️ Como es diferente el combate
 
 ValhallaMMO añade mecanicas de combate encima del sistema vanilla:
 
@@ -87,11 +87,11 @@ Desde nivel 0 en los skills de combate, las armas y armaduras funcionan con su e
 
 ---
 
-## ¿Que es ValhallaTrinkets?
+## 💍 ¿Que es ValhallaTrinkets?
 
 ValhallaTrinkets es un plugin complementario que añade **accesorios equipables** (trinkets) con bonos pasivos permanentes. Se accede con `/trinkets`.
 
-### Como funcionan los trinkets
+### ⚙️ Como funcionan los trinkets
 
 - Abres el menu con `/trinkets` — se abre una ventana separada de tu inventario normal
 - Tienes hasta **7 ranuras** de trinket (las primeras 5 disponibles para todos; las ultimas 2 requieren el permiso de un rango)
@@ -100,7 +100,7 @@ ValhallaTrinkets es un plugin complementario que añade **accesorios equipables*
 - Los trinkets **se dropean al morir** (a menos que el servidor tenga keepInventory activo)
 - Los bonos son pasivos: no tienes que hacer nada, se aplican solos mientras los tengas equipados
 
-### Como conseguir trinkets
+### 🎁 Como conseguir trinkets
 
 Los trinkets **no se consiguen matando mobs ni minando bloques** normales. Se encuentran explorando estructuras del mundo, haciendo arqueologia, o pescando.
 
@@ -144,7 +144,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Mecanica general
+## ⚙️ Mecanica general
 
 - Al subir de nivel en cualquier skill, **Power** recibe 70 XP automáticamente.
 - Al subir **Power**, obtienes **0.25 puntos de habilidad** por nivel.
@@ -154,7 +154,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Power (max nivel 256)
+## 🔋 Power (max nivel 256)
 
 **Power** es el skill central que une todas las demás habilidades.
 
@@ -182,7 +182,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Mining (max nivel 100)
+## ⛏️ Mining (max nivel 100)
 
 **Como subir XP:** Minar bloques. Diamante 280 XP, Diamante Deepslate 420, Ancient Debris 1120, Esmeralda 280, Oro 112, Hierro 56.
 
@@ -206,7 +206,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Woodcutting (max nivel 100)
+## 🪵 Woodcutting (max nivel 100)
 
 **Como subir XP:** Talar madera. Tronco normal 28 XP, Madera (wood block) 42, Hongos del Nether 56; Descorezar (strip) da 14-28 XP.
 
@@ -228,7 +228,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Digging (max nivel 100)
+## 🕳️ Digging (max nivel 100)
 
 **Como subir XP:** Cavar tierra, arena, arcilla. Drops especiales de arqueologia dan mucho XP: Diamante (drop) 350, Netherite scrap 700, Echo Shard 1400.
 
@@ -250,7 +250,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Farming (max nivel 100)
+## 🌾 Farming (max nivel 100)
 
 **Como subir XP:** Cosechar cultivos (trigo 33.6, melon 56, zanahoria 28), criar animales (vacas 84, cerdos 70), esquilar ovejas 140, interactuar con colmenas 280.
 
@@ -273,7 +273,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ---
 
-## Fishing (max nivel 100)
+## 🎣 Fishing (max nivel 100)
 
 **Como subir XP:** Pescar. Bacalao 140, Salmon 175, Pez globo 350, Pez tropical 560, Libro encantado/Arco/Cana 420.
 
@@ -354,13 +354,13 @@ Madera y cuero no tienen penalización inicial, pero **reciben una propia de -75
 
 ---
 
-## Enchanting — no disponible
+## ❌ Enchanting — no disponible
 
 El skill de Enchanting no esta activo actualmente en el servidor. La mesa de encantamiento y el yunque funcionan en modo vanilla estandar. No se gana XP de Enchanting ni se puede acceder a su arbol de perks.
 
 ---
 
-## Light Weapons (max nivel 100)
+## 🗡️ Light Weapons (max nivel 100)
 
 **Como subir XP:** Golpear con espadas, dagas, rapiers, lanzas. 4.9 XP por punto de daño.
 
@@ -382,7 +382,7 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ---
 
-## Heavy Weapons (max nivel 100)
+## 🪓 Heavy Weapons (max nivel 100)
 
 **Como subir XP:** Golpear con hachas, martillos de guerra, mazas, mandobles. 7 XP por punto de daño.
 
@@ -404,7 +404,7 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ---
 
-## Light Armor (max nivel 100)
+## 🧥 Light Armor (max nivel 100)
 
 **Como subir XP:** Recibir daño con armadura ligera (cuero, cota de malla). 7 XP base por pieza, 3.5 XP adicional por segunda pieza o mas.
 
@@ -428,7 +428,7 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ---
 
-## Heavy Armor (max nivel 100)
+## 🛡️ Heavy Armor (max nivel 100)
 
 **Como subir XP:** Recibir daño con armadura pesada (hierro, diamante, netherite, dorada). Mismo sistema que Light Armor.
 
@@ -450,7 +450,7 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ---
 
-## Archery (max nivel 100)
+## 🏹 Archery (max nivel 100)
 
 **Como subir XP:** Disparar con arco (21 XP base) o ballesta (28 XP base). El XP aumenta con la distancia del disparo.
 
@@ -474,7 +474,7 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ---
 
-## Sistema de Combate
+## ⚔️ Sistema de Combate
 
 ValhallaMMO reemplaza el sistema de combate vanilla con mecánicas propias:
 
@@ -492,11 +492,11 @@ ValhallaMMO reemplaza el sistema de combate vanilla con mecánicas propias:
 
 ---
 
-## ValhallaTrinkets
+## 📿 ValhallaTrinkets
 
 Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes al equiparlos. Hay **36 trinkets** en el servidor, normalmente organizados en parejas básico/avanzado del mismo efecto.
 
-### Lista completa de trinkets
+### 📋 Lista completa de trinkets
 
 | Trinket | Atributo principal | Valor |
 |---|---|---|
@@ -541,9 +541,9 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 
 ---
 
-## Comandos
+## 📜 Comandos
 
-### ValhallaMMO
+### ⚔️ ValhallaMMO
 
 | Comando | Descripcion |
 |---|---|
@@ -558,13 +558,13 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 
 **Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `smithing`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
 
-### ValhallaTrinkets
+### 📿 ValhallaTrinkets
 
 | Comando | Descripcion |
 |---|---|
 | `/trinkets` | Abrir el menu de accesorios (trinkets) |
 
-### Parties (grupos)
+### 👥 Parties (grupos)
 
 | Comando | Descripcion |
 |---|---|

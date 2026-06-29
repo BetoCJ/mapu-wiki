@@ -9,7 +9,7 @@ Cada isla tiene un conjunto de **labores** (misiones) que se reinician periódic
 
 ***
 
-## Labores diarias
+## ☀️ Labores diarias
 
 Se reinician cada día. Algunos ejemplos:
 
@@ -23,7 +23,7 @@ Se reinician cada día. Algunos ejemplos:
 
 Además existen labores rotativas adicionales de minero de carbón, cultivo de zanahorias y papas, caza, picapedrero y exploración del Nether.
 
-## Labores semanales
+## 📅 Labores semanales
 
 Se reinician cada semana y dan recompensas mayores:
 

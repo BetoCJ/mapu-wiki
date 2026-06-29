@@ -2,7 +2,7 @@
 
 ***
 
-## Colecciones
+## 📚 Colecciones
 
 Las colecciones registran automáticamente cada bloque, criatura o pez que recolectas, otorgando recompensas al alcanzar hitos de cantidad acumulada (de por vida, sin necesidad de guardarlos).
 
@@ -18,18 +18,18 @@ Cada colección tiene varios tiers progresivos; al completarlos todos en una cat
 
 ***
 
-## Mobs y Jefes especiales
+## 👹 Mobs y Jefes especiales
 
 Por el mundo aparecen criaturas personalizadas con temática Mapuche, desde variantes reskineadas de mobs comunes hasta jefes de alto nivel.
 
-### Mobs comunes
+### 🐗 Mobs comunes
 
 | Mob | Basado en | Drops destacados |
 |---|---|---|
 | **Kura Pillán** | Husk | Hierro crudo, Oro crudo |
 | **Lafquen Ngen** | Drowned | Bacalao, Pez Globo |
 
-### Jefes
+### 💀 Jefes
 
 | Jefe | Basado en | Vida | Daño | Drops destacados |
 |---|---|---|---|---|

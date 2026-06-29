@@ -4,7 +4,7 @@ El **MapuKoth** (King of the Hill) es un evento PvP donde los jugadores compiten
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 El KOTH usa el modo **Score**: cada segundo que pasas dentro de la zona sumas un punto. Al terminar el tiempo, los jugadores con más puntos se llevan las recompensas.
 
@@ -18,7 +18,7 @@ Durante el evento, la barra de jefe y el marcador lateral muestran en tiempo rea
 
 ***
 
-## Información del evento
+## ℹ️ Información del evento
 
 | | |
 |---|---|
@@ -31,7 +31,7 @@ Durante el evento, la barra de jefe y el marcador lateral muestran en tiempo rea
 
 ***
 
-## Recompensas
+## 🎁 Recompensas
 
 | Posición | Recompensa |
 |---|---|
@@ -43,7 +43,7 @@ Las llaves se usan en las cajas de recompensas del servidor para obtener ítems 
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

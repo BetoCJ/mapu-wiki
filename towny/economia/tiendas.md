@@ -4,24 +4,24 @@ Mapucraft cuenta con varios sistemas para que los jugadores compren y vendan ít
 
 ***
 
-## QuickShop — Tiendas físicas
+## 🏬 QuickShop — Tiendas físicas
 
 El sistema **QuickShop** permite crear tiendas físicas en el mundo colocando un cofre. Cualquier jugador puede montarse su propia tienda y vender ítems a quienes pasen por ahí.
 
-### ¿Cómo comprar?
+### 🛍️ ¿Cómo comprar?
 
 1. Encuentra una tienda en el mundo o en el mercado principal
 2. Haz **clic derecho** sobre el cartel de la tienda
 3. Confirma la compra en el chat
 
-### ¿Cómo crear una tienda?
+### 🏗️ ¿Cómo crear una tienda?
 
 1. Coloca un cofre con el ítem que quieres vender
 2. Sostén el ítem en tu mano principal
 3. Haz **clic derecho** sobre el cofre
 4. Sigue las instrucciones del chat para fijar precio y cantidad
 
-### Información
+### ℹ️ Información
 
 |                                   |                  |
 | ********************************* | ***************- |
@@ -30,7 +30,7 @@ El sistema **QuickShop** permite crear tiendas físicas en el mundo colocando un
 | **Límite de tiendas por jugador** | 50               |
 | **Mercado principal**             | `/warp mercado`  |
 
-### Comandos
+### 📜 Comandos
 
 | Comando           | Descripción                                  |
 | ***************-- | ******************************************-- |
@@ -42,17 +42,17 @@ El mercado principal está en `/warp comercio`, donde puedes alquilar un local p
 
 ***
 
-## Auction House — /ah
+## 🔨 Auction House — /ah
 
 El **Auction House** es una casa de subastas global donde cualquier jugador puede publicar ítems a la venta y cualquier otro puede comprarlos, sin importar dónde estén en el servidor.
 
-### ¿Cómo funciona?
+### ⚙️ ¿Cómo funciona?
 
 - Usa `/ah` para abrir el menú de la casa de subastas
 - Desde ahí puedes explorar todos los ítems publicados por otros jugadores y comprar lo que necesites
 - Para vender, sostén el ítem en la mano y escribe el precio en el comando
 
-### Comandos
+### 📜 Comandos
 
 | Comando             | Descripción                         |
 | ******************- | *********************************-- |
@@ -63,11 +63,11 @@ El **Auction House** es una casa de subastas global donde cualquier jugador pued
 
 ***
 
-## Mercado del Servidor — /mercado
+## 🏪 Mercado del Servidor — /mercado
 
 El `/mercado` (también `/market`) es el **mercado oficial del servidor**, administrado por el sistema NasCraft. Aquí encontrarás secciones organizadas con precios fijos donde puedes comprar y vender recursos básicos directamente con el servidor.
 
-### Comandos
+### 📜 Comandos
 
 | Comando    | Descripción                            |
 | *********- | ************************************-- |

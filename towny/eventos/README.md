@@ -4,7 +4,7 @@ Mapucraft organiza eventos periódicos para toda la comunidad. ¡Participa, comp
 
 ***
 
-## Eventos disponibles
+## 🎉 Eventos disponibles
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody>
 <tr><td><a href="koth.md">⚔️ KOTH — MapuKoth</a></td></tr>

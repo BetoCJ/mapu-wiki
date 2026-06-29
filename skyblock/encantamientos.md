@@ -4,7 +4,7 @@ Mapucraft Skyblock usa un sistema de encantamientos completamente personalizado 
 
 ***
 
-## Categorías
+## 🗂️ Categorías
 
 | Categoría | Nombre en el menú |
 |---|---|
@@ -13,17 +13,17 @@ Mapucraft Skyblock usa un sistema de encantamientos completamente personalizado 
 | `special` | Bendiciones Especiales |
 | `curse` | Maldiciones Ancestrales |
 
-## Rareza
+## 💎 Rareza
 
 De menor a mayor poder: **Common → Uncommon → Rare → Epic → Legendary → Special → Very Special**.
 
-## Cómo obtenerlos
+## 🔍 Cómo obtenerlos
 
 - **Tabla de encantamientos**: hasta 5 encantamientos personalizados pueden caer al encantar normalmente (con una tasa reducida).
 - **Comercio con aldeanos**: los libreros pueden ofrecer libros de bendiciones (tasa reducida, con chance de traspaso).
 - **Libros de bendición**: ítems dedicados (ver [Crafteos Custom](crafteos.md)) que se aplican directamente sobre tu equipo.
 
-## Ejemplos representativos
+## 📜 Ejemplos representativos
 
 | Encantamiento | Rareza | Nivel máx. | Efecto |
 |---|---|---|---|

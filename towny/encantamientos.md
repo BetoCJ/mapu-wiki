@@ -4,9 +4,9 @@ Mapucraft usa un sistema de encantamientos completamente personalizado con mas d
 
 ---
 
-## Como obtenerlos
+## 🔍 Como obtenerlos
 
-### Enchanter (`/enchanter`)
+### 🪄 Enchanter (`/enchanter`)
 
 El metodo principal. Abre el menu del encantador y compra libros de encantamiento gastando **experiencia** o **dinero**.
 
@@ -14,7 +14,7 @@ El metodo principal. Abre el menu del encantador y compra libros de encantamient
 
 El menu muestra los **8 tipos de libros** disponibles segun su rareza: Simple, Unico, Elite, Ultimate, Legendario, Fabled, y libros especiales de Arma, Armadura, Herramienta y Aleatorio. Al hacer clic en uno se abre una confirmacion de compra antes de efectuar la transaccion. Los botones del fondo permiten filtrar por categoria, resetear filtros o cerrar el menu.
 
-### Mesa de Encantamiento
+### 📖 Mesa de Encantamiento
 
 Al encantar objetos en la mesa vanilla hay un **45% de probabilidad** de que el objeto reciba adicionalmente un encantamiento personalizado. Las chances por grupo son:
 
@@ -37,7 +37,7 @@ Ademas, hay un **3% de probabilidad separado** de que la mesa te de directamente
 | Nivel medio | Elite, Ultimate |
 | Nivel alto | Legendario, Fabled |
 
-### Tinkerer (`/tinkerer`)
+### 🔧 Tinkerer (`/tinkerer`)
 
 Intercambia libros de encantamiento que no quieras por **Gemas de Suerte**. Util para deshacerse de encantamientos duplicados o de rarezas bajas.
 
@@ -45,7 +45,7 @@ Intercambia libros de encantamiento que no quieras por **Gemas de Suerte**. Util
 
 El menu tiene dos columnas: **INPUT** (izquierda) donde arrastras los libros que quieres cambiar, y **RESULT** (derecha) donde aparecen las Gemas de Suerte obtenidas. Puedes procesar varios libros a la vez en un solo intercambio.
 
-### Alchemist (`/alchemist`)
+### 🧪 Alchemist (`/alchemist`)
 
 Combina Gemas de Suerte para obtener **Paquetes Arcanos**. Un Paquete Arcano es un envoltorio misterioso que al abrirse (clic derecho) puede contener una Gema de Suerte, aunque el resultado no esta garantizado.
 
@@ -53,7 +53,7 @@ Combina Gemas de Suerte para obtener **Paquetes Arcanos**. Un Paquete Arcano es 
 
 El menu tiene un slot central donde colocas las Gemas de Suerte. Las flechas indican la conversion: varias Gemas de Suerte se combinan en un Paquete Arcano.
 
-### Diccionario de Encantamientos (`/enchantdex`)
+### 📚 Diccionario de Encantamientos (`/enchantdex`)
 
 Consulta todos los encantamientos del servidor directamente en el juego sin salir.
 
@@ -67,13 +67,13 @@ Al hacer clic en cualquier encantamiento de la lista se abre su **ficha de detal
 
 ![](<../.gitbook/assets/ae_enchantdex_detail.png>)
 
-### Auction House (`/ah`)
+### 🔨 Auction House (`/ah`)
 
 Otros jugadores pueden publicar libros de encantamiento a la venta. Es una fuente util para conseguir libros raros de Legendario o Fabled sin depender del Enchanter.
 
 ---
 
-## Sistema de Ranuras (Slots)
+## 🧷 Sistema de Ranuras (Slots)
 
 Cada objeto tiene un numero limitado de **ranuras de encantamiento**:
 
@@ -89,7 +89,7 @@ Agregar encantamientos consume ranuras segun el grupo del encantamiento. Las ran
 
 ---
 
-## Sistema de Aplicacion
+## 🧪 Sistema de Aplicacion
 
 Para aplicar un encantamiento, **arrastra el libro encima del objeto** en el inventario. Cada libro tiene dos metricas:
 
@@ -110,7 +110,7 @@ Puedes modificar estas tasas antes de aplicar el libro:
 
 ---
 
-## Sistema de Almas
+## 👻 Sistema de Almas
 
 Algunos encantamientos de rareza **Fabled** consumen **Almas** al activarse. Para usar este sistema:
 
@@ -123,7 +123,7 @@ Los encantamientos soul son: **Nulify**, **Rush**, **Diploid** y **Multiplicatio
 
 ---
 
-## Rarezas
+## 💎 Rarezas
 
 Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 
@@ -138,7 +138,7 @@ Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 
 ---
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripcion |
 |---------|-------------|
@@ -153,14 +153,14 @@ Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 
 ---
 
-## Lista de Encantamientos
+## 📖 Lista de Encantamientos
 
 Los simbolos de la columna "Aplica a" indican el tipo de objeto:
 `Espadas` `Hachas` `Picos` `Palas` `Azadas` `Casco` `Pechera` `Pantalones` `Botas` `Armadura completa` `Arco` `Ballesta` `Tridente` `Cana de pescar` `Elitros`
 
 ---
 
-### Simple
+### ⚪ Simple
 
 Encantamientos de rareza basica. Disponibles en la mesa de encantamiento (50% de probabilidad cuando activan los custom enchants).
 
@@ -185,7 +185,7 @@ Encantamientos de rareza basica. Disponibles en la mesa de encantamiento (50% de
 
 ---
 
-### Unico
+### 🔵 Unico
 
 Encantamientos de segunda rareza. Disponibles en la mesa (40%) y en el Enchanter.
 
@@ -209,7 +209,7 @@ Encantamientos de segunda rareza. Disponibles en la mesa (40%) y en el Enchanter
 
 ---
 
-### Elite
+### 🟣 Elite
 
 Encantamientos de tercera rareza. Disponibles en la mesa (30%) y en el Enchanter.
 
@@ -257,7 +257,7 @@ Encantamientos de tercera rareza. Disponibles en la mesa (30%) y en el Enchanter
 
 ---
 
-### Ultimate
+### 🟠 Ultimate
 
 Encantamientos de cuarta rareza. Disponibles en la mesa (20%) y en el Enchanter.
 
@@ -314,7 +314,7 @@ Encantamientos de cuarta rareza. Disponibles en la mesa (20%) y en el Enchanter.
 
 ---
 
-### Legendario
+### 🟡 Legendario
 
 Encantamientos de quinta rareza. Disponibles en la mesa (10%) y en el Enchanter.
 
@@ -357,7 +357,7 @@ Encantamientos de quinta rareza. Disponibles en la mesa (10%) y en el Enchanter.
 
 ---
 
-### Fabled
+### 🔴 Fabled
 
 Los encantamientos mas raros y poderosos. **No disponibles en la mesa de encantamiento.** Solo se obtienen en el Enchanter, como loot de eventos o de otros jugadores.
 
@@ -395,7 +395,7 @@ Los encantamientos mas raros y poderosos. **No disponibles en la mesa de encanta
 
 ---
 
-### Encantamientos de Almas (Soul Enchantments)
+### 👻 Encantamientos de Almas (Soul Enchantments)
 
 Estos encantamientos de rareza **Fabled** requieren el **Sistema de Almas** activo en el objeto. Consumen almas acumuladas para activarse.
 
@@ -410,7 +410,7 @@ Para activar el rastreo de almas, aplica una **Runa del Alma** al arma o herrami
 
 ---
 
-## Items Especiales del Plugin
+## 🎁 Items Especiales del Plugin
 
 Todos estos items tienen **textura personalizada** en el servidor. Ademas de los encantamientos, el plugin incluye items que modifican el sistema:
 

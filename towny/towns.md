@@ -4,9 +4,9 @@
 
 ***
 
-## Towns
+## 🏘️ Towns
 
-### Crear un town
+### 🏗️ Crear un town
 
 Para crear tu propio town necesitas **$5,000** y estar en el lugar donde quieres establecer el primer chunk.
 
@@ -16,7 +16,7 @@ Para crear tu propio town necesitas **$5,000** y estar en el lugar donde quieres
 
 Una vez creado, el chunk donde estás quedará protegido y podrás ir expandiéndote reclamando chunks adyacentes.
 
-### Expandir tu town
+### 📐 Expandir tu town
 
 Cada chunk que reclamas se llama **townblock**. El precio base por chunk es **$150**, y aumenta ligeramente con cada chunk adicional.
 
@@ -29,7 +29,7 @@ Cada chunk que reclamas se llama **townblock**. El precio base por chunk es **$1
 
 > Los **Outposts** son chunks reclamados que no necesitan estar pegados a tu town principal — útiles para asegurar recursos o puntos estratégicos lejanos.
 
-### Niveles de Town
+### 📊 Niveles de Town
 
 El nivel de tu town sube automáticamente al conseguir más residentes, desbloqueando un título mayor y más límites de outposts.
 
@@ -45,7 +45,7 @@ El nivel de tu town sube automáticamente al conseguir más residentes, desbloqu
 | 24 | Gran Ciudad | Duque | 32 |
 | 28 | Metrópolis | Lord | 36 |
 
-### Tipos de Plots
+### 🗺️ Tipos de Plots
 
 Dentro de tu town puedes asignar distintos tipos de parcelas según su uso:
 
@@ -61,7 +61,7 @@ Dentro de tu town puedes asignar distintos tipos de parcelas según su uso:
 | **Bank** | Gestión bancaria del town |
 | **Jail** | Zona de confinamiento |
 
-### Upkeep
+### 💰 Upkeep
 
 Los towns pagan un **mantenimiento diario** al banco del servidor para seguir activos, calculado como $50 multiplicados por el modificador de su nivel actual — por ejemplo, **$100/día** en un Asentamiento recién creado, subiendo hasta **$1,600/día** en una Metrópolis. Si el banco del town se queda sin fondos, el town puede entrar en deuda y eventualmente caer en ruinas.
 
@@ -69,11 +69,11 @@ Asegúrate de que tu town tenga siempre saldo suficiente con `/t deposit [cantid
 
 ***
 
-## Naciones
+## 🌍 Naciones
 
 Las **naciones** agrupan varios towns bajo un mismo liderazgo, permitiendo alianzas, bonificaciones de chunks y un título para el rey.
 
-### Crear una nación
+### 🏗️ Crear una nación
 
 ```
 /n new [nombre]
@@ -81,7 +81,7 @@ Las **naciones** agrupan varios towns bajo un mismo liderazgo, permitiendo alian
 
 Crear una nación cuesta **$40,000** y requiere tener un town activo.
 
-### Niveles de Nación
+### 📊 Niveles de Nación
 
 | Residentes totales | Nivel | Título del Rey | Bonus de chunks |
 |---|---|---|---|
@@ -94,7 +94,7 @@ Crear una nación cuesta **$40,000** y requiere tener un town activo.
 
 ***
 
-## Vuelo en Town — TownyFlight
+## 🕊️ Vuelo en Town — TownyFlight
 
 Los miembros de un town pueden activar el **vuelo** dentro de los límites de su propio town con el comando `/tf`. El vuelo se desactiva automáticamente al salir del área reclamada o al entrar en combate PvP.
 
@@ -104,9 +104,9 @@ Los miembros de un town pueden activar el **vuelo** dentro de los límites de su
 
 ***
 
-## Comandos principales
+## 📜 Comandos principales
 
-### Town
+### 🏘️ Town
 
 | Comando | Descripción |
 |---|---|
@@ -127,7 +127,7 @@ Los miembros de un town pueden activar el **vuelo** dentro de los límites de su
 | `/t outpost [número]` | Teletransportarte a uno de tus outposts |
 | `/t delete` | Disolver el town |
 
-### Nación
+### 🌍 Nación
 
 | Comando | Descripción |
 |---|---|
@@ -142,7 +142,7 @@ Los miembros de un town pueden activar el **vuelo** dentro de los límites de su
 | `/n enemy add [nación]` | Declarar enemistad con otra nación |
 | `/n delete` | Disolver la nación |
 
-### Plot
+### 🗺️ Plot
 
 | Comando | Descripción |
 |---|---|
@@ -157,7 +157,7 @@ Los miembros de un town pueden activar el **vuelo** dentro de los límites de su
 | `/plot trust add [jugador]` | Dar acceso de confianza a un jugador en la parcela |
 | `/plot trust remove [jugador]` | Revocar acceso de confianza |
 
-### Residente
+### 🧑 Residente
 
 | Comando | Descripción |
 |---|---|

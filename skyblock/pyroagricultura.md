@@ -8,7 +8,7 @@ Además de los cultivos normales de Minecraft, puedes plantar **arbustos especia
 
 ***
 
-## Arbustos disponibles
+## 🫐 Arbustos disponibles
 
 | Arbusto | Nivel requerido | Costo | Tiempo de crecimiento | Fruta | Precio de venta |
 |---|---|---|---|---|---|
@@ -22,7 +22,7 @@ Además de los cultivos normales de Minecraft, puedes plantar **arbustos especia
 | **Arbusto de Destellos Solares** | 45 | $100,000 | 12 h | Destello Solar | $13,500 |
 | **Arbusto de Bayas de Tormenta** | 50 | $3,000 | 20 min | Baya de Tormenta | $400 |
 
-## Growstations (mejoras de cultivo)
+## 🌿 Growstations (mejoras de cultivo)
 
 Existen ítems especiales que puedes colocar junto a tus cultivos para acelerar o modificar su crecimiento, divididos en familias:
 
@@ -33,6 +33,6 @@ Existen ítems especiales que puedes colocar junto a tus cultivos para acelerar 
 | **Velocidad** | Golem de Agua (Básico/Intermedio/Avanzado) | Acelera el crecimiento entre 4% y 12% |
 | **Ambiente** | Orbe Overworld / Nether / End | Define el ambiente del área de cultivo |
 
-## Mercado rotativo
+## 🔄 Mercado rotativo
 
 Desde nivel 15 tienes acceso a un **mercado rotativo**: una selección limitada de semillas y bonificadores especiales que cambia periódicamente, con un máximo de compras por jugador y descuentos sobre ítems no exclusivos.

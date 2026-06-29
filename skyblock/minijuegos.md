@@ -4,7 +4,7 @@ El servidor tiene una zona de minijuegos PvP independiente de tu isla, con vario
 
 ***
 
-## Captura la Bandera
+## 🚩 Captura la Bandera
 
 ```
 /ctf
@@ -18,7 +18,7 @@ El servidor tiene una zona de minijuegos PvP independiente de tu isla, con vario
 | **Captura** | Debes permanecer 5 segundos en la zona de captura |
 | **Bandera soltada** | Regresa sola a la base a los 30 segundos |
 
-## Spleef
+## ❄️ Spleef
 
 ```
 /spleef
@@ -26,7 +26,7 @@ El servidor tiene una zona de minijuegos PvP independiente de tu isla, con vario
 
 Rompe el suelo bajo tus rivales con palas especiales hasta que caigan. Cada partida dura **5 minutos**, con capas que comienzan a degradarse 2 minutos después de iniciar la ronda. Existen palas especiales como la **Super Pala** (Eficiencia V) y el **Cañón de Huevos**.
 
-## Arenas de combate (BattleArena)
+## ⚔️ Arenas de combate (BattleArena)
 
 Un conjunto de modos de combate directo:
 

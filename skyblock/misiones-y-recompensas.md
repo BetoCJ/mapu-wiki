@@ -4,7 +4,7 @@ Más allá de las labores diarias de tu isla, el servidor tiene un sistema propi
 
 ***
 
-## Tipos de misión
+## 📋 Tipos de misión
 
 | Tipo | Descripción |
 |---|---|
@@ -13,7 +13,7 @@ Más allá de las labores diarias de tu isla, el servidor tiene un sistema propi
 
 A diferencia de las labores de isla, estas misiones **no tienen tiempo de reinicio** — se completan una vez y quedan registradas en tu progreso.
 
-## Ejemplos
+## 📝 Ejemplos
 
 | Misión | Oficio/Cadena | Objetivo | Recompensa |
 |---|---|---|---|

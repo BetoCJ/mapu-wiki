@@ -4,7 +4,7 @@ La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y es e
 
 ***
 
-## Información general
+## ℹ️ Información general
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@ La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y es e
 
 ***
 
-## Mobs
+## 👹 Mobs
 
 Los mobs de la Dungeon 1 pertenecen a la **Facción Renegados**. Aparecen en dos versiones: normal y élite (versión más fuerte).
 
@@ -26,17 +26,17 @@ Los mobs de la Dungeon 1 pertenecen a la **Facción Renegados**. Aparecen en dos
 | 💀 **Esqueleto Renegado** | Wither Skeleton con escudo | 33 / 59 | 4 / 8 |
 | 🕷️ **Araña Renegada** | Spider | 26 / 59 | 4 / 7 |
 
-### Habilidades especiales
+### 🌀 Habilidades especiales
 - Los Caballeros y Esqueletos pueden hacer un **salto de carga** hacia el jugador
 - Las Arañas tienen un **salto tóxico** que aplica veneno
 
-### Drops de mobs
+### 💰 Drops de mobs
 - 📖 Libros de encantamiento AE (Unique 3–6%, Simple 2–4%, Elite 1–2%, Ultimate 0.5–1%, Legendary 0.2–0.4%, Fabled 0.1–0.2%)
 - 💀 Alma lvl 1 (10–30% según versión)
 
 ***
 
-## Bosses
+## 💀 Bosses
 
 La Dungeon 1 tiene **dos bosses** en áreas separadas.
 

@@ -4,7 +4,7 @@ Cada isla tiene su propio **banco** compartido entre todos sus miembros, y un **
 
 ***
 
-## Banco de Isla
+## 🏦 Banco de Isla
 
 El banco guarda tres tipos de recursos que cualquier miembro con permisos puede depositar o retirar:
 
@@ -16,7 +16,7 @@ El banco guarda tres tipos de recursos que cualquier miembro con permisos puede 
 
 Los **Cristales** son la moneda premium de la isla: se obtienen completando labores, subiendo de nivel y comprando el ítem especial **Cristal del Wenu Mapu**. Se usan junto al dinero normal para pagar casi todas las mejoras de tu cumbre.
 
-### Comandos
+### 📜 Comandos
 
 | Comando | Descripción |
 |---|---|
@@ -26,11 +26,11 @@ Los **Cristales** son la moneda premium de la isla: se obtienen completando labo
 
 ***
 
-## Valor de Isla (Island Value)
+## 📈 Valor de Isla (Island Value)
 
 Tu isla tiene un **valor** que se recalcula automáticamente cada 20 segundos (con un recálculo forzado cada 10 segundos) en base a todos los bloques y generadores colocados sobre ella. Este valor determina tu posición en el ranking de `/is top`.
 
-### Bloques de mayor valor
+### 💎 Bloques de mayor valor
 
 | Bloque | Valor |
 |---|---|
@@ -43,7 +43,7 @@ Tu isla tiene un **valor** que se recalcula automáticamente cada 20 segundos (c
 | Obsidiana Llorosa / Linterna del Mar | 5 |
 | Tolva | 10 |
 
-### Bloques de bajo valor
+### 🪨 Bloques de bajo valor
 
 | Bloque | Valor |
 |---|---|
@@ -58,7 +58,7 @@ Puedes revisar el desglose completo de valores con `/isblockvalues blocks` o `/i
 
 ***
 
-## Ranking de Islas
+## 🏅 Ranking de Islas
 
 ```
 /is top

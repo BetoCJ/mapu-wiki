@@ -4,7 +4,7 @@
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 Mina normalmente en el overworld o el nether. Al romper ciertos minerales, existen probabilidades independientes de obtener:
 
@@ -18,7 +18,7 @@ Usa `/mine` para abrir el menú principal y ver tus stats, tienda y diario.
 
 ***
 
-## Gemas
+## 💎 Gemas
 
 Las gemas caen al romper minerales específicos. Cada gema tiene una **calidad** que afecta su precio de venta.
 
@@ -31,7 +31,7 @@ Las gemas caen al romper minerales específicos. Cada gema tiene una **calidad**
 | Tier 5 | Esmeralda | 4% | $200 |
 | Tier 6 | Diamante | 2% | $250 |
 
-### Calidades de gema
+### ⭐ Calidades de gema
 
 | Calidad | Multiplicador de precio |
 |---|---|
@@ -43,7 +43,7 @@ Las gemas caen al romper minerales específicos. Cada gema tiene una **calidad**
 
 ***
 
-## Fluxes
+## ⚡ Fluxes
 
 Los Fluxes son ítems vendibles o utilizables que caen con un **5% de probabilidad** al minar.
 
@@ -54,7 +54,7 @@ Los Fluxes son ítems vendibles o utilizables que caen con un **5% de probabilid
 
 ***
 
-## Artefactos
+## 🏺 Artefactos
 
 Los artefactos caen con un **0.8% de probabilidad** al romper cualquier mineral. Son ítems no identificados que deben llevarse a la **estación identificadora** para revelar su contenido. El tiempo de identificación varía por rareza.
 
@@ -72,7 +72,7 @@ Los artefactos caen con un **0.8% de probabilidad** al romper cualquier mineral.
 
 ***
 
-## Polvo Misterioso
+## ✨ Polvo Misterioso
 
 El **Polvo Misterioso** cae con un **1% de probabilidad** al minar. Al refinarlo, produce uno de los siguientes materiales:
 
@@ -85,7 +85,7 @@ El **Polvo Misterioso** cae con un **1% de probabilidad** al minar. Al refinarlo
 
 ***
 
-## Zeta
+## 🔷 Zeta
 
 La **Zeta** es la moneda del plugin. Se acumula automáticamente al romper minerales y se usa para mejoras y contenido avanzado.
 
@@ -103,13 +103,13 @@ La **Zeta** es la moneda del plugin. Se acumula automáticamente al romper miner
 
 ***
 
-## Guardianes de Runas
+## 🛡️ Guardianes de Runas
 
 Al hacer **clic derecho** en un **bloque de Redstone** (mineral), puede aparecer un **Guardián de Runa**, un mob especial con 200 HP que tiene probabilidad de soltar runas reales al morir. Hay un cooldown de **45 segundos** entre invocaciones.
 
 ***
 
-## Oráculos
+## 🔮 Oráculos
 
 Al usar **Oracleite Cargado** en un **bloque de Esmeralda** (mineral), se puede invocar un **Oráculo**, un jefe de alto nivel con 3 fases. Requiere nivel mínimo de minería según la fase.
 
@@ -123,7 +123,7 @@ Hay un cooldown de **1 hora** entre invocaciones. La muerte de un Oráculo se an
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

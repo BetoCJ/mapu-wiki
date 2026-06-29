@@ -4,7 +4,7 @@ El evento **Piñata Mapu** es una celebración comunitaria que se activa automá
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 1. Al alcanzar los 20 votos, se anuncia en el chat y aparece la piñata en `/warp piñata`
 2. Ve a la zona y golpea la piñata con cualquier ítem
@@ -17,7 +17,7 @@ La vida de la piñata escala con la cantidad de jugadores conectados (mínimo 8 
 
 ***
 
-## Recompensas por golpe
+## 🎁 Recompensas por golpe
 
 Cada golpe lanza una tirada aleatoria con las siguientes probabilidades:
 
@@ -39,7 +39,7 @@ Cada golpe lanza una tirada aleatoria con las siguientes probabilidades:
 
 ***
 
-## Recompensas por último golpe
+## 🏆 Recompensas por último golpe
 
 El jugador que destruya la piñata recibe todo esto de forma garantizada:
 
@@ -51,7 +51,7 @@ El jugador que destruya la piñata recibe todo esto de forma garantizada:
 
 ***
 
-## Recompensa de participación
+## 🎗️ Recompensa de participación
 
 Al morir la piñata, **todos los jugadores que participaron** reciben automáticamente:
 
@@ -61,7 +61,7 @@ Al morir la piñata, **todos los jugadores que participaron** reciben automátic
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

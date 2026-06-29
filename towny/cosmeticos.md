@@ -6,24 +6,7 @@ Accede al menú en `/warp cosmeticos`.
 
 ***
 
-## Categorías disponibles
-
-| Categoría | Descripción |
-|---|---|
-| 🎩 **Sombreros (Hats)** | Bloques y objetos sobre tu cabeza |
-| 🌟 **Sombreros Animados** | Versiones animadas con movimiento |
-| ✨ **Partículas** | Efectos de partículas alrededor de tu personaje |
-| 👗 **Trajes (Suits)** | Sets de armadura con apariencia única |
-| 🎮 **Gadgets** | Ítems especiales con animaciones o efectos |
-| 🐾 **Mascotas (Pets)** | Animales o criaturas que te siguen |
-| 🦊 **Disfraces (Morphs)** | Te transformas visualmente en un mob |
-| 🚩 **Banderas (Banners)** | Banderas decorativas en la espalda |
-| 💃 **Emotes** | Animaciones de baile y gestos |
-| 🧣 **Capas (Cloaks)** | Capas personalizadas en la espalda |
-
-***
-
-## MapuPoints y Coins
+## 💎 MapuPoints y Coins
 
 Los cosméticos y algunos ítems exclusivos se adquieren con **MapuPoints** o **Coins**, las monedas premium del servidor.
 
@@ -33,13 +16,13 @@ Los cosméticos y algunos ítems exclusivos se adquieren con **MapuPoints** o **
 | **Coins** | Se obtienen canjeando MapuPoints (20 MP = 1 Coin) |
 | **Conversión** | 20 MapuPoints = 1 Coin |
 
-### ¿Cómo canjear?
+### 🔄 ¿Cómo canjear?
 
 Dirígete al NPC de **Canje de Coins** en el spawn principal. Ahí puedes convertir tus MapuPoints acumulados en Coins y adquirir cosméticos o ítems exclusivos del Comerciante de Ítems.
 
 ***
 
-## Ítems Personalizados 3D
+## 🧊 Ítems Personalizados 3D
 
 En `/warp personalizados` encontrarás ítems con modelos 3D exclusivos del servidor. Estos ítems tienen apariencias únicas creadas por el equipo de Mapucraft.
 
@@ -53,7 +36,7 @@ En `/warp personalizados` encontrarás ítems con modelos 3D exclusivos del serv
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

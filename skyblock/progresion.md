@@ -6,7 +6,7 @@ Cada ascenso de rango se otorga automáticamente al cumplir **todos** los requis
 
 ***
 
-## Escalera de rangos
+## 🪜 Escalera de rangos
 
 | Rango | Nivel de Cumbre | Horas jugadas | Asesinatos de mobs | Peces pescados | Dinero | Otros requisitos |
 |---|---|---|---|---|---|---|

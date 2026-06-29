@@ -6,7 +6,7 @@ El sistema de **Jobs** (empleos) te permite ganar dinero realizando distintas ac
 
 ***
 
-## Trabajos disponibles
+## 💼 Trabajos disponibles
 
 | Trabajo | Actividad principal |
 |---|---|
@@ -25,7 +25,7 @@ El sistema de **Jobs** (empleos) te permite ganar dinero realizando distintas ac
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

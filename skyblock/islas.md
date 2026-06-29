@@ -4,7 +4,7 @@ Tu isla es tu propio pedazo de cielo: una cumbre flotante que empieza diminuta y
 
 ***
 
-## Crear tu isla
+## 🏝️ Crear tu isla
 
 ```
 /is create [nombre]
@@ -26,7 +26,7 @@ También puedes regenerar tu isla con `/is regen [esquema]` (cooldown de 5 minut
 
 ***
 
-## Jerarquía de tu Lof
+## 👑 Jerarquía de tu Lof
 
 Dentro de cada isla existe una jerarquía de 5 rangos, desde simple visitante hasta dueño absoluto:
 
@@ -47,7 +47,7 @@ Los rangos se gestionan con:
 
 ***
 
-## Permisos por rango
+## 🔐 Permisos por rango
 
 Cada acción dentro de la isla tiene un **rango mínimo** requerido por defecto (configurable por el Toki o un Lonko con permiso `changePermissions`):
 
@@ -80,7 +80,7 @@ Consulta y edita estos permisos con `/is permissions` o `/is setpermission [perm
 
 ***
 
-## Configuración de la isla
+## ⚙️ Configuración de la isla
 
 Con `/is settings [configuración] [valor]` el Toki o los Lonko pueden ajustar el comportamiento físico de la cumbre:
 
@@ -105,11 +105,11 @@ El **PvP está desactivado** dentro de las islas por defecto.
 
 ***
 
-## Cambiar de bioma
+## 🌍 Cambiar de bioma
 
 Con `/is biomes [bioma]` (cooldown de 10 segundos) puedes adaptar el bioma de tu isla en cada dimensión:
 
-### Wenu Mapu (Overworld)
+### ☀️ Wenu Mapu (Overworld)
 
 | Bioma | Costo |
 |---|---|
@@ -117,7 +117,7 @@ Con `/is biomes [bioma]` (cooldown de 10 segundos) puedes adaptar el bioma de tu
 | Cumbres de Pire (Snowy Plains) | $50 |
 | Sabana de Mawida (Savanna) | $100 |
 
-### Minche Mapu (Nether)
+### 🔥 Minche Mapu (Nether)
 
 | Bioma | Costo |
 |---|---|
@@ -125,7 +125,7 @@ Con `/is biomes [bioma]` (cooldown de 10 segundos) puedes adaptar el bioma de tu
 | Bosque Carmesí Ancestral (Crimson Forest) | $1,000 |
 | Bosque Deformado Místico (Warped Forest) | $100 |
 
-### Küyen Mapu (End)
+### 🌑 Küyen Mapu (End)
 
 | Bioma | Costo |
 |---|---|
@@ -135,7 +135,7 @@ Con `/is biomes [bioma]` (cooldown de 10 segundos) puedes adaptar el bioma de tu
 
 ***
 
-## Comandos principales
+## 📜 Comandos principales
 
 | Comando | Descripción |
 |---|---|

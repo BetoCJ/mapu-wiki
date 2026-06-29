@@ -4,7 +4,7 @@ El **Battle Pass** es el sistema de progresión por temporadas de Mapucraft. Com
 
 ***
 
-## ¿Cómo funciona?
+## ⚙️ ¿Cómo funciona?
 
 Cada **10 puntos** acumulados subes un nivel del pase. Los puntos se consiguen completando misiones semanales y misiones diarias. Hay un total de **98 niveles** en el pase gratuito y **100 niveles** en el premium.
 
@@ -14,7 +14,7 @@ El progreso de las misiones se muestra en la **barra de jefe** al alcanzar ciert
 
 ***
 
-## Pase Gratuito vs Premium
+## 🆓 Pase Gratuito vs Premium
 
 | | Gratuito | Premium |
 |---|---|---|
@@ -24,7 +24,7 @@ El progreso de las misiones se muestra en la **barra de jefe** al alcanzar ciert
 
 ***
 
-## Recompensas por tipo
+## 🎁 Recompensas por tipo
 
 A lo largo de los niveles del pase encontrarás recompensas de los siguientes tipos:
 
@@ -46,7 +46,7 @@ A lo largo de los niveles del pase encontrarás recompensas de los siguientes ti
 
 ***
 
-## Misiones diarias
+## 📋 Misiones diarias
 
 Las misiones diarias son tareas variadas que se renuevan cada día a las **12:00**. Se asignan **5 misiones** por día y cada una otorga puntos para el pase según su dificultad:
 
@@ -61,7 +61,7 @@ Las misiones abarcan todo tipo de actividades: minar, construir, cosechar, matar
 
 ***
 
-## Comandos
+## 📜 Comandos
 
 | Comando | Descripción |
 |---|---|

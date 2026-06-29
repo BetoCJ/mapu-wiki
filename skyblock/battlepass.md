@@ -8,7 +8,7 @@ Cada temporada trae **El Ciclo del Küyen**, el pase de batalla del servidor con
 
 ***
 
-## Cómo funciona
+## ⚙️ Cómo funciona
 
 - El pase tiene **50 fases** (tiers).
 - Cada fase cuesta **1,250 XP de Battle Pass**, que se gana completando tareas y misiones diarias/semanales.
@@ -16,14 +16,14 @@ Cada temporada trae **El Ciclo del Küyen**, el pase de batalla del servidor con
   - **Senda Libre** — disponible para todos los jugadores.
   - **Senda Astral (Premium)** — requiere haber adquirido el pase premium.
 
-## Temporada actual
+## 📅 Temporada actual
 
 | | |
 |---|---|
 | **Inicio** | 6 de junio |
 | **Fin** | 20 de agosto |
 
-## Ejemplos de recompensas por fase
+## 🎁 Ejemplos de recompensas por fase
 
 | Fase | Recompensa Gratuita | Recompensa Premium |
 |---|---|---|

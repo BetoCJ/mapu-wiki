@@ -4,7 +4,7 @@ La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs much
 
 ***
 
-## Información general
+## ℹ️ Información general
 
 | | |
 |---|---|
@@ -16,7 +16,7 @@ La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs much
 
 ***
 
-## Mobs
+## 👹 Mobs
 
 | Mob | Tipo | HP | Daño |
 |---|---|---|---|
@@ -24,19 +24,19 @@ La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs much
 | 🌊 **Ahogado Voraz** | Drowned | 80 | 20 |
 | 👻 **Vex Sombrío** | Vex | 76 | 25 |
 
-### Habilidades especiales
+### 🌀 Habilidades especiales
 - La **Araña Tóxica** salta envenenando y teje redes que ralentizan
 - El **Ahogado Voraz** lanza un tridente y crea un torbellino acuático
 - El **Vex Sombrío** tiene un ataque espectral y un remolino oscuro en área
 
-### Drops de mobs
+### 💰 Drops de mobs
 - 📖 Libros AE (Unique 6%, Simple 4%, Elite 2%, Ultimate 1%, Legendary 0.4%, Fabled 0.2%)
 - 🗝️ Llaves de crate: Kutral, Wenumapu, Mapu, Lafken (1% c/u), Wallmapu (0.8%), Netherite (0.5%)
 - 💀 Alma lvl 3 (30–45% según mob)
 
 ***
 
-## Mini-bosses
+## 🐲 Mini-bosses
 
 La Dungeon 2 tiene **dos mini-bosses** en áreas separadas antes del jefe final.
 
@@ -68,7 +68,7 @@ Un Ravager de élite con furia destructora. Usa la **bossbar roja**.
 
 ***
 
-## Boss final — Rey Ahogado
+## 💀 Boss final — Rey Ahogado
 
 El monarca de las profundidades abisales. Usa la **bossbar azul**.
 

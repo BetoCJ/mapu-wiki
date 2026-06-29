@@ -4,7 +4,7 @@ Votar por el servidor en las páginas de listados de Minecraft es una de las for
 
 ***
 
-## Sitios de votación
+## 🌐 Sitios de votación
 
 - Minecraft-MP.com
 - TopG.org
@@ -13,7 +13,7 @@ Votar por el servidor en las páginas de listados de Minecraft es una de las for
 
 Cada sitio tiene un cooldown de 24 horas antes de poder volver a votar en él.
 
-## Hitos de votos (de por vida)
+## 🏆 Hitos de votos (de por vida)
 
 | Hito | Votos totales | Recompensa |
 |---|---|---|
@@ -23,7 +23,7 @@ Cada sitio tiene un cooldown de 24 horas antes de poder volver a votar en él.
 | Hito 50 | 50 | 5,000 monedas, 1 Llave Likan, 10 Liens de Trueque |
 | Hito 100 | 100 | 12,500 monedas, 1 Llave Antü, 20 Liens de Trueque |
 
-## Rachas de votos diarias
+## 🔥 Rachas de votos diarias
 
 Si votas al menos una vez por día durante varios días seguidos, obtienes recompensas extra (con cierta tolerancia a fallos):
 
@@ -34,7 +34,7 @@ Si votas al menos una vez por día durante varios días seguidos, obtienes recom
 | 14 días | 2 faltas en 30 días | 5,000 monedas, 1 Llave Kullin, 7 Liens de Trueque |
 | 30 días | 3 faltas en 60 días | 15,000 monedas, 1 Llave Küyen, 9 Liens de Trueque |
 
-## Premios a los mejores votantes
+## 🥇 Premios a los mejores votantes
 
 Existen rankings de votación con premios mensuales para los jugadores que más voten.
 

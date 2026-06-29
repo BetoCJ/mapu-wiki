@@ -9,7 +9,7 @@ Tu isla puede potenciarse con dos tipos de mejoras: **Rituales** (potenciadores 
 
 ***
 
-## Rituales (temporales)
+## 🕯️ Rituales (temporales)
 
 ### 🌾 Bendición de Mawida — Agricultura
 
@@ -52,7 +52,7 @@ Otorga vuelo a los miembros de tu isla.
 
 ***
 
-## Mejoras permanentes
+## 🏗️ Mejoras permanentes
 
 ### 👥 Comunidad del Lof — Límite de miembros
 

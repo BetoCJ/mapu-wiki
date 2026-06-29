@@ -4,7 +4,7 @@ La dungeon más difícil de Mapucraft. Temática del **Nether**, con enemigos ex
 
 ***
 
-## Información general
+## ℹ️ Información general
 
 | | |
 |---|---|
@@ -15,7 +15,7 @@ La dungeon más difícil de Mapucraft. Temática del **Nether**, con enemigos ex
 
 ***
 
-## Mobs
+## 👹 Mobs
 
 | Mob | Tipo | HP | Daño |
 |---|---|---|---|
@@ -24,18 +24,18 @@ La dungeon más difícil de Mapucraft. Temática del **Nether**, con enemigos ex
 
 Los mobs del Nether son un **50% más fuertes** que los de la Dungeon 2.
 
-### Habilidades especiales
+### 🌀 Habilidades especiales
 - El **Cazador del Nether** hace embestidas y golpes de fuego
 - El **Ghoul de Magma** siempre está en llamas y lanza llamaradas explosivas
 
-### Drops de mobs
+### 💰 Drops de mobs
 - 📖 Libros AE (Ultimate 2%, Legendary 0.9%, Fabled 0.6%)
 - 🗝️ Llaves de crate: Kutral, Wenumapu, Mapu, Lafken (1% c/u), Wallmapu (0.8%), Netherite (0.5%)
 - ✨ XP, Pepitas/Lingotes de Oro, Blaze Rods
 
 ***
 
-## Mini-bosses
+## 🐲 Mini-bosses
 
 ### 🔥 Titán de Magma
 
@@ -76,7 +76,7 @@ El señor de la ceniza, comandante de la oscuridad. Usa la **bossbar blanca**. L
 
 ***
 
-## Boss principal — Zoglin Rey del Nether
+## 💀 Boss principal — Zoglin Rey del Nether
 
 El monarca supremo de las hordas del Nether. Usa la **bossbar roja** con 20 segmentos.
 
@@ -105,7 +105,7 @@ El monarca supremo de las hordas del Nether. Usa la **bossbar roja** con 20 segm
 
 ***
 
-## Boss oculto — ⚑ Señor de la Lava Eterna
+## 🔥 Boss oculto — Señor de la Lava Eterna
 
 El ser más poderoso de la Dungeon 3. No está en el camino principal — hay que encontrarlo. Siempre en llamas, con aura de lava.
 

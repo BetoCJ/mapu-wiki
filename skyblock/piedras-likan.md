@@ -4,7 +4,7 @@ Las **Piedras Likan** son monolitos que mantienes cargado un área de chunks alr
 
 ***
 
-## Tipos de Piedra Likan
+## 🔮 Tipos de Piedra Likan
 
 | Piedra | Área cargada | Duración | Material |
 |---|---|---|---|

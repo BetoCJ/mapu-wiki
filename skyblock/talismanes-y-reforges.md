@@ -4,7 +4,7 @@ Dos sistemas adicionales te permiten personalizar tu equipo más allá de los en
 
 ***
 
-## Talismanes
+## 🧿 Talismanes
 
 Los talismanes otorgan un efecto pasivo permanente mientras los lleves encima (inventario, cofre del fin o cajas shulker). Solo puedes tener **un nivel activo de cada talismán** a la vez.
 
@@ -19,7 +19,7 @@ Se craftean combinando materiales temáticos (perlas, corazones del mar, lágrim
 
 ***
 
-## Reforges
+## 🔧 Reforges
 
 Los reforges se aplican con una **Piedra de Reforja** específica sobre tu equipo, otorgando un bono fijo según el tipo de ítem:
 
@@ -32,7 +32,7 @@ Los reforges se aplican con una **Piedra de Reforja** específica sobre tu equip
 | **Weichafe** | Armas cuerpo a cuerpo | +8% de daño infligido |
 | **Werken** | Arcos | +12% de daño de proyectil disparado en el aire |
 
-### Costo
+### 💰 Costo
 
 El precio de reforjar escala con la cantidad de reforges que ya hayas hecho:
 

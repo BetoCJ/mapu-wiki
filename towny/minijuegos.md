@@ -4,7 +4,7 @@ Mapucraft cuenta con varios mini-juegos disponibles para toda la comunidad. Est�
 
 ***
 
-## Parkour
+## 🏃 Parkour
 
 El parkour más grande del servidor. Completa el recorrido acumulando saltos y compite en el ranking global.
 
@@ -14,7 +14,7 @@ El parkour más grande del servidor. Completa el recorrido acumulando saltos y c
 | **Clasificación** | Top 10 visible en el holograma del warp |
 | **Récord del servidor** | Batirlo otorga 1x Llave Aleatoria de Rango |
 
-### Recompensas por hitos
+### 🎁 Recompensas por hitos
 
 Las primeras veces que alcanzas ciertos saltos se entregan recompensas únicas (solo una vez por cuenta):
 
@@ -37,7 +37,7 @@ Además, hay recompensas periódicas que se repiten indefinidamente:
 
 ***
 
-## TNT Run
+## 💣 TNT Run
 
 Corre sobre bloques de arena que desaparecen bajo tus pies. El último en caer gana.
 
@@ -49,7 +49,7 @@ Corre sobre bloques de arena que desaparecen bajo tus pies. El último en caer g
 
 ***
 
-## Spleef
+## ❄️ Spleef
 
 Rompe los bloques bajo los pies de tus rivales con tu pala antes de que ellos rompan los tuyos.
 
@@ -61,7 +61,7 @@ Rompe los bloques bajo los pies de tus rivales con tu pala antes de que ellos ro
 
 ***
 
-## Build Battle
+## 🏗️ Build Battle
 
 Compite construyendo la mejor obra según el tema anunciado. Los demás jugadores votan la mejor construcción.
 
@@ -73,7 +73,7 @@ Compite construyendo la mejor obra según el tema anunciado. Los demás jugadore
 
 ***
 
-## Duels — 1v1
+## ⚔️ Duels — 1v1
 
 Reta a otro jugador a un duelo directo. Puedes elegir kit, arena y apostar dinero en el combate.
 
@@ -84,7 +84,7 @@ Reta a otro jugador a un duelo directo. Puedes elegir kit, arena y apostar diner
 | **Kits** | Selección de kits disponibles antes del duelo |
 | **KeepInventory** | No pierdes tu inventario real — se usan los ítems del kit |
 
-### Comandos
+### 📜 Comandos
 
 | Comando | Descripción |
 |---|---|
@@ -96,7 +96,7 @@ Reta a otro jugador a un duelo directo. Puedes elegir kit, arena y apostar diner
 
 ***
 
-## Laberinto
+## 🌀 Laberinto
 
 Evento especial donde debes navegar un laberinto para llegar a la meta.
 
@@ -107,7 +107,7 @@ Evento especial donde debes navegar un laberinto para llegar a la meta.
 
 ***
 
-## Coliseo
+## 🏟️ Coliseo
 
 Arena abierta para combates libres y eventos especiales.
 

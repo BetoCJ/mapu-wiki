@@ -4,7 +4,7 @@ El sistema económico de Mapucraft gira en torno al **dinero del servidor**, que
 
 ***
 
-## Sistemas económicos
+## 💰 Sistemas económicos
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody>
 <tr><td><a href="tiendas.md">🛒 Tiendas y Mercado</a></td></tr>
@@ -13,7 +13,7 @@ El sistema económico de Mapucraft gira en torno al **dinero del servidor**, que
 
 ***
 
-## Comandos básicos
+## 📜 Comandos básicos
 
 | Comando | Descripción |
 |---|---|

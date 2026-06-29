@@ -4,7 +4,7 @@ Mapucraft Skyblock tiene cientos de ítems personalizados, muchos de ellos craft
 
 ***
 
-## Categorías de ítems
+## 🗂️ Categorías de ítems
 
 | Categoría | Contenido |
 |---|---|
@@ -18,7 +18,7 @@ Mapucraft Skyblock tiene cientos de ítems personalizados, muchos de ellos craft
 | **VIP** | Ítems exclusivos para rangos de donación |
 | **Trade** | Materiales de intercambio usados como moneda secundaria en tiendas |
 
-## Ejemplos de ítems custom
+## 🛠️ Ejemplos de ítems custom
 
 | Ítem | Rareza | Efecto |
 |---|---|---|
@@ -29,13 +29,13 @@ Mapucraft Skyblock tiene cientos de ítems personalizados, muchos de ellos craft
 | **Charquicán del Lof** | Raro | Comida que otorga Fuerza I por 30 segundos |
 | **Gancho de Agarre** | — | Te lanza hacia el bloque donde apunta (cooldown 2.5s) |
 
-## Bloques personalizados
+## 🧱 Bloques personalizados
 
 A través de **ExecutableBlocks** también existen bloques con mecánicas propias: generadores premium que producen recursos con el tiempo, totems rituales y bloques trampa con activadores configurables.
 
 ***
 
-## Sets de armadura elemental
+## 🛡️ Sets de armadura elemental
 
 Más allá de las piezas individuales, existen **9 sets completos de armadura** con temática de espíritus Mapuches, cada uno con su propio bono al equipar las 4 piezas:
 

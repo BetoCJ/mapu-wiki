@@ -4,7 +4,7 @@ La economía del servidor combina una **tienda oficial**, **tiendas de jugadores
 
 ***
 
-## Tienda oficial
+## 🏪 Tienda oficial
 
 ```
 /tienda
@@ -14,7 +14,7 @@ La tienda oficial está organizada en categorías como **bloques**, **comida**, 
 
 Algunas categorías usan monedas especiales en vez de dinero normal — por ejemplo, las armaduras elementales se compran con materiales temáticos como **Chaway de Plata**, **Hilo de Relmu** o **Fibra de Voqui**, obtenidos jugando.
 
-## Subasta — zAuctionHouse
+## 🔨 Subasta — zAuctionHouse
 
 ```
 /ah
@@ -32,7 +32,7 @@ Algunas categorías usan monedas especiales en vez de dinero normal — por ejem
 
 Cada publicación dura **2 días** antes de caducar; si no se vende, el ítem vuelve a tu inventario de objetos caducados para que lo reclames.
 
-## Intercambio directo — AxTrade
+## 🤝 Intercambio directo — AxTrade
 
 ```
 /trade [jugador]

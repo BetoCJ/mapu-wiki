@@ -4,7 +4,7 @@ Personaliza tu apariencia con partículas y acompáñate de una mascota espiritu
 
 ***
 
-## Partículas
+## ✨ Partículas
 
 ```
 /pp gui
@@ -12,7 +12,7 @@ Personaliza tu apariencia con partículas y acompáñate de una mascota espiritu
 
 Abre un menú visual con más de 100 efectos de partículas y más de 40 estilos de animación para decorar tu personaje. Puedes tener varias partículas activas a la vez y guardar combinaciones como grupos favoritos.
 
-## Mascotas
+## 🐾 Mascotas
 
 Las mascotas son guías espirituales que te acompañan y otorgan un bono pasivo que mejora con su nivel.
 

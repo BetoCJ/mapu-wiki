@@ -4,7 +4,7 @@ Los **Minions** son ayudantes automáticos que trabajan por ti dentro de tu isla
 
 ***
 
-## Tipos de Minion
+## 🤖 Tipos de Minion
 
 | Minion | Función |
 |---|---|
@@ -17,7 +17,7 @@ Los **Minions** son ayudantes automáticos que trabajan por ti dentro de tu isla
 | 🔨 **Crafter** | Crafta ítems automáticamente |
 | 💰 **Vendedor** | Vende los ítems recolectados directamente |
 
-## Cómo funcionan
+## ⚙️ Cómo funcionan
 
 - Cada minion necesita estar **vinculado a un contenedor** (cofre) donde deposita lo que recolecta.
 - Los minios mineros, leñadores y similares **consumen la durabilidad** de su herramienta equipada; si se rompe, el minion se detiene.
@@ -25,7 +25,7 @@ Los **Minions** son ayudantes automáticos que trabajan por ti dentro de tu isla
 - Por defecto cada jugador puede colocar **1 minion** (ampliable mediante rangos/permisos), con un **máximo de 10 minions por isla**.
 - Los minions siguen trabajando **aunque su dueño esté desconectado**, mientras el chunk siga cargado.
 
-## Mejorar un minion
+## ⬆️ Mejorar un minion
 
 Cada minion puede subir de nivel para trabajar más rápido o con mayor alcance, pagando con dinero del jugador. Si no tienes fondos suficientes, la mejora simplemente falla.
 
@@ -35,7 +35,7 @@ Si un minion se queda sin contenedor vinculado, sin agua cercana (para el pescad
 
 ***
 
-## Cofres mejorables
+## 📦 Cofres mejorables
 
 Para almacenar todo lo que recolectan tus minions, puedes usar **cofres grandes expandibles**. Empiezan con una sola página y se amplían pagando para desbloquear las siguientes:
 

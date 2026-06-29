@@ -4,7 +4,7 @@ Tu personaje tiene **10 habilidades** que suben de nivel con el uso: cuanto más
 
 ***
 
-## Habilidades disponibles
+## ⚡ Habilidades disponibles
 
 | Skill | Se sube... | Estadísticas que mejora |
 |---|---|---|
@@ -18,7 +18,7 @@ Tu personaje tiene **10 habilidades** que suben de nivel con el uso: cuanto más
 | 🛡️ **Armory** | Equipando y mejorando armadura | — |
 | 🧭 **Exploration** | Explorando el mundo | — |
 
-## Estadísticas base
+## 📊 Estadísticas base
 
 | Estadística | Efecto |
 |---|---|
@@ -27,7 +27,7 @@ Tu personaje tiene **10 habilidades** que suben de nivel con el uso: cuanto más
 | ✎ **Wisdom** | +1% de experiencia ganada por punto, también aumenta el límite de Mana |
 | 🌊 **Mana** | Recurso para habilidades especiales; límite base 100 + Sabiduría, regenera 2% del límite por tick |
 
-## Progresión
+## 📈 Progresión
 
 Cada skill escala de forma independiente, con requisitos de experiencia que crecen exponencialmente — por ejemplo, **Combat**, **Farming**, **Mining** y **Woodcutting** llegan hasta el nivel ~49 con un total de 4,000,000 de experiencia acumulada, mientras que **Fishing** y **Alchemy** llegan más alto (nivel ~75-76) con curvas más livianas.
 
@@ -41,7 +41,7 @@ A medida que subes de nivel en una skill desbloqueas **perks pasivos**, por ejem
 
 ***
 
-## Pergaminos (EcoScrolls)
+## 📜 Pergaminos (EcoScrolls)
 
 Además de las skills, puedes inscribir **pergaminos** en tus armas y armaduras para añadir bonos permanentes adicionales, con un límite de pergaminos distintos por ítem:
 

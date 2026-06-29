@@ -4,7 +4,7 @@ Si prefieres vender directamente a otros jugadores sin pasar por la subasta, pue
 
 ***
 
-## Crear una tienda (QuickShop)
+## 🏬 Crear una tienda (QuickShop)
 
 1. Coloca un **cofre** o **cofre atrapado**.
 2. Haz clic derecho sobre él con el ítem de creación de tienda en mano (o el comando correspondiente).
@@ -12,11 +12,11 @@ Si prefieres vender directamente a otros jugadores sin pasar por la subasta, pue
 
 Cualquier jugador puede interactuar directamente con el cofre para comprar o vender, sin que tengas que estar presente.
 
-### Impuesto de tiendas
+### 💸 Impuesto de tiendas
 
 Cada transacción paga un **impuesto del 5%** que va a la cuenta del servidor.
 
-## NPCs vendedores (Shopkeepers)
+## 🧑‍💼 NPCs vendedores (Shopkeepers)
 
 También puedes crear un **NPC vendedor** personalizado (aldeano u otra criatura) que ofrezca tus productos con una apariencia propia, ideal para decorar tu isla o tu zona de mercado.
 
