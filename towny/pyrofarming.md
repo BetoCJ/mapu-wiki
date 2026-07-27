@@ -83,6 +83,95 @@ Para recoger un arbusto, agáchate y rompe el bloque.
 
 ***
 
+## 🌡️ Sistema de Temperatura
+
+Cada Growstation tiene una **temperatura** y un **entorno** determinados por el bioma donde está colocada. Si la planta plantada requiere condiciones distintas, no crecerá y verás el aviso *"La Temperatura de la Growstation no es compatible con esta planta"* al revisar la Growstation.
+
+### Escala de temperaturas
+
+Las temperaturas van de más fría a más caliente:
+
+| Temperatura | Tipo |
+|---|---|
+| FREEZING | Congelante |
+| GLACIAL | Glacial |
+| COLD | Fría |
+| NORMAL | Normal/Templada |
+| WARM | Cálida |
+| HOT | Caliente |
+| BOILING | Hirviente |
+| ANY | Cualquier temperatura |
+
+Cada bioma en el juego tiene asignada una temperatura. Usa `/farm temp` para ver la temperatura del bioma donde estás parado. También puedes consultar la temperatura de un bioma específico con `/farm temp <nombre_del_bioma>`.
+
+### Temperamento
+
+Además de la temperatura, cada planta tiene un **temperamento** que afecta qué tan exigente es con sus condiciones de crecimiento:
+
+| Temperamento | Descripción |
+|---|---|
+| FRIENDLY | Tolerante, puede crecer en condiciones ligeramente diferentes a las ideales |
+| NORMAL | Tolerancia estándar |
+| AGGRESSIVE | Exigente, requiere condiciones muy precisas para crecer |
+
+### Modificar la temperatura con el Compostador
+
+Si el bioma donde tienes tus Growstations no tiene la temperatura o el entorno correcto, puedes colocar **ítems especiales** cerca de ellas para ajustar sus condiciones.
+
+Estos ítems se fabrican abriendo el **menú del Compostador**: haz clic derecho en un **Compostador** mientras tienes una **azada** en la mano. Verás una cuadrícula con todos los ítems disponibles, su receta y el nivel requerido para fabricarlos.
+
+#### Ítems de temperatura — Calentar
+
+| Ítem | Efecto | Rango | Nivel requerido |
+|---|---|---|---|
+| Lámpara de Lava | +1 Temperatura | 5 bloques | 25 |
+| Orbe de Pyrotheum | +3 Temperatura | 4 bloques | 40 |
+| Corazón de Belfegor | +5 Temperatura | 3 bloques | 55 |
+
+**Recetas:**
+
+- **Lámpara de Lava**: 1x Cubo de Lava, 10x Polvo de Blaze, 8x Tomate, 1x Jalapeño
+- **Orbe de Pyrotheum**: 2x Cubo de Lava, 16x Bloque de Magma, 4x Fragmento de Netherita, 64x Ion de Pluma de Lava, 4x Anión de Pluma de Lava
+- **Corazón de Belfegor**: 3x Cubo de Lava, 2x Cráneo de Esqueleto Wither, 10x Hongo Carmesí, 1x Bloque de Netherita, 8x Lágrimas de Lilith, 1x Zoide de Pluma de Lava
+
+#### Ítems de temperatura — Enfriar
+
+| Ítem | Efecto | Rango | Nivel requerido |
+|---|---|---|---|
+| Ventilador Industrial | -1 Temperatura | 5 bloques | 25 |
+| Fuego Fatuo Bajo Cero | -3 Temperatura | 4 bloques | 40 |
+| Vasija de Bóreas | -5 Temperatura | 3 bloques | 55 |
+
+**Recetas:**
+
+- **Ventilador Industrial**: 32x Lingote de Hierro, 1x Cubo de Agua, 256x Hielo, 64x Glicinia Helada, 3x Pimiento Rojo
+- **Fuego Fatuo Bajo Cero**: 48x Lingote de Hierro, 2x Cubo de Agua, 256x Hielo Compacto, 128x Glicinia Helada, 48x Wasabi
+- **Vasija de Bóreas**: 64x Lingote de Hierro, 3x Cubo de Agua, 256x Hielo Azul, 16x Diamante, 16x Ojo de Ender, 192x Glicinia Helada, 2x Fénix de Hielo
+
+#### Ítems de entorno
+
+Algunas plantas requieren un entorno específico (Overworld, Nether o The End). Estos orbes ajustan el entorno de las Growstations cercanas:
+
+| Ítem | Entorno | Rango | Nivel requerido | Receta |
+|---|---|---|---|---|
+| Orbe del Overworld | Overworld | 10 bloques | 50 | 16x Diamante, 32x Tubérculo Sombrío Tenue |
+| Orbe del Nether | Nether | 10 bloques | 50 | 32x Lingote de Oro, 8x Tubérculo Sombrío Brillante, 2x Lágrimas de Lilith |
+| Orbe del End | The End | 10 bloques | 50 | 6x Lingote de Netherita, 3x Tubérculo Sombrío Radiante |
+
+#### Ítems de velocidad de crecimiento
+
+| Ítem | Bono | Rango | Nivel requerido | Receta |
+|---|---|---|---|---|
+| Gólem de Agua Básico | +4% velocidad | 10 bloques | 30 | 64x Lingote de Hierro, 16x Lirio de Agua, 24x Lirio Brillante |
+| Gólem de Agua Intermedio | +8% velocidad | 10 bloques | 50 | 64x Lingote de Hierro, 32x Lirio de Agua, 16x Lirio Mágico |
+| Gólem de Agua Avanzado | +12% velocidad | 10 bloques | 70 | 64x Lingote de Hierro, 64x Lirio de Agua, 4x Lirio de Cristal |
+
+{% hint style="info" %}
+Los ítems colocados cerca de las Growstations tienen efecto sobre **todas** las Growstations dentro de su rango. Para fabricarlos, recuerda que varios requieren plantas de niveles altos como ingredientes, así que úsalos como objetivo de progresión.
+{% endhint %}
+
+***
+
 ## 🌳 Árbol de Habilidades
 
 Al nivel 25 puedes craftear un **Archivo de Habilidades** que desbloquea el árbol de habilidades de farming. Se craftea con lechugas, chiles y un Atril.
@@ -130,6 +219,7 @@ Los torneos de cosecha se activan automáticamente **6 veces al día**: 01:00, 0
 | `/farm market` | Abrir el mercado rotativo |
 | `/farm stats` | Ver tus estadísticas de farming |
 | `/farm tournament` | Ver info del torneo activo |
+| `/farm temp` | Ver la temperatura del bioma donde estás parado. También acepta un nombre de bioma o temperatura como argumento |
 
 ***
 
