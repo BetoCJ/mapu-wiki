@@ -119,7 +119,7 @@ Algunos encantamientos de rareza **Fabled** consumen **Almas** al activarse. Par
 3. Cada kill con esa arma acumula almas en ella.
 4. Los encantamientos que consumen almas se activan automaticamente cuando tienes suficientes y se cumplen sus condiciones.
 
-Los encantamientos soul son: **Nulify**, **Rush**, **Diploid** y **Multiplication**.
+Los encantamientos soul que **consumen** almas son: **Nulify**, **Rush**, **Diploid** y **Multiplication**. Ademas existen encantamientos que **generan** almas para alimentarlos: **Spiritmaster**, **Hacha de los Espiritus**, **Soulgrind** y **Soulminer** (ver seccion de Encantamientos de Almas mas abajo).
 
 ---
 
@@ -156,7 +156,9 @@ Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 ## 📖 Lista de Encantamientos
 
 Los simbolos de la columna "Aplica a" indican el tipo de objeto:
-`Espadas` `Hachas` `Picos` `Palas` `Azadas` `Casco` `Pechera` `Pantalones` `Botas` `Armadura completa` `Arco` `Ballesta` `Tridente` `Cana de pescar` `Elitros`
+`Espadas` `Hachas` `Picos` `Palas` `Azadas` `Casco` `Pechera` `Pantalones` `Botas` `Armadura completa` `Arco` `Ballesta` `Tridente` `Cana de pescar` `Elitros` `Mazo` `Lanza`
+
+> **Mazo** (Mace) y **Lanza** (grupo de armas de asta, incluye Tridente) son tipos de arma usados por los encantamientos tematicos Mapuche. La Lanza aplica al Tridente y en muchos casos tambien a las Espadas.
 
 ---
 
@@ -182,6 +184,10 @@ Encantamientos de rareza basica. Disponibles en la mesa de encantamiento (50% de
 | **Brisa Ligera** | Botas | 2 | Proporciona Velocidad I o II de forma permanente mientras llevas las botas puestas. |
 | **Brinco** | Cascos | 2 | Proporciona Salto (Jump Boost) I o II de forma permanente mientras llevas el casco. |
 | **Lumbricida** | Palas | 2 | Al excavar, probabilidad pequena (2/5%) de recuperar Saturacion momentanea, evitando el hambre. |
+| **Nawel** | Mazo | 3 | Al golpear con el mazo, probabilidad (25-45%) de lanzar al enemigo por los aires con fuerza creciente. Cooldown de 4 s. |
+| **Trayen** | Lanza (Tridente, Espadas) | 3 | Al golpear a un enemigo bajo el agua, probabilidad (30-80%) de obtener Respiracion Acuatica temporal. Cooldown de 8 s. |
+| **Antu** | Espadas | 2 | Proporciona Velocidad I o II de forma permanente mientras empunas la espada (energia solar). |
+| **Pichi** | Botas | 2 | Al saltar, probabilidad (30/50%) de ganar un pequeno impulso de Velocidad I o II. Cooldown de 3 s. |
 
 ---
 
@@ -206,6 +212,12 @@ Encantamientos de segunda rareza. Disponibles en la mesa (40%) y en el Enchanter
 | **Toque Helado** | Espadas, Hachas | 3 | Al golpear, probabilidad (5-10%) de aplicar Fatiga Minera y Debilidad al objetivo durante 1.5-2.5 segundos. |
 | **Rugido Protector** | Pechera | 2 | Al recibir dano de mobs, probabilidad (10-20%) de aplicar Debilidad al mob y reproducir el rugido del Ravager. |
 | **Alarma de Enderman** | Cascos | 1 | Eres permanentemente invisible para los mobs mientras llevas el casco, hasta que los golpeas o interactuas con ellos. |
+| **Kürüfkona** | Mazo | 3 | El impacto del mazo aturde al enemigo, probabilidad (12-22%) de aplicar Lentitud y Nausea. Cooldown de 6 s. |
+| **Kürüf Tiwe** | Tridente | 3 | Al lanzar la lanza, probabilidad (20-40%) de arrastrar al enemigo hacia ti (1.5-2.5 bloques). El nivel 3 ademas aplica Lentitud. Cooldown de 5 s. |
+| **Pirün** | Lanza (Tridente, Espadas) | 3 | El giro veloz de la lanza inflige 2-4 de dano y envenena al enemigo (Veneno I o II). Cooldown de 4-5 s. |
+| **Longko** | Espadas, Hachas | 2 | Al eliminar a un jugador, probabilidad (60/100%) de ganar Fuerza I o II y Velocidad I o II temporalmente. Cooldown de 5 s. |
+| **Ñuke** | Pechera | 3 | Al recibir dano, probabilidad (8-16%) de ganar Regeneracion I o II (espiritu materno). Cooldown de 10 s. |
+| **Anchimalen** | Cascos | 3 | Cada 6-10 segundos, probabilidad (15-25%) de regenerar 1 punto de vida mientras llevas el casco. |
 
 ---
 
@@ -254,6 +266,10 @@ Encantamientos de tercera rareza. Disponibles en la mesa (30%) y en el Enchanter
 | **Gravedad Cero** | Arco, Ballesta | 4 | Al disparar, probabilidad (4-10%) de aplicar Levitacion al objetivo durante 1-2.5 segundos. |
 | **Impulso Sonico** | Arco, Ballesta | 3 | Al disparar, probabilidad (10-20%) de ganar Velocidad I o II brevemente. |
 | **Grito de Guerra** | Hachas | 3 | Al golpear, probabilidad (4-8%) de ganar Fuerza para ti y aplicar Nausea al objetivo simultaneamente. |
+| **Pillán** | Mazo | 4 | Al golpear, probabilidad (8-20%) de invocar un rayo del espiritu del trueno y danar la armadura enemiga (2-6 puntos). Cooldown de 5 s. |
+| **Llanka** | Lanza (Tridente, Espadas) | 4 | La lanza de cristal congela al enemigo (efecto Freeze) y aplica Lentitud. Probabilidad 10-22%. Cooldown de 4 s. |
+| **Coñi** | Espadas | 3 | Cada golpe del joven guerrero, probabilidad (5-10%) de ganar Fuerza I o II temporalmente. Cooldown de 10 s. |
+| **Kollong** | Pantalones | 3 | Al recibir dano, probabilidad (12-20%) de lanzar una cortina de humo que ciega al atacante. Cooldown de 8 s. |
 
 ---
 
@@ -311,6 +327,11 @@ Encantamientos de cuarta rareza. Disponibles en la mesa (20%) y en el Enchanter.
 | **Taladro Ensordecedor** | Picos | 3 | Al minar, probabilidad (4-10%) de ganar Prisa II/III/IV durante 3-5 segundos con sonido de piston. |
 | **Parada Relampago** | Espadas | 3 | Al recibir dano, probabilidad (5-15%) de curarte 1-3 puntos de vida, ralentizar al atacante y reproducir un trueno. |
 | **Despegue** | Elitros | 2 | Al hacer clic derecho con los elitros, lanzate al aire con impulso de 15-25 bloques sin necesidad de cohetes. Cooldown de 15-20 s. |
+| **Cherufe** | Mazo | 3 | Al golpear, probabilidad (6-10%) de desatar una explosion de fuego que quema al objetivo y dana a los enemigos en radio 2-4. Cooldown de 12-15 s. |
+| **Malón** | Lanza (Tridente, Espadas) | 3 | El giro de la lanza golpea a todos los enemigos en radio 2-4, infligiendo 1-4 de dano. Probabilidad 8-14%. Cooldown de 8-10 s. |
+| **Püllü** | Espadas | 3 | Al golpear, probabilidad (7-13%) de robar 1-2 de vida y 1-3 de experiencia al objetivo. Cooldown de 8 s. |
+| **Rayün** | Armadura | 3 | Al recibir dano, probabilidad (5-11%) de contraatacar con un rayo sobre el agresor. El nivel 3 ademas dana su armadura. Cooldown de 10 s. |
+| **Kimün** | Picos | 3 | Al minar cualquier bloque, probabilidad (10-20%) de obtener 1-3 de experiencia directa (conocimiento ancestral). |
 
 ---
 
@@ -354,6 +375,11 @@ Encantamientos de quinta rareza. Disponibles en la mesa (10%) y en el Enchanter.
 | **Coro del Vacio** | Arco, Ballesta | 3 | Al disparar, probabilidad (5-11%) de aplicar Levitacion y Ceguera al objetivo con sonido de Shulker. |
 | **Aura Cristalina** | Pantalones | 3 | Al recibir dano, probabilidad (5-11%) de ganar Resistencia II/III/IV durante 5-7 segundos con sonido de cristal. |
 | **Talisman de Fuego** | Herramientas y Armadura | 1 | Proporciona inmunidad total al fuego (Resistencia al Fuego) y Vision Nocturna permanentes. Aplica a armadura y picos. |
+| **Longko Pillán** | Mazo | 3 | El jefe del trueno encadena relampagos que golpean al objetivo, danan su armadura (4-6 puntos) y causan dano en area (radio 4-6). Probabilidad 4-8%. Cooldown de 20-25 s. |
+| **Nawel Konün** | Lanza (Tridente, Espadas) | 3 | El jaguar penetra las defensas, probabilidad (6-10%) de duplicar el dano y robar 1-4 de vida al objetivo. Cooldown de 15-18 s. |
+| **Ngen** | Espadas, Hachas | 3 | Al golpear, probabilidad (5-11%) de ignorar la proteccion de la armadura enemiga. Los niveles 2-3 ademas anaden dano extra. Cooldown de 10 s. |
+| **Wekufe** | Armadura | 3 | Al recibir dano, probabilidad (5-9%) de maldecir al atacante con dano directo, Marchitamiento y Debilidad. Cooldown de 15 s. |
+| **Witranalwe** | Armadura | 3 | Cuando tu vida esta por debajo de 3 corazones, probabilidad (10-20%) de volverte invisible y ganar Velocidad. Cooldown de 20 s. |
 
 ---
 
@@ -392,6 +418,9 @@ Los encantamientos mas raros y poderosos. **No disponibles en la mesa de encanta
 | **Senescencia** | Armadura | 4 | Al recibir dano, probabilidad (5-12%) de robar 2-5 puntos de vida al atacante y curarte. Niveles altos ademas debilitan al atacante. Cooldown de 18-30 s. |
 | **Terraformer** | Picos | 1 | Mina permanentemente en un area de 3x3 en todo momento. No requiere activacion. No se puede obtener del Enchanter. |
 | **Soulbound** | Herramientas, Espadas, Arco, Ballesta | 3 | Al morir, probabilidad (4-8%) de conservar el objeto en lugar de soltarlo al suelo. Cooldown de 300 s entre activaciones. |
+| **Wenumapu** | Mazo | 2 | El cielo y la tierra colisionan: probabilidad (2/3%) de dano en area (radio 3-4), robo de vida, sangrado y dano a la armadura enemiga. Cooldown de 40 s. |
+| **Püllümapu** | Lanza (Tridente, Espadas) | 2 | Drena el alma de la tierra: probabilidad (2/3%) de robar 3-7 de vida y aplicar Marchitamiento y Debilidad al objetivo. Cooldown de 45 s. |
+| **Ngümin Antü** | Espadas, Hachas | 2 | El tejido solar detiene el tiempo: probabilidad (1.5/2.5%) de congelar al objetivo, paralizar a los enemigos en radio 5-6 y ganar Velocidad. Cooldown de 60 s. |
 
 ---
 
@@ -407,6 +436,17 @@ Para activar el rastreo de almas, aplica una **Runa del Alma** al arma o herrami
 | **Rush** | Elitros | 3 | 10 almas | Al volar con elitros, probabilidad (15-26%) de ganar Velocidad III/IV/V durante 3 segundos. |
 | **Diploid** | Espadas | 5 | 5 almas | Al matar un mob, probabilidad (15-30%) de duplicar sus drops. |
 | **Multiplication** | Picos | 5 | 5 almas | Al minar minerales (carbon, cobre, hierro, oro, lapislazuli, redstone, diamante, esmeralda, cuarzo, oro del Nether, debris antiguo y variantes de pizarra), probabilidad (15-30%) de duplicar el drop. |
+
+#### Encantamientos que generan almas
+
+Estos encantamientos de rareza **Fabled** no consumen almas: al contrario, **acumulan** almas en el objeto (que ya debe tener la Runa del Alma aplicada) para alimentar a los encantamientos consumidores de arriba.
+
+| Encantamiento | Aplica a | Niv. max | Como funciona |
+|---------------|----------|----------|---------------|
+| **Spiritmaster** | Espadas | 3 | Al matar un jugador, probabilidad (35-55%) de obtener 1 alma. |
+| **Hacha de los Espiritus** | Hachas | 3 | Al matar un jugador, probabilidad (45-75%) de obtener 1 alma. |
+| **Soulgrind** | Espadas | 3 | Al matar un mob, probabilidad (30-90%) de obtener 1 alma. |
+| **Soulminer** | Picos | 3 | Al minar, probabilidad (5-15%) de obtener 1 alma. |
 
 ---
 
