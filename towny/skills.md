@@ -26,17 +26,22 @@ Gastas puntos en el arbol de perks de cualquier skill
 Desbloqueas mejoras permanentes
 ```
 
-### 📋 Las 14 skills
+### 📋 Las 16 skills
 
-De las 14 skills del plugin, **13 están activas** en el servidor. Solo **Enchanting** está desactivada (ver más abajo).
+Con la actualización **Premium** se suman dos skills nuevas: **Artes Marciales** y **Comercio**. Ahora hay **16 skills** en el plugin, de las cuales **14 están activas** en el servidor. **Enchanting** y **Smithing** están desactivadas (ver más abajo).
 
 | Categoria | Skills |
 |---|---|
 | Recoleccion | Mining, Woodcutting, Digging, Farming, Fishing |
-| Artesania | Alchemy, Smithing |
-| Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery |
+| Artesania | Alchemy |
+| Combate | Light Weapons, Heavy Weapons, Light Armor, Heavy Armor, Archery, **Artes Marciales** ✨ |
+| Economia | **Comercio** ✨ |
 | Central | Power |
-| ❌ Desactivada | Enchanting |
+| ❌ Desactivadas | Enchanting, Smithing |
+
+{% hint style="success" %}
+✨ **Novedad Premium:** Artes Marciales (combate sin armas y con nudilleras) y Comercio (mejores tratos y servicios con aldeanos). Mira su sección más abajo y la [página de Comercio](comercio.md).
+{% endhint %}
 
 | Skill | Como ganar XP |
 |---|---|
@@ -46,12 +51,14 @@ De las 14 skills del plugin, **13 están activas** en el servidor. Solo **Enchan
 | Farming | Cosechando cultivos maduros |
 | Fishing | Pescando |
 | Alchemy | Elaborando pociones en calderos y soportes de pociones |
-| Smithing | Gastando la durabilidad de herramientas y armaduras que craftees |
+| Smithing | ❌ Desactivado en el servidor (la herrería funciona en modo vanilla) |
 | Light Weapons | Pegando con espadas, dagas o cuchillos |
 | Heavy Weapons | Pegando con hachas o mazas |
 | Light Armor | Recibiendo daño con armadura ligera equipada |
 | Heavy Armor | Recibiendo daño con armadura pesada equipada |
 | Archery | Disparando flechas con arco o ballesta |
+| Artes Marciales ✨ | Peleando sin arma (a puños) o con nudilleras |
+| Comercio ✨ | Comerciando con aldeanos (mas XP cuanto mejor el trato y mayor el rango del mercader) |
 | Power | Sube automaticamente cada vez que sube cualquier otro skill |
 
 ### ❓ Que es Power
@@ -321,6 +328,10 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ## 🔨 Smithing (max nivel 100)
 
+{% hint style="danger" %}
+❌ **Smithing está desactivado actualmente en el servidor.** La mesa de herrería y el crafteo de herramientas y armaduras funcionan en **modo vanilla estándar**: no se gana XP de Smithing, no hay calidad de equipo ni acceso a su árbol de perks. La información de abajo se conserva **solo como referencia** por si se reactiva en el futuro.
+{% endhint %}
+
 **Como subir XP:** A diferencia de los demás skills, Smithing **no da XP por craftear** directamente — la XP se gana **gastando la durabilidad** de las herramientas y armaduras que hayas forjado con el plugin. Cada punto de durabilidad gastado en una herramienta da **0.01 XP** (máximo 1000 XP por ítem), y cada punto gastado en una pieza de armadura da **0.005 XP** (máximo 200 XP por pieza).
 
 **Penalización inicial por material:** cada material tiene su propio multiplicador de XP, que empieza en negativo para los metales y se va corrigiendo a medida que subes de nivel y desbloqueas perks:
@@ -474,6 +485,116 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ---
 
+## 🥋 Artes Marciales (max nivel 100) ✨ Premium
+
+**Como subir XP:** Peleando **sin arma** (a puños) o con **nudilleras**. 10 XP por punto de daño. Es una skill de combate que aumenta tus capacidades ofensivas y defensivas "sin medios materiales".
+
+**Bono inicial:** +10% probabilidad de aturdir (stun) con tus golpes.
+
+**Bono pasivo por nivel:** +0.05 de daño sin arma, +1 de poder de agarre (grappling).
+
+**Mecanicas propias:**
+
+| Mecanica | Descripcion |
+|---|---|
+| Aturdir (Stun) | Tus golpes tienen probabilidad de aturdir al enemigo |
+| Golpe cargado | Retener el golpe acumula daño extra antes de soltarlo |
+| Agarre (Grapple) | Te agarras al enemigo para ralentizarlo y debilitarlo |
+| Desarme (Disarm) | Haces que los mobs suelten su arma (a jugadores no, por config del servidor) |
+| Uppercut | Lanza al enemigo por los aires; si choca con una pared recibe daño por contusion |
+| Meditacion | Una vez al dia (del juego), meditando en la cima de una montaña, eliges un efecto duradero |
+
+**Arbol de perks** (rama A: control/defensa, rama B: golpeo/ofensiva):
+
+| Perk | Nivel req. | Bonos |
+|---|---|---|
+| Manos de Piedra | 0 | +1 daño sin arma extra |
+| Disciplina (A1) | 20 | +10% prob. de aturdir. Retener golpes acumula daño (tras 1s, +0.3 daño/tick, tope +6) |
+| Golpes Despiadados (B1) | 20 | +daño de ataque y +prob. de golpe critico |
+| Suprimir y Controlar (A2) | 40 | Desbloquea el **Agarre** (ralentiza y debilita) y el **Desarme** de mobs |
+| Uppercut (B2) | 40 | Desbloquea el **Uppercut**, +prob. critico, y tus golpes desarman escudos unos segundos |
+| Vinculo del Alma (A3) | 60 | El agarre actua x2 rapido, +30% esquiva mientras agarras, y desarmar del todo da +50% robo de vida 8s |
+| Defenestracion (B3) | 70 | Golpear a un objetivo en el aire lo lanza a gran velocidad; chocar contra un muro le hace daño segun su velocidad |
+| Reflejos de Rayo (A4) | 80 | Sin atacar ganas prob. de esquiva; sin armadura equipada el efecto se **triplica** |
+| Om Mani Padme Hum (A5) | 100 | Desbloquea la **Meditacion**: una vez al dia, en la cima de una montaña, eliges un efecto potente y duradero |
+| Nirvana (final) | 100 | Realiza tu maximo potencial (perk gratuito de coronacion) |
+| Nueva Partida I / II (NG+) | 100 | Reinicia Artes Marciales a 0 y baja la XP ganada a cambio de daño, alcance y reduccion de inmunidad **permanentes** |
+
+**La Meditacion:** al desbloquear el perk final puedes meditar respondiendo en el chat entre **Combate**, **Habilidad** o **Recompensa**, y obtienes un efecto duradero acorde a tu eleccion.
+
+---
+
+## 🤝 Comercio (Trading) (max nivel 100) ✨ Premium
+
+**Como subir XP:** Comerciando con **aldeanos**. La XP depende del **rango del mercader** (Novato x1.0 hasta Maestro x2.0) y del **descuento** que consigas: cuanto mas barato compras, mas XP ganas (hasta 4x el porcentaje de descuento).
+
+Esta skill va de la mano con todo el sistema de aldeanos. La explicación completa (profesiones, rangos, servicios, felicidad, reputación y precios) está en su propia página:
+
+{% content-ref url="comercio.md" %}
+[comercio.md](comercio.md)
+{% endcontent-ref %}
+
+**Desde nivel 0** ya puedes comerciar y hacer pedidos (ordering) a casi todas las profesiones. El árbol tiene dos ramas: **A** (mercancía) y **B** (servicios).
+
+**Arbol de perks:**
+
+| Perk | Nivel req. | Bonos |
+|---|---|---|
+| Comprador en Masa | 0 | +20% de unidades que puedes comprar antes de agotar el stock |
+| Carisma Amistoso (2A) | 20 | Los mercaderes suben de nivel mas rapido y ofrecen mas tratos. +suerte de comercio |
+| Aprendizaje (2B) | 20 | Desbloquea el servicio de **Entrenar** skills (coste escala con el rango del mercader, hasta 75 en Maestro) |
+| Entrega Express (3A) | 40 | Los pedidos llegan mas rapido y puedes pedir mas cantidad |
+| Trabajadores de Servicios (3B) | 40 | Desbloquea los servicios de **reparar y mejorar** objetos |
+| Mercancia de Calidad (4A) | 60 | Objetos del mercader de mayor calidad, y mas stock para comerciar |
+| Descuento VIP (4B) | 60 | Los servicios son mas baratos |
+| Gratitud (5A) | 80 | Comerciar da probabilidad (0-10%, sube con reputacion y renombre) de recibir un **regalo** |
+| Artesanos (5B) | 80 | Objetos del mercader de aun mayor calidad |
+| Mercado Negro (6) | 100 | Los mercaderes Maestros ofrecen tratos exclusivos y poderosos |
+| Nueva Partida I / II (NG+) | 100 | Reinicia Comercio a 0 y baja la XP ganada a cambio de stock, calidad y selección de tratos **permanentes** |
+
+---
+
+## ✨ Novedades de contenido Premium
+
+Además de las dos skills nuevas, la versión Premium añade equipo y recetas nuevas. Todo se craftea en las estaciones custom del plugin (usa `/val recipes` para ver el recetario).
+
+### 🥊 Nudilleras (Knuckles)
+
+Arma de cuerpo a cuerpo ligada a **Artes Marciales**. Disponibles en **madera, piedra, hierro, oro y diamante** (más la versión Royal por herrería).
+
+### ⚔️ Armas custom tier Diamante
+
+El set de armas custom del plugin (lanza, gran hacha, maza, martillo de guerra, daga, estoque y lanza real) ahora llega hasta **Diamante**, sumándose a los tiers de madera, piedra, hierro, oro y cobre ya existentes.
+
+### 👑 Tier Royal Diamond
+
+Un nivel de mejora por encima del diamante que se consigue en la **mesa de herrería** (smithing): armadura, armas y herramientas en versión **Royal Diamond**, además de armaduras Royal de netherita.
+
+### 🏹 Flechas custom
+
+Nuevas flechas crafteables con efectos propios:
+
+| Flecha | Efecto |
+|---|---|
+| Hierro / Cobre / Oro / Diamante / Netherita / Piedra / Pedernal | Flechas de distinto material y daño |
+| Flecha de Teletransporte (Ender) | Te teletransporta al punto de impacto |
+| Flecha Oscura (Unholy) | Elimina la inmunidad del objetivo |
+| Flecha de Carbono | Flecha ligera de alto rendimiento |
+
+### 🧪 Pociones de skill (Alchemy)
+
+Nuevas recetas de elaboración enfocadas en progresión y combate: **más EXP de skill**, **mayor calidad al forjar y encantar**, **armadura**, **inmunidad**, **vulnerabilidad** y **aumento de curación**, en variantes normales, extendidas y potenciadas.
+
+### 🎒 Cinturón de Pociones
+
+Objeto crafteable que te permite llevar pociones a mano y usarlas al instante.
+
+### 🔨 Desguace (Salvage)
+
+En la estación custom puedes **romper equipo** que ya no uses para **recuperar parte de sus materiales**. No afecta al crafteo vanilla: es una opción adicional del plugin.
+
+---
+
 ## ⚔️ Sistema de Combate
 
 ValhallaMMO reemplaza el sistema de combate vanilla con mecánicas propias:
@@ -556,7 +677,9 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 | `/val recipes` | Abrir el gestor de recetas personalizadas de ValhallaMMO |
 | `/val resourcepack download` | Descargar el resource pack del plugin |
 
-**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `smithing`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `power`
+**Nombres de skills para `/val skilltree`:** `mining`, `woodcutting`, `digging`, `farming`, `fishing`, `alchemy`, `light_weapons`, `heavy_weapons`, `light_armor`, `heavy_armor`, `archery`, `martial_arts` ✨, `trading` ✨, `power` (Enchanting y Smithing están desactivados)
+
+**Comercio:** para comerciar solo haz clic derecho sobre un aldeano con profesión. Haz **shift + clic** para ver su estado de ánimo. Detalle completo en la [página de Comercio](comercio.md).
 
 ### 📿 ValhallaTrinkets
 

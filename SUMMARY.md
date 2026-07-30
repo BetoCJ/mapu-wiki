@@ -13,6 +13,7 @@
   * [Tiendas y Mercado](towny/economia/tiendas.md)
 * [Jobs](towny/jobs.md)
 * [Skills](towny/skills.md)
+* [Comercio y Mercaderes](towny/comercio.md)
 * [Encantamientos](towny/encantamientos.md)
 * [Crafteos Custom](towny/crafteos.md)
 * [Battle Pass](towny/battlepass.md)
