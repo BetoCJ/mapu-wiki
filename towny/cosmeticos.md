@@ -1,6 +1,6 @@
 # 🎨 Cosméticos
 
-Mapucraft tiene un sistema completo de **cosméticos visuales** que no afectan el juego. Personaliza tu personaje con sombreros, partículas, mascotas, disfraces y mucho más.
+Mapucraft tiene un sistema completo de **cosméticos visuales** que no afectan el juego. Personaliza tu personaje con partículas, mascotas, ítems 3D exclusivos y más.
 
 Accede al menú en `/warp cosmeticos`.
 
@@ -42,7 +42,6 @@ En `/warp personalizados` encontrarás ítems con modelos 3D exclusivos del serv
 |---|---|
 | `/warp cosmeticos` | Ir a la tienda de cosméticos |
 | `/warp personalizados` | Ver ítems 3D exclusivos |
-| `/gadget` | Abrir el menú de cosméticos directamente |
 | `/points balance` | Ver tus MapuPoints actuales |
 | `/points pay [jugador] [cantidad]` | Transferir MapuPoints a otro jugador |
 
