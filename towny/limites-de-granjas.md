@@ -81,32 +81,25 @@ Esto aplica a monstruos, animales, axolotes y la mayoría de criaturas. Es más 
 
 ***
 
-## ⚙️ FarmControl — control de rendimiento en tiempo real
+## 🧠 Optimización de IA a distancia (DAB)
 
-**FarmControl** es un sistema más fino que actúa *antes* de que MobFarmManager tenga que borrar algo. En simple: cuando detecta demasiados mobs muy juntos, primero les quita movimiento o reacción (para que no consuman tanto rendimiento), y solo si se siguen acumulando, los elimina.
+El servidor usa **DAB** (*Distant Activation of Behaviors*), un sistema que ahorra rendimiento reduciendo cada cuánto "piensan" los mobs que están **lejos** de los jugadores, sin congelar a los que tienes cerca.
 
-**Niveles de respuesta según qué tan apretados estén los mobs:**
+* Los mobs a más de **12 bloques** de cualquier jugador empiezan a ticar su IA (pathfinding y comportamiento) con menos frecuencia.
+* Cuanto más lejos está el mob, menos seguido reacciona, hasta un mínimo de una vez por segundo (20 ticks) para los más lejanos.
+* Los mobs **cerca de ti se comportan con total normalidad**: este sistema reemplazó a un control anterior que a veces "congelaba" mobs de forma rara y molesta, así que esa sensación ya no debería ocurrir.
 
-| Cantidad | Distancia | Qué pasa |
-|---|---|---|
-| 12 animales | 6 bloques | Se les quita movimiento aleatorio y colisiones |
-| 16 animales | 8 bloques | Se desactiva su reproducción |
-| 24 animales | 3 bloques | Se les quita toda reacción (awareness) |
-| **25 animales** | 3 bloques | **Se eliminan** |
-| **20 animales pasivos** (no gallinas) | 5 bloques | **Se eliminan** |
-| **25 gallinas** | 3 bloques | **Se eliminan** |
-| **10 tortugas** | 5 bloques | **Se eliminan** |
-| **30 animales** | mismo chunk | **Se eliminan** |
-| 8 aldeanos | mismo chunk | Se les quita movimiento y reproducción |
-| **70 aldeanos** | 50 bloques | **Se eliminan** |
-| **10 mobs hostiles amontonados** | 1 bloque | **Se eliminan** |
-| **40 items** | 5 bloques | **Se eliminan** (anti-lag) |
-| **10 falling blocks** | 4 bloques | **Se eliminan** |
+**Entidades excluidas** (siempre tican normal, sin importar la distancia):
 
-* **Modo de emergencia:** si el servidor empieza a laggear de verdad (más de 50ms por tick), FarmControl activa medidas extra automáticamente — congela granjas de animales y limpia montones de items — y las desactiva solo cuando el lag baja de nuevo (42ms) y se mantiene estable por un rato.
-* **Qué está protegido:** mobs domesticados, con nombre, con correa, montados, o pertenecientes a otros plugins (tiendas, NPCs, jefes especiales) nunca son tocados por estas reglas.
+| Entidad | Por qué está excluida |
+|---|---|
+| 🧑‍🌾 Aldeano | Granjas de trading y de reproducción de aldeanos siguen funcionando |
+| 🦎 Axolote | Evita que se queden inmóviles bajo el agua |
+| 🐗 Hoglin | Comportamiento en el Nether intacto |
+| 🧟 Piglin zombificado | Granjas de oro y portales siguen funcionando |
+| 🐐 Cabra | Comportamiento intacto |
 
-> 💡 En la práctica, esto significa: **no amontones más de ~10 mobs hostiles en el mismo bloque** ni **más de ~20-25 animales en un radio de 3-5 bloques** — el servidor los va a limpiar automáticamente. Diseña tu granja para que los mobs se maten/recolecten rápido en vez de acumularse.
+> 💡 En la práctica esto es **mejor para tus granjas**: los mobs con los que interactúas de cerca ya no se "traban", y las granjas de las entidades excluidas no se ven afectadas por la reducción de IA a distancia (siempre dentro de los límites de despawn y activación de arriba).
 
 ***
 
@@ -121,5 +114,5 @@ Esto aplica a monstruos, animales, axolotes y la mayoría de criaturas. Es más 
 ***
 
 {% hint style="info" %}
-Estos sistemas (MobFarmManager y FarmControl) están pensados para proteger el rendimiento del servidor para todos los jugadores. Si tu granja "pierde" mobs o items, lo más probable es que estés superando alguno de los límites de esta página — repártela en varias zonas o reduce la densidad para evitar la limpieza automática.
+Estos sistemas (MobFarmManager y DAB) están pensados para proteger el rendimiento del servidor para todos los jugadores. Si tu granja "pierde" mobs o items, lo más probable es que estés superando alguno de los límites de MobFarmManager de esta página — repártela en varias zonas o reduce la densidad para evitar la limpieza automática.
 {% endhint %}
