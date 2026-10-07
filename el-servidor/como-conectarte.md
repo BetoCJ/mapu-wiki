@@ -26,11 +26,14 @@ Conectarse a Mapucraft es muy sencillo. Sigue estos pasos:
 
 Si juegas en **Bedrock** (móvil, consola o Windows 10/11 Edition), usa los siguientes datos:
 
-| Campo         | Valor           |
-| ------------- | --------------- |
-| **Nombre**    | Mapucraft       |
-| **Dirección** | `185.73.243.22` |
-| **Puerto**    | `19132`         |
+| Campo                      | Valor              |
+| -------------------------- | ------------------ |
+| **Nombre**                 | Mapucraft          |
+| **Dirección (dominio)**    | `mc.mapucraft.com` |
+| **Dirección (IP numérica)**| `185.73.243.22`    |
+| **Puerto**                 | `19132`            |
+
+> Usa el **dominio** `mc.mapucraft.com`; si tu consola no acepta dominios, usa la **IP numérica**. En ambos casos el puerto es `19132`.
 
 ---
 
