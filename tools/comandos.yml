@@ -1,0 +1,417 @@
+# Fuente única de la guía de comandos de Mapucraft.
+# De aquí salen: wiki/el-servidor/comandos.md, bot/GUIA_TOWNY.md (sección AUTO)
+# y bot/servidor-towny/comandos.json (lo lee guia_comandos.js).
+# Después de editar: python wiki/tools/generar_comandos.py   (agrega --dry-run para solo validar)
+#
+# Campos de cada comando: name (único, es lo que se muestra), descripcion, permiso (rango/permiso
+# necesario; "todos" si no pide nada), modo (towny | skyblock | ambos | discord), alias (opcional).
+# Los comandos no verificados contra el servidor Skyblock se dejan en modo towny.
+
+embeds:
+  - id: intro
+    titulo: "📖 Guía de comandos de Mapucraft"
+    titulo_wiki: "👋 Para empezar"
+    color: naranja
+    modo: towny
+    descripcion: "Todo lo que necesitas para empezar y aprovechar el servidor.\nMás detalle en la **[Wiki](https://mapu-1.gitbook.io/mapucraft)** o con `/tutoriales` dentro del juego.\n\n**🔌 Conéctate**\nJava: `mapucraft.com`\nBedrock: `mc.mapucraft.com` (IP `185.73.243.22`) · puerto `19132`"
+    secciones:
+      - nombre: "👋 Primeros pasos"
+        comandos:
+          - name: "/menu"
+            descripcion: "menú principal con todo el servidor"
+            permiso: "todos"
+            modo: towny
+          - name: "/tutoriales"
+            descripcion: "guías de cada sistema dentro del juego"
+            permiso: "todos"
+            modo: towny
+          - name: "/reglas"
+            descripcion: "reglas del servidor (léelas)"
+            permiso: "todos"
+            modo: towny
+          - name: "/rtp"
+            descripcion: "viaja a un lugar aleatorio para empezar"
+            permiso: "todos"
+            modo: towny
+          - name: "/recursos"
+            descripcion: "mundo de recursos para juntar materiales"
+            permiso: "todos"
+            modo: towny
+          - name: "/linkear"
+            descripcion: "vincula tu cuenta con Discord (roles y premios)"
+            permiso: "todos"
+            modo: towny
+  - id: towny
+    titulo: "🏘️ Towny — towns y naciones"
+    color: verde
+    modo: towny
+    secciones:
+      - nombre: "Tu town"
+        comandos:
+          - name: "/t new <nombre>"
+            descripcion: "funda una town ($5.000)"
+            permiso: "todos"
+            modo: towny
+          - name: "/t list"
+            descripcion: "lista de towns"
+            permiso: "todos"
+            modo: towny
+          - name: "/t join <nombre>"
+            descripcion: "únete a una town"
+            permiso: "todos"
+            modo: towny
+          - name: "/t claim"
+            descripcion: "reclama el chunk donde estás ($150, 8 por residente)"
+            permiso: "todos"
+            modo: towny
+          - name: "/t deposit <monto>"
+            descripcion: "paga el mantenimiento (se cobra a las 12:00)"
+            permiso: "todos"
+            modo: towny
+          - name: "/t spawn"
+            descripcion: "vuelve al spawn de tu town"
+            permiso: "todos"
+            modo: towny
+          - name: "/t invite <jugador>"
+            descripcion: "invita a alguien a tu town"
+            permiso: "todos"
+            modo: towny
+          - name: "/tf"
+            descripcion: "vuela dentro de tu town"
+            permiso: "TownyFlight"
+            modo: towny
+      - nombre: "Parcelas y naciones"
+        comandos:
+          - name: "/plot forsale <precio>"
+            descripcion: "vende una parcela a un residente"
+            permiso: "todos"
+            modo: towny
+          - name: "/plot set <tipo>"
+            descripcion: "shop, farm, arena, inn, embassy…"
+            permiso: "todos"
+            modo: towny
+          - name: "/n new <nombre>"
+            descripcion: "crea una nación ($40.000)"
+            permiso: "todos"
+            modo: towny
+          - name: "/n spawn"
+            descripcion: "viaja al spawn de tu nación"
+            permiso: "todos"
+            modo: towny
+          - name: "/res"
+            descripcion: "tu información de residente"
+            permiso: "todos"
+            modo: towny
+  - id: economia
+    titulo: "💰 Economía y comercio"
+    color: oro
+    modo: towny
+    comandos:
+      - name: "/balance"
+        descripcion: "tu dinero"
+        permiso: "todos"
+        modo: towny
+      - name: "/baltop"
+        descripcion: "los más ricos"
+        permiso: "todos"
+        modo: towny
+      - name: "/pay <jugador> <monto>"
+        descripcion: "envía dinero a otro jugador"
+        permiso: "todos"
+        modo: towny
+      - name: "/market"
+        descripcion: "mercado global con precios que cambian"
+        permiso: "todos"
+        modo: towny
+      - name: "/ah"
+        descripcion: "casa de subastas"
+        permiso: "todos"
+        modo: towny
+      - name: "/ah sell <precio>"
+        descripcion: "vende el ítem que tienes en la mano"
+        permiso: "todos"
+        modo: towny
+      - name: "/qs create <precio>"
+        descripcion: "crea una tienda en un cofre"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp comercio"
+        descripcion: "zona de tiendas de jugadores"
+        permiso: "todos"
+        modo: towny
+      - name: "/adminshop"
+        descripcion: "tienda del servidor"
+        permiso: "todos"
+        modo: towny
+        alias: ["/shop"]
+      - name: "/trade <jugador>"
+        descripcion: "intercambio seguro, sin estafas"
+        permiso: "todos"
+        modo: towny
+  - id: progreso
+    titulo: "📈 Progreso"
+    color: azul
+    modo: towny
+    comandos:
+      - name: "/rankup"
+        descripcion: "mira tus requisitos y sube de rango"
+        permiso: "todos"
+        modo: towny
+      - name: "/jobs browse"
+        descripcion: "trabajos disponibles"
+        permiso: "todos"
+        modo: towny
+      - name: "/jobs join <trabajo>"
+        descripcion: "únete a un trabajo (máx. 3)"
+        permiso: "todos"
+        modo: towny
+      - name: "/skills"
+        descripcion: "habilidades RPG"
+        permiso: "todos"
+        modo: towny
+      - name: "/trinkets"
+        descripcion: "tus amuletos"
+        permiso: "todos"
+        modo: towny
+      - name: "/minar"
+        descripcion: "progresión de minería"
+        permiso: "todos"
+        modo: towny
+      - name: "/pesca"
+        descripcion: "progresión de pesca"
+        permiso: "todos"
+        modo: towny
+      - name: "/granja"
+        descripcion: "progresión de agricultura"
+        permiso: "todos"
+        modo: towny
+      - name: "/enchanter"
+        descripcion: "encantamientos únicos"
+        permiso: "todos"
+        modo: towny
+      - name: "/enchantdex"
+        descripcion: "ver todos los encantamientos"
+        permiso: "todos"
+        modo: towny
+      - name: "/crafteos"
+        descripcion: "recetas exclusivas del servidor"
+        permiso: "todos"
+        modo: towny
+      - name: "/brew info"
+        descripcion: "recetas de Brewery"
+        permiso: "todos"
+        modo: towny
+      - name: "/misiones"
+        descripcion: "misiones diarias con recompensa"
+        permiso: "todos"
+        modo: towny
+      - name: "/rewards"
+        descripcion: "recompensas diarias, semanales y mensuales"
+        permiso: "todos"
+        modo: towny
+      - name: "/bp"
+        descripcion: "Pase de Batalla"
+        permiso: "todos"
+        modo: towny
+  - id: eventos
+    titulo: "🎉 Eventos y diversión"
+    color: rosa
+    modo: towny
+    comandos:
+      - name: "/vote"
+        descripcion: "vota cada día: premios y la Piñata al llegar a 20 votos"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp koth"
+        descripcion: "KOTH cada 4 horas: domina la zona"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp dungeons"
+        descripcion: "dungeons con jefes y recompensas"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp cajas"
+        descripcion: "abre tus llaves"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp parkour"
+        descripcion: "minijuego de parkour"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp spleef"
+        descripcion: "minijuego Spleef"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp tntrun"
+        descripcion: "minijuego TNT Run"
+        permiso: "todos"
+        modo: towny
+      - name: "/duel <jugador>"
+        descripcion: "duelo 1v1"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp coliseo"
+        descripcion: "arena de duelos"
+        permiso: "todos"
+        modo: towny
+      - name: "/cf"
+        descripcion: "CoinFlip"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp casino"
+        descripcion: "CoinFlip y apuestas"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp cosmeticos"
+        descripcion: "zona de cosméticos"
+        permiso: "todos"
+        modo: towny
+      - name: "/pp"
+        descripcion: "partículas"
+        permiso: "todos"
+        modo: towny
+      - name: "/skin <nombre>"
+        descripcion: "cambia tu skin"
+        permiso: "todos"
+        modo: towny
+      - name: "/petcapturehelper"
+        descripcion: "cómo capturar mascotas"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp afk"
+        descripcion: "2 MapuPoints por hora estando AFK"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp tops"
+        descripcion: "los mejores jugadores"
+        permiso: "todos"
+        modo: towny
+  - id: utilidades
+    titulo: "🛠️ Utilidades"
+    color: gris
+    modo: towny
+    comandos:
+      - name: "/back"
+        descripcion: "vuelve a donde moriste"
+        permiso: "todos"
+        modo: towny
+      - name: "/pvp"
+        descripcion: "activa o desactiva tu PvP (1 h de espera)"
+        permiso: "todos"
+        modo: towny
+      - name: "/basurero"
+        descripcion: "elimina ítems que no necesitas"
+        permiso: "todos"
+        modo: towny
+      - name: "/chatdevoz"
+        descripcion: "cómo usar el chat de voz (Simple Voice Chat)"
+        permiso: "todos"
+        modo: towny
+      - name: "/premium"
+        descripcion: "si tienes cuenta premium, entra sin contraseña"
+        permiso: "Cuenta premium"
+        modo: towny
+      - name: "/mapa"
+        descripcion: "mapa web del servidor"
+        permiso: "todos"
+        modo: towny
+      - name: "/wiki"
+        descripcion: "enlace a la wiki"
+        permiso: "todos"
+        modo: towny
+      - name: "/discord"
+        descripcion: "enlace al Discord"
+        permiso: "todos"
+        modo: towny
+      - name: "/tienda"
+        descripcion: "tienda del servidor (donaciones)"
+        permiso: "todos"
+        modo: towny
+      - name: "/feed"
+        descripcion: "recupera tu hambre (cada 2 h)"
+        permiso: "KumeChe o superior"
+        modo: towny
+      - name: "/ender"
+        descripcion: "abre tu cofre ender (cada 2 h)"
+        permiso: "Weupife o superior"
+        modo: towny
+      - name: "/workbench"
+        descripcion: "abre una mesa de crafteo"
+        permiso: "Genpin o superior"
+        modo: towny
+  - id: bot
+    titulo: "🤖 Comandos del bot en Discord"
+    color: blurple
+    modo: discord
+    descripcion: "Úsalos con `m!` o con `/` en <#1251019624393347173>."
+    secciones:
+      - nombre: "Minecraft y Towny"
+        comandos:
+          - name: "m!perfil <nick>"
+            descripcion: "perfil, town, tiempo jugado y votos"
+            permiso: "todos"
+            modo: discord
+          - name: "m!town <nombre>"
+            descripcion: "ficha de una town"
+            permiso: "todos"
+            modo: discord
+          - name: "m!mitown"
+            descripcion: "la ficha de tu town"
+            permiso: "todos"
+            modo: discord
+          - name: "m!nacion <nombre>"
+            descripcion: "ficha de una nación"
+            permiso: "todos"
+            modo: discord
+          - name: "m!naciones"
+            descripcion: "todas las naciones"
+            permiso: "todos"
+            modo: discord
+          - name: "m!towns"
+            descripcion: "ranking por residentes, chunks o antigüedad"
+            permiso: "todos"
+            modo: discord
+          - name: "m!vincular"
+            descripcion: "cómo vincular tu cuenta"
+            permiso: "todos"
+            modo: discord
+          - name: "m!premios"
+            descripcion: "tus premios pendientes en el juego"
+            permiso: "todos"
+            modo: discord
+          - name: "m!status"
+            descripcion: "estado del servidor"
+            permiso: "todos"
+            modo: discord
+      - nombre: "Comunidad"
+        comandos:
+          - name: "m!help"
+            descripcion: "todos los comandos del bot"
+            permiso: "todos"
+            modo: discord
+          - name: "m!ciudad registrar"
+            descripcion: "publica tu town en el foro (en <#1517288152677617674>)"
+            permiso: "Alcalde (si la verificación está activa)"
+            modo: discord
+          - name: "m!suggest"
+            descripcion: "envía una sugerencia (también en <#1257058153359474688>)"
+            permiso: "todos"
+            modo: discord
+          - name: "m!vote"
+            descripcion: "votos"
+            permiso: "todos"
+            modo: discord
+          - name: "m!rangos"
+            descripcion: "rangos"
+            permiso: "todos"
+            modo: discord
+          - name: "m!kits"
+            descripcion: "kits"
+            permiso: "todos"
+            modo: discord
+  - id: consejos
+    titulo: "💡 Consejos"
+    color: morado
+    modo: texto
+    descripcion: "🔗 **Vincula tu cuenta** con `/linkear`: recibes en el juego los premios de sorteos y niveles de Discord, y los roles de alcalde y nación.\n\n💸 **Mantén saldo en tu town**: si el banco queda en cero entra en deuda y puede caer en ruinas.\n\n🔒 **Protege tus cofres** fuera de una town poniéndoles un cartel.\n\n🤝 **Usa `/trade`** para intercambiar ítems de forma segura y evitar estafas.\n\n🗳️ **Vota todos los días** con `/vote`: premios para ti y Piñata para todos.\n\n🎫 **¿Problemas?** Abre un ticket en <#1251038737895391234>. Bugs: `m!bugreport`."
+    pie: "Mapucraft • ¿Falta algo? Déjalo en #sugerencias"

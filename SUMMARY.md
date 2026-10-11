@@ -4,6 +4,7 @@
 * [Sobre Mapucraft](el-servidor/sobre-mapucraft.md)
 * [Cómo conectarte](el-servidor/como-conectarte.md)
 * [Reglas](el-servidor/reglas.md)
+* [Comandos](el-servidor/comandos.md)
 
 ## 🏘️ Towny
 * [Introducción](towny/README.md)
@@ -11,6 +12,7 @@
 * [Rangos](towny/rangos.md)
 * [Economía](towny/economia/README.md)
   * [Tiendas y Mercado](towny/economia/tiendas.md)
+  * [Mercado Global (precios base)](towny/economia/mercado.md)
 * [Jobs](towny/jobs.md)
 * [Skills](towny/skills.md)
 * [Comercio y Mercaderes](towny/comercio.md)
