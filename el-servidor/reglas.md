@@ -76,6 +76,12 @@ El Staff podrá considerar el historial (positivo o negativo) de un jugador al m
 
 ***
 
+## Sanciones y apelaciones
+
+Las sanciones (baneos, silencios, expulsiones y advertencias) se registran en [castigos.mapucraft.com](https://castigos.mapucraft.com). Si crees que una fue injusta, puedes [apelarla](../webs/castigos.md) con el formulario de apelaciones y seguir el estado de tu caso con el código que recibas.
+
+***
+
 {% hint style="warning" %}
 El desconocimiento de las reglas no te exime de su cumplimiento. ¡Juega limpio y disfruta Mapucraft!
 {% endhint %}

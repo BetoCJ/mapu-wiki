@@ -1,5 +1,9 @@
 # 🏰 Dungeons
 
+{% hint style="info" %}
+🗓️ **Dungeons 1 y 2 desde el 7 de noviembre; Dungeons 3, 4 y 5 desde el 14 de noviembre.** → [Hoja de ruta](../hoja-de-ruta.md)
+{% endhint %}
+
 Los **Dungeons** de Mapucraft son mazmorras con mobs custom, mini-bosses y jefes finales únicos. Existen tres dungeons de dificultad creciente, cada uno con su propia temática, enemigos y botín.
 
 ***

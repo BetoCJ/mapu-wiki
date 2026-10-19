@@ -1,6 +1,14 @@
 # ✨ Encantamientos Personalizados
 
-Mapucraft usa un sistema de encantamientos completamente personalizado con mas de 160 encantamientos adicionales a los vanilla. Todos funcionan con el mismo equipo de siempre y tienen libros con **texturas personalizadas** segun su rareza.
+{% hint style="info" %}
+🗓️ **Disponible desde el 7 de noviembre** (semana 3, sistema renovado). → [Hoja de ruta](hoja-de-ruta.md)
+{% endhint %}
+
+Mapucraft usa un sistema de encantamientos completamente personalizado con **221 encantamientos** adicionales a los vanilla. Todos funcionan con el mismo equipo de siempre y tienen libros con **texturas personalizadas** segun su rareza.
+
+{% hint style="success" %}
+🆕 **Temporada 2:** 9 encantamientos nuevos (Mawida, Rayen, Lawen, Weichafe, Kintu, Perforante, Raíz, Ruka y Lafken), Gears pasa a 2 niveles y se rebalancearon varias habilidades. La lista de abajo está siempre al día.
+{% endhint %}
 
 ---
 
@@ -35,7 +43,7 @@ Ademas, hay un **3% de probabilidad separado** de que la mesa te de directamente
 |--------------|---------------------------|
 | Nivel bajo | Simple, Unico |
 | Nivel medio | Elite, Ultimate |
-| Nivel alto | Legendario, Fabled |
+| Nivel alto | Legendario (los Fabled ya no salen de la mesa) |
 
 ### 🔧 Tinkerer (`/tinkerer`)
 
@@ -77,8 +85,8 @@ Otros jugadores pueden publicar libros de encantamiento a la venta. Es una fuent
 
 Cada objeto tiene un numero limitado de **ranuras de encantamiento**:
 
-- **Maximo base:** 8 ranuras
-- **Maximo con mejoras:** 13 ranuras (+5 con Libro Universal o Tomos)
+- **Maximo base:** 9 ranuras
+- **Maximo con mejoras:** 13 ranuras (+4 con Libro Universal o Tomos)
 
 Las ranuras se pueden aumentar usando:
 
@@ -119,7 +127,7 @@ Algunos encantamientos de rareza **Fabled** consumen **Almas** al activarse. Par
 3. Cada kill con esa arma acumula almas en ella.
 4. Los encantamientos que consumen almas se activan automaticamente cuando tienes suficientes y se cumplen sus condiciones.
 
-Los encantamientos soul que **consumen** almas son: **Nulify**, **Rush**, **Diploid** y **Multiplication**. Ademas existen encantamientos que **generan** almas para alimentarlos: **Spiritmaster**, **Hacha de los Espiritus**, **Soulgrind** y **Soulminer** (ver seccion de Encantamientos de Almas mas abajo).
+Los encantamientos que **gastan** almas son **Nulify** (40), **Rush** (10) y **Multiplication** (8 por activacion). Para alimentarlos existen los que **generan** almas: **Spiritmaster**, **Axe of Spirits**, **Soulgrind** y **Soulminer** (este solo genera almas al minar menas). Cada uno aparece marcado con 👻 en la lista de abajo.
 
 ---
 
@@ -155,298 +163,293 @@ Los encantamientos se dividen en 6 niveles de rareza, de menor a mayor poder:
 
 ## 📖 Lista de Encantamientos
 
-Los simbolos de la columna "Aplica a" indican el tipo de objeto:
-`Espadas` `Hachas` `Picos` `Palas` `Azadas` `Casco` `Pechera` `Pantalones` `Botas` `Armadura completa` `Arco` `Ballesta` `Tridente` `Cana de pescar` `Elitros` `Mazo` `Lanza`
+Aplicar un encantamiento ocupa una ranura. Los símbolos de «Aplica a» indican qué objeto lo admite; **Maza** y **Lanzas** son las armas de los encantamientos temáticos mapuche.
 
-> **Mazo** (Mace) y **Lanza** (grupo de armas de asta, incluye Tridente) son tipos de arma usados por los encantamientos tematicos Mapuche. La Lanza aplica al Tridente y en muchos casos tambien a las Espadas.
+<!-- AUTO:inicio encantamientos -->
+Hay **221 encantamientos personalizados** en total. Esta lista se genera sola desde la configuración real del servidor, así que siempre está al día. **Prob.** es la probabilidad de activarse (mínimo–máximo según el nivel), **Espera** el enfriamiento en segundos y 🆕 marca los nuevos de la temporada 2.
 
----
+| Rareza | Encantamientos |
+|---|---:|
+| ⚪ Simple | 19 |
+| 🟢 Único | 23 |
+| 🔵 Elite | 46 |
+| 🟣 Ultimate | 52 |
+| 🟡 Legendario | 42 |
+| 🔴 Fabled | 39 |
 
 ### ⚪ Simple
 
-Encantamientos de rareza basica. Disponibles en la mesa de encantamiento (50% de probabilidad cuando activan los custom enchants).
+Básicos de utilidad y combate menor.
 
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Strike** | Espadas, Arco, Ballesta, Tridente | 3 | Cada golpe o disparo tiene probabilidad (24-40%) de caer un rayo sobre el objetivo. Cooldown de 3-4 s. |
-| **Aquatic** | Cascos | 1 | Proporciona respiracion acuatica permanente mientras llevas el casco puesto. Sin cooldown. |
-| **Smelting** | Picos, Palas | 3 | Al minar, probabilidad (33/66/100%) de que el bloque se funda automaticamente, dando el drop procesado en lugar del raw. |
-| **Experience** | Picos, Palas, Hachas | 5 | Al romper minerales (bloques con `ORE` en el nombre), probabilidad de obtener 2-5 XP adicionales directamente. |
-| **Hasten** | Picos, Palas, Hachas | 3 | Probabilidad (15-45%) de ganar Prisa I, II o III temporalmente al romper bloques. Cooldown de 3 s. |
-| **Rebreather** | Picos | 2 | Probabilidad (30/60%) de restaurar el nivel de aire al minar bajo el agua, evitando el ahogamiento. |
-| **Glowing** | Cascos | 1 | Proporciona Vision Nocturna permanente mientras llevas el casco. |
-| **Death Punch** | Espadas, Hachas | 5 | Al golpear un Zombie, probabilidad (16-80%) de infligir entre 10% y 40% de dano adicional. |
-| **Bone Crusher** | Espadas, Hachas | 3 | Al golpear un Esqueleto, probabilidad (25-75%) de infligir entre 10% y 40% de dano adicional. |
-| **Telepathy** | Picos, Palas, Hachas | 1 | Los drops de todos los bloques rotos van directamente a tu inventario en lugar de caer al suelo. |
-| **Pies de Rana** | Botas | 2 | Proporciona Gracia del Delfin (velocidad en agua) de forma permanente. Nivel 2 da un nivel mas alto del efecto. |
-| **Timbre de Vida** | Armadura | 2 | Al recibir dano en combate, probabilidad del 100% de obtener Absorcion I (100 o 200 ticks de duracion). Cooldown de 30 s. |
-| **Pesca Ruidosa** | Cana de pescar | 2 | Al morder el anzuelo, probabilidad (30/60%) de obtener Suerte temporal y reproducir el sonido del delfin, facilitando la pesca. |
-| **Brisa Ligera** | Botas | 2 | Proporciona Velocidad I o II de forma permanente mientras llevas las botas puestas. |
-| **Brinco** | Cascos | 2 | Proporciona Salto (Jump Boost) I o II de forma permanente mientras llevas el casco. |
-| **Lumbricida** | Palas | 2 | Al excavar, probabilidad pequena (2/5%) de recuperar Saturacion momentanea, evitando el hambre. |
-| **Nawel** | Mazo | 3 | Al golpear con el mazo, probabilidad (25-45%) de lanzar al enemigo por los aires con fuerza creciente. Cooldown de 4 s. |
-| **Trayen** | Lanza (Tridente, Espadas) | 3 | Al golpear a un enemigo bajo el agua, probabilidad (30-80%) de obtener Respiracion Acuatica temporal. Cooldown de 8 s. |
-| **Antu** | Espadas | 2 | Proporciona Velocidad I o II de forma permanente mientras empunas la espada (energia solar). |
-| **Pichi** | Botas | 2 | Al saltar, probabilidad (30/50%) de ganar un pequeno impulso de Velocidad I o II. Cooldown de 3 s. |
+| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |
+|---|---|---:|---:|---:|---|
+| **%group-color%Antü** | Espadas | 2 | 100% | — | La energía solar otorga velocidad de movimiento mientras empuñas la espada. |
+| **%group-color%Aquatic** | Cascos | 1 | 100% | — | Permite respirar bajo el agua |
+| **%group-color%Bone Crusher** | Espadas, Hachas | 3 | 25–75% | 1–2 s | Aumenta el daño infligido a esqueletos |
+| **%group-color%Brinco** | Cascos | 2 | 100% | — | Otorga salto potenciado permanente. |
+| **%group-color%Brisa Ligera** | Botas | 2 | 100% | — | Flotas suavemente como si una brisa te elevara, amortiguando las caídas permanentemente. |
+| **%group-color%Death Punch** | Espadas, Hachas | 5 | 16–80% | 0–2 s | Aumenta el daño infligido a zombies. |
+| **%group-color%Experience** | Picos, Palas, Hachas | 5 | 15–75% | 2 s | Posibilidad de obtener más experiencia de los minerales |
+| **%group-color%Glowing** | Cascos | 1 | 100% | — | Proporciona visión nocturna permanente |
+| **%group-color%Hasten** | Picos, Palas, Hachas | 3 | 15–45% | 3 s | Posibilidad de ganar prisa después de romper bloques |
+| **%group-color%Lumbricida** | Palas | 2 | 2–5% | — | Al excavar, probabilidad de recuperar saturación para no pasar hambre. |
+| **%group-color%Nawel** | Maza | 3 | 25–45% | 4 s | Posibilidad de lanzar al enemigo por los aires con un golpe poderoso. |
+| **%group-color%Pesca Ruidosa** | Caña de pescar | 2 | 30–60% | — | Delfines chapotearán fuerte al morder el pez ayudándote a atraparlo. |
+| **%group-color%Pichi** | Botas | 2 | 30–50% | 3 s | Pequeño impulso de velocidad al saltar. |
+| **%group-color%Pies de Rana** | Botas | 2 | 100% | — | Otorga de forma pasiva Gracia del Delfín, haciéndote nadar extremadamente rápido. |
+| **%group-color%Rebreather** | Picos | 2 | 30–60% | 3 s | Posibilidad de recuperar aire al minar bajo el agua |
+| **%group-color%Smelting** | Picos, Palas | 3 | 33–100% | — | Posibilidad de fundir bloques minados. |
+| **%group-color%Strike** | Tridente, Arco, Ballesta, Espadas | 3 | 24–40% | 3–4 s | Posibilidad de golpear con un rayo al oponente |
+| **%group-color%Timbre de Vida** | Armadura | 2 | 100% | 30 s | Al entrar en combate echa a sonar una campana de auxilio y te otorga absorción. |
+| **%group-color%Trayén** | Lanzas | 3 | 30–80% | 8 s | Posibilidad de obtener respiración acuática al golpear un enemigo bajo el agua. |
 
----
+### 🟢 Único
 
-### 🔵 Unico
+Efectos moderados y debuffs.
 
-Encantamientos de segunda rareza. Disponibles en la mesa (40%) y en el Enchanter.
+| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |
+|---|---|---:|---:|---:|---|
+| **%group-color%Alarma de Enderman** | Cascos | 1 | 100% | — | Pasa desapercibido entre monstruos hasta golpearlos, sonando como un Enderman furioso. |
+| **%group-color%Anchimalen** | Cascos | 3 | 15–25% | — | El espíritu de luz regenera lentamente tu salud mientras lo portas. |
+| **%group-color%Berserk** | Espadas, Hachas | 5 | 4–20% | 4–8 s | Posibilidad de ganar fuerza y fatiga de minería. |
+| **%group-color%Devour** | Espadas, Hachas | 3 | 10–35% | — | Posibilidad de restaurar comida al matar mobs. |
+| **%group-color%Famine** | Espadas, Hachas | 4 | 12–22% | 8 s | Posibilidad de dar el efecto de hambre al oponente. |
+| **%group-color%Kürüf Tiwe** | Tridente | 3 | 20–40% | 5 s | La lanza arrojada arrastra al enemigo hacia ti al impactar. |
+| **%group-color%Kürüfkona** | Maza | 3 | 12–22% | 6 s | El impacto del mazo aturde al enemigo, ralentizándolo y causando náuseas. |
+| **%group-color%Longko** | Espadas, Hachas | 2 | 60–100% | 5 s | Al eliminar a un jugador, el jefe guerrero gana fuerza y velocidad temporalmente. |
+| **%group-color%Perish** | Tridente, Arco, Ballesta | 5 | 9–21% | 3 s | Posibilidad de causar efecto de marchitamiento al disparar. |
+| **%group-color%Piel de Espinas** | Pecheras | 2 | 7–10% | 7–8 s | Daña y ralentiza al atacante que te golpee. |
+| **%group-color%Pirün** | Lanzas | 3 | 18–30% | 4–5 s | El giro veloz de la lanza envenena al enemigo al impactar. |
+| **%group-color%Ravenous** | Espadas, Hachas | 4 | 14–26% | 6 s | Posibilidad de recuperar hambre mientras luchas |
+| 🆕 **%group-color%Raíz** | Pecheras | 3 | 15–35% | 6–10 s | Posibilidad de plantarte firme y no retroceder al ser golpeado. |
+| **%group-color%Reflect** | Armadura | 5 | 3–11% | 20 s | Absorbe el daño del enemigo y lo refleja. |
+| **%group-color%Rugido Protector** | Pecheras | 2 | 10–20% | 15 s | Ruge como un devastador empujando monstruos cercanos. |
+| 🆕 **%group-color%Ruka** | Armadura | 3 | 10–26% | 8–12 s | Posibilidad de resguardarte y recibir menos daño de proyectiles. |
+| **%group-color%Sangre Tóxica** | Pecheras | 3 | 10–20% | 8 s | Al ser atacado, tu sangre tóxica tiene probabilidad de envenenar y confundir a tu atacante. |
+| **%group-color%Sin Alma** | Tridente, Arco, Ballesta | 4 | 25–100% | 0–2 s | Aumenta el daño infligido a mobs hostiles. |
+| **%group-color%Slayer** | Espadas, Hachas | 4 | 25–100% | 0–2 s | Aumenta el daño infligido a mobs pasivos |
+| **%group-color%Toque Helado** | Espadas, Hachas | 3 | 5–10% | 12 s | Aplica fatiga minera y debilidad al rival temporalmente. |
+| **%group-color%Virus** | Tridente, Arco, Ballesta | 4 | 6–40% | 2 s | Posibilidad de causar veneno al disparar. |
+| **%group-color%Ward** | Armadura | 4 | 4–10% | 20 s | Posibilidad de absorber el daño del enemigo |
+| **%group-color%Ñuke** | Pecheras | 3 | 8–16% | 10 s | El espíritu materno otorga posibilidad de regeneración al ser golpeado. |
 
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Famine** | Espadas, Hachas | 4 | Al atacar, probabilidad (12-22%) de aplicar Hambre I o II al oponente durante 4-6 segundos. |
-| **Berserk** | Espadas, Hachas | 5 | Al atacar, probabilidad (4-20%) de ganar Fuerza I o II pero tambien Fatiga Minera por unos segundos. Un encantamiento de alto riesgo/recompensa. |
-| **Reflect** | Armadura | 5 | Al recibir dano, probabilidad (2-8%) de cancelar completamente el golpe y reflejar el 100% del dano al atacante. Cooldown de 5-20 s. |
-| **Ward** | Armadura | 4 | Al recibir dano, probabilidad (4-10%) de cancelar el golpe completamente. Cooldown de 20 s. |
-| **Ravenous** | Espadas, Hachas | 4 | Al golpear, probabilidad (14-26%) de recuperar 1-2 puntos de vida. Cooldown de 6 s. |
-| **Slayer** | Espadas, Hachas | 4 | Al golpear mobs pasivos (no hostiles), probabilidad (25-100%) de infligir 10-40% de dano extra. |
-| **Soulless** | Arco, Ballesta, Tridente | 4 | Al disparar a mobs hostiles, probabilidad (25-100%) de infligir 10-40% de dano extra. |
-| **Virus** | Arco, Ballesta, Tridente | 4 | Al disparar, probabilidad (6-40%) de envenenar al objetivo. Nivel 3 aplica Veneno II. |
-| **Devour** | Espadas, Hachas | 3 | Al matar un mob, probabilidad (10-35%) de recuperar 1 punto de hambre. |
-| **Perish** | Arco, Ballesta, Tridente | 5 | Al disparar, probabilidad (9-21%) de aplicar Marchitamiento (Wither) al objetivo durante 3-5 segundos. |
-| **Sangre Toxica** | Pechera | 3 | Al recibir dano, tu sangre envenena al atacante: nivel 1 envenena, nivel 2 envenena y marea, nivel 3 aplica veneno y nausea mas fuertes. |
-| **Piel de Espinas** | Pechera | 2 | Al recibir dano, probabilidad (7-10%) de devolverle 1 punto de dano al atacante y aplicarle Lentitud brevemente. |
-| **Toque Helado** | Espadas, Hachas | 3 | Al golpear, probabilidad (5-10%) de aplicar Fatiga Minera y Debilidad al objetivo durante 1.5-2.5 segundos. |
-| **Rugido Protector** | Pechera | 2 | Al recibir dano de mobs, probabilidad (10-20%) de aplicar Debilidad al mob y reproducir el rugido del Ravager. |
-| **Alarma de Enderman** | Cascos | 1 | Eres permanentemente invisible para los mobs mientras llevas el casco, hasta que los golpeas o interactuas con ellos. |
-| **Kürüfkona** | Mazo | 3 | El impacto del mazo aturde al enemigo, probabilidad (12-22%) de aplicar Lentitud y Nausea. Cooldown de 6 s. |
-| **Kürüf Tiwe** | Tridente | 3 | Al lanzar la lanza, probabilidad (20-40%) de arrastrar al enemigo hacia ti (1.5-2.5 bloques). El nivel 3 ademas aplica Lentitud. Cooldown de 5 s. |
-| **Pirün** | Lanza (Tridente, Espadas) | 3 | El giro veloz de la lanza inflige 2-4 de dano y envenena al enemigo (Veneno I o II). Cooldown de 4-5 s. |
-| **Longko** | Espadas, Hachas | 2 | Al eliminar a un jugador, probabilidad (60/100%) de ganar Fuerza I o II y Velocidad I o II temporalmente. Cooldown de 5 s. |
-| **Ñuke** | Pechera | 3 | Al recibir dano, probabilidad (8-16%) de ganar Regeneracion I o II (espiritu materno). Cooldown de 10 s. |
-| **Anchimalen** | Cascos | 3 | Cada 6-10 segundos, probabilidad (15-25%) de regenerar 1 punto de vida mientras llevas el casco. |
+### 🔵 Elite
 
----
+Habilidades de combate especializadas.
 
-### 🟣 Elite
+| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |
+|---|---|---:|---:|---:|---|
+| **%group-color%Blind** | Espadas | 3 | 17–33% | 5 s | Posibilidad de causar ceguera al atacar. |
+| **%group-color%Blunt Force** | Hachas | 4 | 5–12% | 5 s | Posibilidad de golpear con gran fuerza. |
+| **%group-color%Bowmaster** | Tridente, Arco, Ballesta | 5 | 15–55% | 2 s | Multiplica el daño contra jugadores que están usando una espada. |
+| **%group-color%Coñi** | Espadas | 3 | 5–10% | 10 s | Cada golpe del joven guerrero tiene posibilidad de infundirle fuerza momentánea. |
+| **%group-color%Critical** | Espadas | 3 | 7–12% | 5 s | Aumenta el daño realizado con golpes críticos. |
+| **%group-color%Disparo de Ghast** | Arco, Ballesta | 3 | 15–35% | 10–12 s | Dispara la flecha con el sonido desgarrador de un Ghast causando confusión. |
+| **%group-color%Ender Slayer** | Espadas, Hachas | 5 | 16–41% | 2 s | Aumenta el daño infligido a Enderman y dragones Ender |
+| **%group-color%Escapist** | Botas | 1 | 30% | — | Posibilidad de obtener un impulso de Velocidad IV con poca salud. |
+| **%group-color%Extinguish** | Pantalones | 3 | 20–80% | — | Posibilidad de extinguirse cuando estás en llamas. |
+| **%group-color%Frozen** | Armadura | 3 | 19–26% | 6 s | Puede causar lentitud al atacante cuando te defiendes. |
+| **%group-color%Geólogo Veloz** | Picos | 3 | 7–20% | 8 s | Al picar ores, te otorga un subidón momentáneo de Velocidad para moverte volando por las cuevas. |
+| **%group-color%Gravedad Cero** | Arco, Ballesta | 4 | 4–10% | 15 s | Las flechas imbuidas alteran la gravedad del objetivo, haciéndolo flotar. |
+| **%group-color%Greatsword** | Espadas | 5 | 15–55% | 2 s | Multiplica el daño contra jugadores que están usando un arco. |
+| **%group-color%Grito de Guerra** | Hachas | 3 | 4–8% | 15 s | Aumenta el propio daño y marea al objetivo. |
+| **%group-color%Hook** | Caña de pescar | 3 | 15–35% | 12 s | Obtén más experiencia al pescar. |
+| **%group-color%Immolate** | Espadas, Hachas | 3 | 25–75% | 0–2 s | Aumenta el daño infligido a arañas |
+| **%group-color%Impact** | Tridente | 4 | 5–14% | 3–6 s | Posibilidad de duplicar el daño infligido |
+| **%group-color%Impulso Sónico** | Arco, Ballesta | 3 | 10–20% | 12 s | Otorga un fuerte impulso de velocidad al disparar. |
+| **%group-color%Infernal** | Espadas, Hachas | 3 | 15–50% | 2 s | Efecto de fuego explosivo. |
+| 🆕 **%group-color%Kintu** | Espadas | 3 | 12–28% | 12–20 s | Posibilidad de marcar al enemigo, revelándolo aunque sea invisible. |
+| **%group-color%Kollong** | Pantalones | 3 | 12–20% | 8 s | Al ser atacado, lanzas una cortina de humo que ciega a tu agresor. |
+| 🆕 **%group-color%Lafken** | Caña de pescar | 3 | 25–55% | 10–15 s | Posibilidad de recuperar hambre al pescar, como un banquete del mar. |
+| **%group-color%Llanka** | Lanzas | 4 | 10–22% | 12 s | La lanza de cristal congela al enemigo impidiéndole moverse. |
+| **%group-color%Magnet** | Espadas | 3 | 30–100% | 5 s | Tu ataque atrae a los jugadores hacia ti. |
+| **%group-color%Marchitamiento** | Armadura | 5 | 9–21% | 3 s | Posibilidad de causar efecto de marchitamiento al atacante. |
+| **%group-color%Marksman** | Ballesta | 4 | 13–32% | 3 s | Aumenta el daño infligido con ballestas. · ⛔ no combina con %group-color%Piercing |
+| **%group-color%Nether Slayer** | Espadas, Hachas | 5 | 16–41% | 2 s | Aumenta el daño infligido a mobs del Nether. |
+| **%group-color%Nightwalker** | Espadas | 3 | 40–100% | — | Congelar a los mobs durante la noche. |
+| **%group-color%Pillán** | Maza | 4 | 8–20% | 5 s | Invoca el rayo del espíritu del trueno al golpear, dañando también la armadura. |
+| **%group-color%Poison** | Espadas, Hachas | 3 | 6–35% | 2 s | Posibilidad de causar veneno al atacar. |
+| **%group-color%Poisoned** | Armadura | 4 | 8–23% | 6 s | Posibilidad de envenenar a tu atacante. |
+| **%group-color%Poseidon** | Tridente | 4 | 13–32% | 3 s | Aumenta el daño infligido con tridentes. · ⛔ no combina con %group-color%Piercing |
+| 🆕 **%group-color%Rayen** | Azadas | 3 | 10–26% | — | Posibilidad de obtener el doble de cultivos al cosechar. |
+| **%group-color%Reaper** | Hachas | 4 | 8–14% | 10–16 s | Posibilidad de dar efectos de Wither y ceguera al oponente. |
+| **%group-color%Reforged** | Hachas, Espadas, Picos, Palas | 10 | 8–80% | — | Protege la durabilidad de las armas y herramientas, haciendo que duren más. |
+| **%group-color%Replenish** | Picos | 3 | 30–60% | — | Posibilidad de restaurar comida mientras se mina. |
+| **%group-color%Smoke Bomb** | Cascos | 8 | 9–38% | 2 s | Lanza una bomba de humo para distraer a los enemigos cuando tu salud es baja. |
+| **%group-color%Snap** | Caña de pescar | 3 | 15–100% | 0–6 s | Atrae a la entidad golpeada hacia ti. |
+| **%group-color%Snare** | Arco, Ballesta | 4 | 12–29% | 3 s | Posibilidad de ralentizar y fatigar a los enemigos con proyectiles. |
+| **%group-color%Springs** | Botas | 3 | 100% | — | Otorga un impulso de salto. |
+| **%group-color%Suspend** | Espadas | 3 | 40–100% | — | Posibilidad de no causar retroceso a los mobs. |
+| **%group-color%Tambores de Guerra** | Hachas | 3 | 8–16% | 15 s | Golpear crea el sonido retumbante de un yunque amplificando tu Daño inmensamente. |
+| **%group-color%Trickster** | Armadura | 8 | 8–51% | 5 s | Posibilidad de teletransportarse detrás del oponente al ser golpeado. |
+| **%group-color%Vampire** | Espadas | 3 | 7–15% | 4 s | Posibilidad de curarte después de atacar. |
+| **%group-color%Voodoo** | Armadura | 6 | 5–21% | 2 s | Posibilidad de debilitar al atacante. |
+| **%group-color%Wolves** | Pecheras | 10 | 6–30% | 10–20 s | Posibilidad de invocar lobos para defenderte en combate. |
 
-Encantamientos de tercera rareza. Disponibles en la mesa (30%) y en el Enchanter.
+### 🟣 Ultimate
 
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Impact** | Tridente | 4 | Al lanzar el tridente, probabilidad (5-14%) de duplicar el dano del golpe. Cooldown de 3-6 s. |
-| **Ender Slayer** | Espadas, Hachas | 5 | Al golpear un Enderman o Dragon del End, probabilidad (16-41%) de infligir 10-40% de dano extra. |
-| **Immolate** | Espadas, Hachas | 3 | Al golpear una Arana, probabilidad (25-75%) de infligir 10-40% de dano extra. |
-| **Hook** | Cana de pescar | 3 | Al atrapar un pez, probabilidad (15-35%) de obtener XP adicional proporcional al nivel. Cooldown de 12 s. |
-| **Snap** | Cana de pescar | 3 | Al atrapar a un jugador con la cana, lo atrae hacia ti con fuerza creciente (1-2 bloques). |
-| **Reaper** | Hachas | 4 | Al golpear, probabilidad (8-14%) de aplicar Wither I y Ceguera al oponente durante 1.75-3 segundos. |
-| **Nether Slayer** | Espadas, Hachas | 5 | Al golpear mobs del Nether (Blaze, Zombified Piglin, Ghast), probabilidad (16-41%) de infligir 10-40% de dano extra. |
-| **Blind** | Espadas | 3 | Al golpear, probabilidad (17-33%) de aplicar Ceguera I/II/III al oponente durante 3-5 segundos. |
-| **Frozen** | Armadura | 3 | Al recibir dano, probabilidad (19-26%) de aplicar Lentitud I/II/III al atacante durante 2-3 segundos. |
-| **Poison** | Espadas, Hachas | 3 | Al golpear, probabilidad (6-35%) de aplicar Veneno I o II al objetivo. |
-| **Poisoned** | Armadura | 4 | Al recibir cualquier dano, probabilidad (8-23%) de envenenar al atacante. |
-| **Reforged** | Espadas, Hachas, Picos, Palas | 10 | Con cada uso del objeto, probabilidad (10-100%) de recuperar 1 punto de durabilidad. El nivel 10 lo repara siempre. |
-| **Snare** | Arco, Ballesta | 4 | Al disparar, probabilidad (12-29%) de aplicar Lentitud y Fatiga Minera al objetivo. |
-| **Springs** | Botas | 3 | Proporciona Salto (Jump Boost) I, II o III de forma permanente. |
-| **Voodoo** | Armadura | 6 | Al recibir dano, probabilidad (5-21%) de aplicar Debilidad al atacante durante 3-6 segundos. |
-| **Wither** | Armadura | 5 | Al recibir dano, probabilidad (9-21%) de aplicar Marchitamiento al atacante durante 3-7 segundos. |
-| **Infernal** | Espadas, Hachas | 3 | Al golpear, probabilidad (15-50%) de prender fuego al objetivo durante 2-6 segundos con particulas de fuego. |
-| **Extinguish** | Pantalones | 3 | Al recibir dano mientras estas en llamas, probabilidad (20-80%) de apagarte automaticamente. |
-| **Vampire** | Espadas | 3 | Al golpear, probabilidad (7-15%) de recuperar 1-6 puntos de vida 2 segundos despues del golpe. |
-| **Greatsword** | Espadas | 5 | Al golpear a un jugador que sostiene un arco, probabilidad (15-55%) de infligir 45-205% de dano adicional. |
-| **Bowmaster** | Arco, Ballesta, Tridente | 5 | Al disparar a un jugador que sostiene una espada, probabilidad (15-55%) de infligir 45-205% de dano adicional. |
-| **Marksman** | Ballesta | 4 | Al disparar con ballesta, probabilidad (13-32%) de infligir 50-150% de dano adicional. |
-| **Poseidon** | Tridente | 4 | Al lanzar el tridente, probabilidad (13-32%) de infligir 50-150% de dano adicional. |
-| **Replenish** | Picos | 3 | Al minar, probabilidad (30-60%) de recuperar 1-3 puntos de hambre. |
-| **Smoke Bomb** | Cascos | 8 | Cuando tu vida esta por debajo de 2 corazones (o 2.5 con niveles altos), probabilidad de crear una nube de humo y cegar al atacante. |
-| **Trickster** | Armadura | 8 | Al recibir dano, probabilidad (8-51%) de teletransportarte detras del oponente. Cooldown de 5 s. |
-| **Critical** | Espadas | 3 | Al asestar un golpe critico, probabilidad (7-12%) de infligir 10-20% de dano extra. |
-| **Blunt Force** | Hachas | 4 | Al golpear, probabilidad (5-12%) de infligirte a ti mismo 1-4 puntos de dano a cambio de un golpe devastador. |
-| **Suspend** | Espadas | 3 | Al golpear mobs, probabilidad (40-100%) de que el mob no salga disparado por el knockback. Util para grinders. |
-| **Nightwalker** | Espadas | 3 | Durante la noche, al golpear mobs, probabilidad (40-100%) de aplicarles Lentitud extrema durante 20 segundos. |
-| **Magnet** | Espadas | 3 | Al golpear a un jugador, probabilidad (30-100%) de jalarlo hacia ti 1-3 bloques. |
-| **Wolves** | Pechera | 10 | Al recibir dano, probabilidad de invocar 1-3 lobos aliados que atacan a tu atacante durante 8 segundos. |
-| **Escapist** | Botas | 1 | Cuando tienes menos de 2.5 corazones, probabilidad del 30% de ganar Velocidad IV durante 0.25 segundos para escapar. |
-| **Geologo Veloz** | Picos | 3 | Al picar un mineral (ore), probabilidad (7-20%) de ganar Velocidad I o II momentaneamente. Util para explorar cuevas. |
-| **Disparo de Ghast** | Arco, Ballesta | 3 | Al disparar, probabilidad (15-35%) de causar dano extra, aplicar Nausea y reproducir el grito del Ghast. |
-| **Tambores de Guerra** | Hachas | 3 | Al golpear, probabilidad (8-16%) de ganar Fuerza I o II temporalmente con el sonido de un yunque. |
-| **Gravedad Cero** | Arco, Ballesta | 4 | Al disparar, probabilidad (4-10%) de aplicar Levitacion al objetivo durante 1-2.5 segundos. |
-| **Impulso Sonico** | Arco, Ballesta | 3 | Al disparar, probabilidad (10-20%) de ganar Velocidad I o II brevemente. |
-| **Grito de Guerra** | Hachas | 3 | Al golpear, probabilidad (4-8%) de ganar Fuerza para ti y aplicar Nausea al objetivo simultaneamente. |
-| **Pillán** | Mazo | 4 | Al golpear, probabilidad (8-20%) de invocar un rayo del espiritu del trueno y danar la armadura enemiga (2-6 puntos). Cooldown de 5 s. |
-| **Llanka** | Lanza (Tridente, Espadas) | 4 | La lanza de cristal congela al enemigo (efecto Freeze) y aplica Lentitud. Probabilidad 10-22%. Cooldown de 4 s. |
-| **Coñi** | Espadas | 3 | Cada golpe del joven guerrero, probabilidad (5-10%) de ganar Fuerza I o II temporalmente. Cooldown de 10 s. |
-| **Kollong** | Pantalones | 3 | Al recibir dano, probabilidad (12-20%) de lanzar una cortina de humo que ciega al atacante. Cooldown de 8 s. |
+Poderosos, con efectos de área.
 
----
-
-### 🟠 Ultimate
-
-Encantamientos de cuarta rareza. Disponibles en la mesa (20%) y en el Enchanter.
-
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Harvest** | Azadas | 9 | Al cosechar, probabilidad (13-100%) de cosechar todos los cultivos en un area 3x3 de una sola vez. Funciona con trigo, zanahorias, papas, remolacha, cacao, verruga del Nether y mas. |
-| **Auto Reel** | Cana de pescar | 4 | Al morder el anzuelo, probabilidad (25-100%) de recoger automaticamente la cana sin necesidad de hacer clic. |
-| **Jelly Legs** | Botas | 3 | Al sufrir dano por caida, probabilidad (40-100%) de cancelarlo por completo. El nivel 3 es 100% de cancelacion. |
-| **Lucky** | Cana de pescar | 3 | Al hacer clic derecho con la cana, probabilidad (75-95%) de ganar Suerte I/II/III durante 50 segundos para mejorar los drops de pesca. |
-| **Permafrost** | Espadas | 5 | Al golpear, probabilidad (15-25%) de aplicar Lentitud y hacer sangrar al oponente durante 3 ondas de dano retardado. |
-| **Timber** | Hachas | 3 | Al golpear un tronco, probabilidad (15-55%) de talar el arbol entero de un solo golpe. |
-| **Arrow Deflect** | Armadura | 4 | Al recibir dano de proyectiles, probabilidad (15-45%) de cancelarlo completamente. Cooldown de 6 s. |
-| **Arrow Break** | Hachas | 6 | Al recibir una flecha mientras sostienes el hacha, probabilidad (15-65%) de que rebote sin causarte dano. |
-| **Exalted** | Espadas | 4 | Al golpear, probabilidad (12-36%) de curar todos tus efectos negativos (Lentitud, Ceguera, Veneno, Wither, Hambre, Debilidad, Fatiga). |
-| **Dodge** | Armadura | 5 | Al recibir dano fisico, probabilidad (8-20%) de esquivarlo completamente. Agacharte (shift) aumenta la probabilidad en 7%. Cooldown de 20 s. |
-| **Ice Aspect** | Espadas | 3 | Al golpear, probabilidad (15-31%) de aplicar Lentitud II al objetivo durante 5 segundos. |
-| **Reinforced** | Elitros | 4 | Al recibir dano con los elitros equipados, probabilidad (15-75%) de reducir el dano en 15-45%. |
-| **Implants** | Cascos | 3 | Cada 5 segundos, probabilidad (30-70%) de recuperar automaticamente 1 punto de hambre. |
-| **Obsidianshield** | Armadura | 1 | Proporciona Resistencia al Fuego permanente mientras tienes cualquier pieza de armadura encantada equipada. |
-| **Piercing** | Arco, Ballesta | 5 | Al disparar, probabilidad (13-37%) de infligir 50-150% de dano extra con cada flecha. |
-| **Archer** | Arco | 4 | Al disparar con arco (no ballesta), probabilidad (13-32%) de infligir 50-150% de dano extra. |
-| **Safeguard** | Armadura | 2 | Al recibir dano, probabilidad (5-9%) de obtener Resistencia I o II durante 3 segundos. |
-| **Confuse** | Espadas | 4 | Al golpear, probabilidad (12-18%) de aplicar Nausea I/II/III/IV durante 3 segundos. |
-| **Disintegrate** | Espadas | 4 | Al golpear, probabilidad (12-46%) de reducir la durabilidad de toda la armadura del enemigo en 2 puntos. |
-| **Shatter** | Hachas | 4 | Al golpear, probabilidad (12-46%) de reducir la durabilidad de toda la armadura del enemigo en 2 puntos. |
-| **Heavy** | Armadura | 5 | Al recibir un disparo de arco, probabilidad (4-21%) de reducir el dano en 2-10%. |
-| **Tank** | Armadura | 4 | Al recibir un golpe de hacha, probabilidad (5-16%) de reducir el dano en 2-8%. |
-| **Swordsman** | Armadura | 5 | Al recibir dano mientras sostienes una espada, probabilidad (4-21%) de reducir el dano en 1-22%. |
-| **Cleave** | Hachas | 7 | Al golpear a un jugador, probabilidad (4-15%) de dano en area que alcanza a jugadores en radio 2-7. El dano por golpe es 1-3 puntos. |
-| **Ambit** | Espadas, Hachas | 7 | Al golpear un mob, probabilidad (4-15%) de dano en area que alcanza mobs en radio 2-7. |
-| **Guardians** | Armadura | 10 | Al recibir dano, probabilidad (6-24%) de invocar 1-4 Golems de Hierro aliados durante 8 segundos para defenderte. |
-| **Longbow** | Arco, Ballesta | 4 | Al disparar a un jugador que sostiene un arco, probabilidad (12-33%) de infligir 25-100% de dano extra. |
-| **Netherling** | Espadas | 3 | Al matar mobs mientras estas en el Nether, probabilidad (25-75%) de infligir 50% de dano extra. |
-| **Endmaster** | Espadas | 3 | Al matar mobs mientras estas en el End, probabilidad (25-75%) de infligir 50% de dano extra. |
-| **Creeper Armor** | Armadura | 3 | Al recibir dano de una explosion, probabilidad (25-75%) de cancelarlo por completo. El nivel 3 ademas te cura 1-2 puntos de vida. |
-| **Spirits** | Armadura | 10 | Al recibir dano, probabilidad (2-27%) de invocar 3-5 Blazes aliados durante 8 segundos. Cooldown de 8 s. |
-| **Bleed** | Hachas | 6 | Al golpear, probabilidad (8-60%) de aplicar Lentitud y causar 3 ondas de sangrado (1-3 dano cada una con 1 segundo entre ellas). |
-| **Aegis** | Botas | 3 | Al sufrir dano por caida, probabilidad (40-70%) de ganar Velocidad I/II/III durante 3 segundos. |
-| **Night Owl** | Espadas | 3 | Durante la noche, al golpear mobs, probabilidad (40-80%) de infligir 25-45% de dano extra. |
-| **Fuddle** | Espadas | 3 | Al golpear a un jugador, probabilidad (5-9%) de reorganizar aleatoriamente su barra de acceso rapido (hotbar). Cooldown de 15 s. |
-| **Mjolnir** | Hachas | 4 | Al golpear, probabilidad (6-12%) de desencadenar 3 rayos consecutivos que danan la armadura del enemigo y te curan. Cooldown de 30 s. |
-| **Striker** | Arco | 3 | Al disparar, probabilidad (15-22%) de invocar una lluvia de flechas sobre el objetivo. |
-| **Sniper** | Arco | 5 | Al disparar a la cabeza, probabilidad (15-35%) de duplicar el dano del disparo. |
-| **Petrify** | Pantalones | 3 | Al recibir dano, probabilidad (5-11%) de petrificar al atacante con Lentitud extrema durante 5 segundos. |
-| **Flap** | Elitros | 3 | Al volar con elitros, probabilidad de reproducir el sonido del Dragon del End. Efecto estetico. |
-| **Beaconer** | Tridente | 3 | Al hacer clic derecho con el tridente, probabilidad de reproducir el sonido del faro. Efecto estetico. |
-| **Immolation** | Espadas | 3 | Al golpear mobs, probabilidad (10-16%) de prender fuego a todos los mobs en radio 2-6. |
-| **Erupcion** | Picos | 3 | Al minar, probabilidad muy baja (1-3%) de crear una erupcion que destruye bloques en radio 3-5. Cooldown de 10-20 s. |
-| **Tala Epica** | Hachas | 3 | Al cortar arboles, probabilidad (7-17%) de ganar Prisa y Velocidad momentaneos. |
-| **Ceguera Nocturna** | Espadas | 3 | Al golpear, probabilidad (2-7%) de aplicar Ceguera y Marchitamiento al oponente durante 1.5-2.5 segundos. |
-| **Taladro Ensordecedor** | Picos | 3 | Al minar, probabilidad (4-10%) de ganar Prisa II/III/IV durante 3-5 segundos con sonido de piston. |
-| **Parada Relampago** | Espadas | 3 | Al recibir dano, probabilidad (5-15%) de curarte 1-3 puntos de vida, ralentizar al atacante y reproducir un trueno. |
-| **Despegue** | Elitros | 2 | Al hacer clic derecho con los elitros, lanzate al aire con impulso de 15-25 bloques sin necesidad de cohetes. Cooldown de 15-20 s. |
-| **Cherufe** | Mazo | 3 | Al golpear, probabilidad (6-10%) de desatar una explosion de fuego que quema al objetivo y dana a los enemigos en radio 2-4. Cooldown de 12-15 s. |
-| **Malón** | Lanza (Tridente, Espadas) | 3 | El giro de la lanza golpea a todos los enemigos en radio 2-4, infligiendo 1-4 de dano. Probabilidad 8-14%. Cooldown de 8-10 s. |
-| **Püllü** | Espadas | 3 | Al golpear, probabilidad (7-13%) de robar 1-2 de vida y 1-3 de experiencia al objetivo. Cooldown de 8 s. |
-| **Rayün** | Armadura | 3 | Al recibir dano, probabilidad (5-11%) de contraatacar con un rayo sobre el agresor. El nivel 3 ademas dana su armadura. Cooldown de 10 s. |
-| **Kimün** | Picos | 3 | Al minar cualquier bloque, probabilidad (10-20%) de obtener 1-3 de experiencia directa (conocimiento ancestral). |
-
----
+| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |
+|---|---|---:|---:|---:|---|
+| **%group-color%Aegis** | Botas | 3 | 40–70% | 3 s | Posibilidad de ganar velocidad al recibir daño por caída. |
+| **%group-color%Ambit** | Espadas, Hachas | 7 | 4–15% | 8–14 s | Daño a mobs en un radio que aumenta con el nivel de encantamiento. |
+| **%group-color%Archer** | Arco | 4 | 13–32% | 3 s | Aumenta el daño infligido con arcos. · ⛔ no combina con %group-color%Piercing |
+| **%group-color%Arrow Break** | Hachas | 6 | 15–65% | 8–10 s | Posibilidad de que las flechas reboten mientras sostienes un objeto con este encantamiento. |
+| **%group-color%Arrow Deflect** | Armadura | 4 | 15–45% | 6 s | Posibilidad de prevenir que una flecha enemiga cause daño. |
+| **%group-color%Auto Reel** | Caña de pescar | 4 | 25–100% | — | Automáticamente recoge la caña de pescar cuando muerde |
+| **%group-color%Beaconer** | Tridente | 3 | 33–75% | 5 s | Posibilidad de escuchar el sonido del faro desactivándose al hacer clic derecho con un Tridente. |
+| **%group-color%Bleed** | Hachas | 6 | 8–60% | — | Causar sangrado al oponente. |
+| **%group-color%Ceguera Nocturna** | Espadas | 3 | 2–7% | 18 s | Probabilidad de aplicar ceguera y marchitamiento al rival. |
+| **%group-color%Cherufe** | Maza | 3 | 6–10% | 12–15 s | Desata el espíritu del meteoro: explosión de fuego que dañaa a enemigos cercanos. |
+| **%group-color%Cleave** | Hachas | 7 | 4–15% | 8–14 s | Daño a jugadores en un radio que aumenta con el nivel de encantamiento. |
+| **%group-color%Confuse** | Espadas | 4 | 12–18% | 6–8 s | Posibilidad de dar el efecto de náusea. |
+| **%group-color%Cosecha** | Azadas | 9 | 13–100% | — | Tiene la posibilidad de cosechar en un área de 3x3. |
+| **%group-color%Creeper Armor** | Armadura | 3 | 25–75% | — | Posibilidad de ser inmune al daño explosivo, con una posibilidad de curación en niveles más altos. |
+| **%group-color%Despegue** | Élitros | 2 | 100% | 15–20 s | Haz clic derecho para salir disparado hacia el cielo sin necesidad de fuegos artificiales. |
+| **%group-color%Disintegrate** | Espadas | 4 | 12–46% | 2 s | Posibilidad de causar daño adicional a la durabilidad de toda la armadura enemiga con cada ataque. |
+| **%group-color%Dodge** | Armadura | 5 | 8–20% | 20 s | Posibilidad de esquivar ataques físicos, con mayor probabilidad al agacharse. |
+| **%group-color%Endmaster** | Espadas | 3 | 25–75% | — | Doble daño a mobs en el End. |
+| **%group-color%Erupción** | Picos | 3 | 1–3% | 10–20 s | Crea una gran erupción minera destrozando bloques en una amplia zona. |
+| **%group-color%Espíritus** | Armadura | 10 | 2–27% | 8 s | Posibilidad de invocar blazes guardianes. |
+| **%group-color%Exalted** | Espadas | 4 | 12–36% | 8 s | Posibilidad de eliminar efectos de poción negativos. |
+| **%group-color%Flap** | Élitros | 3 | 33–75% | 5 s | Posibilidad de reproducir el sonido de aleteo del dragón al volar con Elitros. |
+| **%group-color%Guardians** | Armadura | 10 | 6–24% | 8–15 s | Posibilidad de invocar gólems de hierro para ayudarte. |
+| **%group-color%Heavy** | Armadura | 5 | 4–21% | 4 s | Disminuye el daño de los arcos enemigos en un 2% por nivel. |
+| **%group-color%Ice Aspect** | Espadas | 3 | 15–31% | 2 s | Posibilidad de causar lentitud en el enemigo. |
+| **%group-color%Immolation** | Espadas | 3 | 10–16% | 4–5 s | Pone en llamas a todos los mobs en un radio. |
+| **%group-color%Implants** | Cascos | 3 | 30–70% | — | Posibilidad de restaurar comida cada pocos segundos. |
+| **%group-color%Jelly Legs** | Botas | 3 | 40–100% | — | Posibilidad de negar el daño por caída. |
+| **%group-color%Kimün** | Picos | 3 | 10–20% | 1 s | El conocimiento ancestral extrae energía de cada bloque roto. |
+| **%group-color%Longbow** | Arco, Ballesta | 4 | 12–33% | 4 s | Aumenta en gran medida el daño infligido a jugadores enemigos que tienen un arco en las manos. |
+| **%group-color%Lucky** | Caña de pescar | 3 | 75–95% | 12 s | Posibilidad de aumentar la suerte al pescar. |
+| **%group-color%Malón** | Lanzas | 3 | 8–14% | 8–10 s | El giro de la lanza golpea a todos los enemigos en un radio creciente. |
+| 🆕 **%group-color%Mawida** | Hachas | 4 | 8–28% | 3–6 s | Posibilidad de talar el árbol completo de un solo golpe. |
+| **%group-color%Mjolnir** | Hachas | 4 | 6–12% | 30 s | Posibilidad de invocar un poderoso relámpago sobre tu objetivo. |
+| **%group-color%Netherling** | Espadas | 3 | 25–75% | — | Doble daño a mobs en el Nether. |
+| **%group-color%Night Owl** | Espadas | 3 | 40–80% | — | Infligir más daño a los mobs durante la noche. |
+| **%group-color%Obsidianshield** | Armadura | 1 | 100% | — | Proporciona resistencia al fuego permanente. |
+| **%group-color%Parada Relámpago** | Espadas | 3 | 5–15% | 18 s | Bloquear o repeler daño genera un trueno distractor y regenerativo. |
+| **%group-color%Permafrost** | Espadas | 5 | 15–25% | 12–15 s | Posibilidad de ralentizar y hacer sangrar a los oponentes. |
+| **%group-color%Petrify** | Pantalones | 3 | 5–11% | 20 s | Posibilidad de dar lentitud extrema al atacante. |
+| **%group-color%Piercing** | Arco, Ballesta | 5 | 13–37% | 3 s | Inflige más daño. · ⛔ no combina con %group-color%Archer, %group-color%Marksman, %group-color%Poseidon |
+| **%group-color%Püllü** | Espadas | 3 | 7–13% | 8 s | Roba la energía vital y la esencia de experiencia de cada golpe asestado. |
+| **%group-color%Rayün** | Armadura | 3 | 5–11% | 10 s | El rayo de luz contraataca al agresor con un relámpago cuando eres dañado. |
+| **%group-color%Reinforced** | Élitros | 4 | 15–75% | 1 s | Reduce el daño recibido. |
+| **%group-color%Safeguard** | Armadura | 2 | 5–9% | 5 s | Posibilidad de obtener resistencia al daño al defender. |
+| **%group-color%Shatter** | Hachas | 4 | 12–46% | 2 s | Posibilidad de causar daño adicional a la durabilidad de toda la armadura enemiga con cada ataque. |
+| **%group-color%Sniper** | Arco | 5 | 15–35% | 5 s | Los disparos a la cabeza con arco infligen el doble de daño. |
+| **%group-color%Striker** | Arco | 3 | 15–22% | 8 s | Lluvia de flechas sobre el oponente. |
+| **%group-color%Swordsman** | Armadura | 5 | 4–21% | 4 s | Posibilidad de reducir el daño entrante mientras se empuña una espada, hasta un 22% en el nivel máximo. |
+| **%group-color%Tala Épica** | Hachas | 3 | 7–17% | 4 s | Talar genera Prisa y Velocidad de movimiento. |
+| **%group-color%Taladro Ensordecedor** | Picos | 3 | 4–10% | 10 s | Escucha el sonido de pistones pesados mientras destrozas bloques a máxima velocidad. |
+| **%group-color%Tank** | Armadura | 4 | 5–16% | 3 s | Disminuye el daño de los ataques de hachas enemigas en un 2% por nivel. |
 
 ### 🟡 Legendario
 
-Encantamientos de quinta rareza. Disponibles en la mesa (10%) y en el Enchanter.
+Raros y muy fuertes.
 
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Twinge** | Tridente | 4 | Al golpear en melee con el tridente, probabilidad (5-14%) de aplicar Lentitud y causar 3 ondas de sangrado durante 2 segundos. |
-| **Beastslayer** | Espadas, Hachas | 4 | Al golpear mobs hostiles, probabilidad (25-100%) de infligir 10-40% de dano extra. |
-| **Bait** | Cana de pescar | 3 | Al pescar, probabilidad (15-26%) de duplicar los drops obtenidos. Cooldown de 10-20 s. |
-| **Hardened** | Armadura | 3 | Al recibir dano de jugadores, probabilidad (25-45%) de recuperar 1-2 puntos de durabilidad en la pieza de armadura golpeada. |
-| **Patch** | Armadura | 3 | Al recibir dano de mobs, probabilidad (25-45%) de recuperar 1-2 puntos de durabilidad en la pieza de armadura golpeada. |
-| **Turmoil** | Armadura | 3 | Al recibir dano, probabilidad (10-18%) de desactivar los Guardians, Spirits y otros encantamientos de invocacion del atacante durante 4 segundos. |
-| **Lava Walker** | Botas | 1 | Caminar sobre lava la solidifica temporalmente bajo tus pies, permitiendo cruzarla. |
-| **Water Walker** | Botas | 1 | Caminar sobre agua la solidifica temporalmente bajo tus pies. |
-| **Aqua** | Botas | 4 | Mientras estes bajo el agua, probabilidad (8-23%) de que tus golpes dupliquen el dano. |
-| **Judgement** | Elitros | 5 | Al recibir dano con elitros, probabilidad (6-16%) de envenenar al atacante y ganar Regeneracion I o II. |
-| **Divert** | Armadura | 5 | Al recibir dano, probabilidad (6-16%) de envenenar al atacante y ganar Regeneracion I o II simultaneamente. |
-| **Unholy** | Armadura | 5 | Al recibir dano de jugadores, probabilidad (2-10%) de aplicar Wither I y Debilidad al atacante durante 3-5 segundos. Cooldown de 40 s. |
-| **Chaos** | Tridente | 5 | Al lanzar el tridente, probabilidad (2-10%) de aplicar Wither I y Debilidad al objetivo. Cooldown de 40 s. |
-| **Convulse** | Botas | 6 | Al recibir dano, probabilidad (8-18%) de lanzar al atacante hacia arriba con fuerza 5-10. |
-| **Barbarian** | Hachas | 4 | Al golpear con hacha en mano, probabilidad (8-25%) de infligir 25-100% de dano adicional. |
-| **Lucid** | Armadura | 3 | Al recibir dano, probabilidad (22-42%) de curar la Ceguera y ganar Vision Nocturna durante 2-4 segundos. |
-| **Double Strike** | Espadas | 3 | Al golpear, probabilidad (8-19%) de repetir el mismo golpe 1 segundo despues. |
-| **Gears** | Botas | 3 | Proporciona Velocidad I, II o III de forma permanente mientras llevas las botas puestas. |
-| **Inflame** | Hachas | 3 | Al golpear, probabilidad (10-16%) de prender fuego a todos los jugadores/entidades en radio 2-6. |
-| **Inquisitive** | Espadas | 4 | Al matar un mob, probabilidad (30-45%) de multiplicar la XP que suelta en 1.25x, 1.5x, 1.75x o 2x segun el nivel. |
-| **Lifesteal** | Espadas | 5 | Al golpear, probabilidad (9-25%) de robar 1-5 puntos de vida al objetivo y curarte. Cooldown de 15 s. |
-| **Overload** | Armadura | 3 | Desbloquea 2, 4 o 6 puntos de vida adicionales (1-3 corazones extra) permanentemente. |
-| **Armored** | Armadura | 4 | Al recibir golpes de espadas enemigas, probabilidad (6-20%) de reducir el dano en 2-8%. Cooldown de 8 s. |
-| **Blacksmith** | Hachas | 5 | Al golpear, probabilidad (9-39%) de reparar el hacha 3-4 puntos de durabilidad pero a cambio de reducir el dano a la mitad en ese golpe. |
-| **Deadshot** | Tridente | 5 | Al lanzar el tridente y golpear en la cabeza, probabilidad (15-35%) de duplicar el dano del impacto. |
-| **Rocket Launch** | Arco | 3 | Al disparar, probabilidad del 12% de lanzar al objetivo hacia arriba con fuerza 10-20. |
-| **Strife** | Tridente | 3 | Al golpear en melee con el tridente, probabilidad (5-15%) de infligir 15-30% de dano extra. |
-| **Espejismo** | Pantalones | 3 | Al recibir dano, probabilidad (2-5%) de esquivarlo completamente, volverse invisible brevemente y cegar al atacante. Cooldown de 20-30 s. |
-| **Fortaleza** | Armadura | 3 | Al recibir dano, probabilidad (2-5%) de ganar Resistencia II/III pero tambien Lentitud extrema (modo torreta). Cooldown de 35-45 s. |
-| **Caos** | Arco, Ballesta | 4 | Al disparar, probabilidad (5-12%) de hacer caer un rayo e incendiar al objetivo. Cooldown de 20 s. |
-| **Snag** | Espadas | 3 | Al golpear, probabilidad (10-100%) de eliminar el efecto de Velocidad del oponente. No disponible en Enchanter. |
-| **Coro del Vacio** | Arco, Ballesta | 3 | Al disparar, probabilidad (5-11%) de aplicar Levitacion y Ceguera al objetivo con sonido de Shulker. |
-| **Aura Cristalina** | Pantalones | 3 | Al recibir dano, probabilidad (5-11%) de ganar Resistencia II/III/IV durante 5-7 segundos con sonido de cristal. |
-| **Talisman de Fuego** | Herramientas y Armadura | 1 | Proporciona inmunidad total al fuego (Resistencia al Fuego) y Vision Nocturna permanentes. Aplica a armadura y picos. |
-| **Longko Pillán** | Mazo | 3 | El jefe del trueno encadena relampagos que golpean al objetivo, danan su armadura (4-6 puntos) y causan dano en area (radio 4-6). Probabilidad 4-8%. Cooldown de 20-25 s. |
-| **Nawel Konün** | Lanza (Tridente, Espadas) | 3 | El jaguar penetra las defensas, probabilidad (6-10%) de duplicar el dano y robar 1-4 de vida al objetivo. Cooldown de 15-18 s. |
-| **Ngen** | Espadas, Hachas | 3 | Al golpear, probabilidad (5-11%) de ignorar la proteccion de la armadura enemiga. Los niveles 2-3 ademas anaden dano extra. Cooldown de 10 s. |
-| **Wekufe** | Armadura | 3 | Al recibir dano, probabilidad (5-9%) de maldecir al atacante con dano directo, Marchitamiento y Debilidad. Cooldown de 15 s. |
-| **Witranalwe** | Armadura | 3 | Cuando tu vida esta por debajo de 3 corazones, probabilidad (10-20%) de volverte invisible y ganar Velocidad. Cooldown de 20 s. |
-
----
+| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |
+|---|---|---:|---:|---:|---|
+| **%group-color%Aqua** | Botas | 4 | 8–23% | 3–5 s | Doble daño mientras se está en el agua. |
+| **%group-color%Armored** | Armadura | 4 | 6–20% | 8 s | Disminuye el daño de espadas enemigas en un 2% por nivel. |
+| **%group-color%Aura Cristalina** | Pantalones | 3 | 5–11% | 30 s | Al recibir golpes te recubres de cristal otorgando gran resistencia. |
+| **%group-color%Bait** | Caña de pescar | 3 | 15–26% | 10–20 s | Posibilidad de recibir dobles drops al pescar. |
+| **%group-color%Barbarian** | Hachas | 4 | 8–25% | 8 s | Posibilidad de infligir más daño con hachas. |
+| **%group-color%Beastslayer** | Espadas, Hachas | 4 | 25–100% | 0–2 s | Aumenta el daño infligido a mobs hostiles. |
+| **%group-color%Blacksmith** | Hachas | 5 | 9–39% | 3 s | Repara tu arma a cambio de hacer menos daño. |
+| **%group-color%Caos** | Arco, Ballesta | 4 | 5–12% | 20 s | Probabilidad de tirar un rayo e incendiar el objetivo. |
+| **%group-color%Chaos** | Tridente | 5 | 2–10% | 40 s | Infligir efectos de debilidad y marchitamiento. |
+| **%group-color%Convulse** | Botas | 6 | 8–18% | 10 s | Posibilidad de lanzar a los atacantes por el aire. |
+| **%group-color%Coro del Vacío** | Arco, Ballesta | 3 | 5–11% | 15 s | Proyectiles que silban con la brisa del Shulker aplicando ceguera levitante. |
+| **%group-color%Deadshot** | Tridente | 5 | 15–35% | 5 s | Los disparos a la cabeza con tridentes infligen el doble de daño. |
+| **%group-color%Divert** | Armadura | 5 | 6–16% | 20–25 s | Posibilidad de envenenar al oponente y obtener regeneración. |
+| **%group-color%Double Strike** | Espadas | 3 | 8–19% | 15 s | Posibilidad de golpear dos veces. |
+| **%group-color%Espejismo** | Pantalones | 3 | 2–5% | 20–30 s | Probabilidad de esquivar completamente un ataque y volverte invisible, confundiendo al atacante. |
+| **%group-color%Fortaleza** | Armadura | 3 | 2–5% | 35–45 s | Al recibir daño, puede otorgar Resistencia y Lentitud simulando inamovilidad. |
+| **%group-color%Gears** | Botas | 2 | 100% | — | Añade velocidad cuando se equipa. |
+| **%group-color%Hardened** | Armadura | 3 | 25–45% | 7 s | Posibilidad de recuperar durabilidad cuando te dañan. |
+| **%group-color%Inflame** | Hachas | 3 | 10–16% | 4–5 s | Pone en llamas a todos los jugadores en un radio. |
+| **%group-color%Inquisitive** | Espadas | 4 | 30–45% | 4 s | Posibilidad de aumentar las gotas de EXP de los mobs. |
+| **%group-color%Judgement** | Élitros | 5 | 6–16% | 20–25 s | Posibilidad de envenenar al oponente y obtener regeneración. |
+| **%group-color%Lava Walker** | Botas | 1 | 100% | — | Caminar sobre la lava. |
+| 🆕 **%group-color%Lawen** | Pecheras | 3 | 12–28% | 25–40 s | Con poca vida, posibilidad de regenerarte con hierbas medicinales. · ⛔ no combina con %group-color%Inmortalidad, %group-color%Sombra Quimera, %group-color%Pulso de Dragón, %group-color%Técnica Inversa |
+| **%group-color%Lifesteal** | Espadas | 5 | 9–25% | 15 s | Posibilidad de robar salud al atacar. |
+| **%group-color%Longko Pillán** | Maza | 3 | 4–8% | 20–25 s | El jefe del trueno encadena relámpagos que golpean al objetivo y dañan su armadura. |
+| **%group-color%Lucid** | Armadura | 3 | 22–42% | 5 s | Posibilidad de curar ceguera y ganar visión nocturna cuando se recibe daño. |
+| **%group-color%Nawel Konün** | Lanzas | 3 | 6–10% | 15–18 s | El jaguar penetra las defensas: duplica el daño y roba la vida del objetivo. |
+| **%group-color%Ngen** | Espadas, Hachas | 3 | 5–11% | 10 s | El espíritu guardián hace que tus ataques ignoren la protección de la armadura enemiga. |
+| **%group-color%Overload** | Armadura | 3 | 100% | — | Desbloquea corazones adicionales. |
+| **%group-color%Patch** | Armadura | 3 | 25–45% | 7 s | Posibilidad de recuperar durabilidad cuando recibes daño de mobs. |
+| 🆕 **%group-color%Perforante** | Hachas, Lanzas, Maza | 4 | 5–14% | 6–8 s | Posibilidad de que el golpe ignore la protección de la armadura. |
+| **%group-color%Rocket Launch** | Arco | 3 | 12% | 7 s | Posibilidad de lanzar al enemigo por el aire. |
+| **%group-color%Snag** | Espadas | 3 | 10–100% | 30–60 s | Posibilidad de eliminar el efecto de velocidad de un enemigo. · 🎁 solo por eventos o admin |
+| **%group-color%Strife** | Tridente | 3 | 5–15% | 3–8 s | Incrementa el daño cuerpo a cuerpo de los tridentes. |
+| **%group-color%Talismán de Fuego** | Armadura, Picos | 1 | 100% | — | Te brinda inmunidad total al fuego y visión nocturna permanente. |
+| **%group-color%Turmoil** | Armadura | 3 | 10–18% | 8 s | Posibilidad de evitar que los guardias del oponente aparezcan. |
+| **%group-color%Twinge** | Tridente | 4 | 5–14% | 3–6 s | Hace que el enemigo sangre al ser golpeado con un ataque cuerpo a cuerpo. |
+| **%group-color%Unholy** | Armadura | 5 | 2–10% | 40 s | Defender con efectos de debilidad y marchitamiento. |
+| **%group-color%Water Walker** | Botas | 1 | 100% | — | Caminar sobre el agua. |
+| 🆕 **%group-color%Weichafe** | Espadas, Hachas | 3 | 20–50% | 10–15 s | Al eliminar a un enemigo, ganas absorción y velocidad breves. |
+| **%group-color%Wekufe** | Armadura | 3 | 5–9% | 15 s | El espíritu maligno maldice al atacante con marchitamiento y debilidad al dañarte. |
+| **%group-color%Witranalwe** | Armadura | 3 | 10–20% | 20 s | El espíritu que se eleva: cuando tu salud es baja te vuelves invisible y veloz. |
 
 ### 🔴 Fabled
 
-Los encantamientos mas raros y poderosos. **No disponibles en la mesa de encantamiento.** Solo se obtienen en el Enchanter, como loot de eventos o de otros jugadores.
+Los más poderosos del servidor. No salen de la mesa de encantamientos.
 
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Haste** | Picos, Palas, Hachas | 3 | Proporciona Prisa I, II o III de forma permanente mientras sostienes la herramienta. Nivel 3 es Prisa III constante. |
-| **Restore** | Picos, Palas, Hachas | 4 | Cuando la herramienta esta a punto de romperse, probabilidad (40-100%) de que se repare automaticamente a la mitad de su durabilidad maxima, eliminandose el encantamiento al activarse. |
-| **Hero** | Armadura | 1 | Proporciona el efecto Heroe de la Aldea permanentemente mientras llevas alguna pieza de armadura encantada. |
-| **Neutralize** | Arco, Ballesta | 2 | Al disparar a un jugador, probabilidad (5-10%) de desarmarle, haciendo que suelte el objeto que sostiene. Cooldown de 20 s. |
-| **Scare** | Espadas, Hachas | 5 | Al golpear, probabilidad (1.8-6%) de reemplazar el casco del oponente con una calabaza durante 2-4 segundos, cegandole parcialmente. |
-| **Dominio Temporal** | Espadas, Hachas | 4 | Al golpear, probabilidad (2-7%) de aplicar Lentitud y Fatiga al oponente mientras te dan Velocidad y Prisa a ti. Cooldown de 45 s. |
-| **Inmortalidad** | Pechera | 3 | Cuando tu vida baja de 4 corazones, el encantamiento se activa con 100% de probabilidad, curando 1-3 corazones y dandote Regeneracion durante 2.5-4 segundos. Cooldown de 240 s (4 minutos). |
-| **Paralisis Absoluta** | Espadas | 4 | Al golpear, probabilidad (3-12%) de aplicar Lentitud extrema, Salto negativo y Debilidad muy alta al objetivo durante 2-5 segundos, inmovilizandole completamente. |
-| **Bendicion de Merlin** | Picos, Palas, Hachas | 2 | Al minar, probabilidad muy baja (1-2%) de curar todos tus efectos negativos, restaurar 10 corazones completos y ganar Suerte durante un tiempo. Cooldown de 3-4 minutos. |
-| **Despertar de Wither** | Espadas, Hachas | 3 | Al golpear con critico, probabilidad (4-10%) de aplicar Wither II, Lentitud extrema y Fatiga al oponente durante 3-5 segundos, mientras te curas 2-6 corazones. Sonido del Wither al activarse. |
-| **Pulso de Dragon** | Armadura, Elitros | 3 | Cuando tu vida baja de 3 corazones, se activa con 100% de probabilidad para cancelar el golpe mortal y lanzarte al aire con impulso 20-40. Cooldown de 160-200 s. |
-| **Destello Oscuro** | Espadas, Hachas | 3 | Al golpear, probabilidad (3-8%) de duplicar el dano del golpe con un efecto de trueno. Cooldown de 6-8 s. |
-| **Infinito** | Armadura | 3 | Al recibir dano, probabilidad (2-6%) de cancelar el golpe completamente con mensaje al jugador. Cooldown de 8-10 s. |
-| **Desmantelar** | Espadas | 4 | Al golpear, probabilidad (5-15%) de aplicar Lentitud y causar 3 ondas de hemorragia retardada de 1-3 dano cada una. |
-| **Discurso Maldito** | Arco, Ballesta, Tridente | 2 | Al disparar, probabilidad (8-14%) de paralizar al objetivo con Lentitud III o IV y Ceguera durante 4-5 segundos, con el sonido del Guardian Anciano. |
-| **Tecnica Inversa** | Armadura | 4 | Al recibir dano cuando tienes menos de 5 corazones, probabilidad (8-20%) de curarte 2-5 corazones instantaneamente con particulas de corazon. |
-| **Hueco Purpura** | Arco, Ballesta, Tridente | 3 | Al disparar, probabilidad (3-7%) de duplicar el dano del proyectil y ademas caer un rayo sobre el objetivo. |
-| **Expansion de Dominio** | Espadas, Hachas | 3 | Al golpear, probabilidad (5-11%) de aplicar Ceguera y Lentitud al objetivo durante 5-7 segundos con un mensaje intimidante. |
-| **Golpe Divergente** | Espadas, Hachas | 4 | Al golpear, probabilidad (10-25%) de infligir 2-5 puntos de dano adicional medio segundo despues del golpe inicial. |
-| **Sombra Quimera** | Armadura | 3 | Cuando tu vida baja de 3 corazones, con 100% de probabilidad cancela el golpe mortal, te vuelve invisible y te da Velocidad I o II durante 8 segundos. Cooldown de 60-120 s. |
-| **Exorcista** | Espadas | 4 | Al golpear Zombies, Esqueletos, Wither Skeletons o Phantoms, probabilidad (30-60%) de infligir 25-60% de dano extra. |
-| **Getsuga Tensho** | Espadas, Hachas | 4 | Al golpear, probabilidad (5-12%) de infligir 3-7 dano extra, aplicar Lentitud y caer un rayo, con el mensaje tematico de Bleach. Cooldown de 14-20 s. |
-| **Bankai** | Espadas, Hachas | 3 | Al golpear, probabilidad (2-5%) de duplicar el dano, ganarte Velocidad II y Fuerza I durante 5-7 segundos. El nivel 3 ademas cae un rayo. Cooldown de 30-50 s. |
-| **Flash Paso** | Botas, Pantalones | 3 | Al recibir dano, probabilidad (6-12%) de teletransportarte detras del atacante con Velocidad y cancelar el golpe en nivel 3. |
-| **Presion del Reiatsu** | Pechera | 4 | Al recibir dano, probabilidad (12-25%) de aplicar Lentitud, Debilidad y (en nivel 3-4) Nausea al atacante durante 4-7 segundos. |
-| **Lluvia Negra** | Espadas, Hachas | 4 | Al golpear, probabilidad (11-23%) de ganar 15-40% de dano extra acumulativo con particulas criticas. El nivel 4 muestra el mensaje de Kenpachi. |
-| **Senescencia** | Armadura | 4 | Al recibir dano, probabilidad (5-12%) de robar 2-5 puntos de vida al atacante y curarte. Niveles altos ademas debilitan al atacante. Cooldown de 18-30 s. |
-| **Terraformer** | Picos | 1 | Mina permanentemente en un area de 3x3 en todo momento. No requiere activacion. No se puede obtener del Enchanter. |
-| **Soulbound** | Herramientas, Espadas, Arco, Ballesta | 3 | Al morir, probabilidad (4-8%) de conservar el objeto en lugar de soltarlo al suelo. Cooldown de 300 s entre activaciones. |
-| **Wenumapu** | Mazo | 2 | El cielo y la tierra colisionan: probabilidad (2/3%) de dano en area (radio 3-4), robo de vida, sangrado y dano a la armadura enemiga. Cooldown de 40 s. |
-| **Püllümapu** | Lanza (Tridente, Espadas) | 2 | Drena el alma de la tierra: probabilidad (2/3%) de robar 3-7 de vida y aplicar Marchitamiento y Debilidad al objetivo. Cooldown de 45 s. |
-| **Ngümin Antü** | Espadas, Hachas | 2 | El tejido solar detiene el tiempo: probabilidad (1.5/2.5%) de congelar al objetivo, paralizar a los enemigos en radio 5-6 y ganar Velocidad. Cooldown de 60 s. |
+| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |
+|---|---|---:|---:|---:|---|
+| **%group-color%Bankai** | Espadas, Hachas | 3 | 2–5% | 30–50 s | Libera el estado final de tu zanpakutō devastando al enemigo con poder absoluto. |
+| **%group-color%Bendición de Merlín** | Picos, Hachas, Palas | 2 | 1–2% | 180–240 s | Probabilidad de un destello mágico minero que limpia todos tus efectos negativos, te cura al 100% y te hace brillar de suerte. |
+| **%group-color%Desmantelar** | Espadas | 4 | 5–15% | 4–5 s | Una técnica de corte invisible que causa severa hemorragia. |
+| **%group-color%Despertar de Wither** | Espadas, Hachas | 3 | 4–10% | 40 s | Criticos terroríficos invocan el spawn de un wither al golpear marchitando al rival. |
+| **%group-color%Destello Oscuro** | Espadas, Hachas | 3 | 3–8% | 6–8 s | Un impacto concentrado de energía maldita que aturde. |
+| **%group-color%Diploid** | Espadas | 5 | 15–30% | 5–8 s | Tiene probabilidad de multiplicar los drops de mobs. Cuesta 5 almas / activación. |
+| **%group-color%Discurso Maldito** | Arco, Ballesta, Tridente | 2 | 8–14% | 10–12 s | Fuerza al enemigo a detenerse con palabras imbuidas en energía. |
+| **%group-color%Dominio Temporal** | Espadas, Hachas | 4 | 2–7% | 40–45 s | Congela el tiempo para tu oponente mientras tú te aceleras. |
+| **%group-color%Exorcista** | Espadas | 4 | 30–60% | 2 s | Elimina a los no-muertos y espritus malditos con gran facilidad. |
+| **%group-color%Expansión de Dominio** | Espadas, Hachas | 3 | 5–11% | 15–25 s | Atrapa a tu oponente abrumando todos sus sentidos. |
+| **%group-color%Flash Paso** | Botas, Pantalones | 3 | 6–12% | 16–25 s | Domina el Shunpo para desaparecer del punto de impacto en un instante. |
+| **%group-color%Getsuga Tenshō** | Espadas, Hachas | 4 | 5–12% | 14–20 s | Lanza una ola de energía espiritual comprimida que desgarra al enemigo. |
+| **%group-color%Golpe Divergente** | Espadas, Hachas | 4 | 10–25% | 5–6 s | Un doble impacto que descarga energa de forma retardada. |
+| **%group-color%Hacha de los Espíritus** | Hachas | 3 | 45–75% | — | Probabilidad de obtener más almas al matar jugadores. · 👻 genera almas |
+| **%group-color%Haste** | Picos, Palas, Hachas | 3 | 100% | — | Permite usar las herramientas más rápido |
+| **%group-color%Hero** | Armadura | 1 | 100% | — | Otorga Héroe de la Aldea. |
+| **%group-color%Hueco Púrpura** | Arco, Ballesta, Tridente | 3 | 3–7% | 14–18 s | Fusión de rojo y azul que borra la materia frente a ti. |
+| **%group-color%Infinito** | Armadura | 3 | 2–6% | 8–10 s | La técnica impecable que detiene los ataques antes de alcanzarte. |
+| **%group-color%Inmortalidad** | Pecheras | 3 | 100% | 300 s | Si la vida baja críticamente, te recupera salud y otorga regeneración. · ⛔ no combina con %group-color%Sombra Quimera, %group-color%Pulso de Dragón, %group-color%Técnica Inversa, %group-color%Lawen |
+| **%group-color%Lluvia Negra** | Espadas, Hachas | 4 | 11–23% | 6–20 s | La locura del combate te embriaga, aumentando tu poder con cada golpe encadenado. |
+| **%group-color%Multiplication** | Picos | 5 | 15–30% | 5–8 s | Probabilidad de multiplicar drops de minerales. Cuesta 5 almas / activación. · 👻 gasta 8 almas |
+| **%group-color%Neutralize** | Arco, Ballesta | 2 | 5–10% | 20 s | Posibilidad de desarmar al oponente. |
+| **%group-color%Ngümin Antü** | Espadas, Hachas | 2 | 1.5–2.5% | 60 s | El tejido solar detiene el tiempo: congela al objetivo y paraliza a los enemigos cercanos. |
+| **%group-color%Nulify** | Espadas, Hachas | 4 | 8–14% | 10 s | Tiene una pequeña probabilidad de infligir el doble de daño dejando al enemigo ciego. Cuesta 40 almas/activación · 👻 gasta 40 almas |
+| **%group-color%Presión del Reiatsu** | Pecheras | 4 | 12–25% | 8–14 s | Tu energía espiritual aplasta a los enemigos cercanos ralentizándolos con tu mera presencia. |
+| **%group-color%Pulso de Dragón** | Armadura, Élitros | 3 | 100% | 190–240 s | Emites un aleteo sónico salvador para cancelar daños mortales y huir volando. · ⛔ no combina con %group-color%Inmortalidad, %group-color%Sombra Quimera, %group-color%Técnica Inversa, %group-color%Lawen |
+| **%group-color%Püllümapu** | Lanzas | 2 | 2–3% | 45 s | Drena el alma de la tierra del enemigo: roba vida y aplica marchitamiento profundo. |
+| **%group-color%Restore** | Picos, Palas, Hachas | 4 | 40–100% | — | Posibilidad de reparar el ítem a mitad de su durabilidad al romperse, perdiendo el encantamiento. |
+| **%group-color%Rush** | Élitros | 3 | 15–26% | 5 s | Probabilidad de impulso de velocidad al despegar con la elytra. Cuesta 10 almas / activación. · 👻 gasta 10 almas |
+| **%group-color%Scare** | Espadas, Hachas | 5 | 1.8–6% | 20 s | Posibilidad de reemplazar el casco del oponente con una calabaza por un tiempo corto. |
+| **%group-color%Senescencia** | Armadura | 4 | 5–12% | 18–30 s | Drenas la vitalidad del enemigo canalizando el poder del Rey Espiritual. |
+| **%group-color%Sombra Quimera** | Armadura | 3 | 100% | 120–180 s | Te fundes en las sombras para eludir un golpe fatal. · ⛔ no combina con %group-color%Inmortalidad, %group-color%Pulso de Dragón, %group-color%Técnica Inversa, %group-color%Lawen |
+| **%group-color%Soulbound** | Herramientas, Espadas, Arco, Ballesta | 3 | 4–8% | 300 s | Tiene una pequeña probabilidad de conservar el objeto al morir. |
+| **%group-color%Soulgrind** | Espadas | 3 | 30–70% | — | Probabilidad de obtener almas matando mobs. · 👻 genera almas |
+| **%group-color%Soulminer** | Picos | 3 | 5–15% | — | Tiene probabilidad de obtener almas minando. · 👻 genera almas |
+| **%group-color%Spiritmaster** | Espadas | 3 | 35–55% | — | Tiene probabilidad de obtener más almas al matar jugadores. · 👻 genera almas |
+| **%group-color%Terraformer** | Picos | 1 | 100% | — | Mina en un área de 3x3 de forma permanente. · 🎁 solo por eventos o admin |
+| **%group-color%Técnica Inversa** | Armadura | 4 | 8–20% | 20–25 s | Sanación avanzada al canalizar energía maldita positiva. · ⛔ no combina con %group-color%Inmortalidad, %group-color%Sombra Quimera, %group-color%Pulso de Dragón, %group-color%Lawen |
+| **%group-color%Wenumapu** | Maza | 2 | 2–3% | 40 s | El cielo y la tierra colisionan: golpe devastador que sacude a todos los enemigos cercanos. |
 
----
+### ⛔ Incompatibilidades
 
-### 👻 Encantamientos de Almas (Soul Enchantments)
+Para evitar combinaciones abusivas, estos encantamientos **no se pueden tener juntos** en el mismo objeto:
 
-Estos encantamientos de rareza **Fabled** requieren el **Sistema de Almas** activo en el objeto. Consumen almas acumuladas para activarse.
-
-Para activar el rastreo de almas, aplica una **Runa del Alma** al arma o herramienta arrastandola sobre el objeto.
-
-| Encantamiento | Aplica a | Niv. max | Costo/activacion | Como funciona |
-|---------------|----------|----------|------------------|---------------|
-| **Nulify** | Espadas, Hachas | 4 | 40 almas | Al golpear, probabilidad (8-14%) de duplicar el dano y aplicar Ceguera al objetivo. Requiere minimo 40 almas acumuladas. |
-| **Rush** | Elitros | 3 | 10 almas | Al volar con elitros, probabilidad (15-26%) de ganar Velocidad III/IV/V durante 3 segundos. |
-| **Diploid** | Espadas | 5 | 5 almas | Al matar un mob, probabilidad (15-30%) de duplicar sus drops. |
-| **Multiplication** | Picos | 5 | 5 almas | Al minar minerales (carbon, cobre, hierro, oro, lapislazuli, redstone, diamante, esmeralda, cuarzo, oro del Nether, debris antiguo y variantes de pizarra), probabilidad (15-30%) de duplicar el drop. |
-
-#### Encantamientos que generan almas
-
-Estos encantamientos de rareza **Fabled** no consumen almas: al contrario, **acumulan** almas en el objeto (que ya debe tener la Runa del Alma aplicada) para alimentar a los encantamientos consumidores de arriba.
-
-| Encantamiento | Aplica a | Niv. max | Como funciona |
-|---------------|----------|----------|---------------|
-| **Spiritmaster** | Espadas | 3 | Al matar un jugador, probabilidad (35-55%) de obtener 1 alma. |
-| **Hacha de los Espiritus** | Hachas | 3 | Al matar un jugador, probabilidad (45-75%) de obtener 1 alma. |
-| **Soulgrind** | Espadas | 3 | Al matar un mob, probabilidad (30-90%) de obtener 1 alma. |
-| **Soulminer** | Picos | 3 | Al minar, probabilidad (5-15%) de obtener 1 alma. |
+- **%group-color%Marksman** ✕ %group-color%Piercing
+- **%group-color%Poseidon** ✕ %group-color%Piercing
+- **%group-color%Archer** ✕ %group-color%Piercing
+- **%group-color%Piercing** ✕ %group-color%Archer, %group-color%Marksman, %group-color%Poseidon
+- **%group-color%Lawen** ✕ %group-color%Inmortalidad, %group-color%Sombra Quimera, %group-color%Pulso de Dragón, %group-color%Técnica Inversa
+<!-- AUTO:fin encantamientos -->
 
 ---
 
@@ -462,7 +465,7 @@ Todos estos items tienen **textura personalizada** en el servidor. Ademas de los
 | **Piedra Abandonada** | Mystery Dust | Item sin valor practico que puede obtenerse del Tinkerer en tiradas bajas |
 | **Runa de la Proteccion** | White Scroll | Arrastra sobre el **objeto** antes de encantar: protege el objeto de ser destruido si un encantamiento falla |
 | **Runa de Extraccion** | Black Scroll | Extrae un encantamiento aleatorio del objeto y lo convierte en libro (95% exito, 5% destruccion del objeto) |
-| **Libro Universal** | Slot Increaser | Agrega +1 ranura de encantamiento al objeto sin riesgo (hasta el maximo de 20) |
+| **Libro Universal** | Slot Increaser | Agrega +1 ranura de encantamiento al objeto sin riesgo (hasta el maximo de 13 ranuras) |
 | **Runa del Alma** | Soul Tracker | Arrastra sobre un arma o herramienta para activar el rastreo de almas recolectadas de kills |
 | **Gema de Alma** | Soul Gem | Aplica a un objeto con la Runa del Alma activa para añadirle almas directamente |
 | **Runa de la Revelacion** | Transmog Scroll | Arrastra sobre un objeto: ordena sus encantamientos por rareza en el lore y añade un contador de encantamientos al nombre |

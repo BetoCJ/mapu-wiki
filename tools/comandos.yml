@@ -278,6 +278,22 @@ embeds:
         descripcion: "cómo capturar mascotas"
         permiso: "todos"
         modo: towny
+      - name: "/mascotasespeciales"
+        descripcion: "tienda de 134 mascotas con modelo 3D (se pagan con MapuPoints)"
+        permiso: "todos"
+        modo: towny
+      - name: "/mapucraft"
+        descripcion: "menú de MapuCore: modelos, materiales, nombre, lore, spawners, llaves y claims"
+        permiso: "todos"
+        modo: towny
+      - name: "/modelo"
+        descripcion: "aplica o quita un modelo custom de un ítem"
+        permiso: "todos"
+        modo: towny
+      - name: "/materiales"
+        descripcion: "elige un material de construcción y recibe una shulker llena"
+        permiso: "todos"
+        modo: towny
       - name: "/warp afk"
         descripcion: "2 MapuPoints por hora estando AFK"
         permiso: "todos"

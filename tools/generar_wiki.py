@@ -6,7 +6,7 @@ Si la pagina no tiene los marcadores, agrega la seccion al final. Es idempotente
 
 Uso:
     python generar_wiki.py                 # todo
-    python generar_wiki.py --solo cajas    # cajas | crafteos | mercado
+    python generar_wiki.py --solo cajas    # cajas | crafteos | mercado | encantamientos | mascotas | battlepass
     python generar_wiki.py --dry-run       # solo muestra que cambiaria
 Nunca lee contrasenas ni tokens: solo cajas, recetas y precios.
 """
@@ -349,6 +349,190 @@ def gen_mercado():
         L.append('')
     return '\n'.join(L), dict(items=total_items, categorias=len(cats))
 
+# ------------------------------------------------------------ encantamientos
+
+APLICA = {
+    'ALL_SWORD': 'Espadas', 'ALL_AXE': 'Hachas', 'ALL_PICKAXE': 'Picos', 'ALL_SPADE': 'Palas', 'ALL_SHOVEL': 'Palas',
+    'ALL_HOE': 'Azadas', 'ALL_HELMET': 'Cascos', 'ALL_CHESTPLATE': 'Pecheras', 'ALL_LEGGINGS': 'Pantalones',
+    'ALL_BOOTS': 'Botas', 'ALL_ARMOR': 'Armadura', 'BOW': 'Arco', 'CROSSBOW': 'Ballesta', 'TRIDENT': 'Tridente',
+    'FISHING_ROD': 'Caña de pescar', 'ELYTRA': 'Élitros', 'MACE': 'Maza', 'ALL_SPEAR': 'Lanzas', 'ALL_TOOLS': 'Herramientas',
+}
+GRUPOS_AE = [
+    ('SIMPLE', '⚪ Simple', 'Básicos de utilidad y combate menor.'),
+    ('UNIQUE', '🟢 Único', 'Efectos moderados y debuffs.'),
+    ('ELITE', '🔵 Elite', 'Habilidades de combate especializadas.'),
+    ('ULTIMATE', '🟣 Ultimate', 'Poderosos, con efectos de área.'),
+    ('LEGENDARY', '🟡 Legendario', 'Raros y muy fuertes.'),
+    ('FABLED', '🔴 Fabled', 'Los más poderosos del servidor. No salen de la mesa de encantamientos.'),
+]
+NOVEDADES_AE = {'mawida', 'rayen', 'lawen', 'weichafe', 'kintu', 'perforante', 'raiz', 'ruka', 'lafken'}
+
+
+def _aplica(lista):
+    out = []
+    for a in lista or []:
+        t = APLICA.get(str(a).upper(), titulo(str(a)))
+        if t not in out:
+            out.append(t)
+    if 'Armadura' in out:
+        out = [x for x in out if x not in ('Cascos', 'Pecheras', 'Pantalones', 'Botas')]
+    return ', '.join(out) or '—'
+
+
+def _rango(vals, sufijo='', cero='—'):
+    vals = [float(v) for v in vals]
+    a, b = min(vals), max(vals)
+    if b == 0:
+        return cero
+    return (num(a) if a == b else f'{num(a)}–{num(b)}') + sufijo
+
+
+def gen_encantamientos():
+    d = miniyaml.cargar(PLUGINS / 'AdvancedEnchantments' / 'enchantments.yml')
+    disp = {k: limpia(v.get('display')) or titulo(k) for k, v in d.items()}
+    por = {g[0]: [] for g in GRUPOS_AE}
+    for k, v in d.items():
+        por.setdefault(str(v.get('group', 'SIMPLE')).upper(), []).append(k)
+    L = [f'Hay **{len(d)} encantamientos personalizados** en total. Esta lista se genera sola desde la configuración real del servidor, '
+         'así que siempre está al día. **Prob.** es la probabilidad de activarse (mínimo–máximo según el nivel), '
+         '**Espera** el enfriamiento en segundos y 🆕 marca los nuevos de la temporada 2.', '']
+    L += ['| Rareza | Encantamientos |', '|---|---:|']
+    for g, nombre, _ in GRUPOS_AE:
+        L.append(f'| {nombre} | {len(por.get(g, []))} |')
+    L.append('')
+    incompat = []
+    for g, nombre, desc in GRUPOS_AE:
+        ks = por.get(g, [])
+        if not ks:
+            continue
+        L += [f'### {nombre}', '', f'{desc}', '', '| Encantamiento | Aplica a | Niv. | Prob. | Espera | Qué hace |', '|---|---|---:|---:|---:|---|']
+        for k in sorted(ks, key=lambda x: disp[x].lower()):
+            v = d[k]
+            niv = v.get('levels') or {}
+            chs = [(l or {}).get('chance', 100) for l in niv.values()] or [100]
+            cds = [(l or {}).get('cooldown', 0) for l in niv.values()] or [0]
+            efs = ' '.join(str(e) for l in niv.values() for e in ((l or {}).get('effects') or []))
+            desc_k = limpia(v.get('description')) or '—'
+            extra = []
+            m = re.search(r'REMOVE_SOULS:(\d+)', efs)
+            if m:
+                extra.append(f'👻 gasta {m.group(1)} almas')
+            if 'ADD_SOULS' in efs:
+                extra.append('👻 genera almas')
+            st = v.get('settings') or {}
+            if isinstance(st, dict) and st.get('disable-in-enchanter'):
+                extra.append('🎁 solo por eventos o admin')
+            na = st.get('not-applyable-with') if isinstance(st, dict) else None
+            if na:
+                incompat.append((disp[k], [disp.get(x, titulo(x)) for x in na]))
+                extra.append('⛔ no combina con ' + ', '.join(disp.get(x, titulo(x)) for x in na))
+            nombre_k = ('🆕 ' if k in NOVEDADES_AE else '') + f'**{md(disp[k])}**'
+            L.append(f'| {nombre_k} | {md(_aplica(v.get("applies")))} | {len(niv)} | {_rango(chs, "%")} | {_rango(cds, " s")} | '
+                     f'{md(desc_k)}{" · " + md(" · ".join(extra)) if extra else ""} |')
+        L.append('')
+    if incompat:
+        L += ['### ⛔ Incompatibilidades', '',
+              'Para evitar combinaciones abusivas, estos encantamientos **no se pueden tener juntos** en el mismo objeto:', '']
+        vistos = set()
+        for a, otros in incompat:
+            clave = frozenset([a] + otros)
+            if clave in vistos:
+                continue
+            vistos.add(clave)
+            L.append(f'- **{md(a)}** ✕ {", ".join(md(o) for o in otros)}')
+        L.append('')
+    return '\n'.join(L), dict(encantamientos=len(d))
+
+
+# ----------------------------------------------------------------- mascotas
+
+RAREZAS_PET = {1: ('🟢 Comunes', 'Común'), 2: ('🔵 Raras', 'Rara'), 3: ('🟣 Épicas', 'Épica'), 4: ('🟡 Legendarias', 'Legendaria')}
+
+
+def gen_mascotas():
+    por = {1: [], 2: [], 3: [], 4: []}
+    for n in (1, 2, 3, 4):
+        m = miniyaml.cargar(PLUGINS / 'DeluxeMenus' / 'gui_menus' / f'mascotas_especiales_{n}.yml')
+        for k, v in (m.get('items') or {}).items():
+            cmds = v.get('left_click_commands') or []
+            if not any('petadmin create' in str(c) for c in cmds):
+                continue
+            precio = next((int(str(c).split()[-1]) for c in cmds if 'points take' in str(c)), 0)
+            lore = v.get('lore') or []
+            por[n].append((limpia(v.get('display_name')), limpia(lore[0]) if lore else '', precio))
+    total = sum(len(x) for x in por.values())
+    L = [f'Hay **{total} mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` '
+         'y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).', '']
+    L += ['| Rareza | Precio | Mascotas |', '|---|---:|---:|']
+    for n in (1, 2, 3, 4):
+        precio = por[n][0][2] if por[n] else 0
+        L.append(f'| {RAREZAS_PET[n][0]} | {precio} MapuPoints | {len(por[n])} |')
+    L.append('')
+    for n in (1, 2, 3, 4):
+        if not por[n]:
+            continue
+        L += [f'### {RAREZAS_PET[n][0]} · {por[n][0][2]} MapuPoints', '', '| Mascota | Descripción |', '|---|---|']
+        for nom, desc, _ in sorted(por[n], key=lambda x: x[0].lower()):
+            L.append(f'| **{md(nom)}** | {md(desc)} |')
+        L.append('')
+    return '\n'.join(L), dict(mascotas=total)
+
+
+# --------------------------------------------------------------- battlepass
+
+def gen_battlepass():
+    bp = PLUGINS / 'BattlePass'
+    rew = miniyaml.cargar(bp / 'rewards.yml')
+    libre = miniyaml.cargar(bp / 'passes' / 'free.yml')['tiers']
+    prem = miniyaml.cargar(bp / 'passes' / 'premium.yml')['tiers']
+    st = miniyaml.cargar(bp / 'settings.yml')
+
+    def r_txt(rids):
+        partes = []
+        for r in rids or []:
+            for ln in (rew.get(r, {}).get('lore-addon') or []):
+                t = limpia(ln).lstrip('✦➠>').strip()
+                t = t.replace('(MapuCore)', '').strip()
+                partes.append(t)
+        return ' + '.join(partes) or '—'
+
+    ini = st['current-season']['start-date']
+    L = [f'Temporada actual: inicia el **{ini}** · **{len(prem)} niveles** (gratis y premium).', '',
+         '| Nivel | Puntos del nivel | Total | 🆓 Gratis | 💎 Premium |', '|---:|---:|---:|---|---|']
+    acum = 0
+    for n in sorted(prem, key=lambda x: int(x)):
+        pts = int(prem[n].get('required-points', 0))
+        acum += pts
+        f = libre.get(n) or {}
+        hito = '⭐ ' if (('locked-tier-item' in prem[n]) or ('locked-tier-item' in f)) else ''
+        L.append(f'| {hito}**{n}** | {pts} | {acum} | {md(r_txt(f.get("rewards")))} | {md(r_txt(prem[n].get("rewards")))} |')
+    L += ['', '> ⭐ = nivel destacado: tiene un ícono propio en el menú del pase.', '']
+    return '\n'.join(L), dict(niveles=len(prem))
+
+
+def gen_bp_misiones():
+    bp = PLUGINS / 'BattlePass' / 'quests'
+    L = ['### 🗓️ Misiones semanales', '', '| Semana | 🆓 Gratis | 💎 Premium |', '|---:|---|---|']
+    for n in range(1, 11):
+        f = bp / f'week-{n}-quests.yml'
+        if not f.exists():
+            continue
+        q = miniyaml.cargar(f).get('quests') or {}
+        gr = [limpia(v.get('name')).title() for v in q.values() if v.get('exclusive') != 'premium']
+        pr = [limpia(v.get('name')).title() for v in q.values() if v.get('exclusive') == 'premium']
+        L.append(f'| **{n}** | {md(", ".join(gr))} | {md(", ".join(pr))} |')
+    eventos = sorted(bp.glob('event-*-quests.yml'))
+    if eventos:
+        L += ['', '### 🎉 Eventos del pase', '', '| Evento | Fechas | Misiones |', '|---|---|---:|']
+        for f in eventos:
+            d = miniyaml.cargar(f)
+            c = d.get('category') or {}
+            L.append(f'| {md(limpia(c.get("name")))} | {c.get("start", {}).get("date")} → {c.get("end", {}).get("date")} | {len(d.get("quests") or {})} |')
+    dq = miniyaml.cargar(bp / 'daily-quests.yml').get('quests') or {}
+    L += ['', f'Las **misiones diarias** salen de un grupo de **{len(dq)}** misiones y se reparten por dificultad: 2 fáciles, 2 normales y 1 difícil cada día.', '']
+    return '\n'.join(L), dict(diarias=len(dq))
+
+
 # --------------------------------------------------------------------- main
 
 
@@ -368,9 +552,9 @@ def main():
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='no escribe, solo muestra los cambios')
-    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado'], action='append')
+    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass'], action='append')
     a = ap.parse_args()
-    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado'])
+    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass'])
     if 'cajas' in quiere:
         cuerpo, st = gen_cajas()
         inyecta(WIKI / 'towny' / 'cajas.md', 'cajas', cuerpo, a.dry_run)
@@ -382,6 +566,21 @@ def main():
     if 'mercado' in quiere:
         cuerpo, st = gen_mercado()
         inyecta(WIKI / 'towny' / 'economia' / 'mercado.md', 'mercado', cuerpo, a.dry_run, PAG_MERCADO)
+        print('  ', st)
+    if 'encantamientos' in quiere:
+        cuerpo, st = gen_encantamientos()
+        inyecta(WIKI / 'towny' / 'encantamientos.md', 'encantamientos', cuerpo, a.dry_run)
+        print('  ', st)
+    if 'mascotas' in quiere:
+        cuerpo, st = gen_mascotas()
+        inyecta(WIKI / 'towny' / 'mascotas.md', 'mascotas', cuerpo, a.dry_run)
+        print('  ', st)
+    if 'battlepass' in quiere:
+        cuerpo, st = gen_battlepass()
+        inyecta(WIKI / 'towny' / 'battlepass.md', 'battlepass-niveles', cuerpo, a.dry_run)
+        print('  ', st)
+        cuerpo, st = gen_bp_misiones()
+        inyecta(WIKI / 'towny' / 'battlepass.md', 'battlepass-misiones', cuerpo, a.dry_run)
         print('  ', st)
     # Rangos: LuckPerms no guarda los requisitos y no hay menu de rangos en DeluxeMenus -> se omite.
 

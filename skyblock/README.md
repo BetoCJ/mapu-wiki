@@ -2,7 +2,7 @@
 
 ¡Bienvenido a la wiki oficial del **Skyblock** de Mapucraft! Empiezas en una pequeña isla flotando sobre el vacío y debes expandirla, mejorarla y hacerla crecer hasta convertirla en una auténtica cumbre del Wenu Mapu.
 
-¿Tienes dudas o encontraste algo incorrecto? Cuéntanos en el [Discord](https://discord.gg/bRjP5ruEwM).
+¿Tienes dudas o encontraste algo incorrecto? Cuéntanos en el [Discord](https://discord.gg/YDJKpgEU3m).
 
 ***
 

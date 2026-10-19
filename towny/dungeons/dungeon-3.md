@@ -1,5 +1,9 @@
 # 🔴 Dungeon 3 — Especial
 
+{% hint style="info" %}
+🗓️ **Disponible desde el 14 de noviembre.** → [Hoja de ruta](../hoja-de-ruta.md)
+{% endhint %}
+
 La dungeon más difícil de Mapucraft. Temática del **Nether**, con enemigos extremadamente fuertes, dos mini-bosses, un boss principal y un **boss oculto** para los más valientes.
 
 ***

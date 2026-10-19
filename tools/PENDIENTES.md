@@ -13,7 +13,7 @@ Lo que sí queda por revisar a mano, porque no hay forma de comprobarlo con los 
 | `skyblock/cajas.md` | Comparte con Towny el nombre «Caja Mapu» y el warp `/warp cajas`. Confirmar que esas dos cosas existen de verdad en Skyblock. |
 | `skyblock/economia/README.md` | Describe `/tienda` y `zAuctionHouse`; en Towny la subasta es `/ah` con otro plugin. Confirmar el plugin y los comandos. |
 | `skyblock/minijuegos.md` | Menciona `/ctf`, `/ffa`, `/dm`, `/bg`, `/col` (BattleArena). Confirmar que siguen activos. |
-| `wiki/README.md` | Dice que Skyblock es «Próximamente», pero hay decenas de páginas publicadas de ese modo. Decidir cuál es la verdad. |
+| README.md (portada) | La portada ya no dice «Próximamente» para Skyblock (hay decenas de páginas publicadas). **Confirmar que Skyblock está abierto** antes de anunciarlo; si no lo está, volver a poner el aviso. |
 
 Páginas de Towny sin equivalente en Skyblock (no es un error, solo no existen allí): coinflip, comercio, dungeons, eventos, jobs, límites de granjas, rangos, towns, economia/mercado, y las tres Pyro con nombre distinto (pyromining/pyromineria, etc.).
 
@@ -29,3 +29,9 @@ Páginas de Towny sin equivalente en Skyblock (no es un error, solo no existen a
 - `towny/economia/mercado.md`: los precios son los iniciales de Nascraft; los impuestos de compra/venta por ítem no se incluyen.
 - `towny/cajas.md`: la sección generada convive con el texto manual de arriba, que ya no está sincronizado con la config (por ejemplo, el texto manual habla de 6 cajas de progresión y de probabilidades aproximadas). Revisar y, si se quiere, borrar lo manual que quede desactualizado.
 - Rangos: no se generan (ver `README.md`).
+
+## Temporada 2 (revisar al publicar)
+
+- La versión de Minecraft (26.3), la fecha de apertura (24/10/2026, tomada de la configuración del portal) y la invitación de Discord (YDJKpgEU3m, la misma que usan las webs) se escribieron a partir de los archivos del servidor y las webs: confirmarlas.
+- Skyblock no tiene portal propio: el portal servidor.mapucraft.com solo cubre Towny.
+- Las páginas towny/encantamientos.md, towny/mascotas.md y towny/battlepass.md tienen secciones generadas: tras cambiar esos plugins ejecuta los generadores (ver README.md).

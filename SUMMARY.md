@@ -5,25 +5,37 @@
 * [Cómo conectarte](el-servidor/como-conectarte.md)
 * [Reglas](el-servidor/reglas.md)
 * [Comandos](el-servidor/comandos.md)
+* [🗺️ Hoja de ruta](towny/hoja-de-ruta.md)
+* [🆕 Novedades](towny/novedades.md)
 
-## 🏘️ Towny
+## 🌐 Webs de Mapucraft
+* [Todas las webs](webs/README.md)
+  * [Portal del servidor](webs/servidor-web.md)
+  * [Tienda](webs/tienda.md)
+  * [Sanciones y apelaciones](webs/castigos.md)
+
+## 🏘️ Towny · Empieza aquí
 * [Introducción](towny/README.md)
 * [Towns y Naciones](towny/towns.md)
 * [Rangos](towny/rangos.md)
 * [Economía](towny/economia/README.md)
   * [Tiendas y Mercado](towny/economia/tiendas.md)
   * [Mercado Global (precios base)](towny/economia/mercado.md)
+* [Comercio y Mercaderes](towny/comercio.md)
+* [Límites de Granjas](towny/limites-de-granjas.md)
+
+## ⚔️ Towny · Progresión
 * [Jobs](towny/jobs.md)
 * [Skills](towny/skills.md)
-* [Comercio y Mercaderes](towny/comercio.md)
 * [Encantamientos](towny/encantamientos.md)
 * [Crafteos Custom](towny/crafteos.md)
 * [Battle Pass](towny/battlepass.md)
 * [Misiones y Recompensas](towny/misiones-y-recompensas.md)
-* [Límites de Granjas](towny/limites-de-granjas.md)
 * [PyroMining](towny/pyromining.md)
 * [PyroFishing](towny/pyrofishing.md)
 * [PyroFarming](towny/pyrofarming.md)
+
+## 🏰 Towny · Aventura y eventos
 * [Dungeons](towny/dungeons/README.md)
   * [Dungeon 1](towny/dungeons/dungeon-1.md)
   * [Dungeon 2](towny/dungeons/dungeon-2.md)
@@ -32,9 +44,13 @@
   * [KOTH — MapuKoth](towny/eventos/koth.md)
   * [Piñata](towny/eventos/pinata.md)
 * [Cajas y Llaves](towny/cajas.md)
-* [CoinFlip](towny/coinflip.md)
 * [Mini-juegos](towny/minijuegos.md)
+* [CoinFlip](towny/coinflip.md)
+
+## 🎨 Towny · Personalización
 * [Cosméticos](towny/cosmeticos.md)
+* [Mascotas](towny/mascotas.md)
+* [MapuCore](towny/mapucore.md)
 * [Brewery](towny/brewery.md)
 
 ## 🌌 Skyblock
@@ -65,5 +81,5 @@
 * [Retos del Wenu Mapu](skyblock/retos.md)
 * [Colecciones y Mobs](skyblock/colecciones-y-mobs.md)
 
-## 📱 Redes Sociales
+## 📱 Comunidad
 * [Redes Sociales](redes-sociales/README.md)

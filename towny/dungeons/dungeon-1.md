@@ -1,5 +1,9 @@
 # 🟡 Dungeon 1 — Media
 
+{% hint style="info" %}
+🗓️ **Disponible desde el 7 de noviembre** (renovado). → [Hoja de ruta](../hoja-de-ruta.md)
+{% endhint %}
+
 La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y es el punto de entrada al mundo de las mazmorras. Desde aquí también se puede acceder a la Dungeon 2.
 
 ***

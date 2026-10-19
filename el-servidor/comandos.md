@@ -101,6 +101,10 @@ Esta es la lista de comandos del servidor y del bot de Discord. También está p
 | `/pp` | partículas | Todos | Towny |
 | `/skin <nombre>` | cambia tu skin | Todos | Towny |
 | `/petcapturehelper` | cómo capturar mascotas | Todos | Towny |
+| `/mascotasespeciales` | tienda de 134 mascotas con modelo 3D (se pagan con MapuPoints) | Todos | Towny |
+| `/mapucraft` | menú de MapuCore: modelos, materiales, nombre, lore, spawners, llaves y claims | Todos | Towny |
+| `/modelo` | aplica o quita un modelo custom de un ítem | Todos | Towny |
+| `/materiales` | elige un material de construcción y recibe una shulker llena | Todos | Towny |
 | `/warp afk` | 2 MapuPoints por hora estando AFK | Todos | Towny |
 | `/warp tops` | los mejores jugadores | Todos | Towny |
 

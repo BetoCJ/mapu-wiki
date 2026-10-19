@@ -1,5 +1,9 @@
 # 🟠 Dungeon 2 — Avanzado
 
+{% hint style="info" %}
+🗓️ **Disponible desde el 7 de noviembre** (renovado). → [Hoja de ruta](../hoja-de-ruta.md)
+{% endhint %}
+
 La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs mucho más agresivos. Se accede desde el interior de la Dungeon 1 o directamente desde `/warp predungeon`.
 
 ***
@@ -87,7 +91,7 @@ El monarca de las profundidades abisales. Usa la **bossbar azul**.
 - **Maldición Abisal** — aplica efectos negativos
 - Invoca **Guardias Ahogados** y **Sirenas Ahogadas** como refuerzos
 
-**Drops:** 200–300 XP + llaves de crate al morir (ver [Llave Boss D2](../cajas.md#llave-boss-d2))
+**Drops:** 200–300 XP + llaves de crate al morir (ver [Llave Boss D2](../cajas.md))
 
 ***
 

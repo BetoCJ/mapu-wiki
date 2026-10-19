@@ -1,5 +1,9 @@
 # ⛏️ PyroMining
 
+{% hint style="info" %}
+🗓️ **Disponible desde el 31 de octubre** (semana 2). → [Hoja de ruta](hoja-de-ruta.md)
+{% endhint %}
+
 **PyroMining** es el sistema de minería avanzada del servidor. Al romper minerales puedes obtener recursos especiales: gemas, artefactos, polvo misterioso, runas y más. También incluye mobs únicos y jefes que solo aparecen en la mina.
 
 ***

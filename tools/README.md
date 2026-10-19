@@ -19,7 +19,7 @@ Desde la carpeta `MAPUCRAFT`:
 ```
 bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --dry-run     # ver qué cambiaría, sin escribir
 bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py               # escribir todo
-bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --solo cajas  # cajas | crafteos | mercado
+bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --solo cajas  # cajas | crafteos | mercado | encantamientos | mascotas | battlepass
 bot\.venv\Scripts\python.exe wiki\tools\generar_comandos.py           # guía de comandos
 ```
 
@@ -32,6 +32,9 @@ Cualquier Python 3.8+ sirve. Los scripts leen la copia local `Towny-26-3\plugins
 | Cajas, llaves o premios (ExcellentCrates) | `generar_wiki.py --solo cajas` | `towny/cajas.md` (sección `cajas`) |
 | Recetas (CraftEnhance, `recipes.db`) | `generar_wiki.py --solo crafteos` | `towny/crafteos.md` (sección `crafteos`) |
 | Precios o ítems del mercado (Nascraft) | `generar_wiki.py --solo mercado` | `towny/economia/mercado.md` (sección `mercado`) |
+| Encantamientos (AdvancedEnchantments, `enchantments.yml`) | `generar_wiki.py --solo encantamientos` | `towny/encantamientos.md` (sección `encantamientos`: lista por rareza, incompatibilidades) |
+| Mascotas o sus precios (DeluxeMenus, `mascotas_especiales_*.yml`) | `generar_wiki.py --solo mascotas` | `towny/mascotas.md` (sección `mascotas`) |
+| Pase de batalla (BattlePass: niveles, recompensas, misiones, eventos) | `generar_wiki.py --solo battlepass` | `towny/battlepass.md` (secciones `battlepass-niveles` y `battlepass-misiones`) |
 | Un comando nuevo o cambiado | editar `comandos.yml` y ejecutar `generar_comandos.py` | `el-servidor/comandos.md`, `bot/GUIA_TOWNY.md`, `bot/servidor-towny/comandos.json` |
 
 Flujo recomendado después de cambiar un plugin: bajar la carpeta actualizada a `Towny-26-3\plugins`, ejecutar con `--dry-run`, revisar el diff y ejecutar de verdad.
