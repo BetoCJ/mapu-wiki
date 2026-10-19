@@ -6,7 +6,7 @@ Si la pagina no tiene los marcadores, agrega la seccion al final. Es idempotente
 
 Uso:
     python generar_wiki.py                 # todo
-    python generar_wiki.py --solo cajas    # cajas | crafteos | mercado | encantamientos | mascotas | battlepass | brewery
+    python generar_wiki.py --solo cajas    # cajas | crafteos | mercado | encantamientos | mascotas | battlepass | brewery | recompensas
     python generar_wiki.py --dry-run       # solo muestra que cambiaria
 Nunca lee contrasenas ni tokens: solo cajas, recetas y precios.
 """
@@ -630,6 +630,50 @@ def gen_brewery():
     return '\n'.join(L), dict(recetas=len(rec), categorias=len(orden))
 
 
+# ------------------------------------------------------------ recompensas de sesion (DailyRewards)
+
+KEYS_DR = {'diaria': 'Llave Diaria', 'pinata': 'Llave Piñata', 'peluches': 'Llave Peluches', 'muebles': 'Llave Muebles'}
+
+
+def _accion_dr(a):
+    a = str(a)
+    m = re.match(r'\[console\] crate key give %player% (\S+) (\d+)', a)
+    if m:
+        return ('🗝️ ' + KEYS_DR.get(m.group(1), titulo(m.group(1))), int(m.group(2)), 0)
+    m = re.match(r'\[console\] ei give %player% llavealeatorea (\d+)', a)
+    if m:
+        return ('🎲 Llave Aleatoria', int(m.group(1)), 1)
+    m = re.match(r'\[console\] cmi money give %player% (\d+)', a)
+    if m:
+        return ('💰 Dinero', int(m.group(1)), 2)
+    m = re.match(r'\[console\] points give %player% (\d+)', a)
+    if m:
+        return ('💠 MapuPoints', int(m.group(1)), 3)
+    return None
+
+
+def gen_dailyrewards():
+    cfg = miniyaml.cargar(PLUGINS / 'DailyRewards' / 'config.yml')['config']
+    NL = chr(10)
+    L = []
+    for per, titulo_, horas_key in (('daily', '☀️ Recompensa diaria', 'daily-cooldown'), ('weekly', '📅 Recompensa semanal', 'weekly-cooldown'),
+                                    ('monthly', '🗓️ Recompensa mensual', 'monthly-cooldown')):
+        horas = int(cfg.get(horas_key, 0))
+        cada = f'{horas} horas' if horas < 48 else f'{horas // 24} días'
+        normal = {n: (c, o) for n, c, o in filter(None, (_accion_dr(a) for a in cfg.get(f'{per}-rewards') or []))}
+        premium = {n: (c, o) for n, c, o in filter(None, (_accion_dr(a) for a in cfg.get(f'{per}-premium-rewards') or []))}
+        L += [f'### {titulo_}', '', f'Se puede reclamar **cada {cada}**.', '', '| | Normal | Premium |', '|---|---:|---:|']
+        for n in list(dict.fromkeys(list(normal) + list(premium))):
+            def f(d):
+                if n not in d:
+                    return '—'
+                c = d[n][0]
+                return '$' + f'{c:,}'.replace(',', '.') if n.endswith('Dinero') else f'{c}x'
+            L.append(f'| {n} | {f(normal)} | {f(premium)} |')
+        L.append('')
+    return NL.join(L), dict(periodos=3)
+
+
 # --------------------------------------------------------------------- main
 
 
@@ -649,9 +693,9 @@ def main():
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='no escribe, solo muestra los cambios')
-    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery'], action='append')
+    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas'], action='append')
     a = ap.parse_args()
-    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery'])
+    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas'])
     if 'cajas' in quiere:
         cuerpo, st = gen_cajas()
         inyecta(WIKI / 'towny' / 'cajas.md', 'cajas', cuerpo, a.dry_run)
@@ -682,6 +726,10 @@ def main():
     if 'brewery' in quiere:
         cuerpo, st = gen_brewery()
         inyecta(WIKI / 'towny' / 'brewery.md', 'brewery', cuerpo, a.dry_run)
+        print('  ', st)
+    if 'recompensas' in quiere:
+        cuerpo, st = gen_dailyrewards()
+        inyecta(WIKI / 'towny' / 'misiones-y-recompensas.md', 'recompensas-sesion', cuerpo, a.dry_run)
         print('  ', st)
     # Rangos: LuckPerms no guarda los requisitos y no hay menu de rangos en DeluxeMenus -> se omite.
 

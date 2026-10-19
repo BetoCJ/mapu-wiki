@@ -67,37 +67,50 @@ Con `/vote` se abren los enlaces a los sitios de votación. Acumular votos tambi
 
 El sistema de **Recompensas de Inicio de Sesión** (DailyRewards) permite reclamar recompensas periódicas simplemente conectándose al servidor. Hay tres tipos según la frecuencia: **diaria**, **semanal** y **mensual**.
 
-Los jugadores con rango **Premium** reciben el doble de recompensas en todas las categorías.
+Los jugadores con **rango** (Weichafe o superior) reciben recompensas **premium**, con más llaves, dinero y MapuPoints en cada categoría.
 
-### ☀️ Recompensas Diarias
+- Debes haber jugado **30 minutos** en el servidor antes de poder reclamar tu primera recompensa.
+- Las recompensas **no se acumulan**: reclama la del período actual antes de que se renueve.
+- Si tu inventario está lleno no podrás reclamarlas: libera espacio primero.
+- La **diaria y la semanal** están disponibles desde tu primer ingreso (tras los 30 minutos); la **mensual** se habilita al cumplirse el mes.
 
-Se pueden reclamar **cada 24 horas**.
+<!-- AUTO:inicio recompensas-sesion -->
+### ☀️ Recompensa diaria
+
+Se puede reclamar **cada 24 horas**.
 
 | | Normal | Premium |
-|---|---|---|
+|---|---:|---:|
 | 🗝️ Llave Diaria | 1x | 2x |
-| 💰 Dinero | $500 | $1,000 |
+| 💰 Dinero | $500 | $1.000 |
+| 💠 MapuPoints | 1x | 2x |
 
-### 📅 Recompensas Semanales
+### 📅 Recompensa semanal
 
-Se pueden reclamar **cada 7 días**.
+Se puede reclamar **cada 7 días**.
 
 | | Normal | Premium |
-|---|---|---|
+|---|---:|---:|
 | 🗝️ Llave Diaria | 3x | 5x |
-| 🎉 Llave VoteParty | 1x | 2x |
-| 💰 Dinero | $1,000 | $2,000 |
+| 🗝️ Llave Piñata | 2x | 4x |
+| 🎲 Llave Aleatoria | 1x | 2x |
+| 💰 Dinero | $2.000 | $4.000 |
+| 💠 MapuPoints | 5x | 10x |
 
-### 🗓️ Recompensas Mensuales
+### 🗓️ Recompensa mensual
 
-Se pueden reclamar **cada 30 días**.
+Se puede reclamar **cada 30 días**.
 
 | | Normal | Premium |
-|---|---|---|
-| 🗝️ Llave Diaria | 6x | 12x |
-| 🎉 Llave VoteParty | 4x | 8x |
-| 🏆 Llave Aleatoria de Rango | 1x | 2x |
-| 💰 Dinero | $10,000 | $20,000 |
+|---|---:|---:|
+| 🗝️ Llave Diaria | 10x | 15x |
+| 🗝️ Llave Piñata | 6x | 10x |
+| 🗝️ Llave Peluches | 3x | 6x |
+| 🗝️ Llave Muebles | 5x | 8x |
+| 🎲 Llave Aleatoria | 3x | 6x |
+| 💰 Dinero | $15.000 | $30.000 |
+| 💠 MapuPoints | 30x | 60x |
+<!-- AUTO:fin recompensas-sesion -->
 
 ### 📜 Comandos
 
