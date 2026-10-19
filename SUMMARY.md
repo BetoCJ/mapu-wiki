@@ -1,5 +1,7 @@
 # Tabla de Contenidos
 
+* [🪶 Mapucraft](README.md)
+
 ## 🗺️ El Servidor
 * [Sobre Mapucraft](el-servidor/sobre-mapucraft.md)
 * [Cómo conectarte](el-servidor/como-conectarte.md)
