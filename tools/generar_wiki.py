@@ -6,7 +6,7 @@ Si la pagina no tiene los marcadores, agrega la seccion al final. Es idempotente
 
 Uso:
     python generar_wiki.py                 # todo
-    python generar_wiki.py --solo cajas    # cajas | crafteos | mercado | encantamientos | mascotas | battlepass
+    python generar_wiki.py --solo cajas    # cajas | crafteos | mercado | encantamientos | mascotas | battlepass | brewery
     python generar_wiki.py --dry-run       # solo muestra que cambiaria
 Nunca lee contrasenas ni tokens: solo cajas, recetas y precios.
 """
@@ -533,6 +533,103 @@ def gen_bp_misiones():
     return '\n'.join(L), dict(diarias=len(dq))
 
 
+# ------------------------------------------------------------------ brewery
+
+MAT_ES = {
+    'Wheat': 'Trigo', 'Sugar': 'Azúcar', 'Sugar_Cane': 'Caña de azúcar', 'Sweet_Berries': 'Bayas dulces', 'Apple': 'Manzana',
+    'Potato': 'Papa', 'Cocoa_Beans': 'Cacao', 'Milk_Bucket': 'Balde de leche', 'Egg': 'Huevo', 'Fern': 'Helecho',
+    'Snowball': 'Bola de nieve', 'Cactus': 'Cactus', 'Honey_Bottle': 'Botella de miel', 'Melon_Slice': 'Rodaja de melón',
+    'Kelp': 'Algas', 'Blaze_Powder': 'Polvo de blaze', 'Gold_Nugget': 'Pepita de oro', 'Poisonous_Potato': 'Papa venenosa',
+    'Red_Mushroom': 'Champiñón rojo', 'Brown_Mushroom': 'Champiñón marrón', 'Beetroot': 'Remolacha', 'Dandelion': 'Diente de león',
+    'Poppy': 'Amapola', 'Bamboo': 'Bambú', 'Nether_Wart': 'Verruga del Nether', 'Magma_Cream': 'Crema de magma',
+    'Chorus_Fruit': 'Fruto de chorus', 'Ender_Pearl': 'Perla de ender', 'Spider_Eye': 'Ojo de araña',
+    'Fermented_Spider_Eye': 'Ojo de araña fermentado', 'Slime_Ball': 'Bola de slime', 'Lapis_Lazuli': 'Lapislázuli',
+    'Carrot': 'Zanahoria', 'Sponge': 'Esponja', 'Red_Dye': 'Tinte rojo', 'Yellow_Dye': 'Tinte amarillo',
+    'Iron_Nugget': 'Pepita de hierro', 'Charcoal': 'Carbón vegetal', 'Pumpkin': 'Calabaza', 'blue-flowers': 'Flores azules',
+}
+WOOD_ES = {0: 'cualquiera', 1: 'abedul', 2: 'roble', 3: 'jungla', 4: 'abeto', 5: 'acacia', 6: 'roble oscuro', 7: 'carmesí', 8: 'distorsionado',
+           9: 'manglar', 10: 'cerezo', 11: 'bambú', 12: 'cobre cortado', 13: 'roble pálido'}
+EFF_ES = {'SPEED': 'Velocidad', 'REGENERATION': 'Regeneración', 'ABSORPTION': 'Absorción', 'FIRE_RESISTANCE': 'Resist. al fuego',
+          'SATURATION': 'Saturación', 'WATER_BREATHING': 'Resp. acuática', 'NIGHT_VISION': 'Visión nocturna', 'STRENGTH': 'Fuerza',
+          'JUMP_BOOST': 'Salto', 'HASTE': 'Prisa', 'RESISTANCE': 'Resistencia', 'HEALTH_BOOST': 'Salud extra',
+          'INVISIBILITY': 'Invisibilidad', 'POISON': 'Veneno', 'WEAKNESS': 'Debilidad', 'NAUSEA': 'Náusea', 'BLINDNESS': 'Ceguera',
+          'SLOWNESS': 'Lentitud', 'INSTANT_HEALTH': 'Curación', 'INSTANT_DAMAGE': 'Daño'}
+
+
+BX_ESPECIALES = ['nether_brew', 'end_elixir', 'witch_brew']
+BX_CHILENAS = ['pisco_sour', 'terremoto', 'cola_de_mono', 'piscola', 'vaina', 'araucano', 'mote_con_huesillo', 'borgona', 'melvin', 'jote',
+               'serena_libre', 'pihuelo', 'pajarete', 'enguindado', 'candola', 'chuflay', 'navegado', 'mango_sour', 'ruso_blanco_cl',
+               'chicha', 'chicha_uva', 'clery']
+BX_CERVEZAS = ['wheatbeer', 'beer', 'darkbeer', 'pumpkin_beer', 'honey_beer', 'ginger_beer', 'escudo', 'cristal', 'baltica', 'becker', 'royal_guard', 'kross']
+BX_VINOS = ['wine', 'white_wine', 'apple_wine', 'berry_wine', 'champagne', 'sangria', 'tinto_de_verano', 'rebujito', 'kalimotxo', 'cidre',
+            'sake', 'umeshu', 'pulque', 'mead', 'ap_mead', 'berry_mead']
+BX_DESTILADOS = ['whiskey', 'fire_whiskey', 'bourbon', 'rum', 'cachaza', 'vodka', 'g_vodka', 'melon_vodka', 'shroom_vodka', 'gin', 'tequila',
+                 'absinthe', 'gr_absinthe', 'brandy', 'cognac', 'grappa', 'apple_liquor', 'shochu', 'moonshine', 'beetroot_spirit']
+BX_LICORES = ['dandelion_liquor', 'poppy_liquor', 'bamboo_liquor', 'amaretto', 'cherry_liquor', 'coffee_liquor', 'limoncello', 'eggnog']
+
+def gen_brewery():
+    ruta = PLUGINS / 'BreweryX' / 'recipes.yml'
+    rec = miniyaml.cargar(ruta)['recipes']
+
+    def categoria(rid, v):
+        # misma clasificacion que se uso al ordenar recipes.yml (el plugin puede borrar los comentarios del archivo)
+        if rid in BX_ESPECIALES:
+            return 'Especiales (Nether, End y brujería)'
+        if rid in BX_CHILENAS:
+            return 'Bebidas chilenas y latinoamericanas'
+        if v.get('alcohol') in (None, 0) or int(v['alcohol']) <= 0:
+            return 'Sin alcohol y refrescos'
+        for nombre, lst in (('Cervezas', BX_CERVEZAS), ('Vinos, fermentados e hidromieles', BX_VINOS), ('Destilados', BX_DESTILADOS), ('Licores', BX_LICORES)):
+            if rid in lst:
+                return nombre
+        return 'Cócteles'
+
+    secc = {rid: categoria(rid, v) for rid, v in rec.items()}
+    orden = ['Especiales (Nether, End y brujería)', 'Bebidas chilenas y latinoamericanas', 'Cervezas', 'Vinos, fermentados e hidromieles',
+             'Destilados', 'Licores', 'Cócteles', 'Sin alcohol y refrescos']
+    cfg = miniyaml.cargar(PLUGINS / 'BreweryX' / 'config.yml')
+    min_ano = int(cfg.get('agingYearDuration', 20))
+
+    def mat(i):
+        nombre, _, cant = str(i).partition('/')
+        return f'{MAT_ES.get(nombre, titulo(nombre))} ×{cant or 1}'
+
+    def efecto(e):
+        p = str(e).split('/')
+        return EFF_ES.get(p[0], titulo(p[0]))
+
+    def cap(s):
+        return s
+
+    L = [f'Hay **{len(rec)} bebidas** en {len(orden)} categorías. Esta lista se genera sola desde el archivo de recetas, así que siempre coincide con el servidor. '
+         f'**Cocción** son minutos reales en el caldero; **Destilar** es el número de destilaciones; **Barril** es la madera y los años de añejado '
+         f'(1 año = {min_ano} minutos reales); **Alc.** es el alcohol que sube al beberla perfecta.', '']
+    L += ['| Categoría | Bebidas |', '|---|---:|']
+    for s in orden:
+        L.append(f'| {md(cap(s))} | {sum(1 for r in rec if secc.get(r) == s)} |')
+    L.append('')
+    for s in orden:
+        ids = [r for r in rec if secc.get(r) == s]
+        if not ids:
+            continue
+        L += [f'### {md(cap(s))}', '',
+              '| Bebida | Ingredientes | Cocción | Destilar | Barril | Alc. | Efectos |', '|---|---|---:|---:|---|---:|---|']
+        for r in ids:
+            v = rec[r]
+            nombres = str(v.get('name')).split('/')
+            nom = limpia(nombres[1] if len(nombres) == 3 else nombres[-1])
+            wood, age = v.get('wood'), v.get('age')
+            barril = f'{WOOD_ES.get(int(wood or 0), "cualquiera")}, {age} años' if age else '—'
+            runs = v.get('distillruns')
+            alc = v.get('alcohol')
+            efs = ', '.join(dict.fromkeys(efecto(e) for e in (v.get('effects') or [])))
+            ings = ', '.join(mat(i) for i in v.get('ingredients') or [])
+            L.append(f'| **{md(nom)}** | {md(ings)} | {v.get("cookingtime")} min | {runs if runs else "—"} | {barril} | '
+                     f'{alc if alc else "—"} | {md(efs) if efs else "—"} |')
+        L.append('')
+    return '\n'.join(L), dict(recetas=len(rec), categorias=len(orden))
+
+
 # --------------------------------------------------------------------- main
 
 
@@ -552,9 +649,9 @@ def main():
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='no escribe, solo muestra los cambios')
-    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass'], action='append')
+    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery'], action='append')
     a = ap.parse_args()
-    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass'])
+    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery'])
     if 'cajas' in quiere:
         cuerpo, st = gen_cajas()
         inyecta(WIKI / 'towny' / 'cajas.md', 'cajas', cuerpo, a.dry_run)
@@ -581,6 +678,10 @@ def main():
         print('  ', st)
         cuerpo, st = gen_bp_misiones()
         inyecta(WIKI / 'towny' / 'battlepass.md', 'battlepass-misiones', cuerpo, a.dry_run)
+        print('  ', st)
+    if 'brewery' in quiere:
+        cuerpo, st = gen_brewery()
+        inyecta(WIKI / 'towny' / 'brewery.md', 'brewery', cuerpo, a.dry_run)
         print('  ', st)
     # Rangos: LuckPerms no guarda los requisitos y no hay menu de rangos en DeluxeMenus -> se omite.
 
