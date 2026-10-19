@@ -389,7 +389,7 @@ def _rango(vals, sufijo='', cero='—'):
 
 def gen_encantamientos():
     d = miniyaml.cargar(PLUGINS / 'AdvancedEnchantments' / 'enchantments.yml')
-    disp = {k: limpia(v.get('display')) or titulo(k) for k, v in d.items()}
+    disp = {k: limpia(re.sub(r'%[A-Za-z_-]+%', '', str(v.get('display') or ''))) or titulo(k) for k, v in d.items()}
     por = {g[0]: [] for g in GRUPOS_AE}
     for k, v in d.items():
         por.setdefault(str(v.get('group', 'SIMPLE')).upper(), []).append(k)
