@@ -51,8 +51,8 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | Rareza | Precio | Mascotas |
 |---|---:|---:|
 | 🟢 Comunes | 120 MapuPoints | 34 |
-| 🔵 Raras | 250 MapuPoints | 31 |
-| 🟣 Épicas | 450 MapuPoints | 31 |
+| 🔵 Raras | 250 MapuPoints | 30 |
+| 🟣 Épicas | 450 MapuPoints | 32 |
 | 🟡 Legendarias | 800 MapuPoints | 38 |
 
 ### 🟢 Comunes · 120 MapuPoints
@@ -73,6 +73,7 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Cubee Serpiente Cupcake** | Una serpiente de cupcake. |
 | **Cubee Tiburón Croissant** | Un tiburón recién horneado. |
 | **Flinx** | Una bolita de nieve adorable. |
+| **Flor Sanadora** | Una flor que cura. |
 | **Gato Bombay** | Negro como la noche. |
 | **Gato Europeo** | El clásico gato de siempre. |
 | **Gato Fold Escocés** | Orejitas dobladas. |
@@ -90,7 +91,6 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Globo Zorro** | Un globito que te sigue. |
 | **Gremlin Nevado** | Travieso y peludo. |
 | **Marioneta Calabaza Mini** | La versión diminuta de la marioneta de calabaza. |
-| **Murciélago Nevado** | Un murciélago de las cuevas heladas. |
 | **Pingüino** | Un pingüino muy simpático. |
 | **Snoopy** | El famoso beagle, siempre a tu lado. |
 
@@ -106,7 +106,6 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Conejo Alado** | Un conejo que vuela. |
 | **Elemental Ancestral** | Un espíritu de tiempos antiguos. |
 | **Elemental de Agua** | Un espíritu del agua. |
-| **Flor Sanadora** | Una flor que cura. |
 | **Fuego Fatuo** | Una luz errante que te sigue. |
 | **Gato Caído** | Un gato del reino caído. |
 | **Gato de Fuego** | Un felino en llamas. |
@@ -114,6 +113,7 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Knuckles** | El guardián de la Esmeralda Maestra. |
 | **Marioneta Calabaza** | Una marioneta de calabaza que baila a tu lado. |
 | **Mini Rex** | Un pequeño T-Rex muy rápido. |
+| **Murciélago Nevado** | Un murciélago de las cuevas heladas. |
 | **Papá Noel** | ¡Ho, ho, ho! |
 | **Rana Permafrost** | Una rana saltarina de hielo. |
 | **Rana Verde** | Una rana saltarina. |
@@ -122,7 +122,6 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Rouge** | Cazadora de tesoros. |
 | **Sabueso Calabaza** | Un sabueso con cabeza de calabaza. |
 | **Semillita** | Una semilla con vida propia. |
-| **Shadow** | La forma de vida definitiva. |
 | **Snoopy Malvado** | Un Snoopy con muy malas intenciones. |
 | **Sonic** | Gotta go fast! |
 | **Tails** | El mejor amigo de Sonic. |
@@ -142,6 +141,8 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Colmillo del Bosque** | Una bestia del bosque. |
 | **Colmillo Demoníaco** | Una bestia del inframundo. |
 | **Colmillo Onírico** | Una bestia de luz de ensueño. |
+| **Cubee Dragón de Luz** | Un pequeño dragón de la luz. |
+| **Cubee Dragón de Tierra** | Un pequeño dragón de la tierra. |
 | **Dragón Azul** | Un pequeño dragón de escamas azules. |
 | **Dragón Rojo** | Un pequeño dragón de escamas rojas. |
 | **Dragón Verde** | Un pequeño dragón de escamas verdes. |
@@ -158,11 +159,10 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Gólem Real** | El gólem de la realeza. |
 | **Hechicero del End** | Un pequeño mago del End. |
 | **Kitsune** | Un zorro de nueve colas. |
-| **Kitsune Demoníaco** | Un zorro de nueve colas. |
-| **Kitsune Infernal** | Un zorro de nueve colas de fuego. |
 | **Lobo Maderero** | Un gran lobo del norte. |
 | **Rana Real** | La reina de los pantanos. |
 | **Segador** | La muerte en miniatura. |
+| **Shadow** | La forma de vida definitiva. |
 | **Unicornio** | Una criatura mágica. |
 | **Warden Mini** | Un Warden pequeñito... pero Warden. |
 
@@ -178,8 +178,6 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Cubee Dragón de Hielo** | Un pequeño dragón del hielo. |
 | **Cubee Dragón de la Naturaleza** | Un pequeño dragón del bosque. |
 | **Cubee Dragón de la Oscuridad** | Un pequeño dragón de la oscuridad. |
-| **Cubee Dragón de Luz** | Un pequeño dragón de la luz. |
-| **Cubee Dragón de Tierra** | Un pequeño dragón de la tierra. |
 | **Cubee Dragón del Aire** | Un pequeño dragón del viento. |
 | **Cubee Dragón Galáctico** | Un pequeño dragón de las estrellas. |
 | **Cubee Escritor de la Muerte** | Escribe el destino de sus enemigos. |
@@ -198,6 +196,8 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Fénix de Luz** | Una criatura voladora legendaria. |
 | **Fénix del Trueno** | Una criatura voladora legendaria. |
 | **King Oondasta** | Un dinosaurio acorazado. |
+| **Kitsune Demoníaco** | Un zorro de nueve colas. |
+| **Kitsune Infernal** | Un zorro de nueve colas de fuego. |
 | **Lobo-Halcón Caído** | Una criatura voladora. |
 | **Lobo-Halcón Feroz** | Una criatura voladora. |
 | **Lobo-Halcón Luna Llena** | Una criatura voladora. |
