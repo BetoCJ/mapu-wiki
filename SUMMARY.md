@@ -52,6 +52,7 @@
 ## 🎨 Towny · Personalización
 * [Cosméticos](towny/cosmeticos.md)
 * [Mascotas](towny/mascotas.md)
+  * [Habilidades de las mascotas](towny/mascotas-habilidades.md)
 * [MapuCore](towny/mapucore.md)
 * [Brewery](towny/brewery.md)
 

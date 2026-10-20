@@ -13,7 +13,7 @@ En Mapucraft puedes tener un **compañero** que te sigue a todas partes. Además
 1. Reúne **MapuPoints** (ver abajo).
 2. Escribe **`/mascotasespeciales`** para abrir la tienda. Está organizada por rareza, de Comunes a Legendarias; usa las flechas para cambiar de página.
 3. Haz **clic izquierdo** sobre la mascota que quieras. Se te descuenta el precio y la mascota queda lista para ti.
-4. Cuida a tu mascota con el sistema de [Cosméticos y Mascotas](cosmeticos.md) (hambre, nivel y habilidades).
+4. Cuida a tu mascota con el sistema de [Cosméticos y Mascotas](cosmeticos.md) (hambre, nivel y habilidades). Mira las [habilidades de cada familia](mascotas-habilidades.md).
 
 {% hint style="info" %}
 Antes de comprar puedes verlas todas **girando en 3D** en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
@@ -46,14 +46,14 @@ Antes de comprar puedes verlas todas **girando en 3D** en [servidor.mapucraft.co
 ## 📖 Catálogo completo
 
 <!-- AUTO:inicio mascotas -->
-Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
+Hay **190 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
 
 | Rareza | Precio | Mascotas |
 |---|---:|---:|
 | 🟢 Comunes | 120 MapuPoints | 38 |
-| 🔵 Raras | 250 MapuPoints | 41 |
-| 🟣 Épicas | 450 MapuPoints | 44 |
-| 🟡 Legendarias | 800 MapuPoints | 44 |
+| 🔵 Raras | 250 MapuPoints | 47 |
+| 🟣 Épicas | 450 MapuPoints | 52 |
+| 🟡 Legendarias | 800 MapuPoints | 53 |
 
 ### 🟢 Comunes · 120 MapuPoints
 
@@ -116,6 +116,8 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Gato de Fuego** | Un felino en llamas. |
 | **Jabalí Domado** | Un jabalí fiel. Se puede montar. |
 | **Knuckles** | El guardián de la Esmeralda Maestra. |
+| **Lagarto Acuático** | Nada tan bien como corre. |
+| **Lagarto de Lava** | Su piel late como un volcán. |
 | **Marioneta Calabaza** | Una marioneta de calabaza que baila a tu lado. |
 | **Mega Aerodáctilo** | Un depredador prehistórico de alas afiladas. |
 | **Mega Ampharos** | Una oveja eléctrica que ilumina la noche. |
@@ -127,6 +129,9 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Mega Steelix** | Una serpiente de acero y diamante. |
 | **Mini Rex** | Un pequeño T-Rex muy rápido. |
 | **Murciélago Nevado** | Un murciélago de las cuevas heladas. |
+| **Oni Arquero** | Un oni de puntería letal. |
+| **Oni Ninja** | Se mueve sin hacer ruido. |
+| **Panda Gigante** | Tranquilo, enorme y muy cariñoso. |
 | **Papá Noel** | ¡Ho, ho, ho! |
 | **Pikachu Playa** | Un Pikachu listo para pasar el verano. |
 | **Rana Permafrost** | Una rana saltarina de hielo. |
@@ -137,6 +142,7 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Rouge** | Cazadora de tesoros. |
 | **Sabueso Calabaza** | Un sabueso con cabeza de calabaza. |
 | **Semillita** | Una semilla con vida propia. |
+| **Smilodon de la Sabana** | Un felino de colmillos enormes. |
 | **Snoopy Malvado** | Un Snoopy con muy malas intenciones. |
 | **Sonic** | Gotta go fast! |
 | **Tails** | El mejor amigo de Sonic. |
@@ -150,6 +156,9 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 |---|---|
 | **Caballero Calabaza** | Un pequeño caballero de la noche de Halloween. |
 | **Caballero de la Muerte** | Un caballero no-muerto leal. |
+| **Caballero Oscuro de la Espada** | Un duelista de armadura negra. |
+| **Caballero Oscuro del Hacha** | Armadura negra y hacha pesada. |
+| **Caballero Oscuro Encapuchado** | Un caballero que prefiere las sombras. |
 | **Caballo de Magma** | Un caballo de lava. |
 | **Caballo Espartano** | Un caballo de guerra. |
 | **Caballo Glacial** | Un caballo de hielo. |
@@ -187,9 +196,14 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Mega Sceptile** | Un cazador ágil de la selva. |
 | **Mega Swampert** | Un coloso de fuerza descomunal. |
 | **Mega Venusaur** | Un gigante cubierto de flores. |
+| **Oni Bruto** | Una fuerza que no se detiene. |
+| **Oni Miko** | Una sacerdotisa de poder espiritual. |
+| **Oni Samurái** | Honor y filo en cada golpe. |
 | **Rana Real** | La reina de los pantanos. |
 | **Segador** | La muerte en miniatura. |
 | **Shadow** | La forma de vida definitiva. |
+| **Smilodon de Medianoche** | Caza mientras todos duermen. |
+| **Smilodon Ártico** | Colmillos de hielo y piel blanca. |
 | **Unicornio** | Una criatura mágica. |
 | **Warden Mini** | Un Warden pequeñito... pero Warden. |
 
@@ -212,8 +226,13 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Cubee León del Pecado** | Un león orgulloso y poderoso. |
 | **Cubee Maestro Doble Espada** | Domina dos espadas cibernéticas. |
 | **Cubee Tejedor de Almas** | Teje las almas de sus enemigos. |
+| **Dragón del Desierto** | Un dragón nacido entre dunas. |
+| **Dragón del Nether** | Un dragón de fuego del inframundo. |
 | **Dragón Dorado** | Un pequeño dragón de escamas doradas. |
 | **Dragón Eterno** | Escupe fuego eterno. |
+| **Dragón Glacial** | Un dragón de aliento helado. |
+| **Dragón Sculk** | Escucha cada vibración. |
+| **Dragón Warden** | Un guardián del abismo con alas. |
 | **Dunkle Gigante** | Un Dunkle de gran tamaño. |
 | **Fantasma del End** | Una criatura voladora. |
 | **Fantasma Espectral** | Una criatura voladora. |
@@ -229,6 +248,10 @@ Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Lobo-Halcón Feroz** | Una criatura voladora. |
 | **Lobo-Halcón Luna Llena** | Una criatura voladora. |
 | **Lobo-Halcón Tormenta** | Una criatura voladora. |
+| **Mantícora de Almas** | Guarda las almas que caza. |
+| **Mantícora del Crepúsculo** | Vuela cuando cae el sol. |
+| **Mantícora del Éter** | Surca el cielo entre auroras. |
+| **Mantícora Venenosa** | Su aguijón nunca falla. |
 | **Mega Charizard X** | Un dragón de llamas azules. |
 | **Mega Diancie** | La princesa de las gemas. |
 | **Mega Latios** | Un dragón eólico de velocidad suprema. |

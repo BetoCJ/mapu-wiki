@@ -449,17 +449,34 @@ def gen_encantamientos():
 RAREZAS_PET = {1: ('🟢 Comunes', 'Común'), 2: ('🔵 Raras', 'Rara'), 3: ('🟣 Épicas', 'Épica'), 4: ('🟡 Legendarias', 'Legendaria')}
 
 
+PAG_HABILIDADES = '''# 🧬 Habilidades de las mascotas
+
+Tu mascota sube de nivel y desbloquea **habilidades** a través de su **árbol de habilidades** (`/petchooseskilltree`).
+
+1. **Nivel 1:** elige un rol (combate, utilidad o movilidad).
+2. **Nivel 20:** asciende gratis al árbol de **firma ✦** de su familia o a la continuación de su rol.
+3. **Nivel 50:** las mascotas **legendarias** de ciertas familias pueden ascender a su versión **mítica**.
+
+Además, las mascotas más raras tienen **más vida base** y todas muestran su **nivel** sobre la cabeza.
+
+***
+
+## 🧬 Familias
+
+'''
+
 def gen_mascotas():
     por = {1: [], 2: [], 3: [], 4: []}
-    for n in (1, 2, 3, 4):
-        m = miniyaml.cargar(PLUGINS / 'DeluxeMenus' / 'gui_menus' / f'mascotas_especiales_{n}.yml')
+    paginas = sorted((PLUGINS / 'DeluxeMenus' / 'gui_menus').glob('mascotas_especiales_*.yml'), key=lambda f: int(re.search(r'_(\d+)', f.name).group(1)))
+    for pagina in paginas:
+        m = miniyaml.cargar(pagina)
         for k, v in (m.get('items') or {}).items():
             cmds = v.get('left_click_commands') or []
             if not any('petadmin create' in str(c) for c in cmds):
                 continue
             precio = next((int(str(c).split()[-1]) for c in cmds if 'points take' in str(c)), 0)
             lore = v.get('lore') or []
-            por[n].append((limpia(v.get('display_name')), limpia(lore[0]) if lore else '', precio))
+            por[{120: 1, 250: 2, 450: 3, 800: 4}.get(precio, 1)].append((limpia(v.get('display_name')), limpia(lore[0]) if lore else '', precio))
     total = sum(len(x) for x in por.values())
     L = [f'Hay **{total} mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` '
          'y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).', '']
@@ -477,6 +494,45 @@ def gen_mascotas():
         L.append('')
     return '\n'.join(L), dict(mascotas=total)
 
+
+
+def gen_mascotas_habilidades():
+    """Familias de mascotas con arbol de habilidades propio (MyPet/skilltrees, Order >= 300)."""
+    import json as _json
+    nombres, rareza = {}, {}
+    for pagina in (PLUGINS / 'DeluxeMenus' / 'gui_menus').glob('mascotas_especiales_*.yml'):
+        m = miniyaml.cargar(pagina)
+        for k, v in (m.get('items') or {}).items():
+            for c in (v.get('left_command' if False else 'left_click_commands') or []):
+                if 'petadmin create' in str(c):
+                    pid = str(c).split('mypet:')[-1].strip().lower()
+                    nombres[pid] = limpia(v.get('display_name'))
+                    rareza[pid] = 0
+    arboles = {}
+    for f in sorted((PLUGINS / 'MyPet' / 'skilltrees').glob('*.st.json')):
+        d = _json.loads(f.read_text(encoding='utf-8'))
+        if d.get('Order', 0) >= 300:
+            arboles[d['ID']] = d
+    L = ['Cada familia tiene un **árbol de habilidades de firma** (✦) que se elige al llegar al **nivel 20**. '
+         'Las mascotas **legendarias** de algunas familias pueden ascender otra vez al **nivel 50** a una versión mítica.', '']
+    L += ['| Familia | Mascotas | Habilidad mítica (nv. 50) |', '|---|---|---|']
+    familias = [(k, v) for k, v in arboles.items() if not k.endswith('Mitico')]
+    for k, v in sorted(familias, key=lambda kv: kv[1]['Order']):
+        mit = arboles.get(k + 'Mitico')
+        pets = sorted({nombres.get(p.lower(), p) for p in v['MobTypes']}, key=str.lower)
+        L.append(f"| **{md(limpia(v['Name']))}** | {md(', '.join(pets))} | {md(limpia(mit['Name'])) if mit else '—'} |")
+    L.append('')
+    for k, v in sorted(familias, key=lambda kv: kv[1]['Order']):
+        L += [f"### {md(limpia(v['Name']))}", '']
+        for ln in v['Description']:
+            ln = re.sub(r'<bold>(.*?)</bold>\s*<reset>', r'**'+chr(92)+'1**: ', ln)
+            L.append(f"- {md(limpia(ln)).lstrip('- ').strip()}")
+        mit = arboles.get(k + 'Mitico')
+        if mit:
+            leg = sorted({nombres.get(p.lower(), p) for p in mit['MobTypes']}, key=str.lower)
+            L.append(f"- 🟡 **{md(limpia(mit['Name']))}** (nivel 50, solo legendarias): {md(', '.join(leg))}")
+        L.append('')
+    return chr(10).join(L), dict(familias=len(familias))
 
 # --------------------------------------------------------------- battlepass
 
@@ -693,9 +749,9 @@ def main():
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='no escribe, solo muestra los cambios')
-    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas'], action='append')
+    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas', 'habilidades'], action='append')
     a = ap.parse_args()
-    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas'])
+    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas', 'habilidades'])
     if 'cajas' in quiere:
         cuerpo, st = gen_cajas()
         inyecta(WIKI / 'towny' / 'cajas.md', 'cajas', cuerpo, a.dry_run)
@@ -715,6 +771,10 @@ def main():
     if 'mascotas' in quiere:
         cuerpo, st = gen_mascotas()
         inyecta(WIKI / 'towny' / 'mascotas.md', 'mascotas', cuerpo, a.dry_run)
+        print('  ', st)
+    if 'habilidades' in quiere:
+        cuerpo, st = gen_mascotas_habilidades()
+        inyecta(WIKI / 'towny' / 'mascotas-habilidades.md', 'mascotas-habilidades', cuerpo, a.dry_run, PAG_HABILIDADES)
         print('  ', st)
     if 'battlepass' in quiere:
         cuerpo, st = gen_battlepass()

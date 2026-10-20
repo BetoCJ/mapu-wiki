@@ -19,7 +19,7 @@ Desde la carpeta `MAPUCRAFT`:
 ```
 bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --dry-run     # ver qué cambiaría, sin escribir
 bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py               # escribir todo
-bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --solo cajas  # cajas | crafteos | mercado | encantamientos | mascotas | battlepass
+bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --solo cajas  # cajas | crafteos | mercado | encantamientos | mascotas | habilidades | battlepass
 bot\.venv\Scripts\python.exe wiki\tools\generar_comandos.py           # guía de comandos
 ```
 
@@ -34,6 +34,7 @@ Cualquier Python 3.8+ sirve. Los scripts leen la copia local `Towny-26-3\plugins
 | Precios o ítems del mercado (Nascraft) | `generar_wiki.py --solo mercado` | `towny/economia/mercado.md` (sección `mercado`) |
 | Encantamientos (AdvancedEnchantments, `enchantments.yml`) | `generar_wiki.py --solo encantamientos` | `towny/encantamientos.md` (sección `encantamientos`: lista por rareza, incompatibilidades) |
 | Mascotas o sus precios (DeluxeMenus, `mascotas_especiales_*.yml`) | `generar_wiki.py --solo mascotas` | `towny/mascotas.md` (sección `mascotas`) |
+| Árboles de habilidades de las mascotas (MyPet, `skilltrees/*.st.json` con `Order` ≥ 300) | `generar_wiki.py --solo habilidades` | `towny/mascotas-habilidades.md` (sección `mascotas-habilidades`) |
 | Recetas de Brewery (BreweryX, recipes.yml) | generar_wiki.py --solo brewery | towny/brewery.md (sección brewery: todas las bebidas por categoría) |
 | Recompensas diarias, semanales y mensuales (DailyRewards, config.yml) | generar_wiki.py --solo recompensas | towny/misiones-y-recompensas.md (sección recompensas-sesion) |
 | Pase de batalla (BattlePass: niveles, recompensas, misiones, eventos) | `generar_wiki.py --solo battlepass` | `towny/battlepass.md` (secciones `battlepass-niveles` y `battlepass-misiones`) |
