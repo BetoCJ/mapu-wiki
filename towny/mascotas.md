@@ -46,14 +46,14 @@ Antes de comprar puedes verlas todas **girando en 3D** en [servidor.mapucraft.co
 ## 📖 Catálogo completo
 
 <!-- AUTO:inicio mascotas -->
-Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
+Hay **167 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
 
 | Rareza | Precio | Mascotas |
 |---|---:|---:|
-| 🟢 Comunes | 120 MapuPoints | 34 |
-| 🔵 Raras | 250 MapuPoints | 30 |
-| 🟣 Épicas | 450 MapuPoints | 32 |
-| 🟡 Legendarias | 800 MapuPoints | 38 |
+| 🟢 Comunes | 120 MapuPoints | 38 |
+| 🔵 Raras | 250 MapuPoints | 41 |
+| 🟣 Épicas | 450 MapuPoints | 44 |
+| 🟡 Legendarias | 800 MapuPoints | 44 |
 
 ### 🟢 Comunes · 120 MapuPoints
 
@@ -92,6 +92,10 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Gremlin Nevado** | Travieso y peludo. |
 | **Marioneta Calabaza Mini** | La versión diminuta de la marioneta de calabaza. |
 | **Pingüino** | Un pingüino muy simpático. |
+| **Robot Bruno** | Un robot leal que te sigue a todas partes. |
+| **Robot Cowbot** | Un robot vaquero de lo más simpático. |
+| **Robot Data** | Un robot curioso lleno de circuitos. |
+| **Robot Long Bottom** | Un robot de patas largas y paso firme. |
 | **Snoopy** | El famoso beagle, siempre a tu lado. |
 
 ### 🔵 Raras · 250 MapuPoints
@@ -104,6 +108,7 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Cabra de Escarcha** | Lanza púas de hielo. |
 | **Capibara** | El compañero más tranquilo. |
 | **Conejo Alado** | Un conejo que vuela. |
+| **Eevee Playa** | Un Eevee que ama la arena y el sol. |
 | **Elemental Ancestral** | Un espíritu de tiempos antiguos. |
 | **Elemental de Agua** | Un espíritu del agua. |
 | **Fuego Fatuo** | Una luz errante que te sigue. |
@@ -112,12 +117,22 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Jabalí Domado** | Un jabalí fiel. Se puede montar. |
 | **Knuckles** | El guardián de la Esmeralda Maestra. |
 | **Marioneta Calabaza** | Una marioneta de calabaza que baila a tu lado. |
+| **Mega Aerodáctilo** | Un depredador prehistórico de alas afiladas. |
+| **Mega Ampharos** | Una oveja eléctrica que ilumina la noche. |
+| **Mega Beedrill** | Una abeja guerrera de aguijones veloces. |
+| **Mega Lopunny** | Una coneja veloz y muy ágil. |
+| **Mega Pidgeot** | Un ave majestuosa de plumaje brillante. |
+| **Mega Pinsir** | Un escarabajo de pinzas enormes. |
+| **Mega Scizor** | Un guerrero de tenazas de acero rojo. |
+| **Mega Steelix** | Una serpiente de acero y diamante. |
 | **Mini Rex** | Un pequeño T-Rex muy rápido. |
 | **Murciélago Nevado** | Un murciélago de las cuevas heladas. |
 | **Papá Noel** | ¡Ho, ho, ho! |
+| **Pikachu Playa** | Un Pikachu listo para pasar el verano. |
 | **Rana Permafrost** | Una rana saltarina de hielo. |
 | **Rana Verde** | Una rana saltarina. |
 | **Reno Navideño** | El reno de Papá Noel. |
+| **Robot Bailarín** | Un robot que baila a tu lado. |
 | **Robot Magnético** | Atrae todo lo metálico. |
 | **Rouge** | Cazadora de tesoros. |
 | **Sabueso Calabaza** | Un sabueso con cabeza de calabaza. |
@@ -147,6 +162,7 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Dragón Rojo** | Un pequeño dragón de escamas rojas. |
 | **Dragón Verde** | Un pequeño dragón de escamas verdes. |
 | **Dunkle** | Una criatura voladora traviesa. |
+| **Eevee Gigamax** | Un Eevee de tamaño y energía colosales. |
 | **Elemental de Hielo** | Un espíritu helado. |
 | **Elemental del Bosque** | Un espíritu de la naturaleza. |
 | **Elemental Oscuro** | Un espíritu de las sombras. |
@@ -160,6 +176,17 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Hechicero del End** | Un pequeño mago del End. |
 | **Kitsune** | Un zorro de nueve colas. |
 | **Lobo Maderero** | Un gran lobo del norte. |
+| **Mega Alakazam** | Un mago de mente brillante. |
+| **Mega Blaziken** | Un luchador envuelto en llamas. |
+| **Mega Gallade** | Un caballero de cuchillas afiladas. |
+| **Mega Garchomp** | Un dragón de tierra veloz como el rayo. |
+| **Mega Gardevoir** | Una guardiana elegante de poder psíquico. |
+| **Mega Gengar** | Una sombra traviesa de sonrisa infinita. |
+| **Mega Lucario** | Un guerrero que domina el aura. |
+| **Mega Salamence** | Un dragón de alas rojas y furia pura. |
+| **Mega Sceptile** | Un cazador ágil de la selva. |
+| **Mega Swampert** | Un coloso de fuerza descomunal. |
+| **Mega Venusaur** | Un gigante cubierto de flores. |
 | **Rana Real** | La reina de los pantanos. |
 | **Segador** | La muerte en miniatura. |
 | **Shadow** | La forma de vida definitiva. |
@@ -202,6 +229,12 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Lobo-Halcón Feroz** | Una criatura voladora. |
 | **Lobo-Halcón Luna Llena** | Una criatura voladora. |
 | **Lobo-Halcón Tormenta** | Una criatura voladora. |
+| **Mega Charizard X** | Un dragón de llamas azules. |
+| **Mega Diancie** | La princesa de las gemas. |
+| **Mega Latios** | Un dragón eólico de velocidad suprema. |
+| **Mega Metagross** | Una fortaleza de acero con cuatro cerebros. |
+| **Mega Mewtwo Y** | La mente más poderosa jamás creada. |
+| **Mega Rayquaza** | El dragón que domina los cielos. |
 | **Pegaso** | Una criatura voladora. |
 | **Super Sonic** | Sonic con las Esmeraldas del Caos. |
 | **Wyvern del End** | Una criatura voladora legendaria. |
