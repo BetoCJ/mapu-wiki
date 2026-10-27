@@ -94,6 +94,12 @@ Desde nivel 0 en los skills de combate, las armas y armaduras funcionan con su e
 
 ---
 
+{% hint style="warning" %}
+**Ajuste de balance (octubre 2026):** los bonos positivos de los perks (daño, velocidad, drops, XP, regeneración, etc.) se rebajaron un **25%**, y las tablas de esta página ya muestran los valores nuevos. No cambiaron los bonos iniciales, los bonos por nivel, los desbloqueos ni las penalizaciones. Los valores exactos de tu personaje se ven con `/val skilltree [skill]`.
+{% endhint %}
+
+---
+
 ## 💍 ¿Que es ValhallaTrinkets?
 
 ValhallaTrinkets es un plugin complementario que añade **accesorios equipables** (trinkets) con bonos pasivos permanentes. Se accede con `/trinkets`.
@@ -173,19 +179,19 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 **Bono pasivo por cada nivel de Power:** +1 punto de habilidad
 
 **Perks especiales por nivel (acumulables):**
-- Cada 10 niveles hasta el 80: +0.1 resistencia PvP (máximo +0.8 al nivel 80)
+- Cada 10 niveles hasta el 80: +0.075 resistencia PvP (máximo +0.6 al nivel 80)
 
 **Árbol de perks de Power** (7 columnas, 3 niveles cada una):
 
 | Columna | Nivel 0 | Nivel 30 | Nivel 60 |
 |---|---|---|---|
-| Vida | +1 corazon max | +1.5 corazones | +2.5 corazones |
-| Armadura | +1 armadura | +1.5 armadura | +2.5 armadura |
-| Suerte | +0.1 suerte | +0.15 suerte | +0.25 suerte |
-| Regeneracion HP | +10% regen | +15% regen | +25% regen |
-| Daño de ataque | +2.5% daño | +3.75% daño | +6.25% daño |
-| Drops de mobs | +10% drops | +15% drops | +25% drops |
-| Reduccion de CD | -5% cooldowns | -7.5% cooldowns | -12.5% cooldowns |
+| Vida | +1 corazon max | +1.125 corazones | +1.875 corazones |
+| Armadura | +1 armadura | +1.125 armadura | +1.875 armadura |
+| Suerte | +0.075 suerte | +0.112 suerte | +0.188 suerte |
+| Regeneracion HP | +7.5% regen | +11.25% regen | +18.75% regen |
+| Daño de ataque | +1.875% daño | +2.812% daño | +4.688% daño |
+| Drops de mobs | +7.5% drops | +11.25% drops | +18.75% drops |
+| Reduccion de CD | -3.75% cooldowns | -5.625% cooldowns | -9.375% cooldowns |
 
 ---
 
@@ -201,14 +207,14 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +5% velocidad de minado, +5% XP de bloque |
-| Perk 2 | 20 | +5% drops, +0.5 suerte, +12.5% velocidad de coccion |
-| Perk B1 — Drilling | 40 | +10% velocidad, +10% XP, desbloquea perforacion (velocidad x2, CD 600, dur. 100) |
-| Perk A1 — Blast I | 40 | +25% radio TNT, +25% reduccion daño TNT, +10% drops de voladura |
-| Perk B2 — Vein | 60 | +10% drops, +1.5 suerte, desbloquea vein mining (todos los minerales) |
-| Perk A2 — Blast II | 60 | +25% radio TNT, +25% reduccion daño TNT, +15% drops voladura |
+| Perk 1 | 0 | +3.75% velocidad de minado, +3.75% XP de bloque |
+| Perk 2 | 20 | +3.75% drops, +0.375 suerte, +9.375% velocidad de coccion |
+| Perk B1 — Drilling | 40 | +7.5% velocidad, +7.5% XP, desbloquea perforacion (velocidad x2, CD 600, dur. 100) |
+| Perk A1 — Blast I | 40 | +18.75% radio TNT, +18.75% reduccion daño TNT, +7.5% drops de voladura |
+| Perk B2 — Vein | 60 | +7.5% drops, +1.125 suerte, desbloquea vein mining (todos los minerales) |
+| Perk A2 — Blast II | 60 | +18.75% radio TNT, +18.75% reduccion daño TNT, +11.25% drops voladura |
 | Perk A3 — Blast Mode | 70 | Req. tambien Enchanting 70. Elige: Silk Touch o Fortune para voladuras |
-| Perk 3 — Mastery | 80 | +1.5 velocidad drill, -300 CD drill, +50% multiplicador XP bloque, +12.5% coccion |
+| Perk 3 — Mastery | 80 | +1.125 velocidad drill, -300 CD drill, +37.5% multiplicador XP bloque, +9.375% coccion |
 | Perk 4 — Max | 100 | Pickup instantaneo en vein mining, extiende vein a piedra y basalto |
 
 ---
@@ -223,15 +229,15 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +5% velocidad de tala, +5% XP de bloque |
-| Perk 2 | 20 | +5% XP, +5 suerte |
-| Perk Combo (Digging 50) | 50 | +15% bonos de comida (todos tipos), +15% regen HP, +15% ahorro de hambre |
+| Perk 1 | 0 | +3.75% velocidad de tala, +3.75% XP de bloque |
+| Perk 2 | 20 | +3.75% XP, +4 suerte |
+| Perk Combo (Digging 50) | 50 | +11.25% bonos de comida (todos tipos), +11.25% regen HP, +11.25% ahorro de hambre |
 | Perk 3 — Treecapitator | 40 | Desbloquea tala de arboles completos (CD 100, limite 8 bloques) |
 | Perk Capitator A | 60 | -30 CD treecapitator, +16 limite de bloques (total 24) |
 | Perk Carpentry | 60 | Bonos de tala adicionales |
 | Perk Capitator B | 80 | -40 CD treecapitator, +40 limite de bloques (total 64) |
-| Perk 4 | 80 | +15% XP, +5% velocidad, +100% tasa de crecimiento instantaneo |
-| Perk 5 | 100 | +5 suerte adicional |
+| Perk 4 | 80 | +11.25% XP, +3.75% velocidad, +75% tasa de crecimiento instantaneo |
+| Perk 5 | 100 | +4 suerte adicional |
 
 ---
 
@@ -245,15 +251,15 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +15% velocidad de excavar, +5% XP |
-| Perk 2 | 20 | +1.5 suerte, +10% XP |
-| Perk Combo (Mining 50) | 50 | +15% bonos de comida (todos tipos), +15% regen HP, +15% ahorro de hambre |
+| Perk 1 | 0 | +11.25% velocidad de excavar, +3.75% XP |
+| Perk 2 | 20 | +1.125 suerte, +7.5% XP |
+| Perk Combo (Mining 50) | 50 | +11.25% bonos de comida (todos tipos), +11.25% regen HP, +11.25% ahorro de hambre |
 | Perk 3 | 40 | Desbloquea conversiones de bloque: podzol, mycelium, arcilla, concrete, soul sand/soil (via bloque de conversion, no mesa de crafteo) |
-| Perk A1 — Archeology I | 60 | +10% probabilidad de repeticion arqueologica, +1.5 suerte arqueologica |
-| Perk B1 — Speed | 60 | +25% velocidad de excavacion adicional |
-| Perk A2 — Archeology II | 80 | +15% repeticion, probabilidad de generar arena/grava sospechosa cerca de estructuras |
-| Perk B2 | 80 | +1.5 suerte |
-| Perk 4 — Max | 100 | +1.5 suerte adicional (req. A2 o B2) |
+| Perk A1 — Archeology I | 60 | +7.5% probabilidad de repeticion arqueologica, +1.125 suerte arqueologica |
+| Perk B1 — Speed | 60 | +18.75% velocidad de excavacion adicional |
+| Perk A2 — Archeology II | 80 | +11.25% repeticion, probabilidad de generar arena/grava sospechosa cerca de estructuras |
+| Perk B2 | 80 | +1.125 suerte |
+| Perk 4 — Max | 100 | +1.125 suerte adicional (req. A2 o B2) |
 
 ---
 
@@ -269,13 +275,13 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 |---|---|---|
 | Perk 1 | 0 | Desbloquea cosecha instantanea al romper cultivos maduros |
 | Perk 1C — Carroñero | 30 | Inmunidad a comida mala, +2 HP/sat en comida cruda y podrida (bloquea Perk 2C) |
-| Perk 2 | 20 | +15% XP de agriculture, +50% tasa de crecimiento instantaneo |
-| Perk 2C — Gourmet | 50 | +0.1 bonus de comida en todos los tipos (bloquea Perk 1C) |
-| Perk 3 | 40 | +15% XP, +1.5 suerte, +10% drops |
-| Perk 1A — Ganadero | 40 | +20% velocidad de crecimiento animal, +10% drops de matanza, +25% XP cria |
-| Perk 1B — Apicultor | 50 | Inmunidad a agresion de abejas, +25% probabilidad de ahorrar miel en colmena |
-| Perk 2A — Carnicero | 60 | +30% vel. crecimiento, +15% drops matanza, +25% XP cria, +150% daño a animales |
-| Perk 4 | 80 | +20% XP, +1.5 suerte, +15% drops |
+| Perk 2 | 20 | +11.25% XP de agriculture, +37.5% tasa de crecimiento instantaneo |
+| Perk 2C — Gourmet | 50 | +0.075 bonus de comida en todos los tipos (bloquea Perk 1C) |
+| Perk 3 | 40 | +11.25% XP, +1.125 suerte, +7.5% drops |
+| Perk 1A — Ganadero | 40 | +15% velocidad de crecimiento animal, +7.5% drops de matanza, +18.75% XP cria |
+| Perk 1B — Apicultor | 50 | Inmunidad a agresion de abejas, +18.75% probabilidad de ahorrar miel en colmena |
+| Perk 2A — Carnicero | 60 | +22.5% vel. crecimiento, +11.25% drops matanza, +18.75% XP cria, +112.5% daño a animales |
+| Perk 4 | 80 | +15% XP, +1.125 suerte, +11.25% drops |
 | Perk 5 — Field Harvest | 100 | Desbloquea cosecha masiva de campo (pickup automatico, CD 50 ticks) |
 
 ---
@@ -290,13 +296,13 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +0.75 suerte de pesca |
+| Perk 1 | 0 | +0.562 suerte de pesca |
 | Perk Combo (Smithing 70) | 50 | Requiere Smithing 70 (skill desactivado — perk no disponible actualmente) |
-| Perk 2 | 20 | +25% multiplicador de esencia de pesca |
-| Perk 3 | 40 | +20% velocidad de pesca, +1 suerte |
-| Perk 4 | 60 | +12.5% drops de pesca |
-| Perk 5 | 80 | +30% velocidad, +1.25 suerte |
-| Perk 6 — Max | 100 | +12.5% drops, +50% multiplicador de esencia |
+| Perk 2 | 20 | +18.75% multiplicador de esencia de pesca |
+| Perk 3 | 40 | +15% velocidad de pesca, +1 suerte |
+| Perk 4 | 60 | +9.375% drops de pesca |
+| Perk 5 | 80 | +22.5% velocidad, +0.938 suerte |
+| Perk 6 — Max | 100 | +9.375% drops, +37.5% multiplicador de esencia |
 
 ---
 
@@ -312,15 +318,15 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | -25% tiempo de fermentación, +10 habilidad de elaboración |
-| Perk 2 | 20 | +10% probabilidad de ahorrar ingredientes, +15 habilidad de elaboración |
-| Perk A1 — Debuffs I | 40 | +0.15 intensidad mínima de splash, +10 habilidad de pociones debilitantes |
-| Perk B1 — Buffs I | 40 | +10 habilidad de pociones de beneficio, -37.5% tiempo de fermentación |
+| Perk 1 | 0 | -18.75% tiempo de fermentación, +8 habilidad de elaboración |
+| Perk 2 | 20 | +7.5% probabilidad de ahorrar ingredientes, +11 habilidad de elaboración |
+| Perk A1 — Debuffs I | 40 | +0.112 intensidad mínima de splash, +8 habilidad de pociones debilitantes |
+| Perk B1 — Buffs I | 40 | +8 habilidad de pociones de beneficio, -28.125% tiempo de fermentación |
 | Perk Combo (Light/Heavy Weapons 50) | 50 | Desbloquea untar armas con viales (veneno, santo, anti-curación, daño) |
-| Perk A2 — Debuffs II | 60 | +15 habilidad debilitante, +0.15 intensidad splash, +25% duración/radio de poción persistente, +25% velocidad de lanzamiento |
-| Perk B2 — Buffs II | 60 | +15 habilidad de beneficio, +15% ahorro de ingredientes. Desbloquea recetas de Prisa y Aumento de Salud |
-| Perk 3 — Combinación | 80 | -62.5% tiempo de fermentación. Desbloquea combinar hasta 1.5 efectos de poción en una sola |
-| Perk 4 — Transmutación | 100 | +25 habilidad de elaboración, +1 radio de transmutación. Desbloquea todas las transmutaciones y la receta de Poción de Transmutación |
+| Perk A2 — Debuffs II | 60 | +11 habilidad debilitante, +0.112 intensidad splash, +25% duración/radio de poción persistente, +18.75% velocidad de lanzamiento |
+| Perk B2 — Buffs II | 60 | +11 habilidad de beneficio, +11.25% ahorro de ingredientes. Desbloquea recetas de Prisa y Aumento de Salud |
+| Perk 3 — Combinación | 80 | -46.875% tiempo de fermentación. Desbloquea combinar hasta 1.5 efectos de poción en una sola |
+| Perk 4 — Transmutación | 100 | +19 habilidad de elaboración, +1 radio de transmutación. Desbloquea todas las transmutaciones y la receta de Poción de Transmutación |
 
 **Sistema de Transmutación:** con la Poción de Transmutación (desbloqueada en el perk final) puedes convertir ciertos bloques en otros usando un caldero — por ejemplo, troncos de un tipo de madera a otro, o minerales/bloques de valor (Hierro→Oro, Cobre→Hierro, Esmeralda↔Diamante) en lo que el plugin llama transmutación "Midas".
 
@@ -351,15 +357,15 @@ Madera y cuero no tienen penalización inicial, pero **reciben una propia de -75
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +25 habilidad de crafteo en madera y cuero |
-| Perk 2 | 20 | +25 habilidad en piedra, cadena y cobre |
-| Perk 3 | 40 | +25 habilidad en hierro y oro. Desbloquea las 16 recetas de equipo de Diamante (armadura completa, espada, hacha, pico, pala, azada, martillo de guerra, mandoble, lanza, daga, estoque, maza, lanza real) |
-| Perk Arcos (Archery 50) | 50 | Requiere Archery 50. +25 habilidad de arcos y ballestas |
-| Perk Prismarino | 70 | Requiere Perk 3. +25 habilidad con prismarina. Desbloquea receta del Tridente |
-| Perk 4 | 60 | +25 habilidad en diamante. Permite reparar conservando encantamientos al usar el inventario |
-| Perk Enderico | 90 | Requiere Perk 4. +25 habilidad enderica. Desbloquea recetas de Élitros y Cuero Coral |
-| Perk 5 | 80 | +25 habilidad en netherite |
-| Perk 6 — Maestria | 100 | +25 habilidad de crafteo general |
+| Perk 1 | 0 | +19 habilidad de crafteo en madera y cuero |
+| Perk 2 | 20 | +19 habilidad en piedra, cadena y cobre |
+| Perk 3 | 40 | +19 habilidad en hierro y oro. Desbloquea las 16 recetas de equipo de Diamante (armadura completa, espada, hacha, pico, pala, azada, martillo de guerra, mandoble, lanza, daga, estoque, maza, lanza real) |
+| Perk Arcos (Archery 50) | 50 | Requiere Archery 50. +19 habilidad de arcos y ballestas |
+| Perk Prismarino | 70 | Requiere Perk 3. +19 habilidad con prismarina. Desbloquea receta del Tridente |
+| Perk 4 | 60 | +19 habilidad en diamante. Permite reparar conservando encantamientos al usar el inventario |
+| Perk Enderico | 90 | Requiere Perk 4. +19 habilidad enderica. Desbloquea recetas de Élitros y Cuero Coral |
+| Perk 5 | 80 | +19 habilidad en netherite |
+| Perk 6 — Maestria | 100 | +19 habilidad de crafteo general |
 
 **Calidad del equipo:** cada pieza que crafteas tiene una puntuación de calidad que determina su etiqueta: Terrible (-500 a -60), Shoddy (-60 a -30), Decent (-30 a 0), Good (0 a 30), Great (30 a 60), Flawless (60 a 90), Masterful (90 a 120), Fabled (120 a 150), Peerless (150+).
 
@@ -381,15 +387,15 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +5% daño, +5% probabilidad de sangrado |
-| Perk 2 | 20 | +5% velocidad ataque, +5% probabilidad critico |
-| Perk 3 — Parry | 40 | +5% daño. Desbloquea parry: ventana efect. 4t, vuln. 7t, CD 50, reduccion daño 37.5%, debuff enemigo 15t |
-| Perk 4 | 60 | +10% velocidad, +5% reduccion inmunidad, +5% sangrado |
+| Perk 1 | 0 | +3.75% daño, +3.75% probabilidad de sangrado |
+| Perk 2 | 20 | +3.75% velocidad ataque, +3.75% probabilidad critico |
+| Perk 3 — Parry | 40 | +3.75% daño. Desbloquea parry: ventana efect. 4t, vuln. 7t, CD 50, reduccion daño 37.5%, debuff enemigo 15t |
+| Perk 4 | 60 | +7.5% velocidad, +3.75% reduccion inmunidad, +3.75% sangrado |
 | Perk A1 — Coating I | 50 | Desbloquea coating de arma (+2 cargas, -40% duracion, -25% amplificador) |
-| Perk A2 — Coating II | 70 | +2 cargas coating, +5% duracion, +12.5% amplificador |
-| Perk 5 | 80 | +5% sangrado, +5% daño, +10% reduccion inmunidad. Mejora parry: +4t ventana efectiva, -30 CD, +5t debuff enemigo, -5t debuff propio, +12.5% reduccion daño, +25% reduccion CD en parry exitoso |
-| Perk Combo (Heavy Armor 70) | 70 | +5 penetracion plana de armadura, +0.5 alcance de ataque, +15% knockback |
-| Perk 6 — Max | 100 | +5% crit, +15% daño critico, sangrado al critico, +1 daño de sangrado |
+| Perk A2 — Coating II | 70 | +2 cargas coating, +5% duracion, +9.375% amplificador |
+| Perk 5 | 80 | +3.75% sangrado, +3.75% daño, +7.5% reduccion inmunidad. Mejora parry: +4t ventana efectiva, -30 CD, +5t debuff enemigo, -5t debuff propio, +9.375% reduccion daño, +18.75% reduccion CD en parry exitoso |
+| Perk Combo (Heavy Armor 70) | 70 | +4 penetracion plana de armadura, +0.375 alcance de ataque, +11.25% knockback |
+| Perk 6 — Max | 100 | +3.75% crit, +11.25% daño critico, sangrado al critico, +1 daño de sangrado |
 
 ---
 
@@ -403,15 +409,15 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +5% daño |
-| Perk 2 | 20 | +5% daño de poder (power attack), +5% crit |
-| Perk 3 — Power Attack | 40 | +5% daño, +25% fraccion power attack, +0.75 radio power attack |
-| Perk 4 | 60 | +7.5% daño power attack, +2.5 penetracion plana |
+| Perk 1 | 0 | +3.75% daño |
+| Perk 2 | 20 | +3.75% daño de poder (power attack), +3.75% crit |
+| Perk 3 — Power Attack | 40 | +3.75% daño, +18.75% fraccion power attack, +0.562 radio power attack |
+| Perk 4 | 60 | +5.625% daño power attack, +1.875 penetracion plana |
 | Perk A1 — Coating I | 50 | Desbloquea coating (+1 carga, -40% duracion, -12.5% amplificador) |
-| Perk A2 — Coating II | 70 | +1 carga, +5% duracion, +12.5% amplificador |
-| Perk 5 | 80 | +5% daño, +12.5% fraccion power attack, +0.25 radio, +5 penetracion plana |
-| Perk Combo (Woodcutting 70) | 70 | +10% probabilidad de stun, +10% penetracion de armadura fraccion, +2.5% daño vs armadura ligera |
-| Perk 6 — Max | 100 | +5% crit, +15% daño critico, sangrado al critico, +0.5 daño de sangrado |
+| Perk A2 — Coating II | 70 | +1 carga, +5% duracion, +9.375% amplificador |
+| Perk 5 | 80 | +3.75% daño, +9.375% fraccion power attack, +0.188 radio, +4 penetracion plana |
+| Perk Combo (Woodcutting 70) | 70 | +7.5% probabilidad de stun, +7.5% penetracion de armadura fraccion, +1.875% daño vs armadura ligera |
+| Perk 6 — Max | 100 | +3.75% crit, +11.25% daño critico, sangrado al critico, +0.375 daño de sangrado |
 
 ---
 
@@ -427,15 +433,15 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +5% efectividad armadura ligera |
-| Perk 1A | 20 | +0.5% velocidad/pieza, +1.75% ahorro hambre/pieza, +1.75% curacion/pieza |
-| Perk 1B | 40 | +15% ahorro hambre conjunto completo, +5% efectividad armadura |
+| Perk 1 | 0 | +3.75% efectividad armadura ligera |
+| Perk 1A | 20 | +0.375% velocidad/pieza, +1.312% ahorro hambre/pieza, +1.312% curacion/pieza |
+| Perk 1B | 40 | +11.25% ahorro hambre conjunto completo, +3.75% efectividad armadura |
 | Perk 1C — Adrenalina | 50 | Desbloquea modo adrenalina (umbral 15% HP, nivel 0.5, CD 6000 ticks) |
-| Perk Combo (Heavy Weapons 50) | 50 | +25% resistencia a crits enemigos, +50% resistencia a stun |
-| Perk 2A | 60 | Reduce requisito de piezas para set bonus en 0.5. +0.75% vel/pieza, +1.375% hambre y curacion/pieza |
-| Perk 2B | 60 | +10% esquiva con conjunto completo, +5% efectividad armadura |
-| Perk 2C — Adrenalina II | 90 | +2 nivel adrenalina, +10% umbral, -3000 CD |
-| Perk 2 — Maestria | 100 | Inmunidad a Veneno/Ceguera/Hambre, +20% resistencia magica |
+| Perk Combo (Heavy Weapons 50) | 50 | +18.75% resistencia a crits enemigos, +37.5% resistencia a stun |
+| Perk 2A | 60 | Reduce requisito de piezas para set bonus en 0.5. +0.562% vel/pieza, +1.031% hambre y curacion/pieza |
+| Perk 2B | 60 | +7.5% esquiva con conjunto completo, +3.75% efectividad armadura |
+| Perk 2C — Adrenalina II | 90 | +2 nivel adrenalina, +7.5% umbral, -3000 CD |
+| Perk 2 — Maestria | 100 | Inmunidad a Veneno/Ceguera/Hambre, +15% resistencia magica |
 
 ---
 
@@ -449,15 +455,15 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +5% efectividad armadura pesada |
-| Perk 1A | 20 | +0.94% velocidad/pieza, +1.25% hambre/pieza, +1.25% curacion/pieza, -0.5 imprecision archeria |
-| Perk 1B | 40 | +20% bono curacion conjunto completo, +5% efectividad armadura |
+| Perk 1 | 0 | +3.75% efectividad armadura pesada |
+| Perk 1A | 20 | +0.705% velocidad/pieza, +0.938% hambre/pieza, +0.938% curacion/pieza, -0.375 imprecision archeria |
+| Perk 1B | 40 | +15% bono curacion conjunto completo, +3.75% efectividad armadura |
 | Perk 1C — Rabia | 50 | Desbloquea modo rabia (umbral 15% HP, nivel 0.5, CD 6000 ticks) |
-| Perk Combo (Light Weapons 50) | 50 | +25% resistencia a crits, +12.5% bonus de fraccion de inmunidad |
-| Perk 2A | 60 | Reduce requisito set en 0.5. +0.94% vel/pieza, +2.5% hambre/pieza, +2.5% curacion/pieza, -0.5 imprecision |
-| Perk 2B | 80 | +5% probabilidad reflejo, +10% fraccion reflejo de daño, +5% efectividad armadura |
-| Perk 2C — Rabia II | 90 | +2 nivel rabia, +10% umbral, -3000 CD |
-| Perk 2 — Maestria | 100 | Inmunidad a Lentitud/Debilidad/Levitacion, +20% resistencia a knockback |
+| Perk Combo (Light Weapons 50) | 50 | +18.75% resistencia a crits, +9.375% bonus de fraccion de inmunidad |
+| Perk 2A | 60 | Reduce requisito set en 0.5. +0.705% vel/pieza, +1.875% hambre/pieza, +1.875% curacion/pieza, -0.375 imprecision |
+| Perk 2B | 80 | +3.75% probabilidad reflejo, +7.5% fraccion reflejo de daño, +3.75% efectividad armadura |
+| Perk 2C — Rabia II | 90 | +2 nivel rabia, +7.5% umbral, -3000 CD |
+| Perk 2 — Maestria | 100 | Inmunidad a Lentitud/Debilidad/Levitacion, +15% resistencia a knockback |
 
 ---
 
@@ -473,15 +479,15 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | -0.5 imprecision, +5% daño arco, +5% daño ballesta |
-| Perk 2 | 20 | +5% ahorro de flechas |
+| Perk 1 | 0 | -0.375 imprecision, +3.75% daño arco, +3.75% daño ballesta |
+| Perk 2 | 20 | +3.75% ahorro de flechas |
 | Perk C1 — Charged Shot | 40 | Desbloquea disparo cargado (CD 300, 2 cargas, pierce 1, knockback 1, velocidad +25%) |
-| Perk 3 | 40 | -0.75 imprecision, +5% crit arco/ballesta |
-| Perk Stealth (Light Armor 50) | 50 | Crit garantizado desde sigilo, sangrado al critico, +25% daño critico |
-| Perk 4 | 60 | +5% daño arco/ballesta, +10% ahorro flechas, +2.5% daño por distancia |
-| Perk 5 | 80 | +10% crit, -1.25 imprecision, +15% daño critico |
-| Perk C2 — Charged II | 80 | Mejora charged shot: velocidad maxima, recarga instantanea ballesta, sin gravedad, +10% daño, -100 CD, +1 carga, +1 knockback |
-| Perk 6 — Max | 100 | +5% daño por distancia, +15% daño con Infinity |
+| Perk 3 | 40 | -0.562 imprecision, +3.75% crit arco/ballesta |
+| Perk Stealth (Light Armor 50) | 50 | Crit garantizado desde sigilo, sangrado al critico, +18.75% daño critico |
+| Perk 4 | 60 | +3.75% daño arco/ballesta, +7.5% ahorro flechas, +1.875% daño por distancia |
+| Perk 5 | 80 | +7.5% crit, -0.938 imprecision, +11.25% daño critico |
+| Perk C2 — Charged II | 80 | Mejora charged shot: velocidad maxima, recarga instantanea ballesta, sin gravedad, +7.5% daño, -100 CD, +1 carga, +1 knockback |
+| Perk 6 — Max | 100 | +3.75% daño por distancia, +11.25% daño con Infinity |
 
 ---
 
@@ -509,11 +515,11 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 | Perk | Nivel req. | Bonos |
 |---|---|---|
 | Manos de Piedra | 0 | +1 daño sin arma extra |
-| Disciplina (A1) | 20 | +10% prob. de aturdir. Retener golpes acumula daño (tras 1s, +0.3 daño/tick, tope +6) |
+| Disciplina (A1) | 20 | +7.5% prob. de aturdir. Retener golpes acumula daño (tras 1s, +0.3 daño/tick, tope +6) |
 | Golpes Despiadados (B1) | 20 | +daño de ataque y +prob. de golpe critico |
 | Suprimir y Controlar (A2) | 40 | Desbloquea el **Agarre** (ralentiza y debilita) y el **Desarme** de mobs |
 | Uppercut (B2) | 40 | Desbloquea el **Uppercut**, +prob. critico, y tus golpes desarman escudos unos segundos |
-| Vinculo del Alma (A3) | 60 | El agarre actua x2 rapido, +30% esquiva mientras agarras, y desarmar del todo da +50% robo de vida 8s |
+| Vinculo del Alma (A3) | 60 | El agarre actua x2 rapido, +22.5% esquiva mientras agarras, y desarmar del todo da +37.5% robo de vida 8s |
 | Defenestracion (B3) | 70 | Golpear a un objetivo en el aire lo lanza a gran velocidad; chocar contra un muro le hace daño segun su velocidad |
 | Reflejos de Rayo (A4) | 80 | Sin atacar ganas prob. de esquiva; sin armadura equipada el efecto se **triplica** |
 | Om Mani Padme Hum (A5) | 100 | Desbloquea la **Meditacion**: una vez al dia, en la cima de una montaña, eliges un efecto potente y duradero |
@@ -540,7 +546,7 @@ Esta skill va de la mano con todo el sistema de aldeanos. La explicación comple
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Comprador en Masa | 0 | +20% de unidades que puedes comprar antes de agotar el stock |
+| Comprador en Masa | 0 | +15% de unidades que puedes comprar antes de agotar el stock |
 | Carisma Amistoso (2A) | 20 | Los mercaderes suben de nivel mas rapido y ofrecen mas tratos. +suerte de comercio |
 | Aprendizaje (2B) | 20 | Desbloquea el servicio de **Entrenar** skills (coste escala con el rango del mercader, hasta 75 en Maestro) |
 | Entrega Express (3A) | 40 | Los pedidos llegan mas rapido y puedes pedir mas cantidad |

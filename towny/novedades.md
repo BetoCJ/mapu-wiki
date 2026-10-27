@@ -40,9 +40,17 @@ Mapucraft ahora tiene un [portal propio](../webs/servidor-web.md) con ciudades, 
 
 ***
 
+## 📈 Mobs y aldeanos
+
+- **Escalado de mobs:** cuanto más lejos del `0,0`, más nivel tienen los mobs. → [Ver cómo funciona](escalado-de-mobs.md)
+- **Aldeanos más amables:** piden menos espacio y decoración para estar contentos, suben de rango más rápido y hay un **Cartógrafo** nuevo. → [Ver Comercio](comercio.md)
+- **Skills:** los bonos de los perks de ValhallaMMO se rebajaron un 25% para equilibrar el progreso.
+
+***
+
 ## 🐾 Mascotas especiales
 
-Una tienda de **134 mascotas** con modelo 3D, de 120 a 800 MapuPoints, con visor interactivo en la web.
+Una tienda de **190 mascotas** con modelo 3D, de 120 a 800 MapuPoints, con visor interactivo en la web.
 
 → [Ver las mascotas](mascotas.md)
 

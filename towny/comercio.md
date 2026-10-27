@@ -47,16 +47,18 @@ Los mercaderes suben de rango a medida que comercias con ellos. Cada rango desbl
 | Rango | EXP del mercader requerida | XP de Comercio que te da |
 |---|---|---|
 | Novato (Novice) | 0 | x1.0 |
-| Aprendiz (Apprentice) | 40 | x1.1 |
-| Oficial (Journeyman) | 160 | x1.3 |
-| Experto (Expert) | 320 | x1.6 |
-| Maestro (Master) | 640 | x2.0 |
+| Aprendiz (Apprentice) | 30 | x1.1 |
+| Oficial (Journeyman) | 120 | x1.3 |
+| Experto (Expert) | 240 | x1.6 |
+| Maestro (Master) | 480 | x2.0 |
 
 Cuanto más alto el rango del mercader, mejores tratos ofrece y más XP ganas al comerciar con él. Por eso conviene **fidelizar** a unos pocos aldeanos y hacerlos subir en vez de saltar de uno a otro.
 
+La EXP del mercader sube más rápido que antes: cada trato le da un **25% más de experiencia** y los rangos piden menos. Armeros y herreros de armas ofrecen **2 tratos por rango** desde Oficial, y los albañiles, 2 en todos los rangos.
+
 ***
 
-## 🏪 Las 12 profesiones
+## 🏪 Las 13 profesiones
 
 Cada profesión vende cosas distintas y ofrece servicios distintos. Estos son los mercaderes del servidor y lo que hacen:
 
@@ -65,13 +67,14 @@ Cada profesión vende cosas distintas y ofrece servicios distintos. Estos son lo
 | Granjero (Farmer) | Compostador | Comerciar, Entrenar Farming, Pedidos |
 | Pastor (Shepherd) | Telar | Comerciar, Entrenar Farming, Pedidos |
 | Carnicero (Butcher) | Ahumador | Comerciar, Entrenar Farming, Pedidos |
-| Pescador (Fisherman) | Barril | Comerciar, Entrenar Fishing, Reparar cañas, Pedidos |
+| Pescador (Fisherman) | Barril | Comerciar, Pedidos |
 | Peletero (Leatherworker) | Caldero | Comerciar, Entrenar Light Armor, Pedidos |
 | Albañil (Mason) | Cortador de piedra | Comerciar, Entrenar Mining, Pedidos |
 | Herrero de armas (Weaponsmith) | Piedra de afilar | Comerciar, Entrenar Smithing/Light/Heavy Weapons, Reparar herramientas, Pedidos |
 | Herrero de herramientas (Toolsmith) | Mesa de herrería | Comerciar, Entrenar Smithing/Digging/Woodcutting, Reparar herramientas, Pedidos |
-| Armero (Armorer) | Alto horno | Comerciar, Entrenar Smithing/Light/Heavy Weapons, Reparar armadura, Pedidos |
+| Armero (Armorer) | Alto horno | Comerciar, Entrenar Smithing/Light/Heavy Weapons/Heavy Armor, Reparar armadura, Pedidos |
 | Fletcher (Fletcher) | Mesa de flechas | Comerciar, Entrenar Archery, Reparar arcos y ballestas, Pedidos |
+| Cartógrafo (Cartographer) | Mesa de cartografía | Comerciar (mapas, papel, brújulas y más) |
 | Clérigo (Cleric) | Soporte de pociones | Comerciar, Entrenar Alchemy, Pedidos |
 | Bibliotecario (Librarian) | Atril | Comerciar, Entrenar Enchanting, Encantar objetos (nivel 10/20/30), Pedidos |
 
@@ -105,7 +108,6 @@ Los mercaderes con herrería o atril pueden **modificar tus objetos** a cambio d
 | Reparar Herramientas y Armas | Herrero de armas, Herrero de herramientas |
 | Reparar Armadura | Armero |
 | Reparar Arcos y Ballestas | Fletcher |
-| Reparar Cañas de Pescar | Pescador |
 | Encantar al Nivel 10 / 20 / 30 | Bibliotecario |
 
 * Requiere el perk **Trabajadores de Servicios** (nivel 40 de Comercio).
@@ -128,19 +130,21 @@ Haz **shift + clic** sobre el mercader para ver el desglose de su felicidad. Est
 
 | Factor | Sube la felicidad si... | Baja si... |
 |---|---|---|
-| 🪟 Espacio | Tiene mucho espacio para moverse (50+ bloques) | Está encerrado (menos de 25 bloques) |
-| 🖼️ Confort | Hay decoraciones y objetos bonitos cerca (5+) | El entorno es soso (menos de 2) |
-| 💡 Luz | Está en zona iluminada (luz 5+) | Está a oscuras (luz menor a 2) |
-| 👥 Compañía | Hay otros aldeanos cerca | Está solo, o hay demasiados (masificado) |
-| 🤝 Seguridad | Ha comerciado hace poco | Lleva mucho sin comerciar |
-| ❤️ Salud | Está sano | Está herido |
-| 😨 Estrés | Sin zombis ni incursiones cerca | Amenazado por zombis o jugadores |
-| 🫱 Confianza | No le has hecho daño | Lo golpeaste hace poco |
+| 🪟 Espacio | Tiene 20+ bloques libres para moverse (+1) | Está encerrado, 4 bloques o menos (-2) |
+| 🖼️ Confort | Hay 3+ decoraciones u objetos bonitos cerca (+1) | Hay más de 1 objeto deprimente y nada bonito (-1) |
+| 💡 Luz | Está en zona iluminada, luz 4+ (+1) | Está a oscuras (-1) |
+| 👥 Compañía | Hay 3+ aldeanos en 64 bloques (+1) | Está solo (-1) o hay 10+ apelotonados en 8 bloques (-1) |
+| 🤝 Seguridad | Comerciaron con él hace poco (+1) | Lleva mucho sin comerciar (-1) |
+| ❤️ Salud | Tiene la vida completa (+1) | Está herido (-1) |
+| 😨 Estrés | No hay amenazas cerca (+1) | Lo amenaza un zombi o un jugador (**-10**) |
+| 🫱 Confianza | Pasó unos 4 minutos sin que le hagas daño (+1) | Lo golpeaste hace poco (-2) |
+
+Además, tu **reputación** y **renombre** con él suman o restan un poco más de felicidad. Cada factor es de apenas 1 o 2 puntos, salvo el **estrés**: una amenaza cercana lo deja de golpe en números rojos, así que mantén a los zombis lejos. Desde los ajustes de octubre los requisitos de espacio, decoración y luz son mucho más fáciles de cumplir que antes.
 
 **Objetos "bonitos" que dan confort:** cuadros, marcos, soportes de armadura, linternas, estanterías, mesas de encantar, cofres, faroles, campanas, mascotas (perros, gatos, loros), animales de granja, abejas, golems de hierro, y más. Decora el puesto de tus mercaderes para tenerlos felices.
 
 {% hint style="danger" %}
-Si un aldeano baja de **-3 de felicidad** deja de comerciar contigo hasta que mejore. Y si un aldeano está por debajo de **-5**, dejarán de aparecer golems de hierro para protegerlo.
+Si un aldeano baja de **-5 de felicidad** deja de comerciar contigo y dejan de aparecer golems de hierro para protegerlo, hasta que mejore.
 {% endhint %}
 
 ***
@@ -156,7 +160,7 @@ Además de la felicidad puntual, cada mercader recuerda tu historial con dos val
 
 | Acción | Efecto |
 |---|---|
-| Comerciar | +0.5 reputación |
+| Comerciar | +1 reputación |
 | Curar a un aldeano zombi (primera vez) | +70 reputación, +5 renombre |
 | Ganar una incursión (héroe de la aldea) | +20 renombre |
 | Hacer feliz a un aldeano | +1 renombre |

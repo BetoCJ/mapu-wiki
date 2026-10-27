@@ -19,7 +19,7 @@ Este es el contenido **confirmado** de Towny y cuándo se libera. Seguimos traba
 - 👑 KOTH
 - ⚔️ Skills
 - 👹 Mobs custom en el Overworld
-- 📈 Escalado de mobs: cuanto más te alejas del `0,0`, más difíciles son *(en modo de prueba)*
+- 📈 [Escalado de mobs](escalado-de-mobs.md): cuanto más te alejas del `0,0`, más difíciles son *(versión suave, ya activo)*
 - 🎃 Eventos de Halloween
 
 ### 🔴 Semana 2 · 31 de octubre
@@ -73,6 +73,7 @@ Antes de cada reinicio se avisa por el [Discord](https://discord.gg/YDJKpgEU3m):
 <tr><td><a href="pyrofarming.md">🌱 PyroFarming</a></td></tr>
 <tr><td><a href="eventos/koth.md">👑 KOTH</a></td></tr>
 <tr><td><a href="skills.md">⚔️ Skills</a></td></tr>
+<tr><td><a href="escalado-de-mobs.md">📈 Escalado de mobs</a></td></tr>
 <tr><td><a href="crafteos.md">🔨 Crafteos personalizados</a></td></tr>
 <tr><td><a href="pyromining.md">⛏️ PyroMining</a></td></tr>
 <tr><td><a href="battlepass.md">🎖️ Pase de Batalla</a></td></tr>

@@ -3,7 +3,7 @@
 ¡Bienvenido a la wiki oficial del **Towny** de Mapucraft! Aquí encontrarás información detallada sobre todos los sistemas, mecánicas y contenido de esta modalidad.
 
 {% hint style="success" %}
-🆕 **Temporada 2:** Battle Pass renovado, 9 encantamientos nuevos, 134 mascotas en 3D y MapuCore. → [Ver novedades](novedades.md)
+🆕 **Temporada 2:** Battle Pass renovado, 9 encantamientos nuevos, 190 mascotas en 3D y MapuCore. → [Ver novedades](novedades.md)
 {% endhint %}
 
 ¿Dudas o algo incorrecto? Cuéntanos en el [Discord](https://discord.gg/YDJKpgEU3m).

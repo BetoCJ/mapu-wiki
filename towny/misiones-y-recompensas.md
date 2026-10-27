@@ -6,7 +6,7 @@ Mapucraft cuenta con dos sistemas independientes de recompensas por actividad di
 
 ## 📋 Misiones Diarias — /misiones
 
-El sistema de **Misiones Diarias** (ODailyQuests) asigna cada día **3 misiones** aleatorias a cada jugador. Completarlas otorga dinero y experiencia directamente.
+El sistema de **Misiones Diarias** (ODailyQuests) asigna cada día **3 misiones** a cada jugador: una **fácil**, una **media** y una **difícil**. Completarlas otorga dinero y experiencia directamente.
 
 Las misiones se renuevan todos los días a la **medianoche (00:00)**.
 
@@ -29,7 +29,15 @@ Las misiones cubren una amplia variedad de actividades del servidor:
 
 ### 🎁 Recompensas
 
-Cada misión completada otorga una recompensa en **dinero del servidor** y **experiencia**. La cantidad varía según el objetivo requerido.
+Cada misión da dinero del servidor y experiencia según su dificultad:
+
+| Dificultad | Dinero | Experiencia |
+|---|---:|---:|
+| 🟢 Fácil | $175 - $250 | 150 - 200 |
+| 🟡 Media | $325 - $450 | 275 - 400 |
+| 🔴 Difícil | $550 - $700 | 475 - 600 |
+
+Si completas **las 3 del día** recibes un bono extra de **$250 y 600 de experiencia**. Además hay premios por el total de misiones completadas (10, 25, 50, 100 y 200).
 
 ### 📜 Comandos
 

@@ -24,6 +24,7 @@
   * [Tiendas y Mercado](towny/economia/tiendas.md)
   * [Mercado Global (precios base)](towny/economia/mercado.md)
 * [Comercio y Mercaderes](towny/comercio.md)
+* [Escalado de Mobs](towny/escalado-de-mobs.md)
 * [Límites de Granjas](towny/limites-de-granjas.md)
 
 ## ⚔️ Towny · Progresión
