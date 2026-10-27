@@ -86,7 +86,7 @@ Esta es la lista de comandos del servidor y del bot de Discord. También está p
 
 | Comando | Descripción | Quién puede | Modo |
 |---|---|---|---|
-| `/vote` | vota cada día: premios y la Piñata al llegar a 20 votos | Todos | Towny |
+| `/vote` | vota cada día: premios y la Piñata al llegar a 40 votos | Todos | Towny |
 | `/warp koth` | KOTH cada 4 horas: domina la zona | Todos | Towny |
 | `/warp dungeons` | dungeons con jefes y recompensas | Todos | Towny |
 | `/warp cajas` | abre tus llaves | Todos | Towny |

@@ -1,12 +1,12 @@
 # 🎉 Piñata
 
-El evento **Piñata Mapu** es una celebración comunitaria que se activa automáticamente al acumularse **20 votos** del servidor. Una piñata aparece en el spawn y todos los jugadores pueden ir a golpearla para ganar premios por cada golpe.
+El evento **Piñata Mapu** es una celebración comunitaria que se activa automáticamente al acumularse **40 votos** del servidor. Una piñata aparece en el spawn y todos los jugadores pueden ir a golpearla para ganar premios por cada golpe.
 
 ***
 
 ## ⚙️ ¿Cómo funciona?
 
-1. Al alcanzar los 20 votos, se anuncia en el chat y aparece la piñata en `/warp piñata`
+1. Al alcanzar los 40 votos, se anuncia en el chat y aparece la piñata en `/warp piñata`
 2. Ve a la zona y golpea la piñata con cualquier ítem
 3. Cada golpe tiene probabilidad de darte una recompensa al instante
 4. La piñata tiene habilidades especiales: puede teletransportarse, lanzar a los jugadores al aire, volverse bebé o acelerar

@@ -219,7 +219,7 @@ embeds:
     modo: towny
     comandos:
       - name: "/vote"
-        descripcion: "vota cada día: premios y la Piñata al llegar a 20 votos"
+        descripcion: "vota cada día: premios y la Piñata al llegar a 40 votos"
         permiso: "todos"
         modo: towny
       - name: "/warp koth"
