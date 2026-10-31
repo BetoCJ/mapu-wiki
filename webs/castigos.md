@@ -21,6 +21,21 @@ También hay un resumen de las sanciones más recientes en el [portal del servid
 
 ***
 
+## ⚠️ Escala de advertencias
+
+Las **advertencias activas** se acumulan. Al llegar a cierta cantidad, la sanción se aplica automáticamente:
+
+| Warns activos | Acción |
+|---|---|
+| 2 | Kick de aviso |
+| 3 | Mute de 2 horas |
+| 4 | Mute de 1 día |
+| 5 | Ban de 1 día |
+| 7 | Ban de 7 días |
+| 10 o más | Ban de 30 días |
+
+***
+
 ## ✍️ Cómo apelar
 
 1. Entra a **[castigos.mapucraft.com/protest](https://castigos.mapucraft.com/protest)**.
