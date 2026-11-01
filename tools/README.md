@@ -51,7 +51,6 @@ Para actualizar el canal de Discord, `bot/servidor-towny/guia_comandos.js` lee `
 ## Qué no se genera
 
 - **Rangos**: LuckPerms solo guarda los grupos y sus permisos, y no hay menú de rangos en DeluxeMenus; los requisitos de `/rankup` no están en los archivos locales. `towny/rangos.md` sigue siendo manual.
-- **Skyblock**: no hay configs locales de ese modo, así que ninguna página de `skyblock/` se genera. Ver `PENDIENTES.md`.
 
 ## Archivos
 
@@ -61,4 +60,4 @@ Para actualizar el canal de Discord, `bot/servidor-towny/guia_comandos.js` lee `
 | `generar_comandos.py` | Guía de comandos (wiki, `GUIA_TOWNY.md` y JSON del bot) |
 | `comandos.yml` | Fuente única de comandos |
 | `miniyaml.py` | Parser YAML mínimo (usa PyYAML si está instalado) |
-| `PENDIENTES.md` | Revisiones pendientes, sobre todo de Skyblock |
+| `PENDIENTES.md` | Revisiones pendientes |

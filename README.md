@@ -32,12 +32,12 @@ Juegas desde cualquier edición en el **mismo mundo**, sin cambiar de cuenta. �
 
 ***
 
-## 🎮 Modalidades
+## 🎮 Modalidad
 
-| 🏘️ **Towny** | 🌌 **Skyblock** |
-|:---:|:---:|
-| Survival con pueblos y naciones, dungeons, eventos, economía de jugadores, Battle Pass y mascotas en 3D. | Islas, minions, rituales, labores del lof y progresión de rangos. |
-| [**Ver la wiki de Towny →**](towny/README.md) | [**Ver la wiki de Skyblock →**](skyblock/README.md) |
+| 🏘️ **Towny** |
+|:---:|
+| Survival con pueblos y naciones, dungeons, eventos, economía de jugadores, Battle Pass y mascotas en 3D. |
+| [**Ver la wiki de Towny →**](towny/README.md) |
 
 ***
 

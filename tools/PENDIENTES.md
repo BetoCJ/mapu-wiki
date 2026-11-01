@@ -1,25 +1,10 @@
 # Pendientes de la wiki
 
-## Comparación Towny vs Skyblock
 
-Se compararon las 12 páginas que existen con el mismo nombre en `towny/` y `skyblock/` (battlepass, brewery, cajas, cosmeticos, crafteos, economia/README, economia/tiendas, encantamientos, minijuegos, misiones-y-recompensas, README y skills).
-
-Resultado: **ninguna es idéntica ni está copiada de Towny**. Cada una tiene contenido propio de Skyblock (Küyen, Antü, Wenu Mapu, minions, islas, etc.) y no aparecen términos exclusivos de Towny (towns, naciones, KOTH, dungeons, rangos Winka-Machife). Por eso no se agregó ninguna nota `> Pendiente de revisar para Skyblock` en las páginas.
-
-Lo que sí queda por revisar a mano, porque no hay forma de comprobarlo con los datos locales (solo existe la config de Towny):
-
-| Página | Qué revisar |
-|---|---|
-| `skyblock/cajas.md` | Comparte con Towny el nombre «Caja Mapu» y el warp `/warp cajas`. Confirmar que esas dos cosas existen de verdad en Skyblock. |
-| `skyblock/economia/README.md` | Describe `/tienda` y `zAuctionHouse`; en Towny la subasta es `/ah` con otro plugin. Confirmar el plugin y los comandos. |
-| `skyblock/minijuegos.md` | Menciona `/ctf`, `/ffa`, `/dm`, `/bg`, `/col` (BattleArena). Confirmar que siguen activos. |
-| README.md (portada) | La portada ya no dice «Próximamente» para Skyblock (hay decenas de páginas publicadas). **Confirmar que Skyblock está abierto** antes de anunciarlo; si no lo está, volver a poner el aviso. |
-
-Páginas de Towny sin equivalente en Skyblock (no es un error, solo no existen allí): coinflip, comercio, dungeons, eventos, jobs, límites de granjas, rangos, towns, economia/mercado, y las tres Pyro con nombre distinto (pyromining/pyromineria, etc.).
+La modalidad Skyblock se archivó el 2026-11-01: sus páginas están en `_archivo/skyblock/` (fuera del índice y de la web). Para recuperarla: `git mv _archivo/skyblock skyblock` y volver a agregar la sección al `SUMMARY.md` y a la portada.
 
 ## Guía de comandos
 
-- Todos los comandos de `comandos.yml` están en modo `towny` (o `discord` para el bot), porque la guía original era de Towny. No se catalogaron comandos de Skyblock. Los de uso general (`/menu`, `/reglas`, `/wiki`, `/discord`…) probablemente sirvan en ambos modos; cuando alguien lo confirme, cambiar `modo` a `ambos`.
 - La columna «permiso» vale `todos` salvo `/tf` (TownyFlight), `/premium` (cuenta premium), `/feed`, `/ender` y `/workbench` (rangos según `towny/rangos.md`) y `m!ciudad registrar` (alcalde). No se verificaron los permisos de LuckPerms comando por comando.
 - Los comandos `/feed`, `/ender` y `/workbench` salen de `towny/rangos.md`, no de la guía original de Discord; confirmar nombres y esperas en el juego.
 
@@ -33,5 +18,4 @@ Páginas de Towny sin equivalente en Skyblock (no es un error, solo no existen a
 ## Temporada 2 (revisar al publicar)
 
 - La versión de Minecraft (26.3), la fecha de apertura (24/10/2026, tomada de la configuración del portal) y la invitación de Discord (YDJKpgEU3m, la misma que usan las webs) se escribieron a partir de los archivos del servidor y las webs: confirmarlas.
-- Skyblock no tiene portal propio: el portal servidor.mapucraft.com solo cubre Towny.
 - Las páginas towny/encantamientos.md, towny/mascotas.md y towny/battlepass.md tienen secciones generadas: tras cambiar esos plugins ejecuta los generadores (ver README.md).
