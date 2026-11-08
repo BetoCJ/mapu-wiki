@@ -94,7 +94,7 @@ El número de ranuras de mascotas que puedes tener activas depende de tu rango e
 
 | Rango | Ranuras activas |
 |---|---|
-| Winka | Sin acceso a mascotas |
+| Winka | 1 mascota a la vez |
 | Che | 6 ranuras |
 | KumeChe | 7 ranuras |
 | Weupife | 8 ranuras |
@@ -201,7 +201,7 @@ Todas las mascotas listadas están disponibles en el servidor. La columna "Cómo
 | Comerciante Errante (WanderingTrader) | 18 | 0.28 | Manzana | Vida baja |
 | Warden | 150 | 0.28 | Hueso | Vida baja |
 | Bruja (Witch) | 26 | 0.30 | Estofado de champiñones | Vida baja |
-| Wither | 150 | 0.30 | Hueso | Solo tienda |
+| Wither | 150 | 0.30 | Hueso | Retirado de la tienda por ahora |
 | Esqueleto Wither (WitherSkeleton) | 34 | 0.30 | Hueso | Vida baja |
 | Lobo (Wolf) | 26 | 0.34 | Carne de res, cordero | Ya domesticado |
 | Zoglin | 34 | 0.32 | Hongo carmesí | Vida baja |

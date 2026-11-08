@@ -13,7 +13,7 @@ La dungeon más difícil de Mapucraft. Temática del **Nether**, con enemigos ex
 | | |
 |---|---|
 | **Dificultad** | 🔴 Especial |
-| **Acceso** | `/warp predungeon` → Entrada a Dungeon 3 |
+| **Acceso** | `/warp dungeons` → Entrada a Dungeon 3 |
 | **KeepInventory** | Sí (no pierdes ítems, sí pierdes EXP) |
 | **Requisito** | Gran equipamiento y habilidad |
 

@@ -49,6 +49,7 @@ Este es el contenido **confirmado** de Towny y cuándo se libera. Seguimos traba
 |---|---|
 | 🎉 **Todos los domingos** | Evento semanal (el horario se avisa) |
 | 🗣️ **Todos los jueves** | Reuniones comunitarias (el horario se avisa) |
+| 🔄 **Todos los días a las 7:30 AM** (hora de Chile) | Reinicio diario del servidor. A esa hora también se reinicia el límite diario de XP de las skills (`/limite`) |
 | 🔥 **Cada 2 semanas, desde el 31 de octubre** | Reinicio del Nether |
 | 🌌 **Cada 3 semanas, desde el 7 de noviembre** | Reinicio del End |
 

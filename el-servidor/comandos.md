@@ -81,6 +81,9 @@ Esta es la lista de comandos del servidor y del bot de Discord. También está p
 | `/misiones` | misiones diarias con recompensa | Todos | Towny |
 | `/rewards` | recompensas diarias, semanales y mensuales | Todos | Towny |
 | `/bp` | Pase de Batalla | Todos | Towny |
+| `/limite` | cuánta XP llevas hoy por habilidad y cuánto te falta; el límite se reinicia a las 7:30 AM | Todos | Towny |
+| `/recetas` | menú de recetas personalizadas del servidor | Todos | Towny |
+| `/cratekey balance` | cuántas llaves de cajas tienes (las llaves ahora son virtuales) | Todos | Towny |
 
 ### 🎉 Eventos y diversión
 
@@ -93,10 +96,20 @@ Esta es la lista de comandos del servidor y del bot de Discord. También está p
 | `/warp parkour` | minijuego de parkour | Todos | Towny |
 | `/warp spleef` | minijuego Spleef | Todos | Towny |
 | `/warp tntrun` | minijuego TNT Run | Todos | Towny |
+| `/warp PropHunt` | minijuego de escondite de objetos | Todos | Towny |
+| `/warp FallGuy` | minijuego Fall Guys: carrera de obstáculos | Todos | Towny |
+| `/mpk lobby` | menú de parkours: elige uno y entra | Todos | Towny |
+| `/warp piñata` | zona de la Piñata | Todos | Towny |
+| `/warp evento` | sala de eventos | Todos | Towny |
+| `/warp preduels` | sala de espera PvP | Todos | Towny |
 | `/duel <jugador>` | duelo 1v1 | Todos | Towny |
 | `/warp coliseo` | arena de duelos | Todos | Towny |
 | `/cf` | CoinFlip | Todos | Towny |
 | `/warp casino` | CoinFlip y apuestas | Todos | Towny |
+| `/loteria` | lotería: sorteos todos los días a las 14:00 y 21:00 (boleto $2.000) | Todos | Towny |
+| `/warp comunidad` | zona social | Todos | Towny |
+| `/warp iglesia` | iglesia: sistema de bodas | Todos | Towny |
+| `/warp Vehiculos` | garaje y transporte | Todos | Towny |
 | `/warp cosmeticos` | zona de cosméticos | Todos | Towny |
 | `/pp` | partículas | Todos | Towny |
 | `/skin <nombre>` | cambia tu skin | Todos | Towny |

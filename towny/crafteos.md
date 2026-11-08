@@ -6,7 +6,7 @@
 
 En Mapucraft existen recetas de crafteo exclusivas que no están en el Minecraft vanilla. Estos crafteos te permiten obtener materiales y objetos únicos del servidor.
 
-Usa el comando `/crafteos` en el servidor para abrir el menú interactivo, donde encontrarás **múltiples secciones de crafteos** organizadas según su **finalidad y origen** (herramientas, bloques, economía, etc.).
+Usa el comando `/recetas` en el servidor para abrir el menú interactivo, donde encontrarás **múltiples secciones de crafteos** organizadas según su **finalidad y origen** (herramientas, bloques, economía, etc.). También puedes usar `/recetas buscar <texto>` para encontrar una receta por nombre, `/recetas como` y `/recetas usos` para ver cómo se fabrica o en qué recetas sirve el ítem que llevas en la mano, y `/recetas puedo` para ver cuáles puedes fabricar ahora.
 
 ***
 
@@ -19,9 +19,21 @@ El menú de `/crafteos` se actualiza con nuevas recetas a medida que el servidor
 <!-- AUTO:inicio crafteos -->
 ## 📜 Recetas del servidor (generado)
 
-> Esta sección se genera automáticamente desde CraftEnhance. Cada receta muestra la cuadrícula de la mesa de crafteo fila por fila (de arriba hacia abajo); `—` es una casilla vacía. Los ingredientes con nombre propio son ítems custom del servidor. Para actualizarla: `python wiki/tools/generar_wiki.py --solo crafteos`.
+> Esta sección se genera automáticamente desde MapuCrafteos. Cada receta muestra la cuadrícula de la mesa de crafteo fila por fila (de arriba hacia abajo); `—` es una casilla vacía. Los ingredientes con nombre propio son ítems custom del servidor. Para actualizarla: `python wiki/tools/generar_wiki.py --solo crafteos`.
 
-Total de recetas: **259** en **9** categorías.
+Total de recetas: **287** en **12** categorías.
+
+### Amuletos Personalizados (9)
+
+- **Amethyst Shard**: Amethyst Shard · Echo Shard · Amethyst Shard / Echo Shard · Amethyst Shard · Echo Shard / Amethyst Shard · Echo Shard · Amethyst Shard
+- **Amethyst Shard**: — · Amethyst Shard · — / Amethyst Shard · Disc Fragment 5 · Amethyst Shard / — · Amethyst Shard · —
+- **Blaze Rod**: Blaze Rod · Echo Shard · Blaze Rod / Echo Shard · Blaze Rod · Echo Shard / Blaze Rod · Echo Shard · Blaze Rod
+- **Blaze Rod**: — · Blaze Rod · — / Blaze Rod · Disc Fragment 5 · Blaze Rod / — · Blaze Rod · —
+- **Heart Of The Sea**: Heart Of The Sea · Echo Shard · Heart Of The Sea / Echo Shard · Heart Of The Sea · Echo Shard / Heart Of The Sea · Echo Shard · Heart Of The Sea
+- **Heart Of The Sea**: — · Heart Of The Sea · — / Heart Of The Sea · Disc Fragment 5 · Heart Of The Sea / — · Heart Of The Sea · —
+- **Nether Star**: Amethyst Shard · Disc Fragment 5 · Netherite Ingot / Disc Fragment 5 · Nether Star · Disc Fragment 5 / Blaze Rod · Disc Fragment 5 · Heart Of The Sea
+- **Netherite Ingot**: Netherite Ingot · Echo Shard · Netherite Ingot / Echo Shard · Netherite Ingot · Echo Shard / Netherite Ingot · Echo Shard · Netherite Ingot
+- **Netherite Ingot**: — · Netherite Ingot · — / Netherite Ingot · Disc Fragment 5 · Netherite Ingot / — · Netherite Ingot · —
 
 ### Armaduras (58)
 
@@ -64,12 +76,12 @@ Total de recetas: **259** en **9** categorías.
 - **Pantalones Tejido de Dragón**: Tejido de Dragón · Tejido de Dragón · Tejido de Dragón / Tejido de Dragón · Pantalones escama de Dragón · Tejido de Dragón / Tejido de Dragón · — · Tejido de Dragón
 - **Pechera Acorazada**: Bloque Escamoso · Pechera Escamosa · Bloque Escamoso / Bloque Escamoso · Bloque Escamoso · Bloque Escamoso / Bloque Escamoso · Bloque Escamoso · Bloque Escamoso
 - **Pechera de Acero**: Acero · — · Acero / Acero · Acero · Acero / Acero · Acero · Acero
+- **Pechera de Acero Inoxidable**: Acero Inoxidable · Pechera de Acero · Acero Inoxidable / Acero Inoxidable · Acero Inoxidable · Acero Inoxidable / Acero Inoxidable · Acero Inoxidable · Acero Inoxidable
 - **Pechera de Diamante bañada en Oro**: Diamante bañado en Oro · Pechera de Diamante Pulido · Diamante bañado en Oro / Diamante bañado en Oro · Diamante bañado en Oro · Diamante bañado en Oro / Diamante bañado en Oro · Diamante bañado en Oro · Diamante bañado en Oro
 - **Pechera de Diamante Pulido**: Diamante Pulido · Pechera pesada de Acero Inoxidable · Diamante Pulido / Diamante Pulido · Diamante Pulido · Diamante Pulido / Diamante Pulido · Diamante Pulido · Diamante Pulido
 - **Pechera escama de Dragón**: Escama de Dragón · Pechera Acorazada · Escama de Dragón / Escama de Dragón · Escama de Dragón · Escama de Dragón / Escama de Dragón · Escama de Dragón · Escama de Dragón
 - **Pechera Escamosa**: Diamante Escamoso · Pechera de Diamante bañada en Oro · Diamante Escamoso / Diamante Escamoso · Diamante Escamoso · Diamante Escamoso / Diamante Escamoso · Diamante Escamoso · Diamante Escamoso
 - **Pechera pesada de Acero Inoxidable**: Bloque de Acero Inoxidable · Pechera de Acero Inoxidable · Bloque de Acero Inoxidable / Bloque de Acero Inoxidable · Bloque de Acero Inoxidable · Bloque de Acero Inoxidable / Bloque de Acero Inoxidable · Bloque de Acero Inoxidable · Bloque de Acero Inoxidable
-- **Pechera pesada de Acero Inoxidable**: — · Pechera pesada de Acero Inoxidable · — / — · Cristal de Bismuto · —
 - **Pechera pesada de Acero Inoxidable**: — · Pechera pesada de Acero Inoxidable · — / — · Cristal de Bismuto · —
 - **Pechera Tejido de Dragón**: Tejido de Dragón · Pechera escama de Dragón · Tejido de Dragón / Tejido de Dragón · Tejido de Dragón · Tejido de Dragón / Tejido de Dragón · Tejido de Dragón · Tejido de Dragón
 - **Pecho de Dragón**: — · Corazón de Dragón · — / — · Tendones de Dragón · — / — · Corazón de Dragón · —
@@ -135,48 +147,59 @@ Total de recetas: **259** en **9** categorías.
 - **Mawün**: Cinturón de Orión · Equuleus · Equuleus / Cinturón de Orión · Nucleo de Fusión · Equuleus / Mandoble ¿?¿?¿? · Cinturón de Orión · Cinturón de Orión
 - **Venganza de Lautaro wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Venganza de Lautaro · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
 
-### Dungeon (40)
+### Dungeons 1-3 (40)
 
-- **Alma lvl 2**: Alma Lvl 1 · Alma Lvl 1 · Alma Lvl 1 / Alma Lvl 1 · Alma Lvl 1 · Alma Lvl 1 / Alma Lvl 1 · Alma Lvl 1 · Alma Lvl 1
-- **Arco Mapu Corrompido B1**: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Arco Mapu Corrompido · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Arco Mapu · Fragmento Coralino Dañado
-- **Arco Mapu Corrompido B2**: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Arco Mapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
-- **Arco Mapu Corrompido B3**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Arco Mapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
-- **Arco Mapu Corrompido B4**: Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro / Núcleo Coralino Puro · Arco Mapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Arco Mapu Infernal**: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Arco Mapu Corrompido B4 · Vara de Blaze Concentrada
-- **Botas Mapu Corrompido B1** _(solo en Dungeons, dungeons)_: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Botas Mapu Corruptas · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Botas Mapu · Fragmento Coralino Dañado
-- **Botas Mapu Corrompido B2**: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Botas Mapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
-- **Botas Mapu Corrompido B3**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Botas Mapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
-- **Botas Mapu Corrompido B4**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Botas Mapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Botas Mapu Infernal**: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Botas Mapu Corrompido B4 · Vara de Blaze Concentrada
-- **Casco Kutral Corrompido B1**: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Casco Kutral Corrompido · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Casco Kutral · Fragmento Coralino Dañado
-- **Casco Kutral Corrompido B2**: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Casco Kutral Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
-- **Casco Kutral Corrompido B3**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Casco Kutral Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
-- **Casco Kutral Corrompido B4**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Casco Kutral Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Casco Kutral Infernal**: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Casco Kutral Corrompido B4 · Vara de Blaze Concentrada
-- **Espada Wallmapu Corrompido B1**: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Espada Wallmapu Corrompido · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Espada Wallmapu · Fragmento Coralino Dañado
-- **Espada Wallmapu Corrompido B2**: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Espada Wallmapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
-- **Espada Wallmapu Corrompido B3**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Espada Wallmapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
-- **Espada Wallmapu Corrompido B4**: Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro / Núcleo Coralino Puro · Espada Wallmapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Espada Wallmapu Infernal**: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Espada Wallmapu Corrompido B4 · Vara de Blaze Concentrada
-- **Fragmento de llave**: Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2
-- **Fragmento de llave**: Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3) / Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3) / Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3)
-- **Llave Invocadora D1**: Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Fragmento de llave · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2
-- **Llave Transporte**: Fragmento Coralino Dañado · Fragmento Coralino Resonante · Fragmento Coralino Dañado / Fragmento Coralino Resonante · Esencia Fragmentada (Nvl 4) · Fragmento Coralino Resonante / Fragmento Coralino Dañado · Fragmento Coralino Resonante · Fragmento Coralino Dañado
-- **Pachamama del Dragon**: Tridente Real Oxidado · Tridente Real Oxidado · Tridente Real Oxidado / Tridente Real Oxidado · Dragon Egg · Tridente Real Oxidado / Tridente Real Oxidado · Pachamama V5 · Tridente Real Oxidado
-- **Pachamama V5**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Hacha Kutral · Núcleo Coralino Puro · Hacha Kutral Corrompida / Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro
-- **Pantalones Lafken Corrompido B1** _(solo en Dungeons, dungeons)_: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Pantalones Lafken Corrompidos · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Grebas Lafken · Fragmento Coralino Dañado
-- **Pantalones Lafken Corrompido B2**: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Pantalones Lafken Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
-- **Pantalones Lafken Corrompido B3**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Pantalones Lafken Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
-- **Pantalones Lafken Corrompido B4**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Pantalones Lafken Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Pantalones Lafken Infernal**: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Pantalones Lafken Corrompido B4 · Vara de Blaze Concentrada
-- **Peto Wenumapu Corrompido B1** _(solo en Dungeons, dungeons)_: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Peto Wenumapu Corrompido · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Peto Wenumapu · Fragmento Coralino Dañado
-- **Peto Wenumapu Corrompido B2**: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Peto Wenumapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
-- **Peto Wenumapu Corrompido B3**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Peto Wenumapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
-- **Peto Wenumapu Corrompido B4**: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Peto Wenumapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Peto Wenumapu Infernal**: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Peto Wenumapu Corrompido B4 · Vara de Blaze Concentrada
-- **☠ Invocador Zoglin Rey ☠**: Fragmento de llave · Calavera del Lord Wither · Fragmento de llave / Fragmento del Nether Dañado · Escama del Titán de Magma · Ladrillo del Nether Calcinado / Fragmento de llave · Fragmento de llave · Fragmento de llave
-- **💀 Invocador Lord Wither 💀**: Wither Rose · Fragmento del Nether Dañado · Wither Rose / Fragmento del Nether Dañado · Wither Skeleton Skull · Fragmento del Nether Dañado / Wither Rose · Fragmento del Nether Dañado · Wither Rose
-- **🔥 Invocador Titan Magma 🔥**: Magma Block · Fragmento del Nether Dañado · Magma Block / Fragmento del Nether Dañado · Magma Cream · Fragmento del Nether Dañado / Magma Block · Fragmento del Nether Dañado · Magma Block
+- **Alma lvl 2** _(solo en dungeons)_: Alma Lvl 1 · Alma Lvl 1 · Alma Lvl 1 / Alma Lvl 1 · Alma Lvl 1 · Alma Lvl 1 / Alma Lvl 1 · Alma Lvl 1 · Alma Lvl 1
+- **Arco Mapu Corrompido B1** _(solo en dungeons)_: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Arco Mapu Corrompido · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Arco Mapu · Fragmento Coralino Dañado
+- **Arco Mapu Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Arco Mapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
+- **Arco Mapu Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Arco Mapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
+- **Arco Mapu Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro / Núcleo Coralino Puro · Arco Mapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
+- **Arco Mapu Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Arco Mapu Corrompido B4 · Vara de Blaze Concentrada
+- **Botas Mapu Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Botas Mapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
+- **Botas Mapu Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Botas Mapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
+- **Botas Mapu Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Botas Mapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
+- **Botas Mapu Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Botas Mapu Corrompido B4 · Vara de Blaze Concentrada
+- **Casco Kutral Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Casco Kutral Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
+- **Casco Kutral Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Casco Kutral Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
+- **Casco Kutral Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Casco Kutral Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
+- **Casco Kutral Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Casco Kutral Corrompido B4 · Vara de Blaze Concentrada
+- **Espada Wallmapu Corrompido B1** _(solo en dungeons)_: Fragmento Coralino Dañado · Fragmento Coralino Dañado · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Espada Wallmapu Corrompido · Fragmento Coralino Dañado / Fragmento Coralino Dañado · Espada Wallmapu · Fragmento Coralino Dañado
+- **Espada Wallmapu Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Espada Wallmapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
+- **Espada Wallmapu Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Espada Wallmapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
+- **Espada Wallmapu Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro / Núcleo Coralino Puro · Espada Wallmapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
+- **Espada Wallmapu Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Espada Wallmapu Corrompido B4 · Vara de Blaze Concentrada
+- **Fragmento de llave** _(solo en dungeons)_: Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2
+- **Fragmento de llave** _(solo en dungeons)_: Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3) / Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3) / Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3)
+- **Llave Invocadora D1** _(solo en dungeons)_: Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Fragmento de llave · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2
+- **Llave Transporte** _(solo en dungeons)_: Fragmento Coralino Dañado · Fragmento Coralino Resonante · Fragmento Coralino Dañado / Fragmento Coralino Resonante · Esencia Fragmentada (Nvl 4) · Fragmento Coralino Resonante / Fragmento Coralino Dañado · Fragmento Coralino Resonante · Fragmento Coralino Dañado
+- **Netherite Boots** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Boots · Prismarine Shard / Prismarine Shard · Diamond Boots · Prismarine Shard
+- **Netherite Chestplate** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Chestplate · Prismarine Shard / Prismarine Shard · Diamond Chestplate · Prismarine Shard
+- **Netherite Helmet** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Helmet · Prismarine Shard / Prismarine Shard · Diamond Helmet · Prismarine Shard
+- **Netherite Leggings** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Leggings · Prismarine Shard / Prismarine Shard · Diamond Leggings · Prismarine Shard
+- **Pachamama del Dragon** _(solo en dungeons)_: Tridente Real Oxidado · Tridente Real Oxidado · Tridente Real Oxidado / Tridente Real Oxidado · Dragon Egg · Tridente Real Oxidado / Tridente Real Oxidado · Pachamama V5 · Tridente Real Oxidado
+- **Pachamama V5** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Hacha Kutral · Núcleo Coralino Puro · Hacha Kutral Corrompida / Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro
+- **Pantalones Lafken Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Pantalones Lafken Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
+- **Pantalones Lafken Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Pantalones Lafken Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
+- **Pantalones Lafken Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Pantalones Lafken Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
+- **Pantalones Lafken Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Pantalones Lafken Corrompido B4 · Vara de Blaze Concentrada
+- **Peto Wenumapu Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Peto Wenumapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
+- **Peto Wenumapu Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Peto Wenumapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
+- **Peto Wenumapu Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Peto Wenumapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
+- **Peto Wenumapu Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Peto Wenumapu Corrompido B4 · Vara de Blaze Concentrada
+- **☠ Invocador Zoglin Rey ☠** _(solo en dungeons)_: Fragmento de llave · Calavera del Lord Wither · Fragmento de llave / Fragmento del Nether Dañado · Escama del Titán de Magma · Ladrillo del Nether Calcinado / Fragmento de llave · Fragmento de llave · Fragmento de llave
+- **💀 Invocador Lord Wither 💀** _(solo en dungeons)_: Wither Rose · Fragmento del Nether Dañado · Wither Rose / Fragmento del Nether Dañado · Wither Skeleton Skull · Fragmento del Nether Dañado / Wither Rose · Fragmento del Nether Dañado · Wither Rose
+- **🔥 Invocador Titan Magma 🔥** _(solo en dungeons)_: Magma Block · Fragmento del Nether Dañado · Magma Block / Fragmento del Nether Dañado · Magma Cream · Fragmento del Nether Dañado / Magma Block · Fragmento del Nether Dañado · Magma Block
+
+### Dupeo del huevo (8)
+
+- **Dragon Egg** x2: Player Head · Nether Star · Player Head / Nether Star · Dragon Egg · Nether Star / Player Head · Nether Star · Player Head
+- **Dragon Head**: Skeleton Skull · Nether Star · Skeleton Skull / Dragon Breath · Netherite Sword · Dragon Breath / Skeleton Skull · Dragon Breath · Skeleton Skull
+- **Piglin Head**: Player Head · Wither Skeleton Skull · Player Head / Wither Skeleton Skull · Netherite Sword · Wither Skeleton Skull / Player Head · Wither Skeleton Skull · Player Head
+- **Player Head**: Magma Cream · Nether Brick · Magma Cream / Nether Brick · Netherite Sword · Nether Brick / Magma Cream · Nether Brick · Magma Cream
+- **Player Head**: Iron Block · Skeleton Skull · Iron Block / Wither Skeleton Skull · Iron Block · Player Head / Iron Block · Piglin Head · Iron Block
+- **Player Head**: Deepslate Emerald Ore · Player Head · Deepslate Emerald Ore / Player Head · Dragon Head · Player Head / Deepslate Emerald Ore · Player Head · Deepslate Emerald Ore
+- **Skeleton Skull**: Piglin Head · Echo Shard · Piglin Head / Echo Shard · Netherite Sword · Echo Shard / Piglin Head · Echo Shard · Piglin Head
+- **Wither Skeleton Skull**: Wither Skeleton Skull · Ghast Tear · Wither Skeleton Skull / Magma Cream · Netherite Sword · Magma Cream / Wither Skeleton Skull · Blaze Rod · Wither Skeleton Skull
 
 ### Escudos (11)
 
@@ -230,7 +253,7 @@ Total de recetas: **259** en **9** categorías.
 - **Pala gigante de Rocosidad**: — · Bloque de Rocosidad · — / Bloque de Rocosidad · Pala gigante de Esmeralda · Bloque de Rocosidad / — · Vara Reluciente · —
 - **Picota de Esmeralda**: Esmeralda Endurecida · Esmeralda Endurecida · Esmeralda Endurecida / — · Palo Reforzado · Esmeralda Endurecida / Palo Reforzado · — · Esmeralda Endurecida
 - **Picota de Platino**: Platino · Platino · Platino / — · Picota de Rocosidad · Platino / Palo Reforzado · — · Platino
-- **Picota de Rocosidad**: Rocosidad · Rocosidad · Rocosidad / — · Picota de Esmeralda · Rocosidad / Palo Reforzado · — · Rocosidad
+- **Picota de Rocosidad**: Rocosidad · Rocosidad · Rocosidad / not_set · Picota de Esmeralda · Rocosidad / Palo Reforzado · not_set · Rocosidad
 - **Picota gigante de Esmeralda**: Bloque de Esmeralda Reforzada · Bloque de Esmeralda Reforzada · Bloque de Esmeralda Reforzada / — · Picota de Platino · Bloque de Esmeralda Reforzada / Vara Reluciente · — · Bloque de Esmeralda Reforzada
 - **Picota gigante de Platino**: Bloque de Platino · Bloque de Platino · Bloque de Platino / — · Picota gigante de Rocosidad · — / — · Vara Reluciente · —
 - **Picota gigante de Rocosidad**: Bloque de Rocosidad · Bloque de Rocosidad · Bloque de Rocosidad / — · Picota gigante de Esmeralda · Bloque de Rocosidad / Vara Reluciente · — · Bloque de Rocosidad
@@ -267,7 +290,6 @@ Total de recetas: **259** en **9** categorías.
 - **Acero Inoxidable**: Acero · Acero · Acero / Gold Ingot · Gold Ingot · Gold Ingot / Acero · Acero · Acero
 - **Barra Encadenada**: Netherite Ingot · Iron Chain · Blaze Rod / Iron Chain · Blaze Rod · Iron Chain / Blaze Rod · Iron Chain · Netherite Ingot
 - **Bendición de la tierra**: Apple · Pumpkin · Kelp / Potato · Beetroot · Sweet Berries / Carrot · Wheat · Melon Slice
-- **Bloque de Acero Inoxidable**: Acero Inoxidable · Acero Inoxidable · Acero Inoxidable / Acero Inoxidable · Acero Inoxidable · Acero Inoxidable / Acero Inoxidable · Acero Inoxidable · Acero Inoxidable
 - **Bloque de Esmeralda Reforzada**: Esmeralda Endurecida · Esmeralda Endurecida · Esmeralda Endurecida / Esmeralda Endurecida · Esmeralda Endurecida · Esmeralda Endurecida / Esmeralda Endurecida · Esmeralda Endurecida · Esmeralda Endurecida
 - **Bloque de Platino**: Platino · Platino · Platino / Platino · Platino · Platino / Platino · Platino · Platino
 - **Bloque de Rocosidad**: Rocosidad · Rocosidad · Rocosidad / Rocosidad · Rocosidad · Rocosidad / Rocosidad · Rocosidad · Rocosidad
@@ -286,6 +308,7 @@ Total de recetas: **259** en **9** categorías.
 - **Fragmento Misterioso**: — · Disc Fragment 5 · — / Disc Fragment 5 · Echo Shard · Disc Fragment 5 / — · Disc Fragment 5 · —
 - **Hilo bañado en Netherita**: Netherite Ingot · Netherite Ingot · Netherite Ingot / Netherite Ingot · Hilo reforzado · Netherite Ingot / Netherite Ingot · Netherite Ingot · Netherite Ingot
 - **Hilo reforzado**: String · Diamond Block · String / Netherite Scrap · String · Netherite Scrap / String · Diamond Block · String
+- **Iron Block**: Iron Ingot · Iron Ingot · Iron Ingot / Iron Ingot · Iron Ingot · Iron Ingot / Iron Ingot · Iron Ingot · Iron Ingot
 - **Nucleo de Fusión**: Equuleus · Cinturón de Orión · Equuleus / Cinturón de Orión · Wangülen · Cinturón de Orión / Equuleus · Cinturón de Orión · Equuleus
 - **Obsidiana Llorosa Cristalizada**: Ghast Tear · Diamond · Ghast Tear / Crying Obsidian · Ghast Tear · Crying Obsidian / Diamond · Diamond · Diamond
 - **Ojo Lloroso**: Crying Obsidian · Crying Obsidian · Crying Obsidian / Emerald · Ender Eye · Emerald / Crying Obsidian · Ghast Tear · Crying Obsidian
@@ -298,6 +321,20 @@ Total de recetas: **259** en **9** categorías.
 - **Tendones de Dragón**: Dragon Breath · Tejido de Dragón · Dragon Breath / Ender Eye · Netherite Block · Ender Eye / Dragon Breath · Tejido de Dragón · Dragon Breath
 - **Vara Reluciente**: Esmeralda Endurecida · Rocosidad · Esmeralda Endurecida / Rocosidad · Palo Reforzado · Rocosidad / Esmeralda Endurecida · Rocosidad · Esmeralda Endurecida
 - **Wangülen**: Nether Star · Bloque de Platino · Nether Star / Bloque de Platino · Equuleus · Bloque de Platino / Nether Star · Bloque de Platino · Nether Star
+
+### Nuevas Armas (11)
+
+- **Crossbow**: Netherite Scrap · Nether Star · Netherite Ingot / Diamond · Crossbow · Diamond / Netherite Ingot · Nether Star · Netherite Scrap
+- **Crossbow**: Heart Of The Sea · Trident · Heart Of The Sea / Prismarine Crystals · Crossbow · Prismarine Crystals / Prismarine Shard · Prismarine Crystals · Prismarine Shard
+- **Crossbow**: Wither Skeleton Skull · Nether Star · Wither Skeleton Skull / Blaze Rod · Crossbow · Blaze Rod / Magma Cream · Trident · Magma Cream
+- **Crossbow**: Echo Shard · Player Head · Echo Shard / Iron Block · Crossbow · Iron Block / Honeycomb · Iron Block · Honeycomb
+- **Crossbow**: Nether Star · Player Head · Nether Star / Dragon Breath · Crossbow · Dragon Breath / Dragon Breath · Dragon Breath · Dragon Breath
+- **Diamond Sword**: Disc Fragment 5 · Crying Obsidian · Disc Fragment 5 / Blaze Rod · Iron Sword · Blaze Rod / Magma Cream · Crying Obsidian · Magma Cream
+- **Diamond Sword**: Deepslate Coal Ore · Diamond · Deepslate Coal Ore / Honeycomb · Diamond Sword · Honeycomb / Echo Shard · Echo Shard · Echo Shard
+- **Iron Sword**: Enchanted Golden Apple · Netherite Ingot · Enchanted Golden Apple / Netherite Ingot · Iron Sword · Netherite Ingot / Enchanted Golden Apple · Netherite Ingot · Enchanted Golden Apple
+- **Iron Sword**: Prismarine Crystals · Prismarine Shard · Prismarine Crystals / Prismarine Shard · Iron Sword · Prismarine Shard / Prismarine Crystals · Prismarine Shard · Prismarine Crystals
+- **Iron Sword**: Blaze Rod · Nether Star · Blaze Rod / Trident · Iron Sword · Trident / Heart Of The Sea · Blaze Rod · Heart Of The Sea
+- **Netherite Sword**: Deepslate Emerald Ore · Player Head · Deepslate Emerald Ore / Player Head · Diamond Sword · Player Head / Nether Star · Dragon Breath · Nether Star
 
 ### Creacion items normales (7)
 

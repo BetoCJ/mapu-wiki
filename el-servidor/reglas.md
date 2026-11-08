@@ -44,34 +44,37 @@ Mapucraft no se responsabiliza por robos de cuentas del servidor, de Minecraft u
 **10. Estafas**
 Está prohibido estafar o intentar estafar a otros jugadores, tanto dentro del servidor como en el Discord de Mapucraft.
 
+**11. TPAkill**
+Está prohibido matar a jugadores que recibieron tu solicitud de `/tpa` o `/tpahere`. Si fuiste tú quien envió la solicitud y te matan, es tu propia responsabilidad. Para reportar, abre un ticket en Discord indicando la hora exacta de tu muerte.
+
 ***
 
 ## Reglas de Mundos y Protección
 
-**11. Grifeo y Construcción**
+**12. Grifeo y Construcción**
 Prohibido grifear, robar, construir o destruir en zonas cercanas a towns ajenas. La sanción dependerá de la gravedad del caso.
 
-**12. Mundo End**
+**13. Mundo End**
 No está permitido crear Towns, claimear chunks ni crear Outposts en la isla principal del End.
 
-**13. Robo en Cofres**
+**14. Robo en Cofres**
 Está prohibido robar en cofres que se encuentren protegidos por cartel.
 
 ***
 
 ## Reglas Finales
 
-**14. Multicuentas**
+**15. Multicuentas**
 Se permite un máximo de 3 cuentas por usuario. Queda prohibido usarlas con fines maliciosos o para evadir sanciones activas.
 > Puedes informar al Staff sobre tus cuentas adicionales.
 
-**15. Conducta General**
+**16. Conducta General**
 Cualquier comportamiento perjudicial para jugadores o el servidor podrá ser sancionado a discreción del Staff.
 
-**16. Comportamiento Tóxico**
+**17. Comportamiento Tóxico**
 Las actitudes tóxicas o negativas serán sancionadas de acuerdo a la gravedad.
 
-**17. Historial del Jugador**
+**18. Historial del Jugador**
 El Staff podrá considerar el historial (positivo o negativo) de un jugador al momento de aplicar una sanción.
 
 ***
@@ -79,6 +82,19 @@ El Staff podrá considerar el historial (positivo o negativo) de un jugador al m
 ## Sanciones y apelaciones
 
 Las sanciones (baneos, silencios, expulsiones y advertencias) se registran en [castigos.mapucraft.com](https://castigos.mapucraft.com). Si crees que una fue injusta, puedes [apelarla](../webs/castigos.md) con el formulario de apelaciones y seguir el estado de tu caso con el código que recibas.
+
+### Advertencias (warns)
+
+Las advertencias activas suman sanciones automáticas:
+
+| Warns activos | Acción |
+|---|---|
+| 2 | Kick de aviso |
+| 3 | Mute de 2 horas |
+| 4 | Mute de 1 día |
+| 5 | Ban de 1 día |
+| 7 | Ban de 7 días |
+| 10 o más | Ban de 30 días |
 
 ***
 

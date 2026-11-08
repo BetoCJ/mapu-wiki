@@ -22,11 +22,11 @@ Las opciones de personalización se pagan con **dinero del servidor**. Estos son
 
 | Servicio | Precio |
 |---|---:|
-| Aplicar un modelo | $40.000 |
-| Shulker de materiales | $65.000 |
-| Cambiar el nombre | $60.000 |
-| Escribir lore | $50.000 |
-| Desencantar | $50.000 |
+| Aplicar un modelo | $25.000 |
+| Shulker de materiales | $30.000 |
+| Cambiar el nombre | $30.000 |
+| Escribir lore | $30.000 |
+| Desencantar | $20.000 |
 
 ***
 
@@ -78,3 +78,10 @@ Estas recompensas se entregan con comandos de consola (o desde Tebex y el [Battl
 | Spawners | `/mapucraft spawner dar <jugador> <normal\|premium> <cantidad>` | `/mapucraft spawner` abre el menú para elegir el mob |
 | Llaves a elección | `/mapucraft llaves dar <jugador> <cantidad>` | `/mapucraft llaves` abre el menú para elegir la llave |
 | Claims bonus | `/mapucraft claims dar <jugador> <cantidad>` | `/mapucraft claims` pide por chat el nombre de la town |
+## Spawners
+
+Los spawners **no se pueden sacar con Toque de seda** ni minándolos (en Minecraft vanilla tampoco se pueden recoger). Se consiguen como **Spawner Normal** o **Spawner Premium** de MapuCore, que se obtienen en el Battle Pass, en cajas y con vales de MapuKoth.
+
+- **Spawner Normal:** eliges entre Creeper, Zombie, Skeleton, Cow, Pig y Chicken para cada spawner del pack.
+- **Spawner Premium:** cualquier mob viable, excepto Ender Dragon, Elder Guardian, Wither y Giant.
+- Los mobs que salen de spawners son siempre de nivel 1.

@@ -58,7 +58,7 @@ Esto aplica a monstruos, animales, axolotes y la mayoría de criaturas. Es más 
 **MobFarmManager** es el plugin que evita que se acumulen demasiadas entidades en una misma zona. En simple: cada cierto tiempo revisa los chunks donde hay jugadores y, si encuentra más entidades de las permitidas, borra el exceso.
 
 * Revisa el área cada **30 segundos**.
-* Agrupa varios chunks alrededor del jugador (un área de 5x5 chunks) para calcular los límites, en vez de mirar cada chunk por separado.
+* Los límites **no son por un solo chunk**: el plugin agrupa los chunks de alrededor (radio 2, según el config: 3x3 = 9 chunks) y cuenta todo junto como una sola zona. Por ejemplo, el límite de tortugas (20) es para toda esa zona, no 20 por cada chunk. Con **`/mfm limits`** parado en el lugar se ve el área exacta y los límites que aplican ahí.
 * Algunos límites importantes por grupo de chunks:
 
 | Entidad | Límite |
@@ -67,7 +67,7 @@ Esto aplica a monstruos, animales, axolotes y la mayoría de criaturas. Es más 
 | Monstruos en general (categoría) | 80 |
 | Iron Golem | 5 |
 | Aldeano | 15 |
-| Wither | 5 |
+| Wither | 10 |
 | Warden | 8 |
 | Ender Dragon | 3 |
 | Zombified Piglin | 40 |
@@ -76,6 +76,96 @@ Esto aplica a monstruos, animales, axolotes y la mayoría de criaturas. Es más 
 | Snow Golem | 20 |
 | Falling blocks (bloques cayendo) | 10 |
 | Flechas | 20 |
+
+### Límite por mob (lista completa)
+
+Cuántos de cada mob puedes tener por zona (el grupo de chunks de arriba). Si te pasas, el plugin borra el exceso. Para ver los tuyos en el lugar donde estás, usa `/mfm limits`.
+
+* Cuántos Abeja puedo tener por chunk: límite de 20 por zona de chunks (Abeja, máximo 20, /mfm limits)
+* Cuántos Ahogado puedo tener por chunk: límite de 20 por zona de chunks (Ahogado, máximo 20, /mfm limits)
+* Cuántos Ajolote puedo tener por chunk: límite de 10 por zona de chunks (Ajolote, máximo 10, /mfm limits)
+* Cuántos Aldeano puedo tener por chunk: límite de 15 por zona de chunks (Aldeano, máximo 15, /mfm limits)
+* Cuántos Aldeano zombie puedo tener por chunk: límite de 10 por zona de chunks (Aldeano zombie, máximo 10, /mfm limits)
+* Cuántos Allay puedo tener por chunk: límite de 10 por zona de chunks (Allay, máximo 10, /mfm limits)
+* Cuántos Araña puedo tener por chunk: límite de 20 por zona de chunks (Araña, máximo 20, /mfm limits)
+* Cuántos Araña de cueva puedo tener por chunk: límite de 15 por zona de chunks (Araña de cueva, máximo 15, /mfm limits)
+* Cuántos Armadillo puedo tener por chunk: límite de 10 por zona de chunks (Armadillo, máximo 10, /mfm limits)
+* Cuántos Bacalao puedo tener por chunk: límite de 20 por zona de chunks (Bacalao, máximo 20, /mfm limits)
+* Cuántos Blaze puedo tener por chunk: límite de 20 por zona de chunks (Blaze, máximo 20, /mfm limits)
+* Cuántos Bogged puedo tener por chunk: límite de 10 por zona de chunks (Bogged, máximo 10, /mfm limits)
+* Cuántos Breeze puedo tener por chunk: límite de 10 por zona de chunks (Breeze, máximo 10, /mfm limits)
+* Cuántos Bruja puedo tener por chunk: límite de 10 por zona de chunks (Bruja, máximo 10, /mfm limits)
+* Cuántos Burro puedo tener por chunk: límite de 6 por zona de chunks (Burro, máximo 6, /mfm limits)
+* Cuántos Caballo puedo tener por chunk: límite de 20 por zona de chunks (Caballo, máximo 20, /mfm limits)
+* Cuántos Caballo esqueleto puedo tener por chunk: límite de 5 por zona de chunks (Caballo esqueleto, máximo 5, /mfm limits)
+* Cuántos Caballo zombie puedo tener por chunk: límite de 5 por zona de chunks (Caballo zombie, máximo 5, /mfm limits)
+* Cuántos Cabra puedo tener por chunk: límite de 20 por zona de chunks (Cabra, máximo 20, /mfm limits)
+* Cuántos Calamar puedo tener por chunk: límite de 20 por zona de chunks (Calamar, máximo 20, /mfm limits)
+* Cuántos Calamar luminoso puedo tener por chunk: límite de 10 por zona de chunks (Calamar luminoso, máximo 10, /mfm limits)
+* Cuántos Camello puedo tener por chunk: límite de 10 por zona de chunks (Camello, máximo 10, /mfm limits)
+* Cuántos Cerdo puedo tener por chunk: límite de 20 por zona de chunks (Cerdo, máximo 20, /mfm limits)
+* Cuántos Conejo puedo tener por chunk: límite de 20 por zona de chunks (Conejo, máximo 20, /mfm limits)
+* Cuántos Creaking puedo tener por chunk: límite de 10 por zona de chunks (Creaking, máximo 10, /mfm limits)
+* Cuántos Creeper puedo tener por chunk: límite de 20 por zona de chunks (Creeper, máximo 20, /mfm limits)
+* Cuántos Cubo de azufre puedo tener por chunk: límite de 20 por zona de chunks (Cubo de azufre, máximo 20, /mfm limits)
+* Cuántos Cubo de magma puedo tener por chunk: límite de 20 por zona de chunks (Cubo de magma, máximo 20, /mfm limits)
+* Cuántos Delfín puedo tener por chunk: límite de 10 por zona de chunks (Delfín, máximo 10, /mfm limits)
+* Cuántos Ender Dragon puedo tener por chunk: límite de 3 por zona de chunks (Ender Dragon, máximo 3, /mfm limits)
+* Cuántos Enderman puedo tener por chunk: límite de 30 por zona de chunks (Enderman, máximo 30, /mfm limits)
+* Cuántos Endermite puedo tener por chunk: límite de 20 por zona de chunks (Endermite, máximo 20, /mfm limits)
+* Cuántos Esqueleto puedo tener por chunk: límite de 20 por zona de chunks (Esqueleto, máximo 20, /mfm limits)
+* Cuántos Esqueleto wither puedo tener por chunk: límite de 15 por zona de chunks (Esqueleto wither, máximo 15, /mfm limits)
+* Cuántos Evoker puedo tener por chunk: límite de 5 por zona de chunks (Evoker, máximo 5, /mfm limits)
+* Cuántos Gallina puedo tener por chunk: límite de 20 por zona de chunks (Gallina, máximo 20, /mfm limits)
+* Cuántos Gato puedo tener por chunk: límite de 10 por zona de chunks (Gato, máximo 10, /mfm limits)
+* Cuántos Ghast puedo tener por chunk: límite de 20 por zona de chunks (Ghast, máximo 20, /mfm limits)
+* Cuántos Golem de hierro puedo tener por chunk: límite de 5 por zona de chunks (Golem de hierro, máximo 5, /mfm limits)
+* Cuántos Golem de nieve puedo tener por chunk: límite de 20 por zona de chunks (Golem de nieve, máximo 20, /mfm limits)
+* Cuántos Guardián puedo tener por chunk: límite de 20 por zona de chunks (Guardián, máximo 20, /mfm limits)
+* Cuántos Guardián anciano puedo tener por chunk: límite de 5 por zona de chunks (Guardián anciano, máximo 5, /mfm limits)
+* Cuántos Hoglin puedo tener por chunk: límite de 20 por zona de chunks (Hoglin, máximo 20, /mfm limits)
+* Cuántos Husk puedo tener por chunk: límite de 20 por zona de chunks (Husk, máximo 20, /mfm limits)
+* Cuántos Illusioner puedo tener por chunk: límite de 20 por zona de chunks (Illusioner, máximo 20, /mfm limits)
+* Cuántos Lepisma puedo tener por chunk: límite de 25 por zona de chunks (Lepisma, máximo 25, /mfm limits)
+* Cuántos Llama puedo tener por chunk: límite de 20 por zona de chunks (Llama, máximo 20, /mfm limits)
+* Cuántos Llama del mercader puedo tener por chunk: límite de 5 por zona de chunks (Llama del mercader, máximo 5, /mfm limits)
+* Cuántos Lobo puedo tener por chunk: límite de 15 por zona de chunks (Lobo, máximo 15, /mfm limits)
+* Cuántos Loro puedo tener por chunk: límite de 10 por zona de chunks (Loro, máximo 10, /mfm limits)
+* Cuántos Mercader errante puedo tener por chunk: límite de 6 por zona de chunks (Mercader errante, máximo 6, /mfm limits)
+* Cuántos Mooshroom puedo tener por chunk: límite de 15 por zona de chunks (Mooshroom, máximo 15, /mfm limits)
+* Cuántos Mula puedo tener por chunk: límite de 6 por zona de chunks (Mula, máximo 6, /mfm limits)
+* Cuántos Murciélago puedo tener por chunk: límite de 10 por zona de chunks (Murciélago, máximo 10, /mfm limits)
+* Cuántos Ocelote puedo tener por chunk: límite de 10 por zona de chunks (Ocelote, máximo 10, /mfm limits)
+* Cuántos Oso polar puedo tener por chunk: límite de 10 por zona de chunks (Oso polar, máximo 10, /mfm limits)
+* Cuántos Oveja puedo tener por chunk: límite de 20 por zona de chunks (Oveja, máximo 20, /mfm limits)
+* Cuántos Panda puedo tener por chunk: límite de 10 por zona de chunks (Panda, máximo 10, /mfm limits)
+* Cuántos Pez globo puedo tener por chunk: límite de 10 por zona de chunks (Pez globo, máximo 10, /mfm limits)
+* Cuántos Pez tropical puedo tener por chunk: límite de 20 por zona de chunks (Pez tropical, máximo 20, /mfm limits)
+* Cuántos Phantom puedo tener por chunk: límite de 10 por zona de chunks (Phantom, máximo 10, /mfm limits)
+* Cuántos Piglin puedo tener por chunk: límite de 20 por zona de chunks (Piglin, máximo 20, /mfm limits)
+* Cuántos Piglin bruto puedo tener por chunk: límite de 20 por zona de chunks (Piglin bruto, máximo 20, /mfm limits)
+* Cuántos Piglin zombificado puedo tener por chunk: límite de 40 por zona de chunks (Piglin zombificado, máximo 40, /mfm limits)
+* Cuántos Pillager puedo tener por chunk: límite de 20 por zona de chunks (Pillager, máximo 20, /mfm limits)
+* Cuántos Rana puedo tener por chunk: límite de 20 por zona de chunks (Rana, máximo 20, /mfm limits)
+* Cuántos Ravager puedo tener por chunk: límite de 5 por zona de chunks (Ravager, máximo 5, /mfm limits)
+* Cuántos Renacuajo puedo tener por chunk: límite de 15 por zona de chunks (Renacuajo, máximo 15, /mfm limits)
+* Cuántos Salmón puedo tener por chunk: límite de 20 por zona de chunks (Salmón, máximo 20, /mfm limits)
+* Cuántos Shulker puedo tener por chunk: límite de 10 por zona de chunks (Shulker, máximo 10, /mfm limits)
+* Cuántos Slime puedo tener por chunk: límite de 20 por zona de chunks (Slime, máximo 20, /mfm limits)
+* Cuántos Sniffer puedo tener por chunk: límite de 10 por zona de chunks (Sniffer, máximo 10, /mfm limits)
+* Cuántos Stray puedo tener por chunk: límite de 20 por zona de chunks (Stray, máximo 20, /mfm limits)
+* Cuántos Strider puedo tener por chunk: límite de 10 por zona de chunks (Strider, máximo 10, /mfm limits)
+* Cuántos Tortuga puedo tener por chunk: límite de 20 por zona de chunks (Tortuga, máximo 20, /mfm limits)
+* Cuántos Vaca puedo tener por chunk: límite de 20 por zona de chunks (Vaca, máximo 20, /mfm limits)
+* Cuántos Vex puedo tener por chunk: límite de 10 por zona de chunks (Vex, máximo 10, /mfm limits)
+* Cuántos Vindicator puedo tener por chunk: límite de 20 por zona de chunks (Vindicator, máximo 20, /mfm limits)
+* Cuántos Warden puedo tener por chunk: límite de 8 por zona de chunks (Warden, máximo 8, /mfm limits)
+* Cuántos Wither puedo tener por chunk: límite de 10 por zona de chunks (Wither, máximo 10, /mfm limits)
+* Cuántos Zoglin puedo tener por chunk: límite de 20 por zona de chunks (Zoglin, máximo 20, /mfm limits)
+* Cuántos Zombie puedo tener por chunk: límite de 20 por zona de chunks (Zombie, máximo 20, /mfm limits)
+* Cuántos Zorro puedo tener por chunk: límite de 20 por zona de chunks (Zorro, máximo 20, /mfm limits)
+
+Además hay topes por categoría: animales de granja (cerdo, vaca, caballo, conejo, oveja, gallina) 60 en total, y monstruos (zombie, esqueleto, slime, creeper, calamar) 80 en total. Otros: bloques por chunk, máximo 200 tolvas y 70 pistones, pistones pegajosos y observers.
 
 * **Qué NO se borra:** animales domesticados (con correa), con nombre personalizado, con silla de montar, bebés, armor stands con items puestos, e item frames con items — todos quedan protegidos de la limpieza automática.
 

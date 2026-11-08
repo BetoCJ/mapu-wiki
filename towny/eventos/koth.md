@@ -35,7 +35,7 @@ Durante el evento, la barra de jefe y el marcador lateral muestran en tiempo rea
 
 | Posición | Recompensa |
 |---|---|
-| 🥇 1° lugar | 2x Llave MapuKoth |
+| 🥇 1° lugar | 1x Llave MapuKoth |
 | 🥈 2° lugar | 1x Llave MapuKoth |
 | 🥉 3° lugar | 1x Llave Netherite |
 

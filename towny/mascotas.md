@@ -46,7 +46,7 @@ Antes de comprar puedes verlas todas **girando en 3D** en [servidor.mapucraft.co
 ## 📖 Catálogo completo
 
 <!-- AUTO:inicio mascotas -->
-Hay **190 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
+Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
 
 | Rareza | Precio | Mascotas |
 |---|---:|---:|

@@ -49,6 +49,7 @@
 * [Cajas y Llaves](towny/cajas.md)
 * [Mini-juegos](towny/minijuegos.md)
 * [CoinFlip](towny/coinflip.md)
+* [Lotería](towny/loteria.md)
 
 ## 🎨 Towny · Personalización
 * [Cosméticos](towny/cosmeticos.md)

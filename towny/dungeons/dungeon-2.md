@@ -4,7 +4,7 @@
 🗓️ **Disponible desde el 7 de noviembre** (renovado). → [Hoja de ruta](../hoja-de-ruta.md)
 {% endhint %}
 
-La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs mucho más agresivos. Se accede desde el interior de la Dungeon 1 o directamente desde `/warp predungeon`.
+La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs mucho más agresivos. Se accede desde el interior de la Dungeon 1 o directamente desde `/warp dungeons`.
 
 ***
 
@@ -13,7 +13,7 @@ La segunda dungeon de Mapucraft. Temática **acuática y abisal**, con mobs much
 | | |
 |---|---|
 | **Dificultad** | 🟠 Avanzado |
-| **Acceso** | Desde Dungeon 1 o `/warp predungeon` |
+| **Acceso** | Desde Dungeon 1 o `/warp dungeons` |
 | **KeepInventory** | Sí (no pierdes ítems, sí pierdes EXP) |
 | **Zona de Crafteo** | Sí |
 | **Zona de Tradeo** | Sí — intercambia ítems con Don Dolphi |

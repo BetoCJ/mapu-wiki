@@ -41,9 +41,9 @@ El **Battle Pass** es el sistema de progresión por temporadas de Mapucraft. Com
 | 🏡 **Claim bonus** (MapuCore) | — | Niveles 40 y 60 |
 | 🚗 **Llave de Vehículos** | 1 (nivel 35) | 2 (niveles 25 y 50) |
 | 💠 **MapuPoints** | 120 en total | 405 en total |
-| 💰 **Dinero** | unos $30.000 | unos $80.000 |
+| 💰 **Dinero** | unos $33.000 | unos $88.000 |
 | ✈️ **Fly temporal** | Niveles 30 y 58 | Niveles 35 y 50 |
-| 🎃 ❄️ **Llaves de temporada** | Halloween e Invierno | Halloween (x2) e Invierno (x2) |
+| 🎃 **Llaves de temporada** | Halloween | Halloween (x2) |
 | 📗 **Libros de encantamiento** | Hasta Legendario | Hasta Legendario y un **Fabled** en el nivel 60 |
 
 Además hay llaves de las [cajas](cajas.md) (Diaria, Piñata, Mapu, Lafken, Kutral, Wenumapu, Wallmapu, Netherite, Boss y más), experiencia, diamantes, esmeraldas, bloques de oro, escombros y lingotes de Netherite, comida, botellas de experiencia, shulkers, tótems, un faro y élitros.
@@ -102,66 +102,66 @@ Temporada actual: inicia el **31/10/2026** · **60 niveles** (gratis y premium).
 
 | Nivel | Puntos del nivel | Total | 🆓 Gratis | 💎 Premium |
 |---:|---:|---:|---|---|
-| **1** | 15 | 15 | $1.000 de dinero | $2.500 de dinero + 2x Llave Halloween |
-| **2** | 15 | 30 | 1x Llave Diaria | 3x Llave Diaria |
-| **3** | 15 | 45 | 150 de experiencia | 300 de experiencia |
-| **4** | 15 | 60 | 16x Bistec | 8x Manzana Dorada |
-| **5** | 15 | 75 | 1x Llave Halloween | 1x Llave Piñata |
-| **6** | 15 | 90 | 1x Libro Simple | 1x Libro Único |
-| **7** | 15 | 105 | 6x Esmeralda | 6x Diamante |
-| **8** | 15 | 120 | 15 MapuPoints | 25 MapuPoints |
-| **9** | 15 | 135 | 1x Bloque de Oro | 12x Esmeralda |
-| ⭐ **10** | 15 | 150 | 1x Llave Piñata + $1.000 de dinero | 1x Llave Mapu + $3.000 de dinero |
-| **11** | 15 | 165 | $1.500 de dinero | 1x Libro Elite |
-| **12** | 15 | 180 | 3x Diamante | 1x Lingote de Netherite |
-| **13** | 15 | 195 | 250 de experiencia | 500 de experiencia |
-| **14** | 15 | 210 | 1x Libro Único | $3.500 de dinero |
-| ⭐ **15** | 15 | 225 | 8x Esmeralda | 1x Llave a Elección |
-| **16** | 22 | 247 | 2x Llave Diaria | 4x Bloque de Oro |
-| **17** | 22 | 269 | 24x Zanahoria Dorada | 1x Libro Elite |
-| **18** | 22 | 291 | 15 MapuPoints | 1x Llave Lafken |
-| **19** | 22 | 313 | $2.000 de dinero | 64x Botella de Experiencia |
-| ⭐ **20** | 22 | 335 | 1x Llave Mapu + 400 de experiencia | 40 MapuPoints + 1x Llave Glow |
-| **21** | 22 | 357 | 1x Escombros Ancestrales | $4.000 de dinero |
-| **22** | 22 | 379 | 300 de experiencia | 10x Diamante |
-| **23** | 22 | 401 | 4x Diamante | 1x Libro Ultimate |
-| **24** | 22 | 423 | 1x Libro Único | 3x Escombros Ancestrales |
-| ⭐ **25** | 22 | 445 | 32x Botella de Experiencia | 1x Llave Vehículos + 600 de experiencia |
-| **26** | 22 | 467 | $2.500 de dinero | 64x Zanahoria Dorada |
-| **27** | 22 | 489 | 1x Caja de Shulker | 700 de experiencia |
-| **28** | 22 | 511 | 12x Esmeralda | 24x Esmeralda |
-| **29** | 22 | 533 | 20 MapuPoints | 2x Tótem de la Inmortalidad |
-| ⭐ **30** | 22 | 555 | 3 días de Fly + $1.500 de dinero | 1x Spawner Normal + $5.000 de dinero |
-| **31** | 30 | 585 | 2x Llave Piñata | 1x Llave Kutral |
-| **32** | 30 | 615 | $3.000 de dinero | 1x Libro Ultimate |
-| **33** | 30 | 645 | 1x Libro Elite | 2x Lingote de Netherite |
-| **34** | 30 | 675 | 6x Diamante | $6.000 de dinero |
-| ⭐ **35** | 30 | 705 | 1x Llave Vehículos | 1x Llave a Elección + 8 días de Fly |
-| **36** | 30 | 735 | 400 de experiencia | 2x Llave Invierno |
-| **37** | 30 | 765 | 1x Llave Invierno | 14x Diamante |
-| **38** | 30 | 795 | 2x Escombros Ancestrales | 50 MapuPoints |
-| **39** | 30 | 825 | 8x Manzana Dorada | 1x Libro Legendario |
-| ⭐ **40** | 30 | 855 | 1x Llave Lafken + $2.000 de dinero | 1x Claim Bonus + $5.000 de dinero |
-| **41** | 30 | 885 | $3.500 de dinero | 1x Llave Wenumapu |
-| **42** | 30 | 915 | 16x Esmeralda | 2x Caja de Shulker |
-| **43** | 30 | 945 | 1x Libro Elite | $7.000 de dinero |
-| **44** | 30 | 975 | 4x Bloque de Oro | 1.000 de experiencia |
-| ⭐ **45** | 30 | 1005 | 20 MapuPoints | 1x Llave Amuletos + 30 MapuPoints |
-| **46** | 38 | 1043 | 8x Diamante | 1x Libro Legendario |
-| **47** | 38 | 1081 | 500 de experiencia | 3x Lingote de Netherite |
-| ⭐ **48** | 38 | 1119 | 1x Lingote de Netherite | 1x Élitros |
-| **49** | 38 | 1157 | $4.000 de dinero | 1x Llave Wallmapu |
-| ⭐ **50** | 38 | 1195 | 1x Llave Kutral + 800 de experiencia | 1x Llave Vehículos + 10 días de Fly + $8.000 de dinero |
-| **51** | 38 | 1233 | 1x Libro Ultimate | $9.000 de dinero |
-| **52** | 38 | 1271 | 24x Esmeralda | 20x Diamante |
-| **53** | 38 | 1309 | 10x Diamante | 1x Libro Legendario + 1x Libro Ultimate |
-| **54** | 38 | 1347 | 1x Llave KoTH | 80 MapuPoints |
-| ⭐ **55** | 38 | 1385 | 1x Libro Legendario | 1x Llave a Elección + 1.500 de experiencia |
-| **56** | 38 | 1423 | $5.000 de dinero | 1x Llave Boss |
-| **57** | 38 | 1461 | 2x Lingote de Netherite | 4x Lingote de Netherite |
-| ⭐ **58** | 38 | 1499 | 7 días de Fly | 1x Llave Netherite + 1x Faro |
-| **59** | 38 | 1537 | 30 MapuPoints | $12.000 de dinero + 60 MapuPoints |
-| ⭐ **60** | 38 | 1575 | 1x Spawner Normal + 1x Llave a Elección + $3.000 de dinero + 20 MapuPoints | 1x Spawner Premium + 1x Claim Bonus + 1x Libro Fabled + $15.000 de dinero + 120 MapuPoints |
+| **1** | 10 | 10 | $1.000 de dinero | $2.500 de dinero + 2x Llave Halloween |
+| **2** | 10 | 20 | 1x Llave Diaria | 3x Llave Diaria |
+| **3** | 10 | 30 | 150 de experiencia | 300 de experiencia |
+| **4** | 10 | 40 | 16x Bistec | 8x Manzana Dorada |
+| **5** | 10 | 50 | 1x Llave Halloween | 1x Llave Piñata |
+| **6** | 10 | 60 | 1x Libro Simple | 1x Libro Único |
+| **7** | 10 | 70 | 6x Esmeralda | 6x Diamante |
+| **8** | 10 | 80 | 15 MapuPoints | 25 MapuPoints |
+| **9** | 10 | 90 | 1x Bloque de Oro | 12x Esmeralda |
+| ⭐ **10** | 10 | 100 | 1x Llave Piñata + $1.000 de dinero | 1x Llave Mapu + $3.000 de dinero |
+| **11** | 10 | 110 | $1.500 de dinero | 1x Libro Elite |
+| **12** | 10 | 120 | 3x Diamante | 1x Lingote de Netherite |
+| **13** | 10 | 130 | 250 de experiencia | 500 de experiencia |
+| **14** | 10 | 140 | 1x Libro Único | $3.500 de dinero |
+| ⭐ **15** | 10 | 150 | 8x Esmeralda | 1x Llave a Elección |
+| **16** | 15 | 165 | 2x Llave Diaria | 4x Bloque de Oro |
+| **17** | 15 | 180 | 24x Zanahoria Dorada | 1x Libro Elite |
+| **18** | 15 | 195 | 15 MapuPoints | 1x Llave Lafken |
+| **19** | 15 | 210 | $2.000 de dinero | 64x Botella de Experiencia |
+| ⭐ **20** | 15 | 225 | 1x Llave Mapu + 400 de experiencia | 40 MapuPoints + 1x Llave Glow |
+| **21** | 15 | 240 | 1x Escombros Ancestrales | $4.000 de dinero |
+| **22** | 15 | 255 | 300 de experiencia | 10x Diamante |
+| **23** | 15 | 270 | 4x Diamante | 1x Libro Ultimate |
+| **24** | 15 | 285 | 1x Libro Único | 3x Escombros Ancestrales |
+| ⭐ **25** | 15 | 300 | 32x Botella de Experiencia | 1x Llave Vehículos + 600 de experiencia |
+| **26** | 15 | 315 | $2.500 de dinero | 64x Zanahoria Dorada |
+| **27** | 15 | 330 | 1x Caja de Shulker | 700 de experiencia |
+| **28** | 15 | 345 | 12x Esmeralda | 24x Esmeralda |
+| **29** | 15 | 360 | 20 MapuPoints | 2x Tótem de la Inmortalidad |
+| ⭐ **30** | 15 | 375 | 3 días de Fly + $1.500 de dinero | 1x Spawner Normal + $5.000 de dinero |
+| **31** | 20 | 395 | 2x Llave Piñata | 1x Llave Kutral |
+| **32** | 20 | 415 | $3.000 de dinero | 1x Libro Ultimate |
+| **33** | 20 | 435 | 1x Libro Elite | 2x Lingote de Netherite |
+| **34** | 20 | 455 | 6x Diamante | $6.000 de dinero |
+| ⭐ **35** | 20 | 475 | 1x Llave Vehículos | 1x Llave a Elección + 8 días de Fly |
+| **36** | 20 | 495 | 400 de experiencia | $8.000 de dinero |
+| **37** | 20 | 515 | $3.000 de dinero | 14x Diamante |
+| **38** | 20 | 535 | 2x Escombros Ancestrales | 50 MapuPoints |
+| **39** | 20 | 555 | 8x Manzana Dorada | 1x Libro Legendario |
+| ⭐ **40** | 20 | 575 | 1x Llave Lafken + $2.000 de dinero | 1x Claim Bonus + $5.000 de dinero |
+| **41** | 20 | 595 | $3.500 de dinero | 1x Llave Wenumapu |
+| **42** | 20 | 615 | 16x Esmeralda | 2x Caja de Shulker |
+| **43** | 20 | 635 | 1x Libro Elite | $7.000 de dinero |
+| **44** | 20 | 655 | 4x Bloque de Oro | 1.000 de experiencia |
+| ⭐ **45** | 20 | 675 | 20 MapuPoints | 1x Llave Amuletos + 30 MapuPoints |
+| **46** | 25 | 700 | 8x Diamante | 1x Libro Legendario |
+| **47** | 25 | 725 | 500 de experiencia | 3x Lingote de Netherite |
+| ⭐ **48** | 25 | 750 | 1x Lingote de Netherite | 1x Élitros |
+| **49** | 25 | 775 | $4.000 de dinero | 1x Llave Wallmapu |
+| ⭐ **50** | 25 | 800 | 1x Llave Kutral + 800 de experiencia | 1x Llave Vehículos + 10 días de Fly + $8.000 de dinero |
+| **51** | 25 | 825 | 1x Libro Ultimate | $9.000 de dinero |
+| **52** | 25 | 850 | 24x Esmeralda | 20x Diamante |
+| **53** | 25 | 875 | 10x Diamante | 1x Libro Legendario + 1x Libro Ultimate |
+| **54** | 25 | 900 | 1x Llave KoTH | 80 MapuPoints |
+| ⭐ **55** | 25 | 925 | 1x Libro Legendario | 1x Llave a Elección + 1.500 de experiencia |
+| **56** | 25 | 950 | $5.000 de dinero | 1x Llave Boss |
+| **57** | 25 | 975 | 2x Lingote de Netherite | 4x Lingote de Netherite |
+| ⭐ **58** | 25 | 1000 | 7 días de Fly | 1x Llave Netherite + 1x Faro |
+| **59** | 25 | 1025 | 30 MapuPoints | $12.000 de dinero + 60 MapuPoints |
+| ⭐ **60** | 25 | 1050 | 1x Spawner Normal + 1x Llave a Elección + $3.000 de dinero + 20 MapuPoints | 1x Spawner Premium + 1x Claim Bonus + 1x Libro Fabled + $15.000 de dinero + 120 MapuPoints |
 
 > ⭐ = nivel destacado: tiene un ícono propio en el menú del pase.
 <!-- AUTO:fin battlepass-niveles -->
@@ -175,12 +175,12 @@ Temporada actual: inicia el **31/10/2026** · **60 niveles** (gratis y premium).
 
 | Semana | 🆓 Gratis | 💎 Premium |
 |---:|---|---|
-| **1** | Purga De Zombies, Crujir De Huesos, Cazador De Telarañas, Tallador De Calabazas, Dulces O Trucos | Cazador De Fantasmas, Pocion De Bruja, Anti-Explosivos |
+| **1** | Purga De Zombies, Crujir De Huesos, Cazador De Telarañas, Tallador De Calabazas, Dulces O Trucos | Cazador De Fantasmas, Cazabrujas, Anti-Explosivos |
 | **2** | Ganadero Del Mapu, Pastor De La Cordillera, Lechero Madrugador, Panaderia Del Pueblo, Papas Al Horno | Paca De Heno, Amigo De Los Lobos, Banquete Dorado |
 | **3** | Pescador Del Lago, Buscatesoros, Nadador Del Sur, Cena Del Mar, Puerto Iluminado | Recolector De La Marea, Guardian De Las Aguas, Barrilero Del Puerto |
 | **4** | Caminante Del Infierno, Cazador De Blazes, Purga De Piglins, Minero De Cuarzo, Ladrillero Infernal | Excavador De Netherita, Cazador De Withers, Llanto Del Ghast |
 | **5** | Planeador Del Sur, Trotamundos, Guardian De Aldeas, Ojo De Aguila, Maestro Del Teletransporte | Observador De Estrellas, Artista Del Cielo, Vengador De La Mansion |
-| **6** | Carnicero Del Invierno, Asado Del Domingo, Pastelero, Galletas De Navidad, Recolector De Bayas | Alquimista Sanador, Fundidor Mayor, Conejo Elegante |
+| **6** | Carnicero Del Invierno, Asado Del Domingo, Pastelero, Galletas De Navidad, Recolector De Bayas | Caza De Creepers, Fundidor Mayor, Conejo Elegante |
 | **7** | Expedicion Minera, Minero De Carbon, Veta De Hierro, Horno Encendido, Yunque Del Herrero | Cazador De Diamantes, Señor Del Lapiz, Circuito Vivo |
 | **8** | Escudo Del Guerrero, Lluvia De Flechas, Aracnofobia, Aplastador De Slimes, Ballestero | Cazador De Tumbas, Cazabrujas, Domador De Hoglins |
 | **9** | Constructor Del Reino, Murallas De Piedra, Bibliotecario, Marcos De La Galeria, Artista Del Pueblo | Apilador De Cajas, Vidriero Del Pueblo, Guardian De Secretos |

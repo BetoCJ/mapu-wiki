@@ -95,7 +95,7 @@ Desde nivel 0 en los skills de combate, las armas y armaduras funcionan con su e
 ---
 
 {% hint style="warning" %}
-**Ajuste de balance (octubre 2026):** los bonos positivos de los perks (daño, velocidad, drops, XP, regeneración, etc.) se rebajaron un **25%**, y las tablas de esta página ya muestran los valores nuevos. No cambiaron los bonos iniciales, los bonos por nivel, los desbloqueos ni las penalizaciones. Los valores exactos de tu personaje se ven con `/val skilltree [skill]`.
+**Ajustes de balance (octubre y noviembre 2026):** los bonos positivos de los perks (daño, velocidad, drops, XP, regeneración, etc.) se rebajaron un **25%** en octubre. El **2 de noviembre** las skills de combate (Light Weapons, Heavy Weapons, Light Armor, Heavy Armor y Artes Marciales) recibieron **otro 25%** de rebaja, y los amuletos bajaron un **50%** (ver más abajo). Archery no recibió ese segundo recorte: al contrario, su penalización inicial se redujo a la mitad. No cambiaron los cooldowns, duraciones, cargas ni desbloqueos. Las tablas de esta página ya muestran los valores nuevos; los exactos de tu personaje se ven con `/val skilltree [skill]`.
 {% endhint %}
 
 ---
@@ -107,7 +107,7 @@ ValhallaTrinkets es un plugin complementario que añade **accesorios equipables*
 ### ⚙️ Como funcionan los trinkets
 
 - Abres el menu con `/trinkets` — se abre una ventana separada de tu inventario normal
-- Tienes hasta **7 ranuras** de trinket (las primeras 5 disponibles para todos; las ultimas 2 requieren el permiso de un rango)
+- Tienes hasta **7 ranuras** de trinket: las 5 primeras son para todos, la **6.ª** se desbloquea con el rango **Genpin** y la **7.ª** con **Machife**. Los rangos de donación **Toki, Cacique, Ulmen y Especial** también traen las 7 (Weichafe no agrega ranuras). No se suman entre sí: cuenta la mayor. Detalle en [Rangos](rangos.md)
 - Cada trinket da uno o varios atributos: daño, velocidad, resistencia, critico, etc.
 - Todos los trinkets del servidor comparten la misma categoria interna ("Accesorio"), asi que **puedes combinar hasta 7 trinkets distintos a la vez** — no hay una restriccion de "uno por tipo" como anillo/collar/etc.
 - Los trinkets **se dropean al morir** (a menos que el servidor tenga keepInventory activo)
@@ -164,6 +164,7 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 - Los puntos se gastan en los árboles de perks individuales de cada skill.
 - Los perks son permanentes — ni la muerte ni el reinicio los elimina.
 - Usa `/val skilltree [skill]` para abrir el árbol visual en el juego.
+- **Límite diario de XP:** cada skill tiene un tope de XP por día (**60.000** en Mining, Woodcutting, Digging, Farming, Fishing, Alchemy y Comercio; **50.000** en Light/Heavy Weapons, Light/Heavy Armor, Archery y Artes Marciales). Mira cuánto llevas con `/limite`. Se reinicia todos los días a las **7:30 AM** (hora de Chile).
 
 ---
 
@@ -381,21 +382,21 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 **Como subir XP:** Golpear con espadas, dagas, rapiers, lanzas. 4.9 XP por punto de daño.
 
-**Bono pasivo por nivel:** +0.25% velocidad de ataque, +0.25% daño (acumulativo sobre el baseline vanilla).
+**Bono pasivo por nivel:** +0.19% velocidad de ataque, +0.19% daño (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +3.75% daño, +3.75% probabilidad de sangrado |
-| Perk 2 | 20 | +3.75% velocidad ataque, +3.75% probabilidad critico |
-| Perk 3 — Parry | 40 | +3.75% daño. Desbloquea parry: ventana efect. 4t, vuln. 7t, CD 50, reduccion daño 37.5%, debuff enemigo 15t |
-| Perk 4 | 60 | +7.5% velocidad, +3.75% reduccion inmunidad, +3.75% sangrado |
+| Perk 1 | 0 | +2.81% daño, +2.81% probabilidad de sangrado |
+| Perk 2 | 20 | +2.81% velocidad ataque, +2.81% probabilidad critico |
+| Perk 3 — Parry | 40 | +2.81% daño. Desbloquea parry: ventana efect. 4t, vuln. 7t, CD 50, reduccion daño 21.1%, debuff enemigo 15t |
+| Perk 4 | 60 | +5.62% velocidad, +2.81% reduccion inmunidad, +2.81% sangrado |
 | Perk A1 — Coating I | 50 | Desbloquea coating de arma (+2 cargas, -40% duracion, -25% amplificador) |
 | Perk A2 — Coating II | 70 | +2 cargas coating, +5% duracion, +9.375% amplificador |
-| Perk 5 | 80 | +3.75% sangrado, +3.75% daño, +7.5% reduccion inmunidad. Mejora parry: +4t ventana efectiva, -30 CD, +5t debuff enemigo, -5t debuff propio, +9.375% reduccion daño, +18.75% reduccion CD en parry exitoso |
-| Perk Combo (Heavy Armor 70) | 70 | +4 penetracion plana de armadura, +0.375 alcance de ataque, +11.25% knockback |
-| Perk 6 — Max | 100 | +3.75% crit, +11.25% daño critico, sangrado al critico, +1 daño de sangrado |
+| Perk 5 | 80 | +2.81% sangrado, +2.81% daño, +5.62% reduccion inmunidad. Mejora parry: +4t ventana efectiva, -30 CD, +5t debuff enemigo, -5t debuff propio, +7.03% reduccion daño, +14.1% reduccion CD en parry exitoso |
+| Perk Combo (Heavy Armor 70) | 70 | +3 penetracion plana de armadura, +0.281 alcance de ataque, +8.44% knockback |
+| Perk 6 — Max | 100 | +2.81% crit, +8.44% daño critico, sangrado al critico, +0.75 daño de sangrado |
 
 ---
 
@@ -403,21 +404,21 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 **Como subir XP:** Golpear con hachas, martillos de guerra, mazas, mandobles. 7 XP por punto de daño.
 
-**Bono pasivo por nivel:** +0.25% velocidad de ataque, +0.25% daño (acumulativo sobre el baseline vanilla).
+**Bono pasivo por nivel:** +0.19% velocidad de ataque, +0.19% daño (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +3.75% daño |
-| Perk 2 | 20 | +3.75% daño de poder (power attack), +3.75% crit |
-| Perk 3 — Power Attack | 40 | +3.75% daño, +18.75% fraccion power attack, +0.562 radio power attack |
-| Perk 4 | 60 | +5.625% daño power attack, +1.875 penetracion plana |
+| Perk 1 | 0 | +2.81% daño |
+| Perk 2 | 20 | +2.81% daño de poder (power attack), +2.81% crit |
+| Perk 3 — Power Attack | 40 | +2.81% daño, +14.1% fraccion power attack, +0.422 radio power attack |
+| Perk 4 | 60 | +4.22% daño power attack, +1.41 penetracion plana |
 | Perk A1 — Coating I | 50 | Desbloquea coating (+1 carga, -40% duracion, -12.5% amplificador) |
 | Perk A2 — Coating II | 70 | +1 carga, +5% duracion, +9.375% amplificador |
-| Perk 5 | 80 | +3.75% daño, +9.375% fraccion power attack, +0.188 radio, +4 penetracion plana |
-| Perk Combo (Woodcutting 70) | 70 | +7.5% probabilidad de stun, +7.5% penetracion de armadura fraccion, +1.875% daño vs armadura ligera |
-| Perk 6 — Max | 100 | +3.75% crit, +11.25% daño critico, sangrado al critico, +0.375 daño de sangrado |
+| Perk 5 | 80 | +2.81% daño, +7.03% fraccion power attack, +0.141 radio, +3 penetracion plana |
+| Perk Combo (Woodcutting 70) | 70 | +5.62% probabilidad de stun, +5.62% penetracion de armadura fraccion, +1.41% daño vs armadura ligera |
+| Perk 6 — Max | 100 | +2.81% crit, +8.44% daño critico, sangrado al critico, +0.281 daño de sangrado |
 
 ---
 
@@ -425,23 +426,23 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 **Como subir XP:** Recibir daño con armadura ligera (cuero, cota de malla). 7 XP base por pieza, 3.5 XP adicional por segunda pieza o mas.
 
-**Bonus inicial:** +2.5% esquiva por pieza equipada.
+**Bonus inicial:** +1.88% esquiva por pieza equipada.
 
-**Bono pasivo por nivel:** +0.25% efectividad de armadura (acumulativo sobre el baseline vanilla).
+**Bono pasivo por nivel:** +0.19% efectividad de armadura (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +3.75% efectividad armadura ligera |
-| Perk 1A | 20 | +0.375% velocidad/pieza, +1.312% ahorro hambre/pieza, +1.312% curacion/pieza |
-| Perk 1B | 40 | +11.25% ahorro hambre conjunto completo, +3.75% efectividad armadura |
+| Perk 1 | 0 | +2.81% efectividad armadura ligera |
+| Perk 1A | 20 | +0.281% velocidad/pieza, +0.985% ahorro hambre/pieza, +0.985% curacion/pieza |
+| Perk 1B | 40 | +8.44% ahorro hambre conjunto completo, +2.81% efectividad armadura |
 | Perk 1C — Adrenalina | 50 | Desbloquea modo adrenalina (umbral 15% HP, nivel 0.5, CD 6000 ticks) |
-| Perk Combo (Heavy Weapons 50) | 50 | +18.75% resistencia a crits enemigos, +37.5% resistencia a stun |
-| Perk 2A | 60 | Reduce requisito de piezas para set bonus en 0.5. +0.562% vel/pieza, +1.031% hambre y curacion/pieza |
-| Perk 2B | 60 | +7.5% esquiva con conjunto completo, +3.75% efectividad armadura |
+| Perk Combo (Heavy Weapons 50) | 50 | +14.1% resistencia a crits enemigos, +28.1% resistencia a stun |
+| Perk 2A | 60 | Reduce requisito de piezas para set bonus en 0.5. +0.422% vel/pieza, +0.773% hambre y curacion/pieza |
+| Perk 2B | 60 | +5.62% esquiva con conjunto completo, +2.81% efectividad armadura |
 | Perk 2C — Adrenalina II | 90 | +2 nivel adrenalina, +7.5% umbral, -3000 CD |
-| Perk 2 — Maestria | 100 | Inmunidad a Veneno/Ceguera/Hambre, +15% resistencia magica |
+| Perk 2 — Maestria | 100 | Inmunidad a Veneno/Ceguera/Hambre, +11.2% resistencia magica |
 
 ---
 
@@ -449,21 +450,21 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 **Como subir XP:** Recibir daño con armadura pesada (hierro, diamante, netherite, dorada). Mismo sistema que Light Armor.
 
-**Bono pasivo por nivel:** +0.25% efectividad de armadura (acumulativo sobre el baseline vanilla).
+**Bono pasivo por nivel:** +0.19% efectividad de armadura (acumulativo sobre el baseline vanilla).
 
 **Arbol de perks:**
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Perk 1 | 0 | +3.75% efectividad armadura pesada |
-| Perk 1A | 20 | +0.705% velocidad/pieza, +0.938% hambre/pieza, +0.938% curacion/pieza, -0.375 imprecision archeria |
-| Perk 1B | 40 | +15% bono curacion conjunto completo, +3.75% efectividad armadura |
+| Perk 1 | 0 | +2.81% efectividad armadura pesada |
+| Perk 1A | 20 | +0.527% velocidad/pieza, +0.703% hambre/pieza, +0.703% curacion/pieza, -0.375 imprecision archeria |
+| Perk 1B | 40 | +11.2% bono curacion conjunto completo, +2.81% efectividad armadura |
 | Perk 1C — Rabia | 50 | Desbloquea modo rabia (umbral 15% HP, nivel 0.5, CD 6000 ticks) |
-| Perk Combo (Light Weapons 50) | 50 | +18.75% resistencia a crits, +9.375% bonus de fraccion de inmunidad |
-| Perk 2A | 60 | Reduce requisito set en 0.5. +0.705% vel/pieza, +1.875% hambre/pieza, +1.875% curacion/pieza, -0.375 imprecision |
-| Perk 2B | 80 | +3.75% probabilidad reflejo, +7.5% fraccion reflejo de daño, +3.75% efectividad armadura |
+| Perk Combo (Light Weapons 50) | 50 | +14.1% resistencia a crits, +7.03% bonus de fraccion de inmunidad |
+| Perk 2A | 60 | Reduce requisito set en 0.5. +0.527% vel/pieza, +1.41% hambre/pieza, +1.41% curacion/pieza, -0.375 imprecision |
+| Perk 2B | 80 | +2.81% probabilidad reflejo, +5.62% fraccion reflejo de daño, +2.81% efectividad armadura |
 | Perk 2C — Rabia II | 90 | +2 nivel rabia, +7.5% umbral, -3000 CD |
-| Perk 2 — Maestria | 100 | Inmunidad a Lentitud/Debilidad/Levitacion, +15% resistencia a knockback |
+| Perk 2 — Maestria | 100 | Inmunidad a Lentitud/Debilidad/Levitacion, +11.2% resistencia a knockback |
 
 ---
 
@@ -471,7 +472,7 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 **Como subir XP:** Disparar con arco (21 XP base) o ballesta (28 XP base). El XP aumenta con la distancia del disparo.
 
-**Penalizacion inicial:** +5 imprecision, -20% daño de arco, -30% daño con Infinity.
+**Penalizacion inicial:** +2.5 imprecision, -10% daño de arco, -15% daño con Infinity. *(El 2 de noviembre se redujo a la mitad para que los arcos se sientan menos limitados.)*
 
 **Bono pasivo por nivel:** +0.2% daño de arco.
 
@@ -495,9 +496,9 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 **Como subir XP:** Peleando **sin arma** (a puños) o con **nudilleras**. 10 XP por punto de daño. Es una skill de combate que aumenta tus capacidades ofensivas y defensivas "sin medios materiales".
 
-**Bono inicial:** +10% probabilidad de aturdir (stun) con tus golpes.
+**Bono inicial:** +7.5% probabilidad de aturdir (stun) con tus golpes.
 
-**Bono pasivo por nivel:** +0.05 de daño sin arma, +1 de poder de agarre (grappling).
+**Bono pasivo por nivel:** +0.0375 de daño sin arma, +1 de poder de agarre (grappling).
 
 **Mecanicas propias:**
 
@@ -514,12 +515,12 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 | Perk | Nivel req. | Bonos |
 |---|---|---|
-| Manos de Piedra | 0 | +1 daño sin arma extra |
-| Disciplina (A1) | 20 | +7.5% prob. de aturdir. Retener golpes acumula daño (tras 1s, +0.3 daño/tick, tope +6) |
+| Manos de Piedra | 0 | +0.75 daño sin arma extra |
+| Disciplina (A1) | 20 | +5.62% prob. de aturdir. Retener golpes acumula daño (tras 1s, +0.169 daño/tick, tope +6) |
 | Golpes Despiadados (B1) | 20 | +daño de ataque y +prob. de golpe critico |
 | Suprimir y Controlar (A2) | 40 | Desbloquea el **Agarre** (ralentiza y debilita) y el **Desarme** de mobs |
 | Uppercut (B2) | 40 | Desbloquea el **Uppercut**, +prob. critico, y tus golpes desarman escudos unos segundos |
-| Vinculo del Alma (A3) | 60 | El agarre actua x2 rapido, +22.5% esquiva mientras agarras, y desarmar del todo da +37.5% robo de vida 8s |
+| Vinculo del Alma (A3) | 60 | El agarre actua x2 rapido, +16.9% esquiva mientras agarras, y desarmar del todo da +37.5% robo de vida 8s |
 | Defenestracion (B3) | 70 | Golpear a un objetivo en el aire lo lanza a gran velocidad; chocar contra un muro le hace daño segun su velocidad |
 | Reflejos de Rayo (A4) | 80 | Sin atacar ganas prob. de esquiva; sin armadura equipada el efecto se **triplica** |
 | Om Mani Padme Hum (A5) | 100 | Desbloquea la **Meditacion**: una vez al dia, en la cima de una montaña, eliges un efecto potente y duradero |
@@ -627,42 +628,46 @@ Los **Trinkets** son accesorios que otorgan bonificaciones pasivas permanentes a
 
 | Trinket | Atributo principal | Valor |
 |---|---|---|
-| Pureza | Resistencia al veneno | +9% |
-| Bezoar | Resistencia al veneno | +3% |
-| Amuleto de Vitalidad | HP maxima | +0.4 |
-| Erinle | HP maxima | +1.2 |
-| Fuerza de Gungnir | Alcance de ataque | +0.375 |
-| Anillo de Alcance | Alcance de ataque | +0.125 |
-| Collar Divino | Inmunidad plana | +1.2 |
-| Collar de Cruz | Inmunidad plana | +0.4 |
-| Narya | Resistencia al fuego | +7.5% |
-| Anillo de Obsidiana | Resistencia al fuego | +2.5% |
-| Banda de Precision | Prob. critico +0.35%, Daño critico +0.75% | — |
-| Deathbringer | Prob. critico +0.75%, Daño critico +2% | — |
-| Juggernaut | Armadura +1.5, Resistencia knockback +4% | — |
-| Brazal Blindado | Armadura +0.5, Resistencia knockback +1% | — |
-| Kratos | Daño melee | +1.5% |
-| Amuleto del Vengador | Daño melee | +0.5% |
-| Furia | Daño total +3%, Daño recibido +5% | — |
-| Amuleto de Mania | Daño total +1%, Daño recibido +1.75% | — |
-| Anillo de Shattering | Penetracion de armadura | +0.5% |
-| Bane del Paladin | Penetracion de armadura | +1.5% |
-| Anillo de Magnus | Resistencia magica | +7.5% |
-| Anillo de Warding | Resistencia magica | +2.5% |
-| Anillo de Defleccion | Resistencia a proyectiles | +1.5% |
-| Athena | Resistencia a proyectiles | +5% |
-| Renacimiento (Rebirth) | Bonus de curacion | +7.5% |
-| Banda de Regeneracion | Bonus de curacion | +2.5% |
-| Anillo de Proteccion | Resistencia al daño | +0.7% |
-| Anillo Primordial | Resistencia al daño | +2.5% |
-| Transfusion | Resistencia al sangrado | +7.5% |
-| Vendaje Adhesivo | Resistencia al sangrado | +2.5% |
-| Titan's Glove | Knockback | +0.25 |
-| Banda de Fuerza | Knockback | +0.0875 |
-| Artemis | Precision flecha +1.25, Ahorro municion -7.5%, Velocidad flecha +7.5% | — |
-| Carcaj Magico | Precision flecha +0.5, Ahorro municion -2.5%, Velocidad flecha +2.5% | — |
-| Hermes | Velocidad +7.5% (escalar), Altura de salto +0.25, Saltos extra +0.75 | — |
-| Amuleto de Adrenalina | Velocidad +2.5% (escalar), Altura de salto +0.0875, Saltos extra +0.25 | — |
+| Pureza | Resistencia al veneno | +4.5% |
+| Bezoar | Resistencia al veneno | +1.5% |
+| Amuleto de Vitalidad | HP maxima | +0.2 |
+| Erinle | HP maxima | +0.6 |
+| Fuerza de Gungnir | Alcance de ataque | +0.188 |
+| Anillo de Alcance | Alcance de ataque | +0.0625 |
+| Collar Divino | Inmunidad plana | +0.6 |
+| Collar de Cruz | Inmunidad plana | +0.2 |
+| Narya | Resistencia al fuego | +3.75% |
+| Anillo de Obsidiana | Resistencia al fuego | +1.25% |
+| Banda de Precision | Prob. critico +0.175%, Daño critico +0.375% | — |
+| Deathbringer | Prob. critico +0.375%, Daño critico +1% | — |
+| Juggernaut | Armadura +0.75, Resistencia knockback +2% | — |
+| Brazal Blindado | Armadura +0.25, Resistencia knockback +0.5% | — |
+| Kratos | Daño melee | +0.75% |
+| Amuleto del Vengador | Daño melee | +0.25% |
+| Furia | Daño total +1.5%, Daño recibido +5% | — |
+| Amuleto de Mania | Daño total +0.5%, Daño recibido +1.75% | — |
+| Anillo de Shattering | Penetracion de armadura | +0.25% |
+| Bane del Paladin | Penetracion de armadura | +0.75% |
+| Anillo de Magnus | Resistencia magica | +3.75% |
+| Anillo de Warding | Resistencia magica | +1.25% |
+| Anillo de Defleccion | Resistencia a proyectiles | +0.75% |
+| Athena | Resistencia a proyectiles | +2.5% |
+| Renacimiento (Rebirth) | Bonus de curacion | +3.75% |
+| Banda de Regeneracion | Bonus de curacion | +1.25% |
+| Anillo de Proteccion | Resistencia al daño | +0.35% |
+| Anillo Primordial | Resistencia al daño | +1.25% |
+| Transfusion | Resistencia al sangrado | +3.75% |
+| Vendaje Adhesivo | Resistencia al sangrado | +1.25% |
+| Titan's Glove | Knockback | +0.125 |
+| Banda de Fuerza | Knockback | +0.0438 |
+| Artemis | Precision flecha +0.625, Ahorro municion -3.75%, Velocidad flecha +3.75% | — |
+| Carcaj Magico | Precision flecha +0.25, Ahorro municion -1.25%, Velocidad flecha +1.25% | — |
+| Hermes | Velocidad +3.75% (escalar), Altura de salto +0.125, Saltos extra +0.75 | — |
+| Amuleto de Adrenalina | Velocidad +1.25% (escalar), Altura de salto +0.0438, Saltos extra +0.25 | — |
+
+{% hint style="warning" %}
+**Ajuste de balance (2 de noviembre de 2026):** los efectos de todos los amuletos se rebajaron un **50%** y la tabla de abajo ya muestra los valores nuevos. No cambiaron los **saltos extra** (Hermes y Amuleto de Adrenalina) ni el **daño recibido** de Furia y Amuleto de Mania. Los amuletos que ya tenías guardados **conservan los valores que tenían cuando los conseguiste**; los nuevos que encuentres salen con los valores rebajados.
+{% endhint %}
 
 **Nota:** DAMAGE_ALL y DAMAGE_MELEE son multiplicadores del sistema de combate de ValhallaMMO, no del sistema vanilla. DAMAGE_TAKEN aumenta el daño que recibes (trinkets de alto riesgo/alta recompensa como Furia).
 

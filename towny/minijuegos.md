@@ -35,6 +35,31 @@ Además, hay recompensas periódicas que se repiten indefinidamente:
 | 35 | $8 |
 | 80 | 1× Llave Diaria |
 
+### 🧗 Parkours cortos (MapuParkours)
+
+Además del parkour grande, hay **4 parkours cortos** con cronómetro y ranking propio. Abre el menú con `/mpk lobby`, elige uno y entra con `/mpk join <parkour>`.
+
+* Al entrar a un parkour se te da un set de botones en la barra: **volver al checkpoint**, **empezar de 0**, **top 10** y **salir** (doble clic).
+* Los checkpoints se activan al pisar la placa; si te caes vuelves al último.
+* Dentro del área no recibes daño, no pierdes hambre ni ítems, y solo puedes empezar con la barra libre y sin efectos de poción u otros plugins (por ejemplo amuletos) que alteren tu velocidad.
+* Tus tiempos quedan guardados en el top de cada parkour.
+* `/mpk leave` te saca al lobby del parkour y `/mpk spawn` al spawn del servidor.
+
+{% hint style="info" %}
+Por ahora los parkours cortos no entregan premios; solo cuentan para el ranking.
+{% endhint %}
+
+***
+
+## 🕵️ PropHunt y Fall Guys
+
+Dos mini-juegos más en la zona de ocio:
+
+| Mini-juego | Warp |
+|---|---|
+| **PropHunt** — escondite de objetos | `/warp PropHunt` |
+| **Fall Guys** — carrera de obstáculos | `/warp FallGuy` |
+
 ***
 
 ## 💣 TNT Run

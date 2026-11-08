@@ -261,42 +261,42 @@ Llave: **✦ Llave Amuletos** · Premios: **38**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Amuleto De Adrenalina | Común | 2.63% |
-| Amuleto De Manía | Común | 2.63% |
-| Amuleto De Vitalidad | Común | 2.63% |
-| Amuleto Del Vengador | Común | 2.63% |
-| Amuleto Del Vengador 1 | Común | 2.63% |
-| Anillo De Alcance | Común | 2.63% |
-| Anillo De Deflexión | Común | 2.63% |
-| Anillo De Fragmentación | Común | 2.63% |
-| Anillo De Guardia | Común | 2.63% |
-| Anillo De Magnus | Común | 2.63% |
-| Anillo De Obsidiana | Común | 2.63% |
-| Anillo De Protección | Común | 2.63% |
+| Amuleto de Adrenalina | Común | 2.63% |
+| Amuleto de Manía | Común | 2.63% |
+| Amuleto de Vitalidad | Común | 2.63% |
+| Amuleto del Vengador | Común | 2.63% |
+| Amuleto del Vengador | Común | 2.63% |
 | Anillo Primordial | Común | 2.63% |
+| Anillo de Alcance | Común | 2.63% |
+| Anillo de Deflexión | Común | 2.63% |
+| Anillo de Fragmentación | Común | 2.63% |
+| Anillo de Guardia | Común | 2.63% |
+| Anillo de Magnus | Común | 2.63% |
+| Anillo de Obsidiana | Común | 2.63% |
+| Anillo de Protección | Común | 2.63% |
 | Artemis | Común | 2.63% |
 | Atenea | Común | 2.63% |
-| Banda De Fuerza | Común | 2.63% |
-| Banda De Precisión | Común | 2.63% |
-| Banda De Regeneración | Común | 2.63% |
-| Bendición De Erinle | Común | 2.63% |
+| Banda de Fuerza | Común | 2.63% |
+| Banda de Precisión | Común | 2.63% |
+| Banda de Regeneración | Común | 2.63% |
+| Bendición de Erinle | Común | 2.63% |
 | Bezoar | Común | 2.63% |
 | Brazal Blindado | Común | 2.63% |
 | Carcaj Mágico | Común | 2.63% |
-| Colgante De Furia | Común | 2.63% |
-| Collar De Cruz | Común | 2.63% |
+| Colgante de Furia | Común | 2.63% |
 | Collar Divino | Común | 2.63% |
-| Guantelete De Titán | Común | 2.63% |
-| Guantelete De Titán 1 | Común | 2.63% |
+| Collar de Cruz | Común | 2.63% |
+| Guantelete de Titán | Común | 2.63% |
+| Guantelete de Titán | Común | 2.63% |
 | Hermes | Común | 2.63% |
 | Juggernaut | Común | 2.63% |
 | Kratos | Común | 2.63% |
 | Narya | Común | 2.63% |
-| Poder De Gungnir | Común | 2.63% |
-| Portador De La Muerte | Común | 2.63% |
+| Poder de Gungnir | Común | 2.63% |
+| Portador de la Muerte | Común | 2.63% |
 | Pureza | Común | 2.63% |
 | Renacimiento | Común | 2.63% |
-| Ruina Del Paladín | Común | 2.63% |
+| Ruina del Paladín | Común | 2.63% |
 | Transfusión | Común | 2.63% |
 | Venda Adhesiva | Común | 2.63% |
 
@@ -346,10 +346,10 @@ Llave: **✦ Llave Bosteo** · Premios: **4**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Rango Cacique 7d | Poco Común | 5% |
-| Rango Ulmen 7d | Poco Común | 5% |
-| Rango Toki 7d | Poco Común | 10% |
-| Rango Weichafe 7d | Poco Común | 80% |
+| Rango Cacique 7 Días | Poco Común | 5% |
+| Rango Ulmen 7 Días | Poco Común | 5% |
+| Rango Toki 7 Días | Poco Común | 10% |
+| Rango Weichafe 7 Días | Poco Común | 80% |
 
 ### 🏗 Caja Decoracion 🏗
 
@@ -369,47 +369,47 @@ Llave: **🏗 Llave Decoración** · Premios: **47**
 | Wither Skeleton Skull | Épico | 0.68% |
 | Creeper Banner Pattern | Raro | 1.14% |
 | Skull Banner Pattern | Raro | 1.14% |
-| Amethyst Block | Común | 2.28% |
-| Blue Ice | Común | 2.28% |
+| Amethyst Block x64 | Común | 2.28% |
+| Blue Ice x32 | Común | 2.28% |
 | Bolt Armor Trim Smithing Template | Común | 2.28% |
-| Bookshelf | Común | 2.28% |
-| Brain Coral Block | Común | 2.28% |
-| Bubble Coral Block | Común | 2.28% |
-| Chiseled Bookshelf | Común | 2.28% |
+| Bookshelf x16 | Común | 2.28% |
+| Brain Coral Block x32 | Común | 2.28% |
+| Bubble Coral Block x32 | Común | 2.28% |
+| Chiseled Bookshelf x16 | Común | 2.28% |
 | Coast Armor Trim Smithing Template | Común | 2.28% |
-| Dark Prismarine | Común | 2.28% |
+| Dark Prismarine x32 | Común | 2.28% |
 | Dune Armor Trim Smithing Template | Común | 2.28% |
 | Eye Armor Trim Smithing Template | Común | 2.28% |
-| Fire Coral Block | Común | 2.28% |
+| Fire Coral Block x32 | Común | 2.28% |
 | Flow Armor Trim Smithing Template | Común | 2.28% |
-| Flowering Azalea Leaves | Común | 2.28% |
-| Glass | Común | 2.28% |
-| Horn Coral Block | Común | 2.28% |
+| Flowering Azalea Leaves x32 | Común | 2.28% |
+| Glass x64 | Común | 2.28% |
+| Horn Coral Block x32 | Común | 2.28% |
 | Host Armor Trim Smithing Template | Común | 2.28% |
 | Llave Muebles | Común | 2.28% |
 | Llave Peluches | Común | 2.28% |
-| Mycelium | Común | 2.28% |
-| Ochre Froglight | Común | 2.28% |
-| Pearlescent Froglight | Común | 2.28% |
-| Prismarine | Común | 2.28% |
-| Purpur Block | Común | 2.28% |
+| Mycelium x32 | Común | 2.28% |
+| Ochre Froglight x32 | Común | 2.28% |
+| Pearlescent Froglight x32 | Común | 2.28% |
+| Prismarine x64 | Común | 2.28% |
+| Purpur Block x32 | Común | 2.28% |
 | Raiser Armor Trim Smithing Template | Común | 2.28% |
 | Rib Armor Trim Smithing Template | Común | 2.28% |
-| Sea Lantern | Común | 2.28% |
+| Sea Lantern x32 | Común | 2.28% |
 | Sentry Armor Trim Smithing Template | Común | 2.28% |
 | Shaper Armor Trim Smithing Template | Común | 2.28% |
-| Shroomlight | Común | 2.28% |
+| Shroomlight x32 | Común | 2.28% |
 | Silence Armor Trim Smithing Template | Común | 2.28% |
 | Snout Armor Trim Smithing Template | Común | 2.28% |
 | Spire Armor Trim Smithing Template | Común | 2.28% |
 | Tide Armor Trim Smithing Template | Común | 2.28% |
-| Tinted Glass | Común | 2.28% |
-| Tube Coral Block | Común | 2.28% |
-| Verdant Froglight | Común | 2.28% |
+| Tinted Glass x32 | Común | 2.28% |
+| Tube Coral Block x32 | Común | 2.28% |
+| Verdant Froglight x32 | Común | 2.28% |
 | Vex Armor Trim Smithing Template | Común | 2.28% |
 | Ward Armor Trim Smithing Template | Común | 2.28% |
 | Wayfinder Armor Trim Smithing Template | Común | 2.28% |
-| White Wool | Común | 2.28% |
+| White Wool x64 | Común | 2.28% |
 | Wild Armor Trim Smithing Template | Común | 2.28% |
 
 ### ✦ Caja Diaria ✦
@@ -429,8 +429,8 @@ Llave: **✦ Llave Diaria** · Premios: **26**
 | Kit Alicanto | Legendario | 0.01% |
 | Kit Kaikaivilu | Legendario | 0.01% |
 | Kit Lautaro | Legendario | 0.01% |
-| Kit Trentren | Legendario | 0.01% |
-| Kit Tuetue | Legendario | 0.01% |
+| Kit TrenTren | Legendario | 0.01% |
+| Kit TueTue | Legendario | 0.01% |
 | Llave Netherite | Legendario | 0.05% |
 | Beacon | Épico | 0.79% |
 | Ender Pearl x8 | Raro | 1.58% |
@@ -438,7 +438,7 @@ Llave: **✦ Llave Diaria** · Premios: **26**
 | Llave Wenumapu | Épico | 1.58% |
 | Obsidian x8 | Raro | 1.58% |
 | Llave Mapu | Épico | 1.84% |
-| Dinero 3000 | Raro | 2.1% |
+| 3,000 Pewmas | Raro | 2.1% |
 | Netherite Scrap | Raro | 2.1% |
 | Dragon Head | Raro | 2.63% |
 | Ender Chest | Raro | 2.63% |
@@ -493,7 +493,7 @@ Llave: **🎃 Llave Halloween** · Premios: **21**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| ☠ Guadaña de la Cosecha de Ánimas | Legendario | 0.56% |
+| Guadaña de la Cosecha de Ánimas | Legendario | 0.56% |
 | Peto de la Viuda Tejedora | Legendario | 0.93% |
 | Colmillo de la Viuda | Épico | 2.24% |
 | Arco Tejedor de Telarañas | Épico | 2.8% |
@@ -502,18 +502,18 @@ Llave: **🎃 Llave Halloween** · Premios: **21**
 | Hacha del Leñador Embrujado | Épico | 2.8% |
 | Pico de la Cripta | Épico | 2.8% |
 | Yelmo de la Viuda Tejedora | Épico | 2.8% |
+| Cabeza de Calabaza Encantada | Raro | 3.74% |
+| Enchanted Golden Apple | Raro | 3.74% |
 | Escoba de la Bruja | Raro | 3.74% |
 | Llave Amuletos | Raro | 3.74% |
-| Manzana Encantada | Raro | 3.74% |
 | Sombrero de Murciélago | Raro | 3.74% |
 | Sombrero del Gato de la Bruja | Raro | 3.74% |
-| 🎃 Cabeza de Calabaza Encantada | Raro | 3.74% |
-| Bastón de Caramelo del Murciélago | Raro | 4.67% |
-| $25,000 | Poco Común | 9.35% |
-| 3x Caramelo de Calabaza | Poco Común | 9.35% |
-| $10,000 | Poco Común | 11.21% |
-| 4x Manzana Dorada | Poco Común | 11.21% |
-| 8x Dulce de Ánimas | Poco Común | 11.21% |
+| Bastón de Caramelo | Raro | 4.67% |
+| 25,000 Coins | Poco Común | 9.35% |
+| 3x Caramelo de Calabaza x3 | Poco Común | 9.35% |
+| 10,000 Coins | Poco Común | 11.21% |
+| 8x Dulce de Ánimas x8 | Poco Común | 11.21% |
+| Golden Apple x4 | Poco Común | 11.21% |
 
 ### ❄ Caja Invierno — Temporada
 
@@ -560,14 +560,14 @@ Llave: **⚔ Llave MapuKoth** · Premios: **30**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Fly Global 7d | Legendario | 0.75% |
+| Fly Global 7 dias | Legendario | 0.75% |
 | Mazo MapuKoth | Legendario | 0.9% |
 | Tridente MapuKoth | Legendario | 0.9% |
 | Ballesta MapuKoth | Legendario | 1.2% |
 | Vale por Spawner Premium | Legendario | 1.2% |
-| Dinero 30000 | Épico | 1.49% |
+| 30,000 Pewmas | Épico | 1.49% |
 | Escudo MapuKoth | Legendario | 1.49% |
-| Fly Towny 14d | Legendario | 1.49% |
+| Fly Towny 14 dias | Legendario | 1.49% |
 | Arco MapuKoth | Legendario | 1.79% |
 | Botas MapuKoth | Legendario | 1.79% |
 | Casco MapuKoth | Legendario | 1.79% |
@@ -579,14 +579,14 @@ Llave: **⚔ Llave MapuKoth** · Premios: **30**
 | Llave Wallmapu | Épico | 2.99% |
 | Netherite Block | Épico | 2.99% |
 | Vale por Spawner Normal | Épico | 2.99% |
-| Dinero 12500 | Poco Común | 4.48% |
+| 12,500 Pewmas | Poco Común | 4.48% |
 | Llave Netherite | Raro | 4.48% |
 | Nether Star x2 | Épico | 4.48% |
 | Ancient Debris x4 | Raro | 5.98% |
 | Beacon x2 | Raro | 5.98% |
 | Netherite Ingot x4 | Raro | 5.98% |
 | Wither Skeleton Skull x2 | Raro | 5.98% |
-| Dinero 6500 | Poco Común | 7.47% |
+| 6,500 Pewmas | Poco Común | 7.47% |
 | Elytra | Raro | 7.47% |
 | Enchanted Golden Apple x5 | Raro | 7.47% |
 | Totem Of Undying x3 | Raro | 7.47% |
@@ -638,7 +638,7 @@ Llave: **✦ Llave Lafken** · Premios: **17**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Trentren | Legendario | 0.1% |
+| Kit TrenTren | Legendario | 0.1% |
 | Llave Wenumapu | Raro | 2.87% |
 | Grebas Lafken | Épico | 3.82% |
 | Escudo Lafken | Épico | 4.3% |
@@ -693,17 +693,17 @@ Llave: **Llave Boss** · Premios: **19**
 | Pantalones Lafken Corrompidos | Épico | 1.96% |
 | Peto Wenumapu Corrompido | Épico | 1.96% |
 | Pico Wenumapu Corrompido | Épico | 1.96% |
-| Fly 7dias | Legendario | 2.61% |
 | Spawner Normal | Legendario | 2.61% |
-| Kit Guante | Raro | 3.91% |
-| Kit Hook | Raro | 3.91% |
-| Kit Varita | Raro | 3.91% |
-| Bloque Netherite | Legendario | 4.82% |
-| Nether Star | Poco Común | 6.52% |
+| Towny Fly 7 dias | Legendario | 2.61% |
+| Grappling Hook | Raro | 3.91% |
+| Guante de Constructor | Raro | 3.91% |
+| Varita de Curacion | Raro | 3.91% |
+| Netherite Block | Legendario | 4.82% |
+| Nether Star x2 | Poco Común | 6.52% |
 | Llave Netherite | Común | 7.82% |
 | Llave Wallmapu | Común | 7.82% |
 | Enchanted Golden Apple x3 | Poco Común | 11.73% |
-| Dinero 10000 | Raro | 28.68% |
+| 10,000 Coins | Raro | 28.68% |
 
 ### Caja Boss D2
 
@@ -718,19 +718,19 @@ Llave: **Llave Boss D2** · Premios: **13**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Fly Towny 7d | Épico | 1.39% |
+| Fly territorio towny 7d | Épico | 1.39% |
 | Spawner Normal | Épico | 1.67% |
-| Fly Global 7d | Legendario | 2.23% |
+| Fly x 7d | Legendario | 2.23% |
 | Spawner Premium | Legendario | 2.79% |
+| Granada Aturdidora | Épico | 4.18% |
 | Heavy Core | Épico | 4.18% |
-| Kit Granada | Épico | 4.18% |
-| Kit Daga | Legendario | 5.57% |
-| Kit Amuletos | Épico | 8.36% |
-| Dinero 20000 | Raro | 11.14% |
+| Daga de Midas | Legendario | 5.57% |
+| Kit 4 Amuletos | Épico | 8.36% |
+| 20,000 Coins | Raro | 11.14% |
 | Enchanted Golden Apple x3 | Común | 13.93% |
 | Llave Netherite | Común | 13.93% |
 | Nether Star x2 | Común | 13.93% |
-| Kit Nucleo | Épico | 16.71% |
+| Nucleo Coralino Puro | Épico | 16.71% |
 
 ### Caja Boss D3
 
@@ -745,16 +745,16 @@ Llave: **Llave Boss D3** · Premios: **11**
 | Premio | Rareza | Probabilidad |
 |---|---|---|
 | Spawner Premium | Legendario | 1.4% |
-| Bloque Netherite | Épico | 2.33% |
-| Kit Dedos | Raro | 2.33% |
+| Dedo de Sukuna | Raro | 2.33% |
+| Netherite Block | Épico | 2.33% |
 | Spawner Normal | Legendario | 2.33% |
-| Fly Global 7d | Legendario | 2.79% |
-| Fly Towny 7d | Épico | 2.79% |
-| Kit Eco | Legendario | 3.49% |
-| Kit Platino | Épico | 3.49% |
-| 5 Claims | Raro | 10.47% |
-| Dinero 30000 | Raro | 10.47% |
-| Enchanted Golden Apple | Épico | 58.14% |
+| Fly territorio towny 7d | Épico | 2.79% |
+| Fly x 7d | Legendario | 2.79% |
+| Eco Fantasmal | Legendario | 3.49% |
+| Platino | Épico | 3.49% |
+| +5 Claims | Raro | 10.47% |
+| 30,000 Coins | Raro | 10.47% |
+| Enchanted Golden Apple x4 | Épico | 58.14% |
 
 ### Caja Boss D4
 
@@ -768,18 +768,18 @@ Llave: **Llave Boss D4** · Premios: **12**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| 2x Bloque Netherite | Épico | 1.82% |
-| Fly Global 10d | Legendario | 1.82% |
+| Fly x 10d | Legendario | 1.82% |
 | Hacha del Coloso | Legendario | 1.82% |
+| Netherite Block x2 | Épico | 1.82% |
 | Coraza de Corteza Milenaria | Épico | 2.19% |
-| Fly Towny 10d | Épico | 2.19% |
+| Fly territorio towny 10d | Épico | 2.19% |
 | Pico del Cantero Ancestral | Épico | 2.73% |
-| Libro FABLED | Épico | 5.46% |
-| 7 Claims | Raro | 8.2% |
-| Dinero 45000 | Raro | 8.2% |
-| 3x Runa Petrea | Raro | 10.93% |
-| 16x Esencia Nvl 4 | Raro | 18.21% |
-| 6x Manzana Encantada | Épico | 36.43% |
+| Libro Encantado FABLED | Épico | 5.46% |
+| +7 Claims | Raro | 8.2% |
+| 45,000 Coins | Raro | 8.2% |
+| 3x Runa Petrea x3 | Raro | 10.93% |
+| 16x Esencia Fragmentada (Nvl 4) x16 | Raro | 18.21% |
+| Enchanted Golden Apple x6 | Épico | 36.43% |
 
 ### Caja Boss D5
 
@@ -793,18 +793,18 @@ Llave: **Llave Boss D5** · Premios: **12**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| 3x Bloque Netherite | Épico | 1.82% |
-| Fly Global 14d | Legendario | 1.82% |
+| Fly x 14d | Legendario | 1.82% |
 | Guadana Radiactiva | Legendario | 1.82% |
-| Fly Towny 14d | Épico | 2.19% |
+| Netherite Block x3 | Épico | 1.82% |
+| Fly territorio towny 14d | Épico | 2.19% |
 | Mascara Antigas | Épico | 2.19% |
 | Pico de Uranio | Épico | 2.73% |
-| 2x Libro FABLED | Épico | 5.46% |
-| 10 Claims | Raro | 8.2% |
-| Dinero 60000 | Raro | 8.2% |
-| 3x Vial Antirradiacion | Raro | 10.93% |
-| 16x Esencia Nvl 5 | Raro | 18.21% |
-| 8x Manzana Encantada | Épico | 36.43% |
+| 2x Libro Encantado FABLED x2 | Épico | 5.46% |
+| +10 Claims | Raro | 8.2% |
+| 60,000 Coins | Raro | 8.2% |
+| 3x Vial Antirradiacion x3 | Raro | 10.93% |
+| 16x Esencia Radiante (Nvl 5) x16 | Raro | 18.21% |
+| Enchanted Golden Apple x8 | Épico | 36.43% |
 
 ### ⚡ Caja Tralkan ⚡
 
@@ -862,7 +862,7 @@ Llave: **✦ Llave Mapu** · Premios: **21**
 | Netherite Scrap x2 | Raro | 4.39% |
 | Saddle | Raro | 4.39% |
 | Slime Block x3 | Raro | 4.39% |
-| Dinero 10000 | Raro | 5.49% |
+| 10,000 Pewmas | Raro | 5.49% |
 | Ender Pearl x16 | Raro | 5.49% |
 | Gold Block | Raro | 5.49% |
 | Totem Of Undying | Raro | 5.49% |
@@ -873,75 +873,75 @@ Llave: **✦ Llave Mapu** · Premios: **21**
 
 ### Caja Muebles
 
-Llave: **—** · Premios: **283**
+Llave: **Llave Muebles** · Premios: **453**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 283 | 100% |
+| Común | 453 | 100% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| 2 Shelf Table | Común | 0.35% |
-| 2 Shelf Table Dark | Común | 0.35% |
-| Air Conditioner Black | Común | 0.35% |
-| Air Conditioner White | Común | 0.35% |
-| Aquarium Black | Común | 0.35% |
-| Aquarium White | Común | 0.35% |
-| Balloon Bouquet | Común | 0.35% |
-| Banner Blacksmith Floor | Común | 0.35% |
-| Banner Blacksmith Hanging Top | Común | 0.35% |
-| Banner Guild House Floor | Común | 0.35% |
-| Banner Guild House Hanging Top | Común | 0.35% |
-| Banner Mine Floor | Común | 0.35% |
-| Banner Mine Hanging Top | Común | 0.35% |
-| Banner Pvp Arena Floor | Común | 0.35% |
-| Banner Pvp Arena Hanging Top | Común | 0.35% |
-| Banner Shop Maket A Floor | Común | 0.35% |
-| Banner Shop Maket A Hanging Top | Común | 0.35% |
-| Banner Shop Maket B Floor | Común | 0.35% |
-| Banner Shop Maket B Hanging Top | Común | 0.35% |
-| Banner Tavern Floor | Común | 0.35% |
-| Banner Tavern Hanging Top | Común | 0.35% |
-| Bench Floor | Común | 0.35% |
-| Bookshelf Black | Común | 0.35% |
-| Bookshelf Dark | Común | 0.35% |
-| Bookshelf White | Común | 0.35% |
-| Bookshelf Wooden | Común | 0.35% |
-| Cart A Floor | Común | 0.35% |
-| Cart B Floor | Común | 0.35% |
-| Cart Broken Floor | Común | 0.35% |
-| Ceiling Fan Black | Común | 0.35% |
-| Ceiling Fan White | Común | 0.35% |
-| Chair A Floor | Común | 0.35% |
-| Chair B Floor | Común | 0.35% |
-| Coffee Table | Común | 0.35% |
-| Coffee Table Black | Común | 0.35% |
-| Coffee Table Dark | Común | 0.35% |
-| Coffee Table White | Común | 0.35% |
-| Comfortable Chair Beige | Común | 0.35% |
-| Comfortable Chair Black | Común | 0.35% |
-| Comfortable Chair Black 1 | Común | 0.35% |
-| Comfortable Chair Blue | Común | 0.35% |
-| Comfortable Chair Gray | Común | 0.35% |
-| Comfortable Chair Green | Común | 0.35% |
-| Comfortable Chair Orange | Común | 0.35% |
-| Comfortable Chair Pink | Común | 0.35% |
-| Comfortable Chair Red | Común | 0.35% |
-| Comfortable Chair White | Común | 0.35% |
-| Comfortable Chair Yellow | Común | 0.35% |
-| Counter | Común | 0.35% |
-| Counter 1 | Común | 0.35% |
-| Counter Angle | Común | 0.35% |
-| Crop Stall A Floor | Común | 0.35% |
-| Crop Stall B Floor | Común | 0.35% |
-| Crop Stall C Floor | Común | 0.35% |
-| Curtain Beige | Común | 0.35% |
-| Curtain Black | Común | 0.35% |
-| Curtain Blue | Común | 0.35% |
-| Curtain Gray | Común | 0.35% |
-| Curtain Green | Común | 0.35% |
-| Curtain Orange | Común | 0.35% |
-| _… y 223 premios más (los más comunes)_ | | |
+| 2Shelftable | Común | 0.22% |
+| 2Shelftabledark | Común | 0.22% |
+| Airconditionerblack | Común | 0.22% |
+| Airconditionerwhite | Común | 0.22% |
+| Aquariumblack | Común | 0.22% |
+| Aquariumwhite | Común | 0.22% |
+| Bookshelfblack | Común | 0.22% |
+| Bookshelfdark | Común | 0.22% |
+| Bookshelfwhite | Común | 0.22% |
+| Bookshelfwooden | Común | 0.22% |
+| Cafe Awning | Común | 0.22% |
+| Cafe Cafecounter1 | Común | 0.22% |
+| Cafe Cafecounter2 | Común | 0.22% |
+| Cafe Cafelamps | Común | 0.22% |
+| Cafe Cakeshelf | Común | 0.22% |
+| Cafe Cashregister | Común | 0.22% |
+| Cafe Chair1 | Común | 0.22% |
+| Cafe Chair2 | Común | 0.22% |
+| Cafe Coffeecup | Común | 0.22% |
+| Cafe Coffeemachinebeige | Común | 0.22% |
+| Cafe Coffeemachineblack | Común | 0.22% |
+| Cafe Coffeemachinegray | Común | 0.22% |
+| Cafe Coffeemachinered | Común | 0.22% |
+| Cafe Coffeemachinewhite | Común | 0.22% |
+| Cafe Coffeetable | Común | 0.22% |
+| Cafe Cupshelf | Común | 0.22% |
+| Cafe Menuboard | Común | 0.22% |
+| Cafe Stool | Común | 0.22% |
+| Cafe Streetlamp | Común | 0.22% |
+| Cart | Común | 0.22% |
+| Casino Century Furniture Back Jack Table | Común | 0.22% |
+| Casino Century Furniture Carpet | Común | 0.22% |
+| Casino Century Furniture Chair | Común | 0.22% |
+| Casino Century Furniture Chip | Común | 0.22% |
+| Casino Century Furniture Coin Decoration | Común | 0.22% |
+| Casino Century Furniture Glass Chip | Común | 0.22% |
+| Casino Century Furniture Leather Bag | Común | 0.22% |
+| Casino Century Furniture Money | Común | 0.22% |
+| Casino Century Furniture Poker Table | Común | 0.22% |
+| Casino Century Furniture Roulette Table | Común | 0.22% |
+| Ceilingfanblack | Común | 0.22% |
+| Ceilingfanwhite | Común | 0.22% |
+| Chair | Común | 0.22% |
+| Coach | Común | 0.22% |
+| Coffeetable | Común | 0.22% |
+| Coffeetableblack | Común | 0.22% |
+| Coffeetabledark | Común | 0.22% |
+| Coffeetablewhite | Común | 0.22% |
+| Comfortablechairbeige | Común | 0.22% |
+| Comfortablechairblack | Común | 0.22% |
+| Comfortablechairblack | Común | 0.22% |
+| Comfortablechairblue | Común | 0.22% |
+| Comfortablechairgray | Común | 0.22% |
+| Comfortablechairgreen | Común | 0.22% |
+| Comfortablechairorange | Común | 0.22% |
+| Comfortablechairpink | Común | 0.22% |
+| Comfortablechairred | Común | 0.22% |
+| Comfortablechairwhite | Común | 0.22% |
+| Comfortablechairyellow | Común | 0.22% |
+| Curtainbeige | Común | 0.22% |
+| _… y 393 premios más (los más comunes)_ | | |
 
 ### ✦ Caja Netherite ✦ — Tier Supremo
 
@@ -955,7 +955,7 @@ Llave: **✦ Llave Netherite** · Premios: **22**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Dinero 25000 | Épico | 2.95% |
+| 25,000 Pewmas | Épico | 2.95% |
 | Enchanted Golden Apple x3 | Épico | 2.95% |
 | Mazo Newen | Legendario | 2.95% |
 | Ballesta Newen | Legendario | 3.68% |
@@ -980,75 +980,75 @@ Llave: **✦ Llave Netherite** · Premios: **22**
 
 ### Caja Peluches
 
-Llave: **—** · Premios: **171**
+Llave: **Llave Peluches** · Premios: **594**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 171 | 100% |
+| Común | 594 | 100% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Aadamm Plushie | Común | 0.58% |
-| Aizen Plush | Común | 0.58% |
-| Alivepond Plushie | Común | 0.58% |
-| All Might Plush | Común | 0.58% |
-| Allay Plushie | Común | 0.58% |
-| Allosaurus Plushie | Común | 0.58% |
-| Alloy Boy Plushie | Común | 0.58% |
-| Ankylosaurus Plushie | Común | 0.58% |
-| Armadillo Plushie | Común | 0.58% |
-| Awesome Guy Plushie | Común | 0.58% |
-| Axolotl Plushie Blue | Común | 0.58% |
-| Axolotl Plushie Brown | Común | 0.58% |
-| Axolotl Plushie Cyan | Común | 0.58% |
-| Axolotl Plushie Gold | Común | 0.58% |
-| Axolotl Plushie Pink | Común | 0.58% |
-| Bat Plushie | Común | 0.58% |
-| Bee Plushie | Común | 0.58% |
-| Big Eared Rapscallion Plushie | Común | 0.58% |
-| Big Jiggles Plushie | Común | 0.58% |
-| Black Scowling Penguin Plushie | Común | 0.58% |
-| Blaze Plushie | Común | 0.58% |
-| Breeze Plushie | Común | 0.58% |
-| Brontosaurus Plushie | Común | 0.58% |
-| Bug Boy Plushie | Común | 0.58% |
-| Camel Plushie | Común | 0.58% |
-| Cat Plushie | Común | 0.58% |
-| Cat Plushie Black | Común | 0.58% |
-| Cat Plushie British Shorthair | Común | 0.58% |
-| Cat Plushie Calico | Común | 0.58% |
-| Cat Plushie Jellie | Común | 0.58% |
-| Cat Plushie Persian | Común | 0.58% |
-| Cat Plushie Ragdoll | Común | 0.58% |
-| Cat Plushie Siamese | Común | 0.58% |
-| Cat Plushie Tabby | Común | 0.58% |
-| Cat Plushie Tuxedo | Común | 0.58% |
-| Cat Plushie White | Común | 0.58% |
-| Cave Spider Plushie | Común | 0.58% |
-| Chicken Plushie | Común | 0.58% |
-| Colonel Arkansas Plushie | Común | 0.58% |
-| Cous-Cous Plushie | Común | 0.58% |
-| Cow Plushie | Común | 0.58% |
-| Creeper Plushie | Común | 0.58% |
-| Darnell Plushie | Común | 0.58% |
-| Deku Plush | Común | 0.58% |
-| Dolphin Plushie | Común | 0.58% |
-| Donkey Plushie | Común | 0.58% |
-| Drowned Plushie | Común | 0.58% |
-| Eeper Plushie | Común | 0.58% |
-| Eindhoven Frog Plushie | Común | 0.58% |
-| Elder Guardian Plushie | Común | 0.58% |
-| Enderman Plushie | Común | 0.58% |
-| Evoker Plushie | Común | 0.58% |
-| Floppy Eared Dog Plushie | Común | 0.58% |
-| Fox Plushie | Común | 0.58% |
-| Frog Plushie | Común | 0.58% |
-| Frog Plushie Temperate | Común | 0.58% |
-| Frog Plushie Warm | Común | 0.58% |
-| Ghast Plushie | Común | 0.58% |
-| Glingo Plushie | Común | 0.58% |
-| Glow Squid Plushie | Común | 0.58% |
-| _… y 111 premios más (los más comunes)_ | | |
+| Aizen | Común | 0.17% |
+| Allmight | Común | 0.17% |
+| Berserk Armadura | Común | 0.17% |
+| Berserk Peluche | Común | 0.17% |
+| Deku | Común | 0.17% |
+| Gojo Headband | Común | 0.17% |
+| Goku Ultra Instinct | Común | 0.17% |
+| Ichigo | Común | 0.17% |
+| League Teemo Estatua | Común | 0.17% |
+| League Vi Estatua | Común | 0.17% |
+| League Warwick Estatua | Común | 0.17% |
+| Naruto Kurama | Común | 0.17% |
+| Nav Galleta Jengibre | Común | 0.17% |
+| Op Kid Zangoose Estatua | Común | 0.17% |
+| Op Lucci Estatua | Común | 0.17% |
+| Op Shanks Estatua | Común | 0.17% |
+| Op Sunny Estatua | Común | 0.17% |
+| Peluche Aadamm | Común | 0.17% |
+| Peluche Abra | Común | 0.17% |
+| Peluche Aerodactyl | Común | 0.17% |
+| Peluche Aipom | Común | 0.17% |
+| Peluche Alivepond | Común | 0.17% |
+| Peluche Allay | Común | 0.17% |
+| Peluche Allosaurus | Común | 0.17% |
+| Peluche Alloy Boy | Común | 0.17% |
+| Peluche Ampharos | Común | 0.17% |
+| Peluche Ankylosaurus | Común | 0.17% |
+| Peluche Applin | Común | 0.17% |
+| Peluche Arbok | Común | 0.17% |
+| Peluche Arctibax | Común | 0.17% |
+| Peluche Ariados | Común | 0.17% |
+| Peluche Armadillo | Común | 0.17% |
+| Peluche Aron | Común | 0.17% |
+| Peluche Awesome Guy | Común | 0.17% |
+| Peluche Axolotl | Común | 0.17% |
+| Peluche Axolotl Blue | Común | 0.17% |
+| Peluche Axolotl Brown | Común | 0.17% |
+| Peluche Axolotl Cyan | Común | 0.17% |
+| Peluche Axolotl Gold | Común | 0.17% |
+| Peluche Azumarill | Común | 0.17% |
+| Peluche Baltoy | Común | 0.17% |
+| Peluche Bat | Común | 0.17% |
+| Peluche Bayleef | Común | 0.17% |
+| Peluche Bee | Común | 0.17% |
+| Peluche Beldum | Común | 0.17% |
+| Peluche Bellibolt | Común | 0.17% |
+| Peluche Bellsprout | Común | 0.17% |
+| Peluche Bibarel | Común | 0.17% |
+| Peluche Bidoof | Común | 0.17% |
+| Peluche Big Dialga | Común | 0.17% |
+| Peluche Big Eared Rapscallion | Común | 0.17% |
+| Peluche Big Giratina | Común | 0.17% |
+| Peluche Big Ho-Oh | Común | 0.17% |
+| Peluche Big Jiggles | Común | 0.17% |
+| Peluche Big Palkia | Común | 0.17% |
+| Peluche Black Scowling Penguin | Común | 0.17% |
+| Peluche Blastoise | Común | 0.17% |
+| Peluche Blaze | Común | 0.17% |
+| Peluche Blitzle | Común | 0.17% |
+| Peluche Bonsly | Común | 0.17% |
+| _… y 534 premios más (los más comunes)_ | | |
 
 ### 🎉 Caja Pinata 🎉
 
@@ -1078,12 +1078,12 @@ Llave: **🎉 Llave Piñata** · Premios: **24**
 | Llave Lafken | Épico | 2.56% |
 | Llave Mapu | Raro | 3.08% |
 | Totem Of Undying | Raro | 3.08% |
+| 10,000 Pewmas | Raro | 4.1% |
 | Diamond Block | Raro | 4.1% |
-| Dinero 10000 | Raro | 4.1% |
 | Netherite Scrap | Raro | 4.1% |
 | Emerald Block x2 | Poco Común | 6.15% |
 | Shulker Box | Poco Común | 7.18% |
-| Dinero 2500 | Poco Común | 9.23% |
+| 2,500 Pewmas | Poco Común | 9.23% |
 | Golden Apple x2 | Poco Común | 9.23% |
 | Ender Pearl x8 | Común | 10.26% |
 | Experience Bottle x32 | Común | 10.26% |
@@ -1099,7 +1099,7 @@ Llave: **Llave Transporte** · Premios: **1**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Teletransporte Boss | Legendario | 100% |
+| Entrar a la sala del boss | Legendario | 100% |
 
 ### ✦ Caja de Vehículos ✦
 
@@ -1113,22 +1113,22 @@ Llave: **✦ Llave Vehículos ✦** · Premios: **16**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| OVNI | Legendario | 0.65% |
+| Ovni | Legendario | 0.65% |
 | Clase G | Épico | 5.23% |
-| Coche de Policía | Épico | 5.23% |
+| Coche Policia | Épico | 5.23% |
 | Cybertruck | Épico | 5.23% |
-| Helicóptero | Épico | 5.23% |
+| Helicoptero | Épico | 5.23% |
 | Monster Truck | Épico | 5.23% |
-| SUV | Épico | 5.23% |
+| Suv | Épico | 5.23% |
 | Yate | Épico | 5.23% |
 | Barco Vikingo | Raro | 7.84% |
+| Coche F1 | Raro | 7.84% |
+| Coche Lujo | Raro | 7.84% |
 | Coche Rosa | Raro | 7.84% |
-| Coche de F1 | Raro | 7.84% |
-| Coche de Lujo | Raro | 7.84% |
-| Moto de Agua | Raro | 7.84% |
-| Moto de Motocross | Raro | 7.84% |
-| Quad 2 | Raro | 7.84% |
-| Quad 3 | Raro | 7.84% |
+| Moto Agua | Raro | 7.84% |
+| Moto Motocross | Raro | 7.84% |
+| Quad2 | Raro | 7.84% |
+| Quad3 | Raro | 7.84% |
 
 ### ✦ Caja Wallmapu ⚑ — Tier V
 
@@ -1144,10 +1144,10 @@ Llave: **✦ Llave Wallmapu** · Premios: **18**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Tuetue | Legendario | 0.11% |
-| Llave Lafken Bonus | Raro | 3.22% |
+| Kit TueTue | Legendario | 0.11% |
+| Llave Lafken (Bonus) | Raro | 3.22% |
+| 15,000 Pewmas | Raro | 4.3% |
 | Beacon | Raro | 4.3% |
-| Dinero 15000 | Raro | 4.3% |
 | Nether Star | Épico | 4.3% |
 | Totem Of Undying x2 | Raro | 4.3% |
 | Wither Skeleton Skull | Raro | 4.3% |
@@ -1179,8 +1179,8 @@ Llave: **✦ Llave Wenumapu** · Premios: **19**
 |---|---|---|
 | Kit Kaikaivilu | Legendario | 0.09% |
 | Llave Kutral | Raro | 2.58% |
+| 8,000 Pewmas | Raro | 4.31% |
 | Beacon | Raro | 4.31% |
-| Dinero 8000 | Raro | 4.31% |
 | Netherite Scrap x3 | Raro | 4.31% |
 | Peto Wenumapu | Épico | 4.31% |
 | Pico Wenumapu | Épico | 4.31% |

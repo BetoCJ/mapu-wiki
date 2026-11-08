@@ -14,18 +14,19 @@ Cada cierta distancia desde el `0,0` el nivel sube en 1. Cuanto más pequeño es
 
 | Dimensión | Bloques por nivel | Nivel mínimo | Nivel máximo |
 |---|---:|---:|---:|
-| 🌎 Overworld (mobs vanilla) | 607 | 1 | 30 |
-| 🔥 Nether (mobs vanilla) | 326 | 3 | 30 |
-| 🌌 End (mobs vanilla) | 423 | 5 | 30 |
+| 🌎 Overworld (mobs vanilla) | 552 | 1 | 30 |
+| 🔥 Nether (mobs vanilla) | 296 | 3 | 30 |
+| 🌌 End (mobs vanilla) | 385 | 5 | 30 |
+| 🌀 Wallmapu (mobs vanilla) | 211 | 1 | 30 |
 
 Los **mobs custom** del servidor (los de MythicMobs) usan su propia escala, un poco más lenta:
 
 | Dimensión | Bloques por nivel |
 |---|---:|
-| 🌎 Overworld | 1.087 |
-| 🔥 Nether | 543 |
-| 🌌 End | 722 |
-| 🌀 Wallmapu | 224 |
+| 🌎 Overworld | 988 |
+| 🔥 Nether | 494 |
+| 🌌 End | 656 |
+| 🌀 Wallmapu | 204 |
 
 Al nivel 30 (el máximo) un mob vanilla del Overworld tiene hasta **+150% de vida** (2,5 veces), **+75% de daño**, **+110% de experiencia** y **+150% de drops** respecto a uno de nivel 1. Entre medio el aumento es proporcional al nivel.
 
@@ -42,7 +43,7 @@ Al nivel 30 (el máximo) un mob vanilla del Overworld tiene hasta **+150% de vid
 
 ## 💡 Consejos
 
-- **Antes de alejarte, equípate:** a 5.000 bloques del spawn los zombis ya rondan el nivel 8-9.
+- **Antes de alejarte, equípate:** a 5.000 bloques del spawn los zombis ya rondan el nivel 9-10.
 - **Los spawners no escalan:** son una forma segura de farmear aunque estés lejos.
 - **El Nether y el End suben más rápido** que el Overworld; no los subestimes.
 - Los drops y la experiencia mejoran con el nivel, así que el riesgo se paga.

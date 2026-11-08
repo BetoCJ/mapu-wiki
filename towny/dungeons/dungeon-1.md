@@ -13,7 +13,7 @@ La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y es e
 | | |
 |---|---|
 | **Dificultad** | 🟡 Media |
-| **Acceso** | `/warp predungeon` |
+| **Acceso** | `/warp dungeons` |
 | **KeepInventory** | Sí (no pierdes ítems, sí pierdes EXP) |
 | **Salidas** | 4 salidas repartidas o usar Llave Escapatoria |
 | **Zona de Crafteo** | Sí |

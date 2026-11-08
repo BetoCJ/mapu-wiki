@@ -23,7 +23,7 @@ Cada chunk que reclamas se llama **townblock**. El precio base por chunk es **$1
 | | |
 |---|---|
 | **Precio base por chunk** | $150 |
-| **Precio de outpost** | $14,990 |
+| **Precio de outpost** | $10,000 |
 | **Chunks por residente** | 8 |
 | **Máximo chunks por residente** | 32 |
 

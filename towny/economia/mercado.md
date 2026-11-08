@@ -107,6 +107,23 @@ Abajo tienes el precio **base** de cada ítem. Úsalo como referencia: el precio
 | Ítem | Precio base |
 |---|---|
 | Sand | $0.40 |
+| ↳ Vidrio | $0.40 |
+| ↳ Vidrio blanco | $0.40 |
+| ↳ Vidrio naranja | $0.40 |
+| ↳ Vidrio magenta | $0.40 |
+| ↳ Vidrio celeste | $0.40 |
+| ↳ Vidrio amarillo | $0.40 |
+| ↳ Vidrio lima | $0.40 |
+| ↳ Vidrio rosado | $0.40 |
+| ↳ Vidrio gris | $0.40 |
+| ↳ Vidrio gris claro | $0.40 |
+| ↳ Vidrio cian | $0.40 |
+| ↳ Vidrio morado | $0.40 |
+| ↳ Vidrio azul | $0.40 |
+| ↳ Vidrio cafe | $0.40 |
+| ↳ Vidrio verde | $0.40 |
+| ↳ Vidrio rojo | $0.40 |
+| ↳ Vidrio negro | $0.40 |
 | Prismarine Shard | $10.00 |
 | ↳ Prismarine | $40.00 |
 | ↳ Prismarine Stairs | $60.00 |
@@ -152,6 +169,7 @@ Abajo tienes el precio **base** de cada ítem. Úsalo como referencia: el precio
 | Dark Oak Log | $1.00 |
 | Mangrove Log | $1.00 |
 | Cherry Log | $1.00 |
+| Pale Oak Log | $1.00 |
 | Red Mushroom | $9.50 |
 | Brown Mushroom | $9.50 |
 | Crimson Fungus | $9.50 |

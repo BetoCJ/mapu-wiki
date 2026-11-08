@@ -61,7 +61,7 @@ Cada vez que votas recibes automáticamente:
 | 💰 Dinero | $500 |
 | ⭐ MapuPoints | 1 |
 
-Con `/vote` se abren los enlaces a los sitios de votación. Acumular votos también activa el evento **Piñata** al llegar a 20 votos.
+Con `/vote` se abren los enlaces a los sitios de votación. Acumular votos también activa el evento **Piñata** al llegar a 40 votos.
 
 ### 📜 Comandos
 
