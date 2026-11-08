@@ -213,6 +213,18 @@ embeds:
         descripcion: "Pase de Batalla"
         permiso: "todos"
         modo: towny
+      - name: "/limite"
+        descripcion: "cuánta XP llevas hoy por habilidad y cuánto te falta; el límite se reinicia a las 7:30 AM"
+        permiso: "todos"
+        modo: towny
+      - name: "/recetas"
+        descripcion: "menú de recetas personalizadas del servidor"
+        permiso: "todos"
+        modo: towny
+      - name: "/cratekey balance"
+        descripcion: "cuántas llaves de cajas tienes (las llaves ahora son virtuales)"
+        permiso: "todos"
+        modo: towny
   - id: eventos
     titulo: "🎉 Eventos y diversión"
     color: rosa
@@ -246,6 +258,30 @@ embeds:
         descripcion: "minijuego TNT Run"
         permiso: "todos"
         modo: towny
+      - name: "/warp PropHunt"
+        descripcion: "minijuego de escondite de objetos"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp FallGuy"
+        descripcion: "minijuego Fall Guys: carrera de obstáculos"
+        permiso: "todos"
+        modo: towny
+      - name: "/mpk lobby"
+        descripcion: "menú de parkours: elige uno y entra"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp piñata"
+        descripcion: "zona de la Piñata"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp evento"
+        descripcion: "sala de eventos"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp preduels"
+        descripcion: "sala de espera PvP"
+        permiso: "todos"
+        modo: towny
       - name: "/duel <jugador>"
         descripcion: "duelo 1v1"
         permiso: "todos"
@@ -260,6 +296,22 @@ embeds:
         modo: towny
       - name: "/warp casino"
         descripcion: "CoinFlip y apuestas"
+        permiso: "todos"
+        modo: towny
+      - name: "/loteria"
+        descripcion: "lotería: sorteos todos los días a las 14:00 y 21:00 (boleto $2.000)"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp comunidad"
+        descripcion: "zona social"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp iglesia"
+        descripcion: "iglesia: sistema de bodas"
+        permiso: "todos"
+        modo: towny
+      - name: "/warp Vehiculos"
+        descripcion: "garaje y transporte"
         permiso: "todos"
         modo: towny
       - name: "/warp cosmeticos"

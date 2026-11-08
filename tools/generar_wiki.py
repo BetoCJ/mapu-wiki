@@ -13,6 +13,7 @@ Nunca lee contrasenas ni tokens: solo cajas, recetas y precios.
 import argparse
 import difflib
 import gzip
+import os
 import re
 import sqlite3
 import struct
@@ -25,7 +26,7 @@ import miniyaml  # noqa: E402
 
 WIKI = AQUI.parent
 RAIZ = WIKI.parent
-PLUGINS = RAIZ / 'Towny-26-3' / 'plugins'
+PLUGINS = Path(os.environ['WIKI_PLUGINS']) if os.environ.get('WIKI_PLUGINS') else RAIZ / 'Towny-26-3' / 'plugins'
 
 # ---------------------------------------------------------------- utilidades
 
@@ -160,8 +161,84 @@ def nombre_premio(r, rid=''):
     return n, c
 
 
+def _nombres_oraxen():
+    """id de item de Oraxen -> nombre visible (items/**/*.yml). Vacio si no hay copia de Oraxen."""
+    res = {}
+    d = PLUGINS / 'Oraxen' / 'items'
+    if not d.is_dir():
+        return res
+    for f in d.rglob('*.yml'):
+        cur = None
+        for ln in f.read_text(encoding='utf-8', errors='ignore').splitlines():
+            m = re.match(r'^([A-Za-z0-9_.\-]+):\s*$', ln)
+            if m:
+                cur = m.group(1)
+                continue
+            if cur and cur not in res:
+                m = re.match(r'^\s{1,4}(?:displayname|display_name|displayName):\s*(.+)$', ln)
+                if m:
+                    nom = limpia(m.group(1).strip().strip('\'"'))
+                    if nom:
+                        res[cur] = nom
+    return res
+
+
+def _cajas_v7(base):
+    """ExcellentCrates 7.x: objects/{crate,key,rarity,reward}. Devuelve (cajas, nom_rar, orden_rar)."""
+    obj = base / 'objects'
+    nombres_ox = _nombres_oraxen()
+    rar = {}
+    for f in (obj / 'rarity').glob('*.yml'):
+        b = miniyaml.cargar(f).get('base') or {}
+        rar[f.stem] = (limpia(b.get('name', f.stem)), float(b.get('weight', 0) or 0))
+    base_orden = ['common', 'uncommon', 'rare', 'epic', 'legendary', 'mythic']
+    orden_rar = [k for k in base_orden if k in rar] + sorted(k for k in rar if k not in base_orden)
+    nom_rar = {k: rar[k][0] for k in orden_rar}
+    llaves = {}
+    for f in sorted((obj / 'key').glob('*.yml')):
+        llaves[f.stem] = limpia((miniyaml.cargar(f).get('display') or {}).get('name', f.stem))
+    cajas = []
+    for f in sorted((obj / 'crate').glob('*.yml')):
+        d = miniyaml.cargar(f)
+        kid = next(iter(((d.get('key_requirements') or {}).get('keys')) or {}), None)
+        ids = [(v or {}).get('reward_id') for v in (((d.get('rewards') or {}).get('reward_list')) or {}).values()]
+        premios = []
+        crudos = []
+        for rid in ids:
+            rf = obj / 'reward' / f.stem / f'{rid}.yml'
+            if not rid or not rf.exists():
+                continue
+            r = miniyaml.cargar(rf)
+            icon = (r.get('preview') or {}).get('icon') or {}
+            dat = icon.get('Data') or {}
+            nombre = limpia((r.get('preview') or {}).get('name', ''))
+            cant = 1
+            if nombre and nombre != 'Recompensa':
+                pass
+            elif icon.get('Provider') == 'oraxen':
+                oid = str(dat.get('ID', rid))
+                mp = re.match(r'(?:nm_plushie_|pokedoll_)(.+)$', oid)
+                nombre = nombres_ox.get(oid) or (f'Peluche {titulo(mp.group(1))}' if mp else titulo(oid))
+                cant = int(dat.get('Amount', 1) or 1)
+            else:
+                nombre, cant = nombre_item(dat.get('Value'))
+                if nombre == 'Player Head':
+                    nombre = titulo(rid)
+            w = float((r.get('base') or {}).get('weight', 0) or 0)
+            crudos.append((nombre, cant, str((r.get('Rarity') or {}).get('rarity_id', '')), w))
+        total = sum(c[3] for c in crudos)
+        for nombre, cant, ra, w in crudos:
+            premios.append((nombre, cant, ra, w, (w / total * 100) if total else 0))
+        cajas.append(dict(id=f.stem, nombre=limpia((d.get('display') or {}).get('name', f.stem)),
+                          llave=llaves.get(kid, kid) if kid else None, premios=premios, total=total))
+    return cajas, nom_rar, orden_rar
+
+
 def gen_cajas():
     base = PLUGINS / 'ExcellentCrates'
+    if (base / 'objects' / 'crate').is_dir():
+        cajas, nom_rar, orden_rar = _cajas_v7(base)
+        return _render_cajas(cajas, nom_rar, orden_rar)
     cfg = miniyaml.cargar(base / 'config.yml')
     rar = (cfg.get('Rewards') or {}).get('Rarities') or {}
     nom_rar = {k: limpia(v.get('Name', k)) for k, v in rar.items()}
@@ -183,6 +260,10 @@ def gen_cajas():
             premios.append((n, c, str(r.get('Rarity', '')), w, (w / total * 100) if total else 0))
         cajas.append(dict(id=f.stem, nombre=limpia(d.get('Name', f.stem)), llave=llaves.get(kid, kid) if kid else None,
                           premios=premios, total=total))
+    return _render_cajas(cajas, nom_rar, orden_rar)
+
+
+def _render_cajas(cajas, nom_rar, orden_rar):
     L = ['## 📊 Tablas completas de premios (generado)', '',
          '> Esta sección se genera automáticamente desde la configuración de las cajas. '
          'La probabilidad es el peso del premio dividido por el peso total de la caja. '
@@ -230,12 +311,19 @@ def _cantidad(blob):
 
 
 def gen_crafteos():
-    ruta = PLUGINS / 'CraftEnhance' / 'recipes.db'
+    # MapuCrafteos (desde 2026-11-02) reemplaza a CraftEnhance: misma base SQLite, categorias en categorias.yml
+    nuevo = (PLUGINS / 'MapuCrafteos' / 'recipes.db').exists()
+    ruta = PLUGINS / ('MapuCrafteos' if nuevo else 'CraftEnhance') / 'recipes.db'
     con = sqlite3.connect(f'file:{ruta.as_posix()}?mode=ro', uri=True)
     cats = {}
-    txt = (PLUGINS / 'CraftEnhance' / 'categorys.yml').read_text(encoding='utf-8')
-    for m in re.finditer(r'display_name:\s*(.+)\n\s+name:\s*(\S+)', txt):
-        cats[m.group(2)] = limpia(m.group(1).strip('\'"'))
+    if nuevo:
+        txt = (PLUGINS / 'MapuCrafteos' / 'categorias.yml').read_text(encoding='utf-8')
+        for m in re.finditer(r'^  (\S+):\s*\n\s+nombre:\s*(.+)$', txt, re.M):
+            cats[m.group(1)] = limpia(m.group(2).strip('\'"'))
+    else:
+        txt = (PLUGINS / 'CraftEnhance' / 'categorys.yml').read_text(encoding='utf-8')
+        for m in re.finditer(r'display_name:\s*(.+)\n\s+name:\s*(\S+)', txt):
+            cats[m.group(2)] = limpia(m.group(1).strip('\'"'))
     recetas = con.execute('select id,category,shapeless,hidden from recipes').fetchall()
     items = {}
     for rid, slot, name, blob, tipo in con.execute('select recipe_id,slot,name,item_nbt,type from items'):
@@ -257,7 +345,7 @@ def gen_crafteos():
             continue
         por_cat.setdefault(cat, []).append((rid, res, it, bool(shapeless), bool(hidden)))
     L = ['## 📜 Recetas del servidor (generado)', '',
-         '> Esta sección se genera automáticamente desde CraftEnhance. Cada receta muestra la cuadrícula de '
+         '> Esta sección se genera automáticamente desde MapuCrafteos. Cada receta muestra la cuadrícula de '
          'la mesa de crafteo fila por fila (de arriba hacia abajo); `—` es una casilla vacía. '
          'Los ingredientes con nombre propio son ítems custom del servidor. '
          'Para actualizarla: `python wiki/tools/generar_wiki.py --solo crafteos`.', '',
@@ -553,6 +641,15 @@ def gen_battlepass():
         return ' + '.join(partes) or '—'
 
     ini = st['current-season']['start-date']
+    # La temporada se configura a las 23:05 del dia anterior; se anuncia (y cuenta) como el dia siguiente.
+    try:
+        import datetime as _dt
+        _h = int(str(st['current-season'].get('start-time', '00:00')).split(':')[0])
+        if _h >= 18:
+            _d = _dt.datetime.strptime(str(ini), '%d/%m/%Y') + _dt.timedelta(days=1)
+            ini = _d.strftime('%d/%m/%Y')
+    except (ValueError, TypeError):
+        pass
     L = [f'Temporada actual: inicia el **{ini}** · **{len(prem)} niveles** (gratis y premium).', '',
          '| Nivel | Puntos del nivel | Total | 🆓 Gratis | 💎 Premium |', '|---:|---:|---:|---|---|']
     acum = 0
@@ -693,7 +790,7 @@ KEYS_DR = {'diaria': 'Llave Diaria', 'pinata': 'Llave Piñata', 'peluches': 'Lla
 
 def _accion_dr(a):
     a = str(a)
-    m = re.match(r'\[console\] crate key give %player% (\S+) (\d+)', a)
+    m = re.match(r'\[console\] (?:crate key|cratekey) give %player% (\S+) (\d+)', a)
     if m:
         return ('🗝️ ' + KEYS_DR.get(m.group(1), titulo(m.group(1))), int(m.group(2)), 0)
     m = re.match(r'\[console\] ei give %player% llavealeatorea (\d+)', a)

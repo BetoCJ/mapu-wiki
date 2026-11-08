@@ -23,7 +23,7 @@ bot\.venv\Scripts\python.exe wiki\tools\generar_wiki.py --solo cajas  # cajas | 
 bot\.venv\Scripts\python.exe wiki\tools\generar_comandos.py           # guía de comandos
 ```
 
-Cualquier Python 3.8+ sirve. Los scripts leen la copia local `Towny-26-3\plugins` (solo lectura).
+Cualquier Python 3.8+ sirve. Los scripts leen la copia local `Towny-26-3\plugins` (solo lectura) o, si defines la variable de entorno `WIKI_PLUGINS`, la carpeta `plugins` que indiques (p. ej. una foto fresca de producción como `Towny-produccion-2026-11-08\plugins`). Desde el 2026-11-08 `cajas` lee el formato de ExcellentCrates 7.x (`objects/crate|key|rarity|reward`; usa también `Oraxen/items` para los nombres) y `crafteos` lee `MapuCrafteos/recipes.db` + `categorias.yml` (con respaldo a CraftEnhance).
 
 ## Cuándo ejecutarlos
 
