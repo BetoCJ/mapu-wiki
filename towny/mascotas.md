@@ -13,7 +13,7 @@ En Mapucraft puedes tener un **compañero** que te sigue a todas partes. Además
 1. Reúne **MapuPoints** (ver abajo).
 2. Escribe **`/mascotasespeciales`** para abrir la tienda. Está organizada por rareza, de Comunes a Legendarias; usa las flechas para cambiar de página.
 3. Haz **clic izquierdo** sobre la mascota que quieras. Se te descuenta el precio y la mascota queda lista para ti.
-4. Cuida a tu mascota con el sistema de [Cosméticos y Mascotas](cosmeticos.md) (hambre, nivel y habilidades). Mira las [habilidades de cada familia](mascotas-habilidades.md).
+4. Cuida a tu mascota con el sistema de [Cosméticos y Mascotas](cosmeticos.md) (hambre, nivel y habilidades). Mira las [habilidades de cada familia](mascotas-habilidades.md), las [fichas con vida y velocidad de cada mascota](mascotas-fichas.md) y todos los [árboles de habilidades con sus números](mascotas-arboles.md).
 
 {% hint style="info" %}
 Antes de comprar puedes verlas todas **girando en 3D** en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).

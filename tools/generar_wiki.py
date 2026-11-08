@@ -841,14 +841,150 @@ Abajo tienes el precio **base** de cada ítem. Úsalo como referencia: el precio
 """
 
 
+# ------------------------------------------------------------ mascotas: fichas y arboles (MyPet)
+
+PAG_FICHAS = """# 📋 Fichas de las mascotas
+
+Estadísticas base de **todas las mascotas especiales** de la tienda (`/mascotasespeciales`), tomadas de la configuración real de MyPet.
+
+* **Vida:** puntos de vida base (2 puntos = 1 corazón). Sube con las habilidades de *vida extra* al ganar niveles.
+* **Velocidad:** velocidad de movimiento base (más alto = más rápida).
+* **Árbol inicial:** al empezar eliges uno; define cómo va a crecer tu mascota. Con los niveles (hasta el **100**) gana habilidades.
+* **Ascensiones:** al nivel **20** puedes ascender a un árbol más fuerte; las ✦ de firma son propias de la familia de la mascota y sus versiones **míticas** se abren al nivel **50**.
+
+Para ver qué hace cada árbol (daño, vida, faro, montura, mochila…) con sus números exactos, mira [Árboles de habilidades](mascotas-arboles.md). La lista con descripciones y precios está en [Mascotas](mascotas.md) y puedes verlas en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
+
+***
+
+"""
+
+PAG_ARBOLES = """# 🌳 Árboles de habilidades de las mascotas
+
+Cada mascota crece por un **árbol de habilidades** (MyPet). Esta página lista **todos** los árboles del servidor con lo que da cada uno **al nivel máximo (100)**. Las ascensiones incluyen todo lo del árbol que mejoran, así que sus números son totales.
+
+* **Árbol inicial:** se elige al empezar (nivel 1).
+* **Ascensión estándar:** al nivel 20, mejora un árbol inicial.
+* **✦ Ascensión de firma:** al nivel 20, habilidades propias de una familia de mascotas.
+* **✦ Ascensión mítica:** al nivel 50, la evolución final de una ascensión de firma.
+
+Las probabilidades se muestran con tope de 100 %. Mira las estadísticas de cada mascota en [Fichas de las mascotas](mascotas-fichas.md).
+
+***
+
+"""
+
+
+def _datos_mypet():
+    import mypet_datos
+    d = mypet_datos.cargar(PLUGINS)
+    return mypet_datos.construir(d), d
+
+
+def gen_mascotas_fichas():
+    res, _ = _datos_mypet()
+    M, A = res['mascotas'], res['arboles']
+    orden = ['Común', 'Rara', 'Épica', 'Legendaria']
+    L = [f'Hay **{len(M)} mascotas especiales** a la venta.', '']
+    for r in orden:
+        ms = sorted((m for m in M.values() if m['rareza'] == r), key=lambda m: m['nombre'].lower())
+        if not ms:
+            continue
+        hps = [m['hp'] for m in ms if m['hp'] is not None]
+        L += [f'## {r}s · {ms[0]["precio"]} MapuPoints ({len(ms)})', '',
+              f'Vida base de {num(min(hps))} a {num(max(hps))} puntos.' if hps else '', '',
+              '| Mascota | Vida | Velocidad | Vuela | Come | Árbol inicial | Ascensiones |', '|---|---:|---:|:---:|---|---|---|']
+        for m in ms:
+            ar = [A[i] for i in m['arboles'] if i in A]
+            base = ' / '.join(a['n'] for a in ar if a['t'] == 'base')
+            asc = [a['n'] for a in ar if a['t'] == 'ascension']
+            fir = ['✦ ' + a['n'] for a in ar if a['t'] == 'firma']
+            mit = ['✦ ' + a['n'] + ' (nv. 50)' for a in ar if a['t'] == 'mitico']
+            partes = []
+            if asc:
+                partes.append(', '.join(asc))
+            if fir:
+                partes.append(', '.join(fir))
+            if mit:
+                partes.append(', '.join(mit))
+            L.append(f'| **{md(m["nombre"])}** | {num(m["hp"]) if m["hp"] is not None else "—"} | '
+                     f'{num(m["vel"]) if m["vel"] is not None else "—"} | {"Sí" if m["vuela"] else "No"} | '
+                     f'{md(", ".join(m["comida"]) or "—")} | {md(base or "—")} | {md(" · ".join(partes) or "—")} |')
+        L.append('')
+    return '\n'.join(L), dict(mascotas=len(M))
+
+
+def gen_mascotas_arboles():
+    res, crudo = _datos_mypet()
+    M, A = res['mascotas'], res['arboles']
+    usan = {}
+    for m in M.values():
+        for i in m['arboles']:
+            usan.setdefault(i, []).append(m['nombre'])
+    grupos = [
+        ('base', '🌱 Árboles iniciales', lambda a: True),
+        ('ascension', '⬆️ Ascensiones estándar (nivel 20)', lambda a: True),
+        ('firma', '✦ Ascensiones de firma de las mascotas especiales (nivel 20)', lambda a: a['id'] in usan),
+        ('mitico', '✦ Ascensiones míticas (nivel 50)', lambda a: True),
+    ]
+    L = []
+    hechos = set()
+    for tipo, titulo, filtro in grupos:
+        arbs = sorted((a for a in A.values() if a['t'] == tipo and filtro(a)), key=lambda a: (a['orden'], a['n']))
+        if not arbs:
+            continue
+        L += [f'## {titulo} ({len(arbs)})', '']
+        for a in arbs:
+            hechos.add(a['id'])
+            L.append(f'### {md(a["n"])}')
+            L.append('')
+            meta = [f'nivel {a["nv"]}']
+            if a['desde'] and tipo != 'base':
+                nombres = [A[i]['n'] for i in a['desde'] if i in A]
+                meta.append('desde: ' + ', '.join(dict.fromkeys(nombres)))
+            nm = sorted(set(usan.get(a['id'], [])), key=str.lower)
+            if nm:
+                meta.append(f'lo usan {len(nm)} mascota(s): ' + ', '.join(nm[:12]) + (f' y {len(nm) - 12} más' if len(nm) > 12 else ''))
+            L.append('_' + md(' · '.join(meta)) + '_')
+            L.append('')
+            if a['d']:
+                L.append('*' + md(a['d'][0]) + '*')
+                L.append('')
+                L += [f'* {md(x.lstrip("- ").strip())}' for x in a['d'][1:]]
+                L.append('')
+            if a['h']:
+                L += ['**Habilidades al nivel 100:**', '']
+            for h in a['h']:
+                L.append(f'* **{h["n"]}:** {md(h["t"])}' + (f' _(desde nv. {h["nv"]})_' if h['nv'] > 1 else ''))
+            L.append('')
+    # firmas de mobs vanilla (mascotas normales domesticadas)
+    resto = sorted((a for a in A.values() if a['t'] == 'firma' and a['id'] not in hechos), key=lambda a: (a['orden'], a['n']))
+    if resto:
+        L += [f'## ✦ Ascensiones de firma de mobs vanilla ({len(resto)})', '',
+              'Para mascotas normales (mobs domesticados) y no para las de la tienda; cada una es propia de un mob.', '']
+        for a in resto:
+            tipos = [t for t in (crudo['arboles'][a['id']].get('MobTypes') or [])]
+            hab = '; '.join(f'{h["n"]}: {h["t"]}' for h in a['h'])
+            L.append(f'* **{md(a["n"])}** ({md(", ".join(tipos))}): {md(hab)}')
+        L.append('')
+    return '\n'.join(L), dict(arboles=len(A))
+
+
 def main():
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--dry-run', action='store_true', help='no escribe, solo muestra los cambios')
-    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas', 'habilidades'], action='append')
+    ap.add_argument('--solo', choices=['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas', 'habilidades', 'fichas', 'arboles'], action='append')
     a = ap.parse_args()
-    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas', 'habilidades'])
+    quiere = set(a.solo or ['cajas', 'crafteos', 'mercado', 'encantamientos', 'mascotas', 'battlepass', 'brewery', 'recompensas', 'habilidades', 'fichas', 'arboles'])
+    if 'fichas' in quiere:
+        cuerpo, st = gen_mascotas_fichas()
+        inyecta(WIKI / 'towny' / 'mascotas-fichas.md', 'mascotas-fichas', cuerpo, a.dry_run, PAG_FICHAS)
+        print('  ', st)
+    if 'arboles' in quiere:
+        cuerpo, st = gen_mascotas_arboles()
+        inyecta(WIKI / 'towny' / 'mascotas-arboles.md', 'mascotas-arboles', cuerpo, a.dry_run, PAG_ARBOLES)
+        print('  ', st)
     if 'cajas' in quiere:
         cuerpo, st = gen_cajas()
         inyecta(WIKI / 'towny' / 'cajas.md', 'cajas', cuerpo, a.dry_run)
