@@ -26,3 +26,11 @@ La modalidad Skyblock se archivó el 2026-11-01: sus páginas están en `_archiv
 
 - La versión de Minecraft (26.3), la fecha de apertura (24/10/2026, tomada de la configuración del portal) y la invitación de Discord (YDJKpgEU3m, la misma que usan las webs) se escribieron a partir de los archivos del servidor y las webs: confirmarlas.
 - Las páginas towny/encantamientos.md, towny/mascotas.md y towny/battlepass.md tienen secciones generadas: tras cambiar esos plugins ejecuta los generadores (ver README.md).
+
+## Auditoría de MyPet 2026-11-08 (solo lectura; no se cambió nada en el servidor)
+
+- Las 190 mascotas de la tienda tienen tipo en `pet-config.yml`, vida y velocidad propias y entre 4 y 9 árboles; los 171 árboles se pueden alcanzar (sin requisitos ni herencias rotas). Nombres, rarezas y precios coinciden entre la tienda de DeluxeMenus y el catálogo web.
+- 14 árboles citan tipos que no existen en `pet-config.yml` (`Chameleon` en 8 y `Capybara` en 6): MyPet los ignora; se pueden quitar de los `MobTypes`.
+- Cinco descripciones genéricas se repiten en 25 mascotas («Una criatura voladora legendaria», «Una criatura voladora», «Un globito que te sigue», «Un gólem de piedra mágica», «Un zorro de nueve colas»).
+- 63 mascotas no pueden usarse de montura en ningún árbol (los 6 Globos, los Cubee dulces, etc.) y 41 no tienen habilidad de daño (mascotas de apoyo). Es decisión de diseño; confirmar que es lo que se quiere.
+- Cómo regenerar: `python tools/mypet_datos.py <plugins> <servidor-web>/public/assets/mascotas/detalle.json` y `generar_wiki.py --solo fichas --solo arboles`.
