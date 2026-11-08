@@ -28,17 +28,12 @@ El sistema **QuickShop** permite crear tiendas físicas en el mundo colocando un
 | **Plugin**                        | QuickShop-Hikari |
 | **Costo de crear tienda**         | $1,000           |
 | **Límite de tiendas por jugador** | 50               |
-| **Mercado principal**             | `/warp mercado`  |
 
 ### 📜 Comandos
 
 | Comando           | Descripción                                  |
 | ***************-- | ******************************************-- |
 | `/qs find [ítem]` | Buscar tiendas que venden un ítem específico |
-
-{% hint style="info" %}
-El mercado principal está en `/warp comercio`, donde puedes alquilar un local para instalar tus tiendas.
-{% endhint %}
 
 ***
 

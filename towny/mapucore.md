@@ -32,7 +32,7 @@ Las opciones de personalización se pagan con **dinero del servidor**. Estos son
 
 ## 🎨 Modelos
 
-Los modelos son skins 3D para tus armas y herramientas. Necesitas **tener el modelo** (se compra con MapuPoints en `/warp modelos`) y un **Ticket** del `/adminshop`. Solo funcionan con modelos del servidor, y **no puedes poner un modelo encima de otro**.
+Los modelos son skins 3D para tus armas y herramientas. Necesitas **tener el modelo** (se compra con MapuPoints) y un **Ticket** del `/adminshop`. Solo funcionan con modelos del servidor, y **no puedes poner un modelo encima de otro**.
 
 ## ✍️ Nombre y lore
 

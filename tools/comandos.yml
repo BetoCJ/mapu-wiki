@@ -135,10 +135,6 @@ embeds:
         descripcion: "crea una tienda en un cofre"
         permiso: "todos"
         modo: towny
-      - name: "/warp comercio"
-        descripcion: "zona de tiendas de jugadores"
-        permiso: "todos"
-        modo: towny
       - name: "/adminshop"
         descripcion: "tienda del servidor"
         permiso: "todos"

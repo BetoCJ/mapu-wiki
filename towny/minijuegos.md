@@ -92,7 +92,6 @@ Compite construyendo la mejor obra según el tema anunciado. Los demás jugadore
 
 | | |
 |---|---|
-| **Warp** | `/warp buildbattle` |
 | **Cómo unirse** | Clic derecho en el cartel de la sala |
 | **Premio** | Top 3 ganan recompensas |
 
@@ -127,7 +126,6 @@ Evento especial donde debes navegar un laberinto para llegar a la meta.
 
 | | |
 |---|---|
-| **Warp** | `/warp laberinto` |
 | **Tipo** | Evento comunitario programado |
 
 ***

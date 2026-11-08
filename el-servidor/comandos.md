@@ -58,7 +58,6 @@ Esta es la lista de comandos del servidor y del bot de Discord. También está p
 | `/ah` | casa de subastas | Todos | Towny |
 | `/ah sell <precio>` | vende el ítem que tienes en la mano | Todos | Towny |
 | `/qs create <precio>` | crea una tienda en un cofre | Todos | Towny |
-| `/warp comercio` | zona de tiendas de jugadores | Todos | Towny |
 | `/adminshop` · `/shop` | tienda del servidor | Todos | Towny |
 | `/trade <jugador>` | intercambio seguro, sin estafas | Todos | Towny |
 

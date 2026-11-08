@@ -24,7 +24,7 @@ Dirígete al NPC de **Canje de Coins** en el spawn principal. Ahí puedes conver
 
 ## 🧊 Ítems Personalizados 3D
 
-En `/warp personalizados` encontrarás ítems con modelos 3D exclusivos del servidor. Estos ítems tienen apariencias únicas creadas por el equipo de Mapucraft.
+Hay ítems con modelos 3D exclusivos del servidor. Estos ítems tienen apariencias únicas creadas por el equipo de Mapucraft.
 
 {% hint style="warning" %}
 **Requieren Java Edition + Paquete de Recursos.** Al entrar al warp se te pedirá aceptar el texturepack. Si no lo aceptas, verás los ítems como objetos vanilla normales.
@@ -41,7 +41,6 @@ En `/warp personalizados` encontrarás ítems con modelos 3D exclusivos del serv
 | Comando | Descripción |
 |---|---|
 | `/warp cosmeticos` | Ir a la tienda de cosméticos |
-| `/warp personalizados` | Ver ítems 3D exclusivos |
 | `/points balance` | Ver tus MapuPoints actuales |
 | `/points pay [jugador] [cantidad]` | Transferir MapuPoints a otro jugador |
 
