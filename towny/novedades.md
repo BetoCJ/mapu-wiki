@@ -8,6 +8,17 @@ Lo último que llegó a Mapucraft con la **temporada 2**.
 
 ***
 
+## 🗓️ Cambios del 9 al 10 de noviembre
+
+- **Mascotas nuevas:** llegan los **Sprout**, 10 brotes con modelo 3D (comunes, raras, épicas y una legendaria, de 120 a 800 MapuPoints). Los compras en `/tiendamascotas` y ya aparecen en la [web de mascotas](../webs/servidor-web.md).
+- **Muebles de herbolario:** 29 muebles nuevos (mesa de herboristería, alambique, frascos, telescopio y más) en la caja de **muebles**.
+- **Dungeons:** la Granada Aturdidora de la Dungeon 2 ahora funciona.
+- **Mochilas:** una mochila ya no se puede usar como ingrediente de crafteo (se perdía el contenido).
+- **Mensajes:** los avisos de muchos plugins (Casa de Subastas, Trabajos, Tiendas, Mascotas, Towny y más) quedaron en español y con el mismo estilo que el resto del servidor.
+- **Parkours:** puedes usar `/spawn` dentro de un parkour y `/mpk leave` te lleva al spawn.
+
+***
+
 ## 🗓️ Cambios del 3 al 8 de noviembre
 
 - **Lotería:** nueva lotería con sorteos todos los días a las 14:00 y 21:00. Mira [Lotería](loteria.md).
@@ -74,7 +85,7 @@ Mapucraft ahora tiene un [portal propio](../webs/servidor-web.md) con ciudades, 
 
 ## 🐾 Mascotas especiales
 
-Una tienda de **134 mascotas** con modelo 3D, de 120 a 800 MapuPoints, con visor interactivo en la web.
+Una tienda de **200 mascotas** con modelo 3D, de 120 a 800 MapuPoints, con visor interactivo en la web.
 
 → [Ver las mascotas](mascotas.md)
 

@@ -46,14 +46,14 @@ Antes de comprar puedes verlas todas **girando en 3D** en [servidor.mapucraft.co
 ## 📖 Catálogo completo
 
 <!-- AUTO:inicio mascotas -->
-Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
+Hay **200 mascotas especiales** a la venta. Cada una se compra con **MapuPoints** en `/mascotasespeciales` y se puede ver girando en 3D en [servidor.mapucraft.com/mascotas](https://servidor.mapucraft.com/mascotas).
 
 | Rareza | Precio | Mascotas |
 |---|---:|---:|
-| 🟢 Comunes | 120 MapuPoints | 38 |
-| 🔵 Raras | 250 MapuPoints | 47 |
-| 🟣 Épicas | 450 MapuPoints | 52 |
-| 🟡 Legendarias | 800 MapuPoints | 53 |
+| 🟢 Comunes | 120 MapuPoints | 39 |
+| 🔵 Raras | 250 MapuPoints | 51 |
+| 🟣 Épicas | 450 MapuPoints | 56 |
+| 🟡 Legendarias | 800 MapuPoints | 54 |
 
 ### 🟢 Comunes · 120 MapuPoints
 
@@ -97,6 +97,7 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Robot Data** | Un robot curioso lleno de circuitos. |
 | **Robot Long Bottom** | Un robot de patas largas y paso firme. |
 | **Snoopy** | El famoso beagle, siempre a tu lado. |
+| **Sprout** | Un brote curioso que te sigue. |
 
 ### 🔵 Raras · 250 MapuPoints
 
@@ -145,6 +146,10 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Smilodon de la Sabana** | Un felino de colmillos enormes. |
 | **Snoopy Malvado** | Un Snoopy con muy malas intenciones. |
 | **Sonic** | Gotta go fast! |
+| **Sprout Anciano** | Un brote sabio con siglos de raíces. |
+| **Sprout de Cosecha** | Un brote con aroma a cosecha. |
+| **Sprout Florecido** | Un brote cubierto de flores. |
+| **Sprout Rex** | Un dinosaurio verde que ruge bajito. |
 | **Tails** | El mejor amigo de Sonic. |
 | **Trevius Mini** | La versión adorable del jefe Trevius. |
 | **Wendigo Navideño** | Un wendigo con espíritu navideño. |
@@ -204,6 +209,10 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Shadow** | La forma de vida definitiva. |
 | **Smilodon de Medianoche** | Caza mientras todos duermen. |
 | **Smilodon Ártico** | Colmillos de hielo y piel blanca. |
+| **Sprout Espectral** | Un brote de otro mundo. |
+| **Sprout Rex Anciano** | Un rex antiguo cubierto de musgo. |
+| **Sprout Rex de Cosecha** | Un rex que protege los cultivos. |
+| **Sprout Rex Florecido** | Un rex que huele a primavera. |
 | **Unicornio** | Una criatura mágica. |
 | **Warden Mini** | Un Warden pequeñito... pero Warden. |
 
@@ -259,6 +268,7 @@ Hay **134 mascotas especiales** a la venta. Cada una se compra con **MapuPoints*
 | **Mega Mewtwo Y** | La mente más poderosa jamás creada. |
 | **Mega Rayquaza** | El dragón que domina los cielos. |
 | **Pegaso** | Una criatura voladora. |
+| **Sprout Rex Espectral** | El rex fantasma del bosque. |
 | **Super Sonic** | Sonic con las Esmeraldas del Caos. |
 | **Wyvern del End** | Una criatura voladora legendaria. |
 | **Wyvern Infernal** | Una criatura voladora legendaria. |

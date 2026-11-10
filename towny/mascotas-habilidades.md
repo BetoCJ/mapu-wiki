@@ -19,7 +19,7 @@ Cada familia tiene un **árbol de habilidades de firma** (✦) que se elige al l
 |---|---|---|
 | **✦ Llama Ardiente** | Caballo de Magma, Cubee Dragón de Fuego, Dragón Rojo, Fuego Fatuo, Fénix, Fénix de Fuego, Gato de Fuego, Guardián del Nether, Gólem de Magma, Lagarto de Lava, Mega Blaziken, Mega Charizard X, Wyvern Infernal | ✦ Llama Eterna |
 | **✦ Aliento Glacial** | Búho Nevado, Caballo Glacial, Cabra de Escarcha, Cubee Dragón de Hielo, Elemental de Hielo, Gremlin Nevado, Murciélago Nevado, Papá Noel, Pingüino, Rana Permafrost, Reno Navideño, Wendigo Navideño, Yak Nevado | ✦ Invierno Eterno |
-| **✦ Raíz Viva** | Cubee Dragón de la Naturaleza, Dragón Verde, Elemental Ancestral, Elemental del Bosque, Flor Sanadora, Lobo Maderero, Mega Sceptile, Mega Venusaur, Rana Real, Rana Verde, Semillita | ✦ Bosque Eterno |
+| **✦ Raíz Viva** | Cubee Dragón de la Naturaleza, Dragón Verde, Elemental Ancestral, Elemental del Bosque, Flor Sanadora, Lobo Maderero, Mega Sceptile, Mega Venusaur, Rana Real, Rana Verde, Semillita, Sprout, Sprout Anciano, Sprout de Cosecha, Sprout Espectral, Sprout Florecido, Sprout Rex, Sprout Rex Anciano, Sprout Rex de Cosecha, Sprout Rex Espectral, Sprout Rex Florecido | ✦ Bosque Eterno |
 | **✦ Furia de Tormenta** | Cubee Dragón del Aire, Fénix del Trueno, Lobo-Halcón Tormenta, Mega Ampharos, Pikachu Playa, Robot Magnético | ✦ Tormenta Perfecta |
 | **✦ Velo de Sombras** | Caballero de la Muerte, Cubee Bruja Gótica, Cubee Brujo Esqueleto, Cubee Dragón de la Oscuridad, Cubee Escritor de la Muerte, Cubee Gato de Ébano, Cubee Tejedor de Almas, Dragón Warden, Dunkle, Dunkle Gigante, Elemental Oscuro, Fantasma del End, Fantasma Espectral, Fénix de Llama Oscura, Gato Caído, Hechicero del End, Lobo-Halcón Caído, Lobo-Halcón Luna Llena, Mega Gengar, Segador, Shadow, Snoopy Malvado, Warden Mini, Wyvern del End, Wyvern No-Muerto | ✦ Noche Eterna |
 | **✦ Luz Sanadora** | Amy, Cubee Dragón de Luz, Dragón Dorado, Fénix de Luz, Mega Diancie, Super Sonic, Unicornio | ✦ Amanecer |
@@ -66,7 +66,7 @@ Cada familia tiene un **árbol de habilidades de firma** (✦) que se elige al l
 - **Curación**: Se regenera sola con el tiempo
 - **Veneno**: Sus golpes envenenan
 - **Faro**: Da regeneración a quienes la rodean
-- 🟡 **✦ Bosque Eterno** (nivel 50, solo legendarias): Cubee Dragón de la Naturaleza
+- 🟡 **✦ Bosque Eterno** (nivel 50, solo legendarias): Cubee Dragón de la Naturaleza, Sprout Rex Espectral
 
 ### ✦ Furia de Tormenta
 

@@ -23,6 +23,8 @@ _nivel 1_
 * Golpes de Daño y de Wither
 * Huesos endurecidos (vida extra)
 * Lentitud escalofriante al golpear
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
@@ -30,6 +32,7 @@ _nivel 1_
 * **Vida extra:** +6 de vida _(desde nv. 3)_
 * **Wither:** 25% de probabilidad de aplicar Wither al objetivo por 5 s _(desde nv. 8)_
 * **Ralentización:** 25% de probabilidad de ralentizar al objetivo por 3 s _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Artrópodo
 
@@ -41,6 +44,8 @@ _nivel 1_
 * Veneno paralizante
 * Heridas de Sangrado desgarradoras
 * Arranques de Carrera escurridizos
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
@@ -48,6 +53,7 @@ _nivel 1_
 * **Sangrado:** 25% de probabilidad de causar sangrado (1,5 de daño, 3 s) _(desde nv. 12)_
 * **Veneno:** 35% de probabilidad de envenenar al objetivo por 5 s _(desde nv. 8)_
 * **Carrera:** corre hacia sus objetivos _(desde nv. 15)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Illager
 
@@ -59,12 +65,15 @@ _nivel 1_
 * Remate cuerpo a cuerpo con Daño
 * Golpe de escudo con Empuje
 * Frascos de Pociones lanzados desde la retaguardia
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
 * **Daño:** +4,5 de daño _(desde nv. 3)_
 * **Empuje:** 35% de probabilidad de empujar al objetivo _(desde nv. 12)_
 * **Ataque a distancia:** dispara flechas con 6 de daño
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Pociones:** lanza pociones: Veneno, Debilidad _(desde nv. 15)_
 
 ### Constructo
@@ -78,6 +87,8 @@ _nivel 1 · lo usan 1 mascota(s): Gólem de Piedra Azul_
 * Desviación con Escudo
 * Un Pisotón que sacude el suelo
 * Placas de Armadura y la habilidad Provocar para volverse el blanco
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
@@ -86,6 +97,7 @@ _nivel 1 · lo usan 1 mascota(s): Gólem de Piedra Azul_
 * **Espinas:** 25% de probabilidad de devolver el 18% del daño recibido _(desde nv. 3)_
 * **Escudo:** 35% de probabilidad de desviar el 25% del daño que recibes hacia la mascota _(desde nv. 8)_
 * **Pisotón:** 35% de probabilidad de dar un pisotón de 3 de daño en 2,5 bloques _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Provocar:** provoca a mobs hostiles (alcance 12, cada 5 s) _(desde nv. 10)_
 
 ### Nether
@@ -97,12 +109,15 @@ _nivel 1_
 * Golpes de Daño
 * Fuego abrasador al golpear
 * Fuerza de Empuje
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
 * **Daño:** +8 de daño
 * **Fuego:** 35% de probabilidad de prender fuego al objetivo por 5 s _(desde nv. 3)_
 * **Empuje:** 35% de probabilidad de empujar al objetivo _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### End
 
@@ -113,28 +128,34 @@ _nivel 1_
 * Golpes de Daño del vacío
 * Arranques de Carrera como un parpadeo
 * Desplazamiento con Empuje
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
 * **Daño:** +8 de daño
 * **Empuje:** 35% de probabilidad de empujar al objetivo _(desde nv. 12)_
 * **Carrera:** corre hacia sus objetivos _(desde nv. 8)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Depredador
 
-_nivel 1 · lo usan 89 mascota(s): Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballero Oscuro de la Espada, Caballero Oscuro del Hacha, Caballero Oscuro Encapuchado, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein, Chibi Momia, Cubee Anti-Mago, Cubee Bruja Gótica y 77 más_
+_nivel 1 · lo usan 99 mascota(s): Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballero Oscuro de la Espada, Caballero Oscuro del Hacha, Caballero Oscuro Encapuchado, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein, Chibi Momia, Cubee Anti-Mago, Cubee Bruja Gótica y 87 más_
 
 *Nacido para cazar, criado para matar.*
 
 * Mordidas y zarpazos de Daño
 * Heridas desgarradoras de Sangrado
 * Arranques de Carrera para abalanzarse
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
 * **Daño:** +8 de daño
 * **Sangrado:** 25% de probabilidad de causar sangrado (1,5 de daño, 3 s) _(desde nv. 8)_
 * **Carrera:** corre hacia sus objetivos _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Compañero
 
@@ -147,6 +168,8 @@ _nivel 1 · lo usan 59 mascota(s): Caballo de Magma, Caballo Espartano, Caballo 
 * Coraza de Espinas
 * Desviación con Escudo
 * Placas de Armadura y la habilidad Provocar para alejar el peligro de ti
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
@@ -154,6 +177,7 @@ _nivel 1 · lo usan 59 mascota(s): Caballo de Magma, Caballo Espartano, Caballo 
 * **Armadura:** +6 de armadura y +4 de dureza _(desde nv. 8)_
 * **Espinas:** 25% de probabilidad de devolver el 18% del daño recibido _(desde nv. 8)_
 * **Escudo:** 35% de probabilidad de desviar el 25% del daño que recibes hacia la mascota _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Provocar:** provoca a mobs hostiles (alcance 12, cada 5 s) _(desde nv. 10)_
 * **Curación:** +2 de vida por pulso (el intervalo se acorta 35 s en total) _(desde nv. 3)_
 
@@ -167,17 +191,22 @@ _nivel 1 · lo usan 41 mascota(s): Amy, Bebé Tiburón, Búho Nevado, Cabra de E
 * Arranques veloces de Carrera
 * Ralentización molesta al golpear
 * Alcance de Recolección de dedos ligeros
+* Comportamientos /pb: Amistoso (1), Agresivo (6), Granja (10), Asalto (14), Duelo (18)
+* Olfato Desentierra objetos cada cierto tiempo
+* Control Guíala con la correa (nv 10)
 
 **Habilidades al nivel 100:**
 
 * **Ralentización:** 25% de probabilidad de ralentizar al objetivo por 3 s _(desde nv. 8)_
 * **Empuje:** 65% de probabilidad de empujar al objetivo
 * **Carrera:** corre hacia sus objetivos _(desde nv. 3)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Recolección:** recoge objetos en 2,5 bloques y experiencia _(desde nv. 12)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 
 ### Guardián de la Tierra
 
-_nivel 1 · lo usan 129 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballero Oscuro de la Espada, Caballero Oscuro del Hacha, Caballero Oscuro Encapuchado, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara y 117 más_
+_nivel 1 · lo usan 139 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballero Oscuro de la Espada, Caballero Oscuro del Hacha, Caballero Oscuro Encapuchado, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara y 127 más_
 
 *Una mano firme mantiene al rebaño alimentado y reunido.*
 
@@ -185,6 +214,8 @@ _nivel 1 · lo usan 129 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Ca
 * Alcance de Recolección
 * Aura de Faro que da Prisa
 * Minería y Leñador para trabajar la tierra, con una Caja de herramientas de estaciones a mano
+* Comportamientos /pb: Amistoso (1), Granja (10)
+* Olfato Desentierra objetos cada cierto tiempo
 
 **Habilidades al nivel 100:**
 
@@ -193,6 +224,7 @@ _nivel 1 · lo usan 129 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Ca
 * **Faro:** faro con Prisa (alcance 8 bloques, 6 s, hasta 1 efecto(s)) _(desde nv. 12)_
 * **Minería:** mina menas cercanas (alcance 6, cada 90 s) _(desde nv. 12)_
 * **Leñador:** tala árboles cercanos (alcance 6, cada 90 s) _(desde nv. 14)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 * **Caja de herramientas:** abre mesa de trabajo, mesa de herrería _(desde nv. 10)_
 
 ### Guardián del Cielo
@@ -205,12 +237,15 @@ _nivel 1 · lo usan 61 mascota(s): Bebé Tiburón, Búho Nevado, Conejo Alado, C
 * Alcance de Recolección
 * Aura de Faro temprana, azotada por el viento
 * Una Caja de herramientas con estaciones de trabajo subidas al nido
+* Comportamientos /pb: Amistoso (1), Granja (10)
+* Olfato Desentierra objetos cada cierto tiempo
 
 **Habilidades al nivel 100:**
 
 * **Recolección:** recoge objetos en 4 bloques y experiencia _(desde nv. 3)_
 * **Mochila:** mochila de 2 fila(s) (18 espacios)
 * **Faro:** faro con Velocidad, Salto (alcance 8 bloques, 6 s, hasta 2 efecto(s)) _(desde nv. 8)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 * **Caja de herramientas:** abre mesa de trabajo, mesa de herrería _(desde nv. 10)_
 
 ### Guardián del Océano
@@ -223,6 +258,8 @@ _nivel 1_
 * Corriente de Recolección de largo alcance
 * Aura de Faro bioluminiscente
 * Pesca en el arrecife de lo que ofrezca la marea
+* Comportamientos /pb: Amistoso (1), Granja (10)
+* Olfato Desentierra objetos cada cierto tiempo
 
 **Habilidades al nivel 100:**
 
@@ -230,6 +267,7 @@ _nivel 1_
 * **Mochila:** mochila de 3 fila(s) (27 espacios)
 * **Faro:** faro con Visión nocturna, Respiración acuática (alcance 8 bloques, 8 s, hasta 2 efecto(s)) _(desde nv. 12)_
 * **Pesca:** pesca en agua cercana (alcance 6, cada 90 s) _(desde nv. 12)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 
 ### Guardián de la Costa
 
@@ -241,6 +279,8 @@ _nivel 1_
 * Corriente de Recolección de largo alcance
 * Aura de Faro mixta
 * Pesca en las aguas bajas entre la marea y la orilla
+* Comportamientos /pb: Amistoso (1), Granja (10)
+* Olfato Desentierra objetos cada cierto tiempo
 
 **Habilidades al nivel 100:**
 
@@ -248,6 +288,7 @@ _nivel 1_
 * **Mochila:** mochila de 3 fila(s) (27 espacios)
 * **Faro:** faro con Regeneración, Respiración acuática (alcance 8 bloques, 6 s, hasta 2 efecto(s)) _(desde nv. 12)_
 * **Pesca:** pesca en agua cercana (alcance 6, cada 90 s) _(desde nv. 12)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 
 ### Viajero de la Tierra
 
@@ -259,6 +300,7 @@ _nivel 1_
 * Arranques de Carrera al galope
 * Control de dirección preciso
 * Escalar las cornisas que antes lo detenían
+* Comportamientos /pb: Amistoso (1)
 
 **Habilidades al nivel 100:**
 
@@ -269,13 +311,14 @@ _nivel 1_
 
 ### Viajero de la Tierra
 
-_nivel 1 · lo usan 129 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballero Oscuro de la Espada, Caballero Oscuro del Hacha, Caballero Oscuro Encapuchado, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara y 117 más_
+_nivel 1 · lo usan 139 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballero Oscuro de la Espada, Caballero Oscuro del Hacha, Caballero Oscuro Encapuchado, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara y 127 más_
 
 *Devora el terreno kilómetro a kilómetro.*
 
 * Arranques de Carrera al galope
 * Control de dirección preciso
 * Escalar las cornisas que antes lo detenían
+* Comportamientos /pb: Amistoso (1)
 
 **Habilidades al nivel 100:**
 
@@ -292,6 +335,7 @@ _nivel 1_
 * Monta a tu mascota
 * Arranques de Carrera en vuelo
 * Control de dirección preciso
+* Comportamientos /pb: Amistoso (1)
 
 **Habilidades al nivel 100:**
 
@@ -307,6 +351,7 @@ _nivel 1 · lo usan 61 mascota(s): Bebé Tiburón, Búho Nevado, Conejo Alado, C
 
 * Arranques de Carrera en vuelo
 * Control de dirección preciso
+* Comportamientos /pb: Amistoso (1)
 
 **Habilidades al nivel 100:**
 
@@ -322,6 +367,7 @@ _nivel 1_
 * Monta a tu mascota
 * Arranques de Carrera impetuosos
 * Control de dirección preciso
+* Comportamientos /pb: Amistoso (1)
 
 **Habilidades al nivel 100:**
 
@@ -338,6 +384,7 @@ _nivel 1_
 * Monta a tu mascota
 * Arranques de Carrera a saltos
 * Control de dirección preciso
+* Comportamientos /pb: Amistoso (1)
 
 **Habilidades al nivel 100:**
 
@@ -363,6 +410,7 @@ _nivel 20 · desde: No-muerto_
 * **Vida extra:** +22 de vida _(desde nv. 3)_
 * **Wither:** 25% de probabilidad de aplicar Wither al objetivo por 5 s _(desde nv. 8)_
 * **Ralentización:** 25% de probabilidad de ralentizar al objetivo por 3 s _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Curación:** +1 de vida por pulso (el intervalo se acorta 10 s en total) _(desde nv. 30)_
 
 ### Reina de la Nidada
@@ -382,6 +430,7 @@ _nivel 20 · desde: Artrópodo_
 * **Sangrado:** 25% de probabilidad de causar sangrado (1,5 de daño, 3 s) _(desde nv. 12)_
 * **Veneno:** 35% de probabilidad de envenenar al objetivo por 5 s _(desde nv. 8)_
 * **Carrera:** corre hacia sus objetivos _(desde nv. 15)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Capitán de Asalto
 
@@ -400,6 +449,7 @@ _nivel 20 · desde: Illager_
 * **Escudo:** 20% de probabilidad de desviar el 15% del daño que recibes hacia la mascota _(desde nv. 30)_
 * **Empuje:** 35% de probabilidad de empujar al objetivo _(desde nv. 12)_
 * **Ataque a distancia:** dispara flechas con 21 de daño
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Pociones:** lanza pociones: Veneno, Debilidad, Veneno, Daño instantáneo, Lentitud _(desde nv. 15)_
 
 ### Coloso
@@ -421,6 +471,7 @@ _nivel 20 · desde: Constructo · lo usan 1 mascota(s): Gólem de Piedra Azul_
 * **Escudo:** 35% de probabilidad de desviar el 25% del daño que recibes hacia la mascota _(desde nv. 8)_
 * **Empuje:** 20% de probabilidad de empujar al objetivo _(desde nv. 30)_
 * **Pisotón:** 35% de probabilidad de dar un pisotón de 3 de daño en 2,5 bloques _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Provocar:** provoca a mobs hostiles (alcance 28, cada 9 s) _(desde nv. 10)_
 
 ### Hijo del Nether
@@ -439,6 +490,7 @@ _nivel 20 · desde: Nether_
 * **Fuego:** 35% de probabilidad de prender fuego al objetivo por 5 s _(desde nv. 3)_
 * **Empuje:** 35% de probabilidad de empujar al objetivo _(desde nv. 12)_
 * **Ataque a distancia:** dispara bolas de fuego pequeñas con 2 de daño _(desde nv. 30)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Hijo del Vacío
 
@@ -456,10 +508,11 @@ _nivel 20 · desde: End_
 * **Vida extra:** +2 de vida _(desde nv. 30)_
 * **Empuje:** 35% de probabilidad de empujar al objetivo _(desde nv. 12)_
 * **Carrera:** corre hacia sus objetivos _(desde nv. 8)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Depredador Supremo
 
-_nivel 20 · desde: Depredador · lo usan 80 mascota(s): Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein, Chibi Momia, Cubee Anti-Mago, Cubee Bruja Gótica, Cubee Brujo Esqueleto, Cubee Cangrejo Caramelo, Cubee Cyborg Destructor y 68 más_
+_nivel 20 · desde: Depredador · lo usan 90 mascota(s): Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein, Chibi Momia, Cubee Anti-Mago, Cubee Bruja Gótica, Cubee Brujo Esqueleto, Cubee Cangrejo Caramelo, Cubee Cyborg Destructor y 78 más_
 
 *La cima de la cadena alimenticia, y lo sabe.*
 
@@ -473,6 +526,7 @@ _nivel 20 · desde: Depredador · lo usan 80 mascota(s): Araña Calabaza, Caball
 * **Vida extra:** +2 de vida _(desde nv. 30)_
 * **Sangrado:** 25% de probabilidad de causar sangrado (1,5 de daño, 3 s) _(desde nv. 8)_
 * **Carrera:** corre hacia sus objetivos _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 
 ### Vínculo
 
@@ -491,6 +545,7 @@ _nivel 20 · desde: Compañero · lo usan 45 mascota(s): Caballo de Magma, Cabal
 * **Armadura:** +13 de armadura y +6 de dureza _(desde nv. 8)_
 * **Espinas:** 25% de probabilidad de devolver el 18% del daño recibido _(desde nv. 8)_
 * **Escudo:** 35% de probabilidad de desviar el 25% del daño que recibes hacia la mascota _(desde nv. 12)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Faro:** faro con Regeneración (alcance 8 bloques, 6 s, hasta 1 efecto(s)) _(desde nv. 30)_
 * **Provocar:** provoca a mobs hostiles (alcance 28, cada 9 s) _(desde nv. 10)_
 * **Curación:** +2 de vida por pulso (el intervalo se acorta 35 s en total) _(desde nv. 3)_
@@ -511,11 +566,13 @@ _nivel 20 · desde: Travieso · lo usan 41 mascota(s): Amy, Bebé Tiburón, Búh
 * **Ralentización:** 25% de probabilidad de ralentizar al objetivo por 3 s _(desde nv. 8)_
 * **Empuje:** 100% de probabilidad de empujar al objetivo
 * **Carrera:** corre hacia sus objetivos _(desde nv. 3)_
+* **Control:** se puede dirigir con un ítem _(desde nv. 10)_
 * **Recolección:** recoge objetos en 2,5 bloques y experiencia _(desde nv. 12)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 
 ### Custodio de la Tierra
 
-_nivel 20 · desde: Guardián de la Tierra · lo usan 114 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein y 102 más_
+_nivel 20 · desde: Guardián de la Tierra · lo usan 124 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein y 112 más_
 
 *El cuidador del rebaño se vuelve su guardián de por vida.*
 
@@ -531,6 +588,7 @@ _nivel 20 · desde: Guardián de la Tierra · lo usan 114 mascota(s): Amy, Arañ
 * **Faro:** faro con Prisa, Fuerza (alcance 12 bloques, 10 s, hasta 2 efecto(s)) _(desde nv. 12)_
 * **Minería:** mina menas cercanas (alcance 9, cada 66 s, sin herramienta) _(desde nv. 12)_
 * **Leñador:** tala árboles cercanos (alcance 9, cada 66 s, sin herramienta) _(desde nv. 14)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 * **Caja de herramientas:** abre mesa de trabajo, mesa de herrería, yunque, piedra de afilar, cortapiedras, telar, mesa de cartografía _(desde nv. 10)_
 
 ### Custodio del Cielo
@@ -549,6 +607,7 @@ _nivel 20 · desde: Guardián del Cielo · lo usan 53 mascota(s): Bebé Tiburón
 * **Recolección:** recoge objetos en 11,5 bloques y experiencia _(desde nv. 3)_
 * **Mochila:** mochila de 3 fila(s) (27 espacios)
 * **Faro:** faro con Velocidad, Salto, Absorción (alcance 12 bloques, 10 s, hasta 3 efecto(s)) _(desde nv. 8)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 * **Caja de herramientas:** abre mesa de trabajo, mesa de herrería, yunque, piedra de afilar, cortapiedras, telar, mesa de cartografía _(desde nv. 10)_
 
 ### Custodio del Océano
@@ -568,6 +627,7 @@ _nivel 20 · desde: Guardián del Océano_
 * **Mochila:** mochila de 4 fila(s) (36 espacios)
 * **Faro:** faro con Visión nocturna, Respiración acuática, Regeneración (alcance 12 bloques, 12 s, hasta 3 efecto(s)) _(desde nv. 12)_
 * **Pesca:** pesca en agua cercana (alcance 9, cada 66 s, sin herramienta) _(desde nv. 12)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 
 ### Custodio de la Costa
 
@@ -586,6 +646,7 @@ _nivel 20 · desde: Guardián de la Costa_
 * **Mochila:** mochila de 4 fila(s) (36 espacios)
 * **Faro:** faro con Regeneración, Respiración acuática, Fuerza (alcance 12 bloques, 10 s, hasta 3 efecto(s)) _(desde nv. 12)_
 * **Pesca:** pesca en agua cercana (alcance 9, cada 66 s, sin herramienta) _(desde nv. 12)_
+* **Olfato:** olfatea un objeto cada 110 s _(desde nv. 12)_
 
 ### Explorador de la Tierra
 
@@ -607,7 +668,7 @@ _nivel 20 · desde: Viajero de la Tierra_
 
 ### Explorador de la Tierra
 
-_nivel 20 · desde: Viajero de la Tierra · lo usan 114 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein y 102 más_
+_nivel 20 · desde: Viajero de la Tierra · lo usan 124 mascota(s): Amy, Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Caballo de Magma, Caballo Espartano, Caballo Glacial, Cabra de Escarcha, Capibara, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein y 112 más_
 
 *Ya no hay terreno que lo frene.*
 
@@ -877,7 +938,7 @@ _nivel 20 · desde: Depredador, Guardián de la Tierra, Viajero de la Tierra · 
 
 ### Táctica de Manada
 
-_nivel 20 · desde: Depredador, Guardián de la Tierra, Viajero de la Tierra · lo usan 63 mascota(s): Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein, Chibi Momia, Cubee Anti-Mago, Cubee Bruja Gótica, Cubee Brujo Esqueleto, Cubee Cyborg Destructor, Cubee Escritor de la Muerte y 51 más_
+_nivel 20 · desde: Depredador, Guardián de la Tierra, Viajero de la Tierra · lo usan 73 mascota(s): Araña Calabaza, Caballero Calabaza, Caballero de la Muerte, Chibi Diablillo, Chibi Espantapájaros, Chibi Frankenstein, Chibi Momia, Cubee Anti-Mago, Cubee Bruja Gótica, Cubee Brujo Esqueleto, Cubee Cyborg Destructor, Cubee Escritor de la Muerte y 61 más_
 
 *Nunca deja de pelear de verdad: solo cambia de ángulo.*
 
@@ -952,7 +1013,7 @@ _nivel 20 · desde: Compañero, Guardián de la Tierra, Viajero de la Tierra, De
 
 ### Raíz Viva
 
-_nivel 20 · desde: Compañero, Guardián de la Tierra, Viajero de la Tierra, Depredador, Travieso, Guardián del Cielo, Viajero del Cielo · lo usan 11 mascota(s): Cubee Dragón de la Naturaleza, Dragón Verde, Elemental Ancestral, Elemental del Bosque, Flor Sanadora, Lobo Maderero, Mega Sceptile, Mega Venusaur, Rana Real, Rana Verde, Semillita_
+_nivel 20 · desde: Compañero, Guardián de la Tierra, Viajero de la Tierra, Depredador, Travieso, Guardián del Cielo, Viajero del Cielo · lo usan 21 mascota(s): Cubee Dragón de la Naturaleza, Dragón Verde, Elemental Ancestral, Elemental del Bosque, Flor Sanadora, Lobo Maderero, Mega Sceptile, Mega Venusaur, Rana Real, Rana Verde, Semillita, Sprout y 9 más_
 
 *Crece mientras luchas.*
 
@@ -1411,7 +1472,7 @@ _nivel 50 · desde: Aliento Glacial · lo usan 1 mascota(s): Cubee Dragón de Hi
 
 ### Bosque Eterno
 
-_nivel 50 · desde: Raíz Viva · lo usan 1 mascota(s): Cubee Dragón de la Naturaleza_
+_nivel 50 · desde: Raíz Viva · lo usan 2 mascota(s): Cubee Dragón de la Naturaleza, Sprout Rex Espectral_
 
 *El bosque entero respira con ella.*
 

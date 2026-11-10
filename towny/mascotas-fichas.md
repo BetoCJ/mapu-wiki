@@ -12,9 +12,9 @@ Para ver qué hace cada árbol (daño, vida, faro, montura, mochila…) con sus 
 ***
 
 <!-- AUTO:inicio mascotas-fichas -->
-Hay **190 mascotas especiales** a la venta.
+Hay **200 mascotas especiales** a la venta.
 
-## Comúns · 120 MapuPoints (38)
+## Comunes · 120 MapuPoints (39)
 
 Vida base de 10 a 22 puntos.
 
@@ -58,8 +58,9 @@ Vida base de 10 a 22 puntos.
 | **Robot Data** | 22 | 0.35 | No | polvo de redstone | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Blindaje Mecánico |
 | **Robot Long Bottom** | 22 | 0.35 | No | lingote de hierro | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Blindaje Mecánico |
 | **Snoopy** | 22 | 0.35 | No | galleta | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada |
+| **Sprout** | 22 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
 
-## Raras · 250 MapuPoints (47)
+## Raras · 250 MapuPoints (51)
 
 Vida base de 14 a 38 puntos.
 
@@ -108,12 +109,16 @@ Vida base de 14 a 38 puntos.
 | **Smilodon de la Sabana** | 36 | 0.4 | No | carne de vaca, pollo | Compañero / Guardián de la Tierra / Viajero de la Tierra | ✦ Colmillo de Sable |
 | **Snoopy Malvado** | 30 | 0.35 | No | galleta | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Velo de Sombras |
 | **Sonic** | 22 | 0.42 | No | manzana dorada, manzana | Travieso / Guardián de la Tierra / Viajero de la Tierra | Amenaza, Custodio de la Tierra, Explorador de la Tierra · ✦ Salto Felino, ✦ Velocidad Supersónica |
+| **Sprout Anciano** | 24 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
+| **Sprout de Cosecha** | 24 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
+| **Sprout Florecido** | 24 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
+| **Sprout Rex** | 24 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
 | **Tails** | 20 | 0.4 | No | manzana | Travieso / Guardián de la Tierra / Viajero de la Tierra | Amenaza, Custodio de la Tierra, Explorador de la Tierra · ✦ Salto Felino, ✦ Velocidad Supersónica |
 | **Trevius Mini** | 30 | 0.34 | No | carne de vaca, manzana | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Fuerza de la Tierra |
 | **Wendigo Navideño** | 28 | 0.34 | No | carne de vaca, cordero | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Aliento Glacial |
 | **Yak Nevado** | 36 | 0.3 | No | trigo, bloque de heno | Compañero / Guardián de la Tierra / Viajero de la Tierra | Vínculo, Custodio de la Tierra, Explorador de la Tierra · ✦ Escupitajo Veloz, ✦ Aliento Glacial |
 
-## Épicas · 450 MapuPoints (52)
+## Épicas · 450 MapuPoints (56)
 
 Vida base de 24 a 50 puntos.
 
@@ -169,10 +174,14 @@ Vida base de 24 a 50 puntos.
 | **Shadow** | 24 | 0.42 | No | manzana | Travieso / Guardián de la Tierra / Viajero de la Tierra | Amenaza, Custodio de la Tierra, Explorador de la Tierra · ✦ Salto Felino, ✦ Velo de Sombras |
 | **Smilodon de Medianoche** | 46 | 0.41 | No | carne de vaca, pollo | Compañero / Guardián de la Tierra / Viajero de la Tierra | ✦ Colmillo de Sable |
 | **Smilodon Ártico** | 46 | 0.41 | No | carne de vaca, pollo | Compañero / Guardián de la Tierra / Viajero de la Tierra | ✦ Colmillo de Sable |
+| **Sprout Espectral** | 26 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
+| **Sprout Rex Anciano** | 26 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
+| **Sprout Rex de Cosecha** | 26 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
+| **Sprout Rex Florecido** | 26 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva |
 | **Unicornio** | 40 | 0.42 | No | manzana, azúcar | Compañero / Guardián de la Tierra / Viajero de la Tierra | Vínculo, Custodio de la Tierra, Explorador de la Tierra · ✦ Galope, ✦ Luz Sanadora |
 | **Warden Mini** | 40 | 0.33 | No | sculk | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Velo de Sombras |
 
-## Legendarias · 800 MapuPoints (53)
+## Legendarias · 800 MapuPoints (54)
 
 Vida base de 30 a 68 puntos.
 
@@ -226,6 +235,7 @@ Vida base de 30 a 68 puntos.
 | **Mega Mewtwo Y** | 46 | 0.34 | No | carne de vaca, cordero | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Mente Psíquica · ✦ Conciencia Absoluta (nv. 50) |
 | **Mega Rayquaza** | 40 | 0.34 | Sí | carne de vaca, bacalao | Compañero / Guardián del Cielo / Viajero del Cielo | Vínculo, Custodio del Cielo, Explorador del Cielo · ✦ Transbordador Celeste, ✦ Sangre de Dragón · ✦ Señor de los Dragones (nv. 50) |
 | **Pegaso** | 54 | 0.32 | Sí | manzana, azúcar | Compañero / Guardián del Cielo / Viajero del Cielo | Vínculo, Custodio del Cielo, Explorador del Cielo · ✦ Transbordador Celeste, ✦ Señor del Cielo · ✦ Alas del Amanecer (nv. 50) |
+| **Sprout Rex Espectral** | 30 | 0.35 | No | semillas de trigo | Depredador / Guardián de la Tierra / Viajero de la Tierra | Depredador Supremo, Custodio de la Tierra, Explorador de la Tierra · ✦ Táctica de Manada, ✦ Raíz Viva · ✦ Bosque Eterno (nv. 50) |
 | **Super Sonic** | 30 | 0.44 | No | manzana dorada, manzana | Travieso / Guardián de la Tierra / Viajero de la Tierra | Amenaza, Custodio de la Tierra, Explorador de la Tierra · ✦ Salto Felino, ✦ Luz Sanadora · ✦ Amanecer (nv. 50) |
 | **Wyvern del End** | 68 | 0.32 | Sí | fruta de chorus | Compañero / Guardián del Cielo / Viajero del Cielo | Vínculo, Custodio del Cielo, Explorador del Cielo · ✦ Transbordador Celeste, ✦ Velo de Sombras · ✦ Noche Eterna (nv. 50) |
 | **Wyvern Infernal** | 68 | 0.32 | Sí | polvo de blaze | Compañero / Guardián del Cielo / Viajero del Cielo | Vínculo, Custodio del Cielo, Explorador del Cielo · ✦ Transbordador Celeste, ✦ Llama Ardiente · ✦ Llama Eterna (nv. 50) |

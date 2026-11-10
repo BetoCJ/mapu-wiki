@@ -15,7 +15,7 @@ Nuestro objetivo es crear una comunidad donde los jugadores disfruten de una exp
 | ⚔️ **Dungeons** | Varios niveles de dificultad con jefes y recompensas exclusivas |
 | 🎯 **Eventos regulares** | KOTH, piñatas y eventos de temporada |
 | ✨ **221 encantamientos** | Un sistema de encantamientos propio, con rarezas y libros con textura |
-| 🐾 **134 mascotas en 3D** | Compañeros únicos que puedes ver girando en la web |
+| 🐾 **200 mascotas en 3D** | Compañeros únicos que puedes ver girando en la web |
 | 🎖️ **Battle Pass** | Temporadas con misiones y recompensas gratis y premium |
 | 💰 **Economía activa** | Tiendas entre jugadores, mercado global, CoinFlip y cajas de recompensas |
 | 🌐 **Webs propias** | Portal con ciudades, rankings y mapa en vivo; tienda; y sanciones transparentes |

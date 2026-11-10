@@ -19,7 +19,7 @@ Los datos se actualizan solos: el bot del Discord los envía a la web cada pocos
 | 🏆 **Rankings** | [/ranking](https://servidor.mapucraft.com/ranking) | Los mejores de Mapucraft, incluido el top de votantes |
 | 🗺️ **Mapa** | [/mapa](https://servidor.mapucraft.com/mapa) | Mapa interactivo en tiempo real con ciudades, naciones y territorios |
 | 💱 **Mercado** | [/mercado](https://servidor.mapucraft.com/mercado) | Precio de los ítems del [mercado global](../towny/economia/mercado.md) y cuánto han subido o bajado |
-| 🐾 **Mascotas** | [/mascotas](https://servidor.mapucraft.com/mascotas) | Las 134 [mascotas](../towny/mascotas.md) en 3D, con precio y rareza |
+| 🐾 **Mascotas** | [/mascotas](https://servidor.mapucraft.com/mascotas) | Las 200 [mascotas](../towny/mascotas.md) en 3D, con precio y rareza |
 | 🎯 **Tienda** | [/tienda](https://servidor.mapucraft.com/tienda) | Meta del mes, top de donadores y compras recientes |
 | 🏅 **Comunidad** | [/comunidad](https://servidor.mapucraft.com/comunidad) | Ciudad y nación del mes e hitos de los jugadores |
 | 📅 **Calendario** | [/eventos](https://servidor.mapucraft.com/eventos) | KOTH, piñatas, aperturas y mantenciones, en horario de Chile |

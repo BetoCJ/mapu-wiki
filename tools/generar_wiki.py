@@ -880,6 +880,9 @@ def _datos_mypet():
     return mypet_datos.construir(d), d
 
 
+PLURAL_RAREZA = {'Común': 'Comunes', 'Rara': 'Raras', 'Épica': 'Épicas', 'Legendaria': 'Legendarias'}
+
+
 def gen_mascotas_fichas():
     res, _ = _datos_mypet()
     M, A = res['mascotas'], res['arboles']
@@ -890,7 +893,7 @@ def gen_mascotas_fichas():
         if not ms:
             continue
         hps = [m['hp'] for m in ms if m['hp'] is not None]
-        L += [f'## {r}s · {ms[0]["precio"]} MapuPoints ({len(ms)})', '',
+        L += [f'## {PLURAL_RAREZA.get(r, r + "s")} · {ms[0]["precio"]} MapuPoints ({len(ms)})', '',
               f'Vida base de {num(min(hps))} a {num(max(hps))} puntos.' if hps else '', '',
               '| Mascota | Vida | Velocidad | Vuela | Come | Árbol inicial | Ascensiones |', '|---|---:|---:|:---:|---|---|---|']
         for m in ms:

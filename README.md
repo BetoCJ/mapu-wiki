@@ -60,7 +60,7 @@ Juegas desde cualquier edición en el **mismo mundo**, sin cambiar de cuenta. �
 <tr><td><a href="towny/towns.md">🏘️ Towns y Naciones</a></td></tr>
 <tr><td><a href="towny/battlepass.md">🎖️ Battle Pass</a></td></tr>
 <tr><td><a href="towny/encantamientos.md">✨ 221 Encantamientos</a></td></tr>
-<tr><td><a href="towny/mascotas.md">🐾 134 Mascotas en 3D</a></td></tr>
+<tr><td><a href="towny/mascotas.md">🐾 200 Mascotas en 3D</a></td></tr>
 <tr><td><a href="towny/dungeons/README.md">🏰 Dungeons</a></td></tr>
 <tr><td><a href="towny/eventos/README.md">🎯 Eventos: KOTH y Piñata</a></td></tr>
 </tbody></table>
