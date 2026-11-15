@@ -17,7 +17,8 @@ Cada cierta distancia desde el `0,0` el nivel sube en 1. Cuanto más pequeño es
 | 🌎 Overworld (mobs vanilla) | 552 | 1 | 30 |
 | 🔥 Nether (mobs vanilla) | 296 | 3 | 30 |
 | 🌌 End (mobs vanilla) | 385 | 5 | 30 |
-| 🌀 Wallmapu (mobs vanilla) | 211 | 1 | 30 |
+
+El **End** empieza a subir de nivel recién a los **1.000 bloques** del centro (antes de eso, nivel 5). En el **Wallmapu** los mobs vanilla **no** escalan; ahí solo suben de nivel los mobs custom.
 
 Los **mobs custom** del servidor (los de MythicMobs) usan su propia escala, un poco más lenta:
 
@@ -32,12 +33,42 @@ Al nivel 30 (el máximo) un mob vanilla del Overworld tiene hasta **+150% de vid
 
 ***
 
+## 📊 Qué mejora con el nivel
+
+El aumento es **lineal**: nivel 1 no suma nada y nivel 30 suma el máximo. Valores aproximados:
+
+| Nivel | Vida | Daño | Drops | Experiencia |
+|---:|---:|---:|---:|---:|
+| 5 | +21% | +10% | +21% | +15% |
+| 10 | +47% | +23% | +47% | +34% |
+| 15 | +72% | +36% | +72% | +53% |
+| 20 | +98% | +49% | +98% | +72% |
+| 25 | +124% | +62% | +124% | +91% |
+| 30 | +150% | +75% | +150% | +110% |
+
+Además, al nivel 30 el mob se mueve un 25% más rápido, tiene un 30% de resistencia al empuje, un 40% más de rango de visión y los creepers hacen un 80% más de daño de explosión.
+
+**Los drops no cambian de tipo, solo de cantidad.** Un mob de nivel alto suelta los mismos objetos de siempre, pero más unidades. No hay botín especial por nivel.
+
+- Los **ahogados, evokers, shulkers y ravagers** no mejoran sus drops con el nivel (sí su vida, daño y experiencia).
+- El nombre del mob muestra su nivel con color: 1-6 verde, 7-12 azul, 13-18 amarillo, 19-24 rojo y 25-30 morado.
+
+***
+
+## 🚫 Límite por chunk (anti-farmeo)
+
+Si matas muchos mobs en la misma zona, los bonos se apagan: tras **30 muertes** en un chunk (contando los 3 chunks vecinos) los drops extra y la experiencia extra se desactivan durante **10 minutos**. Los drops normales de vanilla se mantienen. Esto evita las granjas de mobs masivas en un solo punto.
+
+***
+
 ## 🎯 A quién afecta
 
 - ✅ Mobs hostiles vanilla: zombis, esqueletos, creepers, arañas, endermans y similares.
 - ✅ Mobs custom de los dungeons y del Wallmapu.
-- ❌ Jefes, animales y mobs neutrales.
-- ❌ Mobs que salen de spawners o de huevos: siempre son de nivel 1.
+- ❌ Jefes (Ender Dragon, Wither, Warden, Elder Guardian), animales y mobs neutrales o aliados (piglins, zombified piglins, golems de hierro y de nieve).
+- ❌ Mascotas y mobs domesticados.
+- ❌ Mobs que salen de spawners (incluidos los trial spawners) o de huevos: siempre son de nivel 1, sin bonos de vida, daño, drops ni experiencia.
+- ❌ Mobs de otros plugins (Citizens, Shopkeepers, MyPet…): nivel 1 fijo. Los de MythicMobs tienen su propio nivel.
 
 ***
 

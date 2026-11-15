@@ -420,7 +420,7 @@ Los más poderosos del servidor. No salen de la mesa de encantamientos.
 | **Infinito** | Armadura | 3 | 2–6% | 8–10 s | La técnica impecable que detiene los ataques antes de alcanzarte. |
 | **Inmortalidad** | Pecheras | 3 | 100% | 300 s | Si la vida baja críticamente, te recupera salud y otorga regeneración. · ⛔ no combina con Sombra Quimera, Pulso de Dragón, Técnica Inversa, Lawen |
 | **Lluvia Negra** | Espadas, Hachas | 4 | 11–23% | 6–20 s | La locura del combate te embriaga, aumentando tu poder con cada golpe encadenado. |
-| **Multiplication** | Picos | 5 | 15–30% | 5–8 s | Probabilidad de multiplicar drops de minerales. Cuesta 5 almas / activación. · 👻 gasta 8 almas |
+| **Multiplication** | Picos | 5 | 10–26% | 8–4 s | Probabilidad de duplicar (x2) los drops de minerales (no incluye ancient debris). Cuesta 8 almas por activación; el pico necesita al menos 8 almas. |
 | **Neutralize** | Arco, Ballesta | 2 | 5–10% | 20 s | Posibilidad de desarmar al oponente. |
 | **Ngümin Antü** | Espadas, Hachas | 2 | 1.5–2.5% | 60 s | El tejido solar detiene el tiempo: congela al objetivo y paraliza a los enemigos cercanos. |
 | **Nulify** | Espadas, Hachas | 4 | 8–14% | 10 s | Tiene una pequeña probabilidad de infligir el doble de daño dejando al enemigo ciego. Cuesta 40 almas/activación · 👻 gasta 40 almas |

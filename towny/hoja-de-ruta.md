@@ -38,8 +38,8 @@ Este es el contenido **confirmado** de Towny y cuándo se libera. Seguimos traba
 
 ### ⚔️ Semana 4 · 14 de noviembre
 
-- 🏰 Apertura de los **Dungeons 3, 4 y 5** *(nuevo / renovado)*
-- 🌀 Apertura de una **nueva dimensión**
+- 🏰 Apertura de los **Dungeons 3, 4 y 5** *(nuevo / renovado)*: la **Dungeon 3 ya está abierta** y la **Dungeon 4 se abrió el 15 de noviembre**; la 5 sigue cerrada por ahora
+- 🌀 Apertura de una **nueva dimensión**: ya está abierta, es el [**Wallmapu**](wallmapu.md)
 
 ***
 

@@ -8,6 +8,21 @@ Lo último que llegó a Mapucraft con la **temporada 2**.
 
 ***
 
+## 🗓️ Cambios del 11 al 15 de noviembre
+
+- **Tope de XP progresivo (12 nov):** ya no hay un límite duro por skill. Por día recibes el 100 % de la XP hasta 100.000, el 50 % los siguientes 100.000 y el 25 % después (nunca llega a 0; en pesca son 80.000 + 80.000). Poder no tiene tope. Mira tu avance con `/limite`; se reinicia a las 7:30 AM. Además, la XP por acción de Minería, Excavación, Tala, Agricultura, Pesca, Alquimia y Comercio bajó un 25 %. Detalle en [Skills](skills.md).
+- **Wallmapu (nueva dimensión):** para estar allí hace falta llevar el **Amuleto Simple**; si entras sin él vuelves al spawn. Ver [Wallmapu](wallmapu.md).
+- **Dungeons:** la **Dungeon 3** ya se abre desde el menú de dungeons y desde el 15 de noviembre también la **Dungeon 4**; la 5 sigue cerrada por ahora. Hay un control **anti AFK**: quedarse quieto matando mobs sin parar (autoclicker o macros) da un aviso y luego te lleva al spawn (cerca de los jefes no aplica). Los sonidos de los mobs de la D3 bajaron a la mitad.
+- **Pase de batalla:** las llaves de Halloween de las recompensas pasaron a ser **Llaves de Navidad**.
+- **Jobs:** plantar caña de azúcar ya no resta puntos, dinero ni experiencia al Granjero.
+- **Crafteos:** ya son **330 recetas** custom en `/crafteos` y `/recetas`.
+- **Encantamiento Multiplication:** ahora sí duplica los drops de minerales (antes no hacía nada y aun así gastaba almas). Ver [Encantamientos](encantamientos.md).
+- **Parkours cortos con premios:** cada parkour puede dar un premio **por completarlo** y otros por quedar en el **top 3**. Los del top se reparten solos **todos los domingos a las 20:00** y el top de tiempos se **reinicia el día 1 de cada mes** (el primer reparto es el domingo 15 y el primer reinicio el 1 de diciembre). Los premios los define el staff. Ver [Mini-juegos](minijuegos.md).
+- **Packs de clase y kits de paga:** ver [Packs de clase y Kits de paga](packs-y-kits.md).
+- **Red:** se quitó **Skyblock** de la red y el **lobby ahora tiene chat de voz**.
+
+***
+
 ## 🗓️ Cambios del 9 al 10 de noviembre
 
 - **Mascotas nuevas:** llegan los **Sprout**, 10 brotes con modelo 3D (comunes, raras, épicas y una legendaria, de 120 a 800 MapuPoints). Los compras en `/tiendamascotas` y ya aparecen en la [web de mascotas](../webs/servidor-web.md).
@@ -29,7 +44,7 @@ Lo último que llegó a Mapucraft con la **temporada 2**.
 - **Pociones:** las pociones directas (Fuerza, Velocidad, Aumento de vida, Prisa, Salto, Regeneración y Curación instantánea) vuelven a subir a nivel II con glowstone.
 - **Mobs:** Goblins y Capra vuelven a aparecer (y se eliminan si entran a una town) y los niveles por distancia suben un 10 % más rápido. Los ahogados sueltan tridentes normales de Minecraft.
 - **Dungeons:** solo se permite una cuenta por IP dentro de las dungeons a la vez.
-- **Mochilas de Oraxen:** desactivadas temporalmente mientras se investiga por qué algunos ítems se perdían. Lo que ya guardaste sigue dentro de cada mochila.
+- **Mochilas:** las de Oraxen se desactivaron por pérdida de ítems y el 9 de noviembre las reemplazó un sistema nuevo (MapuMochilas): clic derecho para abrir, el lore muestra el dueño, no entran shulkers, bundles ni otras mochilas, y solo una persona a la vez puede tenerla abierta. Si pierdes algo, avisa al staff con el nombre de la mochila y la hora.
 - **Warps:** el menú `/warps` quedó ordenado en dos páginas (juegos y eventos / comunidad y servicios).
 
 ***

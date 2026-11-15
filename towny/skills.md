@@ -159,175 +159,258 @@ Revisa la seccion de trinkets mas abajo para ver todos los disponibles con sus e
 
 ## ⚙️ Mecanica general
 
-- Al subir de nivel en cualquier skill, **Power** recibe 70 XP automáticamente.
-- Al subir **Power**, obtienes **0.25 puntos de habilidad** por nivel.
-- Los puntos se gastan en los árboles de perks individuales de cada skill.
+- Al subir de nivel en cualquier skill, **Power** recibe **120 de EXP** automáticamente.
+- Empiezas con **10 puntos de habilidad** y, al subir **Power**, obtienes **1 punto por nivel**, más puntos extra en los hitos de Power (niveles 10, 20, 30, 40, 50, 60, 70 y 80). Con Power al máximo (256) suman **282 puntos** en total.
+- Los puntos se gastan en los árboles de perks individuales de cada skill. Comprar **todas** las ventajas de todas las skills costaría unos 138 puntos, así que hay que elegir (algunas ventajas son excluyentes entre sí).
+- Puedes **olvidar** una ventaja y se te devuelven los puntos (no se devuelven ítems, dinero ni EXP).
 - Los perks son permanentes — ni la muerte ni el reinicio los elimina.
+- **XP de combate por zona:** si ganas XP de combate muchas veces en el mismo chunk (más de 15 eventos), la XP baja al **5 %**; afecta a Armas ligeras, Armas pesadas, Arquería y Artes Marciales. Los mobs de spawner y el PvP dan solo el 10 %. Farmear en un solo punto rinde muy poco.
+- Las ventajas que piden nivel en **Herrería o Encantamiento** no se pueden conseguir hoy, porque esas skills están desactivadas.
 - Usa `/val skilltree [skill]` para abrir el árbol visual en el juego.
-- **Límite diario de XP:** cada skill tiene un tope de XP por día (**60.000** en Mining, Woodcutting, Digging, Farming, Fishing, Alchemy y Comercio; **50.000** en Light/Heavy Weapons, Light/Heavy Armor, Archery y Artes Marciales). Mira cuánto llevas con `/limite`. Se reinicia todos los días a las **7:30 AM** (hora de Chile).
+- **Tope de XP por día (desde el 12 nov):** progresivo. Por skill y día, hasta **100.000** de XP bruta recibes el 100 %, los siguientes 100.000 el **50 %** y después el **25 %** (nunca 0; en pesca 80.000 + 80.000). Poder, Encantamiento y Herrería no tienen tope. Mira tu avance con `/limite`. Se reinicia todos los días a las **7:30 AM** (hora de Chile). Además la XP por acción de Minería, Excavación, Tala, Agricultura, Pesca, Alquimia y Comercio bajó un 25 %.
 
 ---
 
 ## 🔋 Power (max nivel 256)
 
-**Power** es el skill central que une todas las demás habilidades.
+**Como subir XP:** No se sube directo: recibe **120 de EXP** cada vez que cualquier otra skill sube de nivel. Nivel máximo 256.
 
-**Bonos iniciales al unirte:**
-- +3 puntos de habilidad
-- +0.5% daño crítico, +2 daño de sangrado, +80 ticks de duración de sangrado
-- +2% resistencia radiante, +10% protección contra oneshot (CD 6000 ticks)
+**Bonos al empezar:** puntos de habilidad +10, daño crítico +0.5, daño de sangrado +2, duración del sangrado (ticks) +80, resistencia radiante +2, protección anti-oneshot +10%, recarga de la protección anti-oneshot (ticks) +6000.
 
-**Bono pasivo por cada nivel de Power:** +1 punto de habilidad
+**Bono por cada nivel:** puntos de habilidad +1.
 
-**Perks especiales por nivel (acumulables):**
-- Cada 10 niveles hasta el 80: +0.075 resistencia PvP (máximo +0.6 al nivel 80)
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 20: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 30: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 40: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 50: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 60: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 70: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
+- Nivel 80: resistencia PvP +7.5%, puntos de habilidad +2, vida máxima +2, armadura +1
 
-**Árbol de perks de Power** (7 columnas, 3 niveles cada una):
+**Árbol de perks:** 21 ventajas; comprarlas todas costaría 21 puntos de habilidad.
 
-| Columna | Nivel 0 | Nivel 30 | Nivel 60 |
-|---|---|---|---|
-| Vida | +1 corazon max | +1.125 corazones | +1.875 corazones |
-| Armadura | +1 armadura | +1.125 armadura | +1.875 armadura |
-| Suerte | +0.075 suerte | +0.112 suerte | +0.188 suerte |
-| Regeneracion HP | +7.5% regen | +11.25% regen | +18.75% regen |
-| Daño de ataque | +1.875% daño | +2.812% daño | +4.688% daño |
-| Drops de mobs | +7.5% drops | +11.25% drops | +18.75% drops |
-| Reduccion de CD | -3.75% cooldowns | -5.625% cooldowns | -9.375% cooldowns |
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Vitalidad I | 0 | 1 | — | Salud Máxima 1 |
+| Piel de Hierro I | 0 | 1 | — | Armadura Natural +1 |
+| Bendición Divina I | 0 | 1 | — | Suerte +0.075 |
+| Restauración I | 0 | 1 | — | Regeneración de Salud 7.5% |
+| Físico I | 0 | 1 | — | Daño Infligido 1.875% |
+| Saqueador I | 0 | 1 | — | Botín de Mob 7.5% |
+| Ambición I | 0 | 1 | — | Red. de Recarga de Habilidad 3.75% |
+| Vitalidad II | 30 | 1 | Requiere Vitalidad I | Salud Máxima 1.125 |
+| Piel de Hierro II | 30 | 1 | Requiere Piel de Hierro I | Armadura Natural +1.125 |
+| Bendición Divina II | 30 | 1 | Requiere Bendición Divina I | Suerte +0.1125 |
+| Restauración II | 30 | 1 | Requiere Restauración I | Regeneración de Salud 11.25% |
+| Físico II | 30 | 1 | Requiere Físico I | Daño Infligido 2.812% |
+| Saqueador II | 30 | 1 | Requiere Saqueador I | Botín de Mob 11.25% |
+| Ambición II | 30 | 1 | Requiere Ambición I | Red. de Recarga de Habilidad 5.625% |
+| Vitalidad III | 60 | 1 | Requiere Vitalidad II | Salud Máxima 1.875 |
+| Piel de Hierro III | 60 | 1 | Requiere Piel de Hierro II | Armadura Natural +1.875 |
+| Bendición Divina III | 60 | 1 | Requiere Bendición Divina II | Suerte +0.1875 |
+| Restauración III | 60 | 1 | Requiere Restauración II | Regeneración de Salud 18.75% |
+| Físico III | 60 | 1 | Requiere Físico II | Daño Infligido 4.688% |
+| Saqueador III | 60 | 1 | Requiere Saqueador II | Botín de Mob 18.75% |
+| Ambición III | 60 | 1 | Requiere Ambición II | Red. de Recarga de Habilidad 9.375% |
 
 ---
 
 ## ⛏️ Mining (max nivel 100)
 
-**Como subir XP:** Minar bloques. Diamante 280 XP, Diamante Deepslate 420, Ancient Debris 1120, Esmeralda 280, Oro 112, Hierro 56.
+**Como subir XP:** Minar bloques. XP real por bloque (la tabla base × 0.75, explosiones × 0.5625): Escombros ancestrales 840, Placas de netherita 420, Mineral de diamante abismal 315, Mineral de esmeralda abismal 315, Mineral de diamante 210, Mineral de esmeralda 210, Mineral de lapislázuli 168, Mineral de oro abismal 126, Mineral de lapislázuli abismal 126, Diamante 105.
 
-**Penalizacion inicial:** -30% drops de mineria hasta que subes el skill.
+**Bonos al empezar:** botín de minería -30%.
 
-**Bono pasivo por nivel:** +0.5% drops de mineria, +0.5% drops de voladura (TNT).
+**Bono por cada nivel:** botín de minería +1%, botín de explosiones +1%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: botín de minería +1.125%, botín de explosiones +1.125%
+- Nivel 25: botín de minería +1.875%, botín de explosiones +1.875%
+- Nivel 50: botín de minería +3%, botín de explosiones +3%
+- Nivel 75: botín de minería +4.5%, botín de explosiones +4.5%
+- Nivel 100: botín de minería +6.75%, botín de explosiones +6.75%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +3.75% velocidad de minado, +3.75% XP de bloque |
-| Perk 2 | 20 | +3.75% drops, +0.375 suerte, +9.375% velocidad de coccion |
-| Perk B1 — Drilling | 40 | +7.5% velocidad, +7.5% XP, desbloquea perforacion (velocidad x2, CD 600, dur. 100) |
-| Perk A1 — Blast I | 40 | +18.75% radio TNT, +18.75% reduccion daño TNT, +7.5% drops de voladura |
-| Perk B2 — Vein | 60 | +7.5% drops, +1.125 suerte, desbloquea vein mining (todos los minerales) |
-| Perk A2 — Blast II | 60 | +18.75% radio TNT, +18.75% reduccion daño TNT, +11.25% drops voladura |
-| Perk A3 — Blast Mode | 70 | Req. tambien Enchanting 70. Elige: Silk Touch o Fortune para voladuras |
-| Perk 3 — Mastery | 80 | +1.125 velocidad drill, -300 CD drill, +37.5% multiplicador XP bloque, +9.375% coccion |
-| Perk 4 — Max | 100 | Pickup instantaneo en vein mining, extiende vein a piedra y basalto |
+**Árbol de perks:** 15 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Roca Frágil | 0 | 1 | — | Acelera tu minería en 3.75% y ganas algunos orbes de experiencia por bloque |
+| Explosivos Encantados: Toque de Seda | 0 | gratis | Requiere Explosivos Encantados | Tu TNT rompe bloques como si fuera con un pico de Toque de Seda |
+| Explosivos Encantados: Fortuna | 0 | gratis | Requiere Explosivos Encantados | Tu TNT rompe bloques como si fuera con un pico de Fortuna II |
+| Espeleo | 20 | 1 | Requiere Roca Frágil | Aumenta el botín de minería en 3.75% y la suerte en 0.375. Aumenta la vel. de cocción en 9.375% |
+| Demolista | 40 | 1 | Requiere Espeleo | Aumenta el radio de explosión del TNT y la resist. al daño en 18.75%, y el botín de explosiones en 7.5% |
+| Aptitud Enana | 40 | 1 | Requiere Espeleo | Acelera tu minería en 7.5%, aumenta los orbes por bloque y desbloquea la habilidad Perforación |
+| Terremoto | 60 | 1 | Requiere Demolista | Duplica los efectos de Demolista, y consigues el triple de TNT al fabricarlo |
+| Extracción de Vetas | 60 | 1 | Requiere Aptitud Enana | Aumenta el botín de minería en 7.5% y la suerte en 1.125. Desbloquea Minería de Vetas y aumenta la vel. de cocción en 9.375% |
+| Explosivos Encantados | 70 | 1 | Requiere Terremoto; También pide Enchanting Nivel 70 ❌ *(skill desactivada: hoy no se puede conseguir)* | Permite elegir entre Toque de Seda y Fortuna II como encantamientos para aplicar en todo tu TNT |
+| Partidor de Tierra | 80 | 1 | Requiere una de: Terremoto, Extracción de Vetas | Aumenta la vel. de perforación en 1.125 y reduce a la mitad su recarga. Obtienes el doble de orbes de experiencia por bloque |
+| Aspecto de Kali | 100 | 1 | Requiere una de: Partidor de Tierra | Tu Minería de Vetas puede ahora minar bloques como Andesita, Granito, Diorita y otros bloques comunes. El botín se transfiere directamente a tu inventario |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Minería a 0 y reduce la EXP ganada en -25%. A cambio, ganas 12.5% permanente de botín de minería y explosiones y 7.5% de vel. de minería |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Minería a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 12.5% permanente de botín de minería y explosiones y 7.5% de vel. de minería |
+| Nueva Partida III | 100 | gratis | Requiere Nueva Partida II | Reinicia tu nivel de Minería a 0 y reduce la EXP ganada en -3%. A cambio, ganas de nuevo 6% permanente de botín de minería y explosiones y 4% de vel. de minería |
+| Nueva Partida IV | 100 | gratis | Requiere Nueva Partida III | Reinicia tu nivel de Minería a 0 y reduce la EXP ganada en -1%. A cambio, ganas de nuevo 3% permanente de botín de minería y explosiones y 2% de vel. de minería |
 
 ---
 
 ## 🪵 Woodcutting (max nivel 100)
 
-**Como subir XP:** Talar madera. Tronco normal 28 XP, Madera (wood block) 42, Hongos del Nether 56; Descorezar (strip) da 14-28 XP.
+**Como subir XP:** Talar madera y descortezar troncos. Los valores más altos: Hifas distorsionadas (talar) 42, Hifas carmesí (talar) 42, Tallo distorsionado (talar) 31.5, Tallo carmesí (talar) 31.5, Madera de roble (talar) 31.5, Madera de abeto (talar) 31.5, Madera de abedul (talar) 31.5, Madera de jungla (talar) 31.5.
 
-**Bono pasivo por nivel:** +0.25% velocidad de tala, +0.5% drops de madera.
+**Bono por cada nivel:** velocidad de tala +0.5%, botín de tala +1%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: velocidad de tala +0.562%, botín de tala +1.125%
+- Nivel 25: velocidad de tala +0.938%, botín de tala +1.875%
+- Nivel 50: velocidad de tala +1.5%, botín de tala +3%
+- Nivel 75: velocidad de tala +2.25%, botín de tala +4.5%
+- Nivel 100: velocidad de tala +3.375%, botín de tala +6.75%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +3.75% velocidad de tala, +3.75% XP de bloque |
-| Perk 2 | 20 | +3.75% XP, +4 suerte |
-| Perk Combo (Digging 50) | 50 | +11.25% bonos de comida (todos tipos), +11.25% regen HP, +11.25% ahorro de hambre |
-| Perk 3 — Treecapitator | 40 | Desbloquea tala de arboles completos (CD 100, limite 8 bloques) |
-| Perk Capitator A | 60 | -30 CD treecapitator, +16 limite de bloques (total 24) |
-| Perk Carpentry | 60 | Bonos de tala adicionales |
-| Perk Capitator B | 80 | -40 CD treecapitator, +40 limite de bloques (total 64) |
-| Perk 4 | 80 | +11.25% XP, +3.75% velocidad, +75% tasa de crecimiento instantaneo |
-| Perk 5 | 100 | +4 suerte adicional |
+**Árbol de perks:** 13 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Talador Novato | 0 | 1 | — | Acelera tu tala un 10% y ganas algunos orbes de experiencia por bloque |
+| Hojas Doradas | 20 | 1 | Requiere Talador Novato | Las hojas a veces sueltan Manzanas Doradas y ganas más orbes de experiencia por bloque |
+| Deforestación I | 40 | 1 | Requiere Hojas Doradas | Desbloquea el Tala-Árboles para árboles pequeños |
+| Estilo de Vida Activo | 50 | 1 | Requiere Hojas Doradas; También pide Digging Nivel 50 | Aumenta el valor nutricional de muchos alimentos, reduce el consumo de hambre y aumenta la regeneración de salud |
+| Carpintería | 60 | 1 | Requiere Deforestación I | Aumenta el rendimiento de la mayoría de recetas relacionadas con madera |
+| Deforestación II | 60 | 1 | Requiere Deforestación I | Potencia el Tala-Árboles hasta 32 bloques y reduce su recarga a 7 segundos |
+| Arboricultor | 80 | 1 | Requiere Deforestación I | Acelera tu tala un 20%, ganas muchos más orbes por bloque y los retoños crecen el doble de rápido |
+| Deforestación III | 80 | 1 | Requiere Deforestación II | Potencia el Tala-Árboles hasta 128 bloques y reduce su recarga a 3 segundos |
+| Hojas de Cristal | 100 | 1 | Requiere Arboricultor | Las hojas a veces sueltan Manzanas Joyadas y las Manzanas Doradas caen más frecuentemente |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Tala a 0 y reduce la EXP ganada en -25%. A cambio, ganas 15% permanente de botín, 12.5% de vel. y las manzanas Doradas/Cristalinas caen algo más frecuentemente |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Tala a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 15% permanente de botín, 12.5% de vel. y las manzanas Doradas/Cristalinas caen algo más frecuentemente |
+| Nueva Partida III | 100 | gratis | Requiere Nueva Partida II | Reinicia tu nivel de Tala a 0 y reduce la EXP ganada en -3%. A cambio, ganas de nuevo 8% permanente de botín, 6% de vel. y las manzanas Doradas/Cristalinas caen algo más frecuentemente |
+| Nueva Partida IV | 100 | gratis | Requiere Nueva Partida III | Reinicia tu nivel de Tala a 0 y reduce la EXP ganada en -1%. A cambio, ganas de nuevo 4% permanente de botín, 3% de vel. y las manzanas Doradas/Cristalinas caen algo más frecuentemente |
 
 ---
 
 ## 🕳️ Digging (max nivel 100)
 
-**Como subir XP:** Cavar tierra, arena, arcilla. Drops especiales de arqueologia dan mucho XP: Diamante (drop) 350, Netherite scrap 700, Echo Shard 1400.
+**Como subir XP:** Cavar tierra, arena, arcilla y arqueología (cepillo). Los valores más altos: Fragmento resonante (cavar) 1050, Libro encantado (cavar) 525, Placas de netherita (cavar) 525, Diamante (cavar) 262.5, Esmeralda (cavar) 262.5, Perla de ender (cavar) 105, Fragmento de amatista (cavar) 105, Diamante (arqueología) 78.75.
 
-**Bono pasivo por nivel:** +0.5% drops, +0.25% velocidad de excavacion.
+**Bono por cada nivel:** botín de excavación +1%, velocidad de excavación +0.5%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: botín de excavación +1.125%, velocidad de excavación +0.562%
+- Nivel 25: botín de excavación +1.875%, velocidad de excavación +0.938%
+- Nivel 50: botín de excavación +3%, velocidad de excavación +1.5%
+- Nivel 75: botín de excavación +4.5%, velocidad de excavación +2.25%
+- Nivel 100: botín de excavación +6.75%, velocidad de excavación +3.375%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +11.25% velocidad de excavar, +3.75% XP |
-| Perk 2 | 20 | +1.125 suerte, +7.5% XP |
-| Perk Combo (Mining 50) | 50 | +11.25% bonos de comida (todos tipos), +11.25% regen HP, +11.25% ahorro de hambre |
-| Perk 3 | 40 | Desbloquea conversiones de bloque: podzol, mycelium, arcilla, concrete, soul sand/soil (via bloque de conversion, no mesa de crafteo) |
-| Perk A1 — Archeology I | 60 | +7.5% probabilidad de repeticion arqueologica, +1.125 suerte arqueologica |
-| Perk B1 — Speed | 60 | +18.75% velocidad de excavacion adicional |
-| Perk A2 — Archeology II | 80 | +11.25% repeticion, probabilidad de generar arena/grava sospechosa cerca de estructuras |
-| Perk B2 | 80 | +1.125 suerte |
-| Perk 4 — Max | 100 | +1.125 suerte adicional (req. A2 o B2) |
+**Árbol de perks:** 13 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Excavador | 0 | 1 | — | Acelera tu excavación en 11.25% y ganas algunos orbes de experiencia por bloque |
+| Filtrador | 20 | 1 | Requiere Excavador | Empiezas a encontrar recursos simples en el suelo, y ganas más orbes de experiencia por bloque |
+| Replicación del Suelo | 40 | 1 | Requiere Filtrador | Aprendes la composición de la tierra y puedes reproducirla (desbloquea recetas para varios bloques tipo tierra) |
+| Constructor Flexible | 50 | 1 | Requiere una de: Filtrador; También pide Mining Nivel 50 | Desbloquea varias interacciones para detallar tus construcciones (p.ej. añadir musgo a adoquines, agrietar ladrillos) |
+| Arqueólogo | 60 | 1 | Requiere Replicación del Suelo | Los bloques sospechosos tienen una probabilidad 7.5% de reaparecer |
+| Excavadora | 60 | 1 | Requiere Replicación del Suelo | Acelera tu excavación en 18.75% adicional |
+| Historia Antigua | 80 | 1 | Requiere Arqueólogo | Los bloques sospechosos tienen una probabilidad adicional 11.25% de reaparecer, y hay probabilidad de encontrar arena o grava sospechosa al excavar cerca de estructuras |
+| Bateo | 80 | 1 | Requiere Excavadora | Empiezas a encontrar recursos valiosos en el suelo |
+| Tesoro Oculto | 100 | 1 | Requiere una de: Historia Antigua, Bateo | Empezarás a encontrar tesoros ocasionalmente al excavar |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Excavación a 0 y reduce la EXP ganada en -25%. A cambio, ganas 15% permanente de botín, 1.5 de suerte y 12.5% de vel. de excavación |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Excavación a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 15% permanente de botín, 1.5 de suerte y 12.5% de vel. de excavación |
+| Nueva Partida III | 100 | gratis | Requiere Nueva Partida II | Reinicia tu nivel de Excavación a 0 y reduce la EXP ganada en -3%. A cambio, ganas de nuevo 8% permanente de botín, 0.75 de suerte y 6% de vel. de excavación |
+| Nueva Partida IV | 100 | gratis | Requiere Nueva Partida III | Reinicia tu nivel de Excavación a 0 y reduce la EXP ganada en -1%. A cambio, ganas de nuevo 4% permanente de botín, 0.4 de suerte y 3% de vel. de excavación |
 
 ---
 
 ## 🌾 Farming (max nivel 100)
 
-**Como subir XP:** Cosechar cultivos (trigo 33.6, melon 56, zanahoria 28), criar animales (vacas 84, cerdos 70), esquilar ovejas 140, interactuar con colmenas 280.
+**Como subir XP:** Cosechar cultivos, criar y esquilar animales, y usar colmenas. Los valores más altos: Mushroom cow (esquilar) 525, Apiario (interactuar) 210, Colmena (interactuar) 210, Botella con miel (interactuar) 210, Hoglin (criar) 105, Oveja (esquilar) 105, Ocelote (criar) 94.5, Tortuga (criar) 94.5, Rana (criar) 84, Gato (criar) 84.
 
-**Bono pasivo por nivel:** +0.5% drops de agricultura.
+**Bono por cada nivel:** botín de agricultura +1%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: botín de agricultura +1.125%
+- Nivel 25: botín de agricultura +1.875%
+- Nivel 50: botín de agricultura +3%
+- Nivel 75: botín de agricultura +4.5%
+- Nivel 100: botín de agricultura +6.75%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | Desbloquea cosecha instantanea al romper cultivos maduros |
-| Perk 1C — Carroñero | 30 | Inmunidad a comida mala, +2 HP/sat en comida cruda y podrida (bloquea Perk 2C) |
-| Perk 2 | 20 | +11.25% XP de agriculture, +37.5% tasa de crecimiento instantaneo |
-| Perk 2C — Gourmet | 50 | +0.075 bonus de comida en todos los tipos (bloquea Perk 1C) |
-| Perk 3 | 40 | +11.25% XP, +1.125 suerte, +7.5% drops |
-| Perk 1A — Ganadero | 40 | +15% velocidad de crecimiento animal, +7.5% drops de matanza, +18.75% XP cria |
-| Perk 1B — Apicultor | 50 | Inmunidad a agresion de abejas, +18.75% probabilidad de ahorrar miel en colmena |
-| Perk 2A — Carnicero | 60 | +22.5% vel. crecimiento, +11.25% drops matanza, +18.75% XP cria, +112.5% daño a animales |
-| Perk 4 | 80 | +15% XP, +1.125 suerte, +11.25% drops |
-| Perk 5 — Field Harvest | 100 | Desbloquea cosecha masiva de campo (pickup automatico, CD 50 ticks) |
+**Árbol de perks:** 12 ventajas; comprarlas todas costaría 10 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Toque Suave | 0 | 1 | — | Desbloquea la capacidad de hacer clic derecho en cultivos para cosecharlos y replantar |
+| Tierra Mágica | 20 | 1 | Requiere Toque Suave | Los cultivos crecen más rápido y generan algo de experiencia al cosecharlos |
+| Dieta Basura | 30 | 1 | Requiere Toque Suave; ⚠️ Excluyente: bloquea Dieta Equilibrada | Te vuelves inmune a la comida en mal estado y te alimenta tres veces más, pero todos los demás alimentos pierden -25% de nutrición. Bloquea Dieta Equilibrada |
+| Cosecha Bendita | 40 | 1 | Requiere Tierra Mágica | El botín de cosecha aumenta en 7.5% y generan aún más experiencia |
+| Ganadería | 40 | 1 | Requiere Toque Suave | Los animales crecen 15% más rápido y sueltan 7.5% más objetos. Los animales criados otorgan 18.75% más orbes de experiencia |
+| Apicultor | 50 | 1 | Requiere Toque Suave | Las abejas ya no te atacan. Las colmenas tienen 18.75% de prob. de rellenarse tras cosechar |
+| Dieta Equilibrada | 50 | 1 | Requiere Toque Suave; ⚠️ Excluyente: bloquea Dieta Basura | Todos los alimentos, excepto los en mal estado, te alimentan 7.5% más. Bloquea Dieta Basura |
+| Carnicería | 60 | 1 | Requiere Ganadería | Los animales crecen 22.5% más rápido y sueltan 11.25% más objetos. Los animales criados otorgan 18.75% más orbes y haces cuádruple daño a animales |
+| Cosecha Divina | 80 | 1 | Requiere Cosecha Bendita | El botín de cosecha aumenta en 11.25% y generan mucha experiencia |
+| Agricultura Automágica | 100 | 1 | Requiere Cosecha Divina | Desbloquea Cosecha de Campo, una habilidad que permite cosechar una gran área de cultivos casi instantáneamente |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Agricultura a 0 y reduce la EXP ganada en -25%. A cambio, ganas 15% permanente de botín de agricultura y carnicería |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Agricultura a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 15% permanente de botín de agricultura y carnicería |
 
 ---
 
 ## 🎣 Fishing (max nivel 100)
 
-**Como subir XP:** Pescar. Bacalao 140, Salmon 175, Pez globo 350, Pez tropical 560, Libro encantado/Arco/Cana 420.
+**Como subir XP:** Pescar. XP por pieza: Libro encantado 615, Pez tropical 495, Caparazón de nautilo 412.5, Montura 412.5, Caña de pescar 390, Pez globo 337.5, Etiqueta 337.5, Arco 315, Salmón crudo 206.25, Bacalao crudo 180. La XP de pesca también baja si farmeas siempre en el mismo chunk.
 
-**Bono pasivo por nivel:** +1% velocidad de pesca, +1% drops de pesca.
+**Bono por cada nivel:** velocidad de pesca +2%, botín de pesca +2%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: velocidad de pesca +2.25%, botín de pesca +2.25%
+- Nivel 25: velocidad de pesca +3.75%, botín de pesca +3.75%
+- Nivel 50: velocidad de pesca +6%, botín de pesca +6%
+- Nivel 75: velocidad de pesca +9%, botín de pesca +9%
+- Nivel 100: velocidad de pesca +13.5%, botín de pesca +13.5%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +0.562 suerte de pesca |
-| Perk Combo (Smithing 70) | 50 | Requiere Smithing 70 (skill desactivado — perk no disponible actualmente) |
-| Perk 2 | 20 | +18.75% multiplicador de esencia de pesca |
-| Perk 3 | 40 | +15% velocidad de pesca, +1 suerte |
-| Perk 4 | 60 | +9.375% drops de pesca |
-| Perk 5 | 80 | +22.5% velocidad, +0.938 suerte |
-| Perk 6 — Max | 100 | +9.375% drops, +37.5% multiplicador de esencia |
+**Árbol de perks:** 9 ventajas; comprarlas todas costaría 7 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Pescador Afortunado | 0 | 1 | — | Aumenta la suerte de pesca en 0.5625 |
+| Pasión por los Mares | 20 | 1 | Requiere Pescador Afortunado | Aumenta los orbes de experiencia obtenidos pescando en 18.75% |
+| Sentidos Profundos | 40 | 1 | Requiere Pasión por los Mares | Atrae peces 15% más rápido, aumenta la suerte de pesca en 1 |
+| Scavenge de Mar Profundo | 50 | 1 | Requiere Pescador Afortunado; También pide Smithing Nivel 70 ❌ *(skill desactivada: hoy no se puede conseguir)* | Desbloquea la capacidad de desguazar herramientas y equipo en sus partes base |
+| Amos Dobles | 60 | 1 | Requiere Sentidos Profundos | Gana una probabilidad 9.375% de doble captura |
+| Cebo Dorado | 80 | 1 | Requiere Amos Dobles | Atrae peces 22.5% más rápido, aumenta la suerte de pesca en 0.9375 |
+| Cebo Místico | 100 | 1 | Requiere Cebo Dorado | Gana una probabilidad 9.375% de doble captura, así como 37.5% más orbes de experiencia al pescar |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Pesca a 0 y reduce la EXP ganada en -25%. A cambio, ganas 25% permanente de botín de pesca, 1.25 de suerte y 12.5% de vel. de pesca |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Pesca a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 25% permanente de botín de pesca, 1.25 de suerte y 12.5% de vel. de pesca |
 
 ---
 
 ## 🧪 Alchemy (max nivel 100)
 
-**Como subir XP:** Elaborando pociones en calderos y soportes de pociones. El XP depende de la **calidad** de la poción resultante (no hay una cifra fija por receta): elaborar manualmente da un multiplicador de **x1.4**, mientras que elaborar de forma automatizada (con droppers/hoppers) reduce el XP a un multiplicador de **x0.25**.
+**Como subir XP:** Elaborando pociones en calderos y soportes de pociones. La XP depende de la **calidad** de la poción (calidad × 0.0018): elaborar a mano multiplica por **1.05** y automatizado (hoppers y droppers) solo por **0.075**.
+
+**Bono por cada nivel:** habilidad de elaboración +0.75.
+
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: habilidad de elaboración +1.125
+- Nivel 25: habilidad de elaboración +1.688
+- Nivel 50: habilidad de elaboración +2.813
+- Nivel 75: habilidad de elaboración +3.938
+- Nivel 100: habilidad de elaboración +5.625
 
 **Calidad de las pociones:** cada poción tiene una puntuación de calidad que le da una etiqueta cosmética: Rancid (0), Tainted (30), Dirty (60), Cloudy (90), Clear (120), Refined (150), Pure (200), Shimmering (300+).
 
-**Bono pasivo por nivel:** +0.75 a la habilidad general de elaboración (`genericbrewingskill`).
+**Árbol de perks:** 11 ventajas; comprarlas todas costaría 9 puntos de habilidad.
 
-**Arbol de perks:**
-
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | -18.75% tiempo de fermentación, +8 habilidad de elaboración |
-| Perk 2 | 20 | +7.5% probabilidad de ahorrar ingredientes, +11 habilidad de elaboración |
-| Perk A1 — Debuffs I | 40 | +0.112 intensidad mínima de splash, +8 habilidad de pociones debilitantes |
-| Perk B1 — Buffs I | 40 | +8 habilidad de pociones de beneficio, -28.125% tiempo de fermentación |
-| Perk Combo (Light/Heavy Weapons 50) | 50 | Desbloquea untar armas con viales (veneno, santo, anti-curación, daño) |
-| Perk A2 — Debuffs II | 60 | +11 habilidad debilitante, +0.112 intensidad splash, +25% duración/radio de poción persistente, +18.75% velocidad de lanzamiento |
-| Perk B2 — Buffs II | 60 | +11 habilidad de beneficio, +11.25% ahorro de ingredientes. Desbloquea recetas de Prisa y Aumento de Salud |
-| Perk 3 — Combinación | 80 | -46.875% tiempo de fermentación. Desbloquea combinar hasta 1.5 efectos de poción en una sola |
-| Perk 4 — Transmutación | 100 | +19 habilidad de elaboración, +1 radio de transmutación. Desbloquea todas las transmutaciones y la receta de Poción de Transmutación |
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Combustión Estable | 0 | 1 | — | Acelera tu elaboración de pociones en 18.75% y aumenta su calidad ligeramente |
+| Ingredientes Potentes | 20 | 1 | Requiere Combustión Estable | Otorga una probabilidad 7.5% de no gastar ingredientes al elaborar, y aumenta aún más la calidad de las pociones |
+| Venenos Volátiles | 40 | 1 | Requiere Ingredientes Potentes | Mejora la calidad de tus venenos. Tus impactos indirectos con pociones arrojadizas son más fuertes |
+| Catalizadores Efectivos | 40 | 1 | Requiere Ingredientes Potentes | Mejora la calidad de tus pociones beneficiosas. Acelera la elaboración en 28.13% |
+| Veneno Corrosivo | 50 | 1 | Requiere Ingredientes Potentes; Requiere una de: Caballero, Bárbaro | Añade 4 cargas a tu habilidad de Recubrimiento de Arma. Desbloqueas recetas de venenos simples sin soporte de elaboración |
+| Artillería Química | 60 | 1 | Requiere Venenos Volátiles | Mejora aún más la calidad de tus venenos. Mejora la intensidad de pociones arrojadizas, la duración y radio de pociones persistentes, y la fuerza de lanzamiento |
+| Ingredientes Exóticos | 60 | 1 | Requiere Catalizadores Efectivos | Aumenta la calidad de pociones beneficiosas y la probabilidad de no gastar ingredientes en 11.25% y desbloquea recetas de Prisa y Aumento de Salud |
+| Mezclas Poderosas | 80 | 1 | Requiere una de: Artillería Química, Ingredientes Exóticos | Permite fusionar los efectos de varias pociones en una, hasta 1.125 veces, con algo de pérdida de duración |
+| Prima Materia | 100 | 1 | Requiere una de: Mezclas Poderosas | Mejora enormemente la calidad de todas tus pociones. Desbloquea Transmutación |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Alquimia a 0 y reduce la EXP ganada en -25%. A cambio, ganas 25 permanente de habilidad de elaboración y 37.5% de vel. de elaboración |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Alquimia a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 25 permanente de habilidad de elaboración y 50% de vel. de elaboración |
 
 **Sistema de Transmutación:** con la Poción de Transmutación (desbloqueada en el perk final) puedes convertir ciertos bloques en otros usando un caldero — por ejemplo, troncos de un tipo de madera a otro, o minerales/bloques de valor (Hierro→Oro, Cobre→Hierro, Esmeralda↔Diamante) en lo que el plugin llama transmutación "Midas".
 
@@ -380,125 +463,176 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ## 🗡️ Light Weapons (max nivel 100)
 
-**Como subir XP:** Golpear con espadas, dagas, rapiers, lanzas. 4.9 XP por punto de daño.
+**Como subir XP:** Golpeando con espadas, dagas, estoques y lanzas: **4.9 XP por punto de daño**. Los mobs de spawner dan solo el 10%, el PvP el 10% y la maza de vanilla el 10%. Si farmeas muchos golpes en el mismo chunk la XP baja al 5 %.
 
-**Bono pasivo por nivel:** +0.19% velocidad de ataque, +0.19% daño (acumulativo sobre el baseline vanilla).
+**Bonos al empezar:** daño +0%, retroceso +0%, reducción de inmunidad +0%.
 
-**Arbol de perks:**
+**Bono por cada nivel:** velocidad de ataque +0.375%, daño +0.375%.
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +2.81% daño, +2.81% probabilidad de sangrado |
-| Perk 2 | 20 | +2.81% velocidad ataque, +2.81% probabilidad critico |
-| Perk 3 — Parry | 40 | +2.81% daño. Desbloquea parry: ventana efect. 4t, vuln. 7t, CD 50, reduccion daño 21.1%, debuff enemigo 15t |
-| Perk 4 | 60 | +5.62% velocidad, +2.81% reduccion inmunidad, +2.81% sangrado |
-| Perk A1 — Coating I | 50 | Desbloquea coating de arma (+2 cargas, -40% duracion, -25% amplificador) |
-| Perk A2 — Coating II | 70 | +2 cargas coating, +5% duracion, +9.375% amplificador |
-| Perk 5 | 80 | +2.81% sangrado, +2.81% daño, +5.62% reduccion inmunidad. Mejora parry: +4t ventana efectiva, -30 CD, +5t debuff enemigo, -5t debuff propio, +7.03% reduccion daño, +14.1% reduccion CD en parry exitoso |
-| Perk Combo (Heavy Armor 70) | 70 | +3 penetracion plana de armadura, +0.281 alcance de ataque, +8.44% knockback |
-| Perk 6 — Max | 100 | +2.81% crit, +8.44% daño critico, sangrado al critico, +0.75 daño de sangrado |
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: velocidad de ataque +0.422%, daño +0.422%
+- Nivel 25: velocidad de ataque +0.703%, daño +0.703%
+- Nivel 50: velocidad de ataque +1.12%, daño +1.12%
+- Nivel 75: velocidad de ataque +1.69%, daño +1.69%
+- Nivel 100: velocidad de ataque +2.53%, daño +2.53%
+
+**Árbol de perks:** 11 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Paje | 0 | 1 | — | Aumenta el daño en 2.81% y añade una probabilidad 2.81% de infligir sangrado |
+| Escudero | 20 | 1 | Requiere Paje | Aumenta la vel. de ataque en 2.81% y otorga 2.81% de prob. de golpe crítico |
+| Caballero | 40 | 1 | Requiere Escudero | Desbloquea Parada. Aumenta el daño en 2.81% |
+| Recubrimiento de Arma | 50 | 1 | Requiere Caballero | Desbloquea Recubrimiento de Arma, que permite aplicar efectos de poción en tus armas durante 2 golpes |
+| Paladín | 60 | 1 | Requiere Caballero | Aumenta la vel. de ataque en 5.62%, los enemigos tienen 2.81% menos de inmunidad, y añade 2.81% de prob. de sangrado |
+| Bioarma | 70 | 1 | Requiere Recubrimiento de Arma | El Recubrimiento de Arma se vuelve más fuerte, dura más, aplica mayor efecto y aguanta 2 golpes más |
+| Titán | 70 | 1 | También pide Heavy_Armor Nivel 70 | Gana 3 de penetración de armadura, 8.44% más de retroceso y 0.281 mayor alcance de ataque |
+| Templario | 80 | 1 | Requiere Paladín | Aumenta el daño en 2.81%, la Parada es mucho más fácil y fuerte, los enemigos tienen 5.62% menos de inmunidad, y añade 2.81% de sangrado |
+| Señor de la Guerra | 100 | 1 | Requiere Templario | Aumenta la prob. de crítico en 2.81% y el daño crítico en 8.44%. Los críticos infligen Sangrado y el sangrado hace 0.75 más daño |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Armas Ligeras a 0 y reduce la EXP ganada en -25%. A cambio, ganas 7.5% permanente de daño de ataque, 10% de vel. de ataque y 5% de prob. de crítico |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Armas Ligeras a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 7.5% permanente de daño de ataque, 10% de vel. de ataque y 5% de prob. de crítico |
 
 ---
 
 ## 🪓 Heavy Weapons (max nivel 100)
 
-**Como subir XP:** Golpear con hachas, martillos de guerra, mazas, mandobles. 7 XP por punto de daño.
+**Como subir XP:** Golpeando con hachas, martillos de guerra, mazas y mandobles: **7 XP por punto de daño**. Los mobs de spawner dan solo el 10%, el PvP el 10% y la maza de vanilla el 10%. Si farmeas muchos golpes en el mismo chunk la XP baja al 5 %.
 
-**Bono pasivo por nivel:** +0.19% velocidad de ataque, +0.19% daño (acumulativo sobre el baseline vanilla).
+**Bonos al empezar:** velocidad de ataque +0%, daño +0%.
 
-**Arbol de perks:**
+**Bono por cada nivel:** velocidad de ataque +0.375%, daño +0.375%.
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +2.81% daño |
-| Perk 2 | 20 | +2.81% daño de poder (power attack), +2.81% crit |
-| Perk 3 — Power Attack | 40 | +2.81% daño, +14.1% fraccion power attack, +0.422 radio power attack |
-| Perk 4 | 60 | +4.22% daño power attack, +1.41 penetracion plana |
-| Perk A1 — Coating I | 50 | Desbloquea coating (+1 carga, -40% duracion, -12.5% amplificador) |
-| Perk A2 — Coating II | 70 | +1 carga, +5% duracion, +9.375% amplificador |
-| Perk 5 | 80 | +2.81% daño, +7.03% fraccion power attack, +0.141 radio, +3 penetracion plana |
-| Perk Combo (Woodcutting 70) | 70 | +5.62% probabilidad de stun, +5.62% penetracion de armadura fraccion, +1.41% daño vs armadura ligera |
-| Perk 6 — Max | 100 | +2.81% crit, +8.44% daño critico, sangrado al critico, +0.281 daño de sangrado |
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: velocidad de ataque +0.422%, daño +0.422%
+- Nivel 25: velocidad de ataque +0.703%, daño +0.703%
+- Nivel 50: velocidad de ataque +1.12%, daño +1.12%
+- Nivel 75: velocidad de ataque +1.69%, daño +1.69%
+- Nivel 100: velocidad de ataque +2.53%, daño +2.53%
+
+**Árbol de perks:** 11 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Salvaje | 0 | 1 | — | Aumenta el daño en 2.81% |
+| Bruto | 20 | 1 | Requiere Salvaje | Aumenta el daño de ataque de poder en 2.81% y otorga 2.81% de prob. de golpe crítico |
+| Bárbaro | 40 | 1 | Requiere Bruto | Los ataques de poder infligen 14.1% de daño en área en un radio de 42.2% bloques. Aumenta el daño en 2.81% |
+| Recubrimiento de Arma | 50 | 1 | Requiere Bárbaro | Desbloquea Recubrimiento de Arma, que permite aplicar efectos de poción en tus armas durante 1 golpes |
+| Vikingo | 60 | 1 | Requiere Bárbaro | Aumenta el daño de ataque de poder en 4.22% y ganas 1.41 de penetración de armadura |
+| Acero Tóxico | 70 | 1 | Requiere Recubrimiento de Arma | El Recubrimiento de Arma se vuelve más fuerte, dura más y aguanta 1 golpes más |
+| Golpes Fragmentadores | 70 | 1 | También pide Woodcutting Nivel 70 | Gana 5.62% de penetración de armadura, 5.62% de prob. de aturdimiento, y haces 1.41% más daño por pieza de armadura ligera del enemigo |
+| Berserker | 80 | 1 | Requiere Vikingo | Aumenta el daño en 2.81%, los ataques de poder hacen mucho más daño en área, y ganas 3 de penetración de armadura adicional |
+| PortaMuerte | 100 | 1 | Requiere Berserker | Aumenta la prob. de crítico en 2.81% y el daño crítico en 8.44%. Los críticos infligen Sangrado y el sangrado hace 0.281 más daño |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Armas Pesadas a 0 y reduce la EXP ganada en -25%. A cambio, ganas 7.5% permanente de daño de ataque, 10% de daño de ataque de poder y 5% de prob. de crítico |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Armas Pesadas a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 7.5% permanente de daño de ataque, 10% de daño de ataque de poder y 5% de prob. de crítico |
 
 ---
 
 ## 🧥 Light Armor (max nivel 100)
 
-**Como subir XP:** Recibir daño con armadura ligera (cuero, cota de malla). 7 XP base por pieza, 3.5 XP adicional por segunda pieza o mas.
+**Como subir XP:** Recibiendo daño con armadura ligera (cuero, cota de malla): **7 XP** por la primera pieza equipada y **3.5** por cada pieza adicional. El daño de otros jugadores da el 10%. Si te farmean en el mismo chunk la XP baja al 5 %.
 
-**Bonus inicial:** +1.88% esquiva por pieza equipada.
+**Bonos al empezar:** efectividad de la armadura +0%, velocidad por pieza +0%, ahorro de hambre por pieza +0%, curación por pieza +0%, esquiva por pieza +1.88%.
 
-**Bono pasivo por nivel:** +0.19% efectividad de armadura (acumulativo sobre el baseline vanilla).
+**Bono por cada nivel:** efectividad de la armadura +0.375%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: efectividad de la armadura +0.422%
+- Nivel 25: efectividad de la armadura +0.703%
+- Nivel 50: efectividad de la armadura +1.12%
+- Nivel 75: efectividad de la armadura +1.69%
+- Nivel 100: efectividad de la armadura +2.53%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +2.81% efectividad armadura ligera |
-| Perk 1A | 20 | +0.281% velocidad/pieza, +0.985% ahorro hambre/pieza, +0.985% curacion/pieza |
-| Perk 1B | 40 | +8.44% ahorro hambre conjunto completo, +2.81% efectividad armadura |
-| Perk 1C — Adrenalina | 50 | Desbloquea modo adrenalina (umbral 15% HP, nivel 0.5, CD 6000 ticks) |
-| Perk Combo (Heavy Weapons 50) | 50 | +14.1% resistencia a crits enemigos, +28.1% resistencia a stun |
-| Perk 2A | 60 | Reduce requisito de piezas para set bonus en 0.5. +0.422% vel/pieza, +0.773% hambre y curacion/pieza |
-| Perk 2B | 60 | +5.62% esquiva con conjunto completo, +2.81% efectividad armadura |
-| Perk 2C — Adrenalina II | 90 | +2 nivel adrenalina, +7.5% umbral, -3000 CD |
-| Perk 2 — Maestria | 100 | Inmunidad a Veneno/Ceguera/Hambre, +11.2% resistencia magica |
+**Árbol de perks:** 11 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Tachones de Hierro | 0 | 1 | — | La armadura ligera se vuelve 2.81% más protectora |
+| Desenvuelta | 20 | 1 | Requiere Tachones de Hierro | La armadura ligera te carga la mitad, mejorando la curación y el hambre |
+| Metabolismo Controlado | 40 | 1 | Requiere Tachones de Hierro | Llevar un conjunto completo de armadura ligera te otorga 8.44% de reducción de consumo de hambre. La armadura ligera es 2.81% más protectora |
+| Adrenalina | 50 | 1 | Requiere Tachones de Hierro | Desbloquea Adrenalina. Al llegar a poca vida, ganas brevemente potentes buffs para escapar del peligro |
+| Compostura Perfecta | 50 | 1 | Requiere Tachones de Hierro; También pide Heavy_Weapons Nivel 50 | Llevar un conjunto completo de armadura ligera te otorga 14.1% de resist. a críticos e inmunidad a aturdimiento |
+| Explorador Eficiente | 60 | 1 | Requiere Desenvuelta | Solo necesitas 3 piezas de armadura ligera para el bonus de conjunto. La armadura ligera no te carga nada |
+| Reflejos Veloces | 60 | 1 | Requiere Metabolismo Controlado | Llevar un conjunto completo de armadura ligera te otorga 5.62% de prob. de esquivar un ataque. La armadura ligera es 2.81% más protectora |
+| Rayo | 90 | 1 | Requiere Adrenalina | Mejora Adrenalina, aumentando la fuerza y duración de sus buffs y reduciendo su recarga a la mitad |
+| Escamas de Dragón | 100 | 1 | Requiere Explorador Eficiente y Reflejos Veloces | Llevar un conjunto completo de armadura ligera te otorga 11.2% de resist. al daño mágico e inmunidad a Veneno, Ceguera y Hambre |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Armadura Ligera a 0 y reduce la EXP ganada en -25%. A cambio, ganas 0.625% permanente de resist. al daño y 1% de vel. de movimiento por pieza |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Armadura Ligera a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 0.625% permanente de resist. al daño y 1% de vel. de movimiento por pieza |
 
 ---
 
 ## 🛡️ Heavy Armor (max nivel 100)
 
-**Como subir XP:** Recibir daño con armadura pesada (hierro, diamante, netherite, dorada). Mismo sistema que Light Armor.
+**Como subir XP:** Recibiendo daño con armadura pesada (hierro, diamante, netherite, oro): **7 XP** por la primera pieza equipada y **3.5** por cada pieza adicional. El daño de otros jugadores da el 10%. Si te farmean en el mismo chunk la XP baja al 5 %.
 
-**Bono pasivo por nivel:** +0.19% efectividad de armadura (acumulativo sobre el baseline vanilla).
+**Bonos al empezar:** efectividad de la armadura +0%, velocidad por pieza +0%, ahorro de hambre por pieza +0%, curación por pieza +0%, imprecisión +0.
 
-**Arbol de perks:**
+**Bono por cada nivel:** efectividad de la armadura +0.375%.
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | +2.81% efectividad armadura pesada |
-| Perk 1A | 20 | +0.527% velocidad/pieza, +0.703% hambre/pieza, +0.703% curacion/pieza, -0.375 imprecision archeria |
-| Perk 1B | 40 | +11.2% bono curacion conjunto completo, +2.81% efectividad armadura |
-| Perk 1C — Rabia | 50 | Desbloquea modo rabia (umbral 15% HP, nivel 0.5, CD 6000 ticks) |
-| Perk Combo (Light Weapons 50) | 50 | +14.1% resistencia a crits, +7.03% bonus de fraccion de inmunidad |
-| Perk 2A | 60 | Reduce requisito set en 0.5. +0.527% vel/pieza, +1.41% hambre/pieza, +1.41% curacion/pieza, -0.375 imprecision |
-| Perk 2B | 80 | +2.81% probabilidad reflejo, +5.62% fraccion reflejo de daño, +2.81% efectividad armadura |
-| Perk 2C — Rabia II | 90 | +2 nivel rabia, +7.5% umbral, -3000 CD |
-| Perk 2 — Maestria | 100 | Inmunidad a Lentitud/Debilidad/Levitacion, +11.2% resistencia a knockback |
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: efectividad de la armadura +0.422%
+- Nivel 25: efectividad de la armadura +0.703%
+- Nivel 50: efectividad de la armadura +1.12%
+- Nivel 75: efectividad de la armadura +1.69%
+- Nivel 100: efectividad de la armadura +2.53%
+
+**Árbol de perks:** 11 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Ajuste Reforzado | 0 | 1 | — | La armadura pesada se vuelve 2.81% más protectora |
+| No Saltarte el Día de Piernas | 20 | 1 | Requiere Ajuste Reforzado | La armadura pesada te carga menos, mejorando la curación, el hambre y la precisión a distancia |
+| Acero Vital | 40 | 1 | Requiere Ajuste Reforzado | Llevar un conjunto completo de armadura pesada te otorga 11.2% de curación adicional. La armadura pesada es 2.81% más protectora |
+| Furia | 50 | 1 | Requiere Ajuste Reforzado | Desbloquea Furia. Al llegar a poca vida, ganas brevemente potentes buffs para mantenerte en combate más tiempo |
+| Conoce tus Debilidades | 50 | 1 | Requiere Ajuste Reforzado; También pide Light_Weapons Nivel 50 | Llevar un conjunto completo de armadura pesada te otorga 14.1% de resist. a críticos e 7.03% de inmunidad |
+| Infantería Innovadora | 60 | 1 | Requiere No Saltarte el Día de Piernas | Solo necesitas 3 piezas de armadura pesada para el bonus de conjunto. La armadura pesada te carga muy poco ahora |
+| Traje con Pinchos | 80 | 1 | Requiere Acero Vital | Llevar un conjunto completo de armadura pesada te otorga 2.81% de prob. de reflejar 5.62% de daño al atacante. La armadura pesada es 2.81% más protectora |
+| Rabia | 90 | 1 | Requiere Furia | Mejora Furia, aumentando la fuerza y duración de sus buffs y reduciendo su recarga a la mitad |
+| Juggernaut | 100 | 1 | Requiere Infantería Innovadora y Traje con Pinchos | Llevar un conjunto completo de armadura pesada te otorga 11.2% de resist. al retroceso e inmunidad a Debilidad, Lentitud y Levitación |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Armadura Pesada a 0 y reduce la EXP ganada en -25%. A cambio, ganas 0.938% permanente de resist. al daño y 5% de resist. a críticos por pieza |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Armadura Pesada a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 0.938% permanente de resist. al daño y 5% de resist. a críticos por pieza |
 
 ---
 
 ## 🏹 Archery (max nivel 100)
 
-**Como subir XP:** Disparar con arco (21 XP base) o ballesta (28 XP base). El XP aumenta con la distancia del disparo.
+**Como subir XP:** Disparando con arco (**21 XP** base) o ballesta (**28**). Sube con la distancia del disparo (hasta 100 bloques) y con el daño; con Infinity ×0.7. Spawners 10% y PvP 10%.
 
-**Penalizacion inicial:** +2.5 imprecision, -10% daño de arco, -15% daño con Infinity. *(El 2 de noviembre se redujo a la mitad para que los arcos se sientan menos limitados.)*
+**Bonos al empezar:** imprecisión +2.5, daño de arco -10%, daño base por distancia -10%, bono de daño por distancia +10%, daño con Infinity -15%.
 
-**Bono pasivo por nivel:** +0.2% daño de arco.
+**Bono por cada nivel:** daño de arco +0.4%.
 
-**Arbol de perks:**
+**Hitos de nivel** (se suman al llegar a ese nivel):
+- Nivel 10: daño de arco +0.45%
+- Nivel 25: daño de arco +0.75%
+- Nivel 50: daño de arco +1.2%
+- Nivel 75: daño de arco +1.8%
+- Nivel 100: daño de arco +2.7%
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Perk 1 | 0 | -0.375 imprecision, +3.75% daño arco, +3.75% daño ballesta |
-| Perk 2 | 20 | +3.75% ahorro de flechas |
-| Perk C1 — Charged Shot | 40 | Desbloquea disparo cargado (CD 300, 2 cargas, pierce 1, knockback 1, velocidad +25%) |
-| Perk 3 | 40 | -0.562 imprecision, +3.75% crit arco/ballesta |
-| Perk Stealth (Light Armor 50) | 50 | Crit garantizado desde sigilo, sangrado al critico, +18.75% daño critico |
-| Perk 4 | 60 | +3.75% daño arco/ballesta, +7.5% ahorro flechas, +1.875% daño por distancia |
-| Perk 5 | 80 | +7.5% crit, -0.938 imprecision, +11.25% daño critico |
-| Perk C2 — Charged II | 80 | Mejora charged shot: velocidad maxima, recarga instantanea ballesta, sin gravedad, +7.5% daño, -100 CD, +1 carga, +1 knockback |
-| Perk 6 — Max | 100 | +3.75% daño por distancia, +11.25% daño con Infinity |
+**Árbol de perks:** 11 ventajas; comprarlas todas costaría 9 puntos de habilidad.
+
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Ranger | 0 | 1 | — | Mejora ligeramente la precisión, aumenta el daño en 3.75% |
+| Cazador Eficiente | 20 | 1 | Requiere Ranger | Desbloquea Flechas de Piedra, reduce el consumo de munición en 3.75% |
+| Arquero | 40 | 1 | Requiere Cazador Eficiente | Desbloquea Flechas de Cobre y Oro, mejora la precisión y otorga 3.75% de prob. de golpe crítico |
+| Disparo Cargado I | 40 | 1 | Requiere Cazador Eficiente | Desbloquea Disparo Cargado. Los disparos cargados tienen más perforación, retroceso, velocidad, precisión y daño |
+| Asesino | 50 | 1 | Requiere una de: Arquero; También pide Light_Armor Nivel 50 | Los impactos con el enemigo de espaldas y fuera de combate serán siempre críticos. Los críticos causan 18.75% más daño y sangrado |
+| Infantería de Largo Alcance | 60 | 1 | Requiere Arquero | Desbloquea Flechas de Hierro y Éndrico, aumenta el daño a distancia en 3.75% y haces más daño cuanto más lejos estés del objetivo |
+| FrancoTirador | 80 | 1 | Requiere Infantería de Largo Alcance | Desbloquea Flechas de Diamante, aumenta la prob. de crítico en 7.5% y el daño crítico en 11.25%. Gran mejora de precisión |
+| Disparo Cargado II | 80 | 1 | Requiere Disparo Cargado I | Los disparos cargados ganan 1 y reducen su recarga. Más cargas, perforación, retroceso y daño. Los disparos cargados también ignoran la gravedad |
+| Disparos Necróticos | 100 | 1 | Requiere FrancoTirador | Desbloquea Flechas de Netherita e Impuras, elimina la penalización de daño de arcos con Infinito, y mejora enormemente el daño a gran distancia |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Arquería a 0 y reduce la EXP ganada en -25%. A cambio, ganas 7.5% permanente de daño a distancia, -1.5 de imprecisión y 5% de prob. de crítico |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Arquería a 0 y reduce la EXP ganada en -8.5%. A cambio, ganas de nuevo 7.5% permanente de daño a distancia, -1.5 de imprecisión y 5% de prob. de crítico |
 
 ---
 
 ## 🥋 Artes Marciales (max nivel 100) ✨ Premium
 
-**Como subir XP:** Peleando **sin arma** (a puños) o con **nudilleras**. 10 XP por punto de daño. Es una skill de combate que aumenta tus capacidades ofensivas y defensivas "sin medios materiales".
+**Como subir XP:** Peleando sin arma o con nudilleras: **10 XP por punto de daño**. Spawners 10% y PvP 10%; si farmeas en el mismo chunk la XP baja al 5 %.
 
-**Bono inicial:** +7.5% probabilidad de aturdir (stun) con tus golpes.
+**Bonos al empezar:** probabilidad de aturdir +7.5%.
 
-**Bono pasivo por nivel:** +0.0375 de daño sin arma, +1 de poder de agarre (grappling).
+**Bono por cada nivel:** daño sin arma +0.0375, poder de agarre +1.
 
 **Mecanicas propias:**
 
@@ -511,21 +645,22 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 | Uppercut | Lanza al enemigo por los aires; si choca con una pared recibe daño por contusion |
 | Meditacion | Una vez al dia (del juego), meditando en la cima de una montaña, eliges un efecto duradero |
 
-**Arbol de perks** (rama A: control/defensa, rama B: golpeo/ofensiva):
+**Árbol de perks:** 12 ventajas; comprarlas todas costaría 9 puntos de habilidad.
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Manos de Piedra | 0 | +0.75 daño sin arma extra |
-| Disciplina (A1) | 20 | +5.62% prob. de aturdir. Retener golpes acumula daño (tras 1s, +0.169 daño/tick, tope +6) |
-| Golpes Despiadados (B1) | 20 | +daño de ataque y +prob. de golpe critico |
-| Suprimir y Controlar (A2) | 40 | Desbloquea el **Agarre** (ralentiza y debilita) y el **Desarme** de mobs |
-| Uppercut (B2) | 40 | Desbloquea el **Uppercut**, +prob. critico, y tus golpes desarman escudos unos segundos |
-| Vinculo del Alma (A3) | 60 | El agarre actua x2 rapido, +16.9% esquiva mientras agarras, y desarmar del todo da +37.5% robo de vida 8s |
-| Defenestracion (B3) | 70 | Golpear a un objetivo en el aire lo lanza a gran velocidad; chocar contra un muro le hace daño segun su velocidad |
-| Reflejos de Rayo (A4) | 80 | Sin atacar ganas prob. de esquiva; sin armadura equipada el efecto se **triplica** |
-| Om Mani Padme Hum (A5) | 100 | Desbloquea la **Meditacion**: una vez al dia, en la cima de una montaña, eliges un efecto potente y duradero |
-| Nirvana (final) | 100 | Realiza tu maximo potencial (perk gratuito de coronacion) |
-| Nueva Partida I / II (NG+) | 100 | Reinicia Artes Marciales a 0 y baja la XP ganada a cambio de daño, alcance y reduccion de inmunidad **permanentes** |
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Manos de Piedra | 0 | 1 | — | Te otorga +75% de daño sin arma extra |
+| Disciplina | 20 | 1 | Requiere Manos de Piedra | Tus golpes tienen una probabilidad adicional +5.62% de aturdir. Retener tus golpes aumenta su daño |
+| Golpes Despiadados | 20 | 1 | Requiere Manos de Piedra | Aumenta el daño de ataque en 1.5 y la prob. de golpe crítico en 5.62% |
+| Suprimir y Controlar | 40 | 1 | Requiere Disciplina | Desbloquea el Agarre, que permite agarrarte a los enemigos para ralentizarlos y debilitarlos. Permite el Desarme |
+| Uppercut | 40 | 1 | Requiere Golpes Despiadados | Desbloquea el Uppercut, y aumenta la prob. de golpe crítico en 8.44%. Tus golpes desarman escudos por 30 segundos |
+| Vínculo del Alma | 60 | 1 | Requiere Suprimir y Controlar | El Agarre aplica sus efectos el doble de rápido, y mientras lo haces obtienes 30% de prob. de esquivar sus ataques. Desarmar completamente al enemigo te otorga además 50% de Robo de Vida por 8 segundos |
+| Defenestración | 70 | 1 | Requiere Uppercut | Golpear a un objetivo en el aire lo lanza a gran velocidad. Si choca con una pared, recibe daño por contusión proporcional a su velocidad |
+| Reflejos de Rayo | 80 | 1 | Requiere Vínculo del Alma | Sin atacar, ganas +16.9% de prob. de esquiva. Sin armadura, este efecto se triplicará |
+| Om Mani Padmé Hum | 100 | 1 | Requiere Reflejos de Rayo | Desbloquea la Meditación. Una vez al día (del juego), medita en la cima de una montaña y elige entre ? poderosos efectos duraderos |
+| Nirvana | 100 | gratis | También pide Smithing Nivel 100, Alchemy Nivel 100, Enchanting Nivel 100, Light_Weapons Nivel 100, Heavy_Weapons Nivel 100, Light_Armor Nivel 100, Heavy_Armor Nivel 100, Archery Nivel 100, Mining Nivel 100, Fishing Nivel 100, Farming Nivel 100, Woodcutting Nivel 100, Digging Nivel 100 ❌ *(skill desactivada: hoy no se puede conseguir)* | Realiza tu máximo potencial |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Artes Marciales a 0 y reduce la EXP ganada en -50%. A cambio, ganas 2 permanente de Daño, 0.5 de Alcance y 20% de Red. de Inmunidad |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Artes Marciales a 0 y reduce la EXP ganada en -25%. A cambio, ganas de nuevo 4 permanente de Daño, 0.5 de Alcance y 20% de Red. de Inmunidad |
 
 **La Meditacion:** al desbloquear el perk final puedes meditar respondiendo en el chat entre **Combate**, **Habilidad** o **Recompensa**, y obtienes un efecto duradero acorde a tu eleccion.
 
@@ -533,7 +668,9 @@ El skill de Enchanting no esta activo actualmente en el servidor. La mesa de enc
 
 ## 🤝 Comercio (Trading) (max nivel 100) ✨ Premium
 
-**Como subir XP:** Comerciando con **aldeanos**. La XP depende del **rango del mercader** (Novato x1.0 hasta Maestro x2.0) y del **descuento** que consigas: cuanto mas barato compras, mas XP ganas (hasta 4x el porcentaje de descuento).
+**Como subir XP:** Comerciando con **aldeanos**. Multiplicador por rango del mercader: Novato ×1, Aprendiz ×1.1, Oficial ×1.3, Experto ×1.6, Maestro ×2. Además, si el precio tiene descuento, el descuento se multiplica ×3 y se suma como multiplicador de XP.
+
+**Bonos al empezar:** .
 
 Esta skill va de la mano con todo el sistema de aldeanos. La explicación completa (profesiones, rangos, servicios, felicidad, reputación y precios) está en su propia página:
 
@@ -543,21 +680,22 @@ Esta skill va de la mano con todo el sistema de aldeanos. La explicación comple
 
 **Desde nivel 0** ya puedes comerciar y hacer pedidos (ordering) a casi todas las profesiones. El árbol tiene dos ramas: **A** (mercancía) y **B** (servicios).
 
-**Arbol de perks:**
+**Árbol de perks:** 12 ventajas; comprarlas todas costaría 10 puntos de habilidad.
 
-| Perk | Nivel req. | Bonos |
-|---|---|---|
-| Comprador en Masa | 0 | +15% de unidades que puedes comprar antes de agotar el stock |
-| Carisma Amistoso (2A) | 20 | Los mercaderes suben de nivel mas rapido y ofrecen mas tratos. +suerte de comercio |
-| Aprendizaje (2B) | 20 | Desbloquea el servicio de **Entrenar** skills (coste escala con el rango del mercader, hasta 75 en Maestro) |
-| Entrega Express (3A) | 40 | Los pedidos llegan mas rapido y puedes pedir mas cantidad |
-| Trabajadores de Servicios (3B) | 40 | Desbloquea los servicios de **reparar y mejorar** objetos |
-| Mercancia de Calidad (4A) | 60 | Objetos del mercader de mayor calidad, y mas stock para comerciar |
-| Descuento VIP (4B) | 60 | Los servicios son mas baratos |
-| Gratitud (5A) | 80 | Comerciar da probabilidad (0-10%, sube con reputacion y renombre) de recibir un **regalo** |
-| Artesanos (5B) | 80 | Objetos del mercader de aun mayor calidad |
-| Mercado Negro (6) | 100 | Los mercaderes Maestros ofrecen tratos exclusivos y poderosos |
-| Nueva Partida I / II (NG+) | 100 | Reinicia Comercio a 0 y baja la XP ganada a cambio de stock, calidad y selección de tratos **permanentes** |
+| Perk | Nivel | Costo | Requisitos | Qué hace |
+|---|---|---|---|---|
+| Comprador en Masa | 0 | 1 | — | Puedes comprar 15% veces más tratos de un comerciante antes de agotar existencias |
+| Carisma Amistoso | 20 | 1 | Requiere Comprador en Masa | Los comerciantes suben de nivel 18.75% más rápido y ofrecen más tratos |
+| Aprendizaje | 20 | 1 | Requiere Comprador en Masa | La mayoría de comerciantes pueden entrenarte en su profesión, permitiéndote subir de nivel a un coste (escala con el nivel del comerciante, hasta 75 en nivel Maestro) |
+| Entrega Express | 40 | 1 | Requiere Carisma Amistoso | Los pedidos se entregan 37.5% más rápido y puedes pedir 18.75% más |
+| Traba jadores de Servicios | 40 | 1 | Requiere Aprendizaje | La mayoría de comerciantes pueden ofrecer servicios de mejora, permitiéndote mejorar o modificar objetos a un coste |
+| Mercancía de Calidad | 60 | 1 | Requiere Entrega Express | Los objetos del comerciante tienen 0.15 mayor calidad cuando aplica. También puedes comerciar 22.5% objetos más |
+| Descuento VIP | 60 | 1 | Requiere Traba jadores de Servicios | Los servicios son ahora 0.2475 más baratos |
+| Gratitud | 80 | 1 | Requiere Mercancía de Calidad | Comerciar con un comerciante otorga la posibilidad de recibir un regalo aleatorio. Esta probabilidad aumenta con reputación y renombre, de 0-10% |
+| Artesanos | 80 | 1 | Requiere Descuento VIP | Los objetos del comerciante tienen 0.225 mayor calidad |
+| Mercado Negro | 100 | 1 | Requiere Gratitud y Artesanos | La mayoría de comerciantes ofrecen tratos exclusivos y poderosos al rango máximo (maestro) |
+| Nueva Partida I | 100 | gratis | — | Reinicia tu nivel de Comercio a 0 y reduce la EXP ganada en -50%. A cambio, ganas 25% permanente de stock de comerciante, 0.25 de calidad de objeto y mayor selección de tratos |
+| Nueva Partida II | 100 | gratis | Requiere Nueva Partida I | Reinicia tu nivel de Comercio a 0 y reduce la EXP ganada en -17%. A cambio, ganas de nuevo 25% permanente de stock de comerciante, 0.25 de calidad de objeto y mayor selección de tratos |
 
 ---
 

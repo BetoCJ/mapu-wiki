@@ -45,8 +45,14 @@ Además del parkour grande, hay **4 parkours cortos** con cronómetro y ranking 
 * Tus tiempos quedan guardados en el top de cada parkour.
 * `/mpk leave` te saca al lobby del parkour y `/mpk spawn` al spawn del servidor.
 
+#### 🏆 Premios y reinicio mensual
+
+* Cada parkour puede dar **un premio por completarlo** y **premios distintos para el top 3** (puesto 1, 2 y 3). El staff define cuáles son; mientras un parkour no tenga premios configurados, solo cuenta para el ranking.
+* Los premios del **top 3** se entregan solos **todos los domingos a las 20:00** (hora de Chile) a quienes ocupen el podio en ese momento. Si no estás conectado o tienes el inventario lleno, el premio queda pendiente y lo recibes con `/mpk claim` fuera del parkour.
+* El **top de tiempos se reinicia el día 1 de cada mes a las 00:00** (hora de Chile): se borran los mejores tiempos para que todos partan de cero, y se avisa en el chat. No se pierden las veces que completaste el parkour.
+
 {% hint style="info" %}
-Por ahora los parkours cortos no entregan premios; solo cuentan para el ranking.
+El primer reparto semanal es el domingo 15 de noviembre y el primer reinicio mensual es el 1 de diciembre.
 {% endhint %}
 
 ***

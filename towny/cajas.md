@@ -17,36 +17,36 @@ Las 6 cajas principales forman una jerarquía de tierras de recompensas con tem�
 | 5 | 🟣 **Caja Wallmapu** | Espada Wallmapu, Pico Wallmapu | Llave Lafken |
 | 6 | ⚫ **Caja Netherite** | Piezas completas del set Meli Witran Mapu | — |
 
-Cada caja también tiene un **Kit Legendario** con probabilidad muy baja (~0.1%) inspirado en seres de la mitología Mapuche: Kit Alicanto, Kit Kai-Kai Vilú, Kit Lautaro, Kit Tren-Tren y Kit Tue-Tue.
+Cada caja también tiene un **Kit Legendario** con probabilidad muy baja (~0.08%) inspirado en seres de la mitología Mapuche: Kit Alicanto, Kit Kai-Kai Vilú, Kit Lautaro, Kit Tren-Tren y Kit Tue-Tue. Desde el 12/11/2026 cada uno llega en una **caja shulker** de su color (Tue-Tue roja, Tren-Tren naranja, Kai-Kai Vilú celeste, Lautaro negra y Alicanto amarilla) con objetos reforzados, **una habilidad de clic derecho** y **una pieza de la Reliquia Ancestral** (juntando una de cada kit hay un bufo suave; detalle en la [página de kits](https://servidor.mapucraft.com/kits)).
 
 ### 🟤 Caja Mapu — Alicanto
 Temática dorada. Drops destacados:
 - 🪶 Botas Mapu / Arco Mapu (piezas del set)
-- 🦅 Kit Alicanto (0.1%) — set completo con lore
+- 🦅 Kit Alicanto (0.075%) — grebas de Alicanto (pieza de la Reliquia Ancestral), hacha, pico con Olfato de Oro, elytra, 8 bloques de oro y 3 manzanas encantadas
 - Elytra, Totem, Manzana Dorada, Gold Blocks, Diamantes, Beacon, End Crystal
 
 ### 🔵 Caja Lafken — Tren-Tren
 Temática roja/dorada. Drops destacados:
 - 🛡️ Grebas Lafken / Escudo Lafken (piezas del set)
-- 🐍 Kit Tren-Tren (0.1%)
+- 🐍 Kit Tren-Tren (0.075%) — botas de Tren-Tren (pieza de la Reliquia Ancestral), espada con Alzamiento de Tierra, arco y 3 manzanas encantadas
 - Tridente, Arco, Corazón del Mar, Shulker Shell, Ghast Tear, Dragon Head
 
 ### ⚪ Caja Wenumapu — Kai-Kai Vilú
 Temática azul/acuática. Drops destacados:
 - 🔱 Peto Wenumapu / Picota Wenumapu (piezas del set)
-- 🌊 Kit Kai-Kai Vilú (0.1%) — incluye Tridente Lágrima de Kai-Kai con Lealtad V, Canalización e Impaling VI
+- 🌊 Kit Kai-Kai Vilú (0.075%) — casco de Kai-Kai Vilú (pieza de la Reliquia Ancestral), Tridente Lágrima (Marejada), Arpón con Lealtad V y Canalización, y 3 manzanas encantadas
 - Diamantes, Elytra, Beacon, Shulker Shell, End Crystal
 
 ### 🟠 Caja Kutral — Lautaro
 Temática naranja/fuego. Drops destacados:
 - 🪖 Casco Kutral / Hacha Kutral (piezas del set)
-- ⚔️ Kit Lautaro (0.1%) — Hacha Venganza de Lautaro + Poncho de batalla + Escudo
+- ⚔️ Kit Lautaro (0.075%) — pechera de Lautaro (pieza de la Reliquia Ancestral), Hacha Venganza de Lautaro (Grito de Guerra) y 3 manzanas encantadas
 - Netherite Ingot, Elytra, Wither Skull, Totem, Dragon Head, Diamantes, Blaze Rod
 
 ### 🟢 Caja Wallmapu — Tue-Tue
 Temática rosa/blanca. Drops destacados:
 - ⚒️ Espada Wallmapu / Pico Wallmapu (piezas del set)
-- 🦉 Kit Tue-Tue (0.1%) — incluye Pico Tue-Tue con Efficiency VI, Fortune IV y Caña de Pescar Mulichinco Luck V
+- 🦉 Kit Tue-Tue (0.075%) — escudo de Tue-Tue (pieza de la Reliquia Ancestral), Colmillo de Tue-Tue (pico, Chillido Espectral), hacha, pala, Caña de Pescar Mulichinco Suerte V y 3 manzanas encantadas
 - Manzana Dorada Encantada, End Crystal, Beacon, Shulker Shell
 
 ### ⚫ Caja Netherite — Set Meli Witran Mapu
@@ -425,11 +425,11 @@ Llave: **✦ Llave Diaria** · Premios: **26**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Alicanto | Legendario | 0.01% |
-| Kit Kaikaivilu | Legendario | 0.01% |
-| Kit Lautaro | Legendario | 0.01% |
-| Kit TrenTren | Legendario | 0.01% |
-| Kit TueTue | Legendario | 0.01% |
+| Kit Alicanto | Legendario | 0.0075% |
+| Kit Kaikaivilu | Legendario | 0.0075% |
+| Kit Lautaro | Legendario | 0.0075% |
+| Kit TrenTren | Legendario | 0.0075% |
+| Kit TueTue | Legendario | 0.0075% |
 | Llave Netherite | Legendario | 0.05% |
 | Beacon | Épico | 0.79% |
 | Ender Pearl x8 | Raro | 1.58% |
@@ -604,7 +604,7 @@ Llave: **✦ Llave Kutral** · Premios: **18**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Lautaro | Legendario | 0.09% |
+| Kit Lautaro | Legendario | 0.07% |
 | Llave Wallmapu | Raro | 2.81% |
 | Ancient Debris x2 | Raro | 3.75% |
 | Music Disc Pigstep | Raro | 3.75% |
@@ -637,7 +637,7 @@ Llave: **✦ Llave Lafken** · Premios: **17**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit TrenTren | Legendario | 0.1% |
+| Kit TrenTren | Legendario | 0.075% |
 | Llave Wenumapu | Raro | 2.87% |
 | Grebas Lafken | Épico | 3.82% |
 | Escudo Lafken | Épico | 4.3% |
@@ -848,7 +848,7 @@ Llave: **✦ Llave Mapu** · Premios: **21**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Alicanto | Legendario | 0.11% |
+| Kit Alicanto | Legendario | 0.08% |
 | Beacon | Raro | 3.29% |
 | Llave Lafken | Raro | 3.29% |
 | Name Tag x2 | Raro | 3.29% |
@@ -1143,7 +1143,7 @@ Llave: **✦ Llave Wallmapu** · Premios: **18**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit TueTue | Legendario | 0.11% |
+| Kit TueTue | Legendario | 0.08% |
 | Llave Lafken (Bonus) | Raro | 3.22% |
 | 15,000 Pewmas | Raro | 4.3% |
 | Beacon | Raro | 4.3% |
@@ -1176,7 +1176,7 @@ Llave: **✦ Llave Wenumapu** · Premios: **19**
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Kaikaivilu | Legendario | 0.09% |
+| Kit Kaikaivilu | Legendario | 0.07% |
 | Llave Kutral | Raro | 2.58% |
 | 8,000 Pewmas | Raro | 4.31% |
 | Beacon | Raro | 4.31% |

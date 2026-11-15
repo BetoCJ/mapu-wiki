@@ -1,7 +1,7 @@
 # 🏰 Dungeons
 
 {% hint style="info" %}
-🗓️ **Dungeons 1 y 2 desde el 7 de noviembre; Dungeons 3, 4 y 5 desde el 14 de noviembre.** → [Hoja de ruta](../hoja-de-ruta.md)
+🗓️ **Dungeons 1 y 2 desde el 7 de noviembre; Dungeon 3 abierta desde el 13 de noviembre; Dungeon 4 abierta desde el 15 de noviembre.** La Dungeon 5 sigue cerrada por ahora. → [Hoja de ruta](../hoja-de-ruta.md)
 {% endhint %}
 
 Los **Dungeons** de Mapucraft son mazmorras con mobs custom, mini-bosses y jefes finales únicos. Existen tres dungeons de dificultad creciente, cada uno con su propia temática, enemigos y botín.
@@ -11,6 +11,10 @@ Los **Dungeons** de Mapucraft son mazmorras con mobs custom, mini-bosses y jefes
 ## 🚪 Acceso
 
 Usa `/warp dungeons` para llegar a la zona de entrada de los dungeons. Desde allí puedes acceder a las tres mazmorras. Dentro de la **Dungeon 1** encontrarás tres áreas: la sala del Boss, la Zona de Crafteo y el acceso interno a la Dungeon 2.
+
+{% hint style="warning" %}
+**Control anti AFK:** quedarte quieto matando mobs sin parar (autoclicker o macros) da un aviso y, si sigues, te lleva al spawn. Cerca de los jefes no aplica.
+{% endhint %}
 
 {% hint style="info" %}
 **KeepInventory activado:** al morir en los dungeons **no pierdes ítems**, pero **sí pierdes tu EXP**. Para salir puedes encontrar las 4 salidas o usar una **Llave Escapatoria**.
