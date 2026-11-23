@@ -66,6 +66,8 @@ Cada día recibes **5 misiones** que se renuevan a las **12:00**, repartidas por
 
 Abarcan minar, construir, cultivar, cazar, pescar, cocinar, fabricar y más. No hay misiones de PvP ni de jefes del End, para que cualquiera pueda completarlas.
 
+> 🎣 **Desde el 21/11/2026** las misiones diarias de pesca (que no avanzaban) se cambiaron por misiones de **cocinar bacalao o salmón en el horno**, y la misión de pesca de la semana 10 también pasó a ser de cocinar bacalao.
+
 ### Semanales
 
 Cada semana se abre un nuevo tema con **8 misiones**: **5 gratuitas** y **3 exclusivas del premium**, de **9 puntos** cada una. Cada semana vale hasta **72 puntos** con el premium (**45** con el gratuito).

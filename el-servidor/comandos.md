@@ -1,6 +1,8 @@
 # ⌨️ Comandos
 
-Esta es la lista de comandos del servidor y del bot de Discord. También está publicada en el canal **#comandos** del Discord, y dentro del juego puedes usar `/tutoriales`.
+_Actualizado el 23/11/2026._
+
+Esta es la lista de comandos del servidor y del bot de Discord. Los lugares a los que se viaja con `/warp` están en [Warps](warps.md). También está publicada en el canal **#comandos** del Discord, y dentro del juego puedes usar `/tutoriales`.
 
 ***
 
@@ -166,3 +168,41 @@ Esta es la lista de comandos del servidor y del bot de Discord. También está p
 | `m!rangos` | rangos | Todos | Discord |
 | `m!kits` | kits | Todos | Discord |
 <!-- AUTO:fin comandos -->
+
+***
+
+## 🆕 Comandos de los sistemas nuevos (noviembre 2026)
+
+Estos comandos son de los sistemas propios de Mapucraft que llegaron en noviembre. Todos son para **todos los jugadores**.
+
+### 🎮 Juegos y eventos
+
+| Comando | Descripción | Más info |
+|---|---|---|
+| `/sumo` | menú del sumo (alias `/mapusumo`) | [Sumo](../towny/sumo.md) |
+| `/sumo unirse <arena>` · `/sumo salir` · `/sumo lista` | entrar, salir y ver las arenas | [Sumo](../towny/sumo.md) |
+| `/sumo top [métrica] [página]` · `/sumo stats [jugador]` | ranking y estadísticas del sumo | [Sumo](../towny/sumo.md) |
+| `/sumo apostar <monto\|aceptar\|rechazar\|cancelar\|sin>` | apuesta opcional en tu duelo | [Sumo](../towny/sumo.md) |
+| `/sumo apostar <jugador> <monto>` | apuesta de espectador a quién gana | [Sumo](../towny/sumo.md) |
+| `/bingo` | cartón del Bingo Diario (alias `/bd`) | [Bingo Diario](../towny/bingo-diario.md) |
+| `/bingo entregar` · `/bingo top [dia\|semana\|mes\|total]` · `/bingo racha` · `/bingo premios` · `/bingo avisos [on\|off]` | jugar y consultar el Bingo Diario | [Bingo Diario](../towny/bingo-diario.md) |
+| `/bingoevento` | menú del Bingo de Eventos (alias `/bingoe`) | [Bingo de Eventos](../towny/bingo-evento.md) |
+| `/bingoevento comprar [n]` · `cartones` · `premios` · `bolas` | comprar y seguir tus cartones | [Bingo de Eventos](../towny/bingo-evento.md) |
+| `/loteria auto <boletos> [rondas]` · `/loteria auto off` | compra automática de boletos | [Lotería](../towny/loteria.md) |
+| `/mpk join <parkour>` · `/mpk leave` · `/mpk spawn` · `/mpk restart` · `/mpk checkpoint` | jugar los parkours cortos | [Parkours cortos](../towny/parkours.md) |
+| `/mpk top <parkour>` · `/mpk stats` · `/mpk claim` | ranking, estadísticas y premios pendientes | [Parkours cortos](../towny/parkours.md) |
+| `/chatgames top` · `/chatgames stats` · `/chatgames toggle` | juegos del chat (alias `/mapujuegos`) | [Juegos del chat](../towny/chatgames.md) |
+| `/amigosecreto` | Amigo Secreto: `inscribirse`, `salir`, `amigo`, `regalar` | [Amigo Secreto](../towny/eventos/amigo-secreto.md) |
+| `/adviento` · `/adviento premium` | Calendario de Adviento (desde el 1 de diciembre) | [Navidad](../towny/eventos/navidad.md) |
+| `/kothjusto` | tus penalizaciones en el KOTH | [KOTH](../towny/eventos/koth.md) |
+
+### 🧰 Utilidades
+
+| Comando | Descripción | Más info |
+|---|---|---|
+| `/warps` | menú de warps (2 páginas) | [Warps](warps.md) |
+| `/brujula` | menú de atajos; te devuelve la Brújula de Mapucraft si la perdiste | [MapuCore](../towny/mapucore.md) |
+| `/mapucraft kits` | elegir un kit pendiente | [MapuCore](../towny/mapucore.md) |
+| `/recetas buscar <texto>` · `/recetas como` · `/recetas usos` · `/recetas puedo` | buscar recetas y ver para qué sirve un ítem | [Crafteos](../towny/crafteos.md) |
+| `/mochilas` | abrir tu mochila (o clic derecho con ella en la mano) | [Mochilas](../towny/mochilas.md) |
+| `/renovacion` | estado de tu rango y de su renovación (alias `/renovar`) | [Renovación](../towny/renovacion-de-rangos.md) |

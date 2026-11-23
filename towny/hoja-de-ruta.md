@@ -1,5 +1,7 @@
 # 🗺️ Hoja de ruta de Towny
 
+_Actualizado el 23/11/2026._
+
 Este es el contenido **confirmado** de Towny y cuándo se libera. Seguimos trabajando en más contenido y sorpresas.
 
 ***
@@ -38,8 +40,24 @@ Este es el contenido **confirmado** de Towny y cuándo se libera. Seguimos traba
 
 ### ⚔️ Semana 4 · 14 de noviembre
 
-- 🏰 Apertura de los **Dungeons 3, 4 y 5** *(nuevo / renovado)*: la **Dungeon 3 ya está abierta** y la **Dungeon 4 se abrió el 15 de noviembre**; la 5 sigue cerrada por ahora
+- 🏰 Apertura de los **Dungeons 3, 4 y 5** *(nuevo / renovado)*: la [Dungeon 3](dungeons/dungeon-3.md) abrió el 13 de noviembre y la [Dungeon 4](dungeons/dungeon-4.md) el 15 de noviembre; la [Dungeon 5](dungeons/dungeon-5.md) ya está abierta
 - 🌀 Apertura de una **nueva dimensión**: ya está abierta, es el [**Wallmapu**](wallmapu.md)
+
+### 🥋 Después de la semana 4 · ya disponible
+
+- 🥋 [**Sumo**](sumo.md) con apuestas *(20 nov; apuestas de espectador desde el 23 nov)*
+- 🎟️ [**Bingo Diario**](bingo-diario.md) y [**Bingo de Eventos**](bingo-evento.md) *(20 nov)*
+- 🐣 Protección de 24 horas contra monstruos para cuentas nuevas
+- 🎰 Compra automática en la [Lotería](loteria.md) *(23 nov)*
+
+### 🎄 Diciembre · fechas confirmadas
+
+| Fecha | Qué |
+|---|---|
+| 1 de diciembre | Abre la primera puerta del [Calendario de Adviento](eventos/navidad.md) (`/adviento`, una puerta por día hasta el 24) · se reinicia el top mensual de los [parkours cortos](parkours.md) |
+| 12 de diciembre | Sorteo del [Amigo Secreto](eventos/amigo-secreto.md) (inscríbete antes con `/amigosecreto`) |
+| 20 de diciembre | Plazo para entregar el regalo del Amigo Secreto |
+| 31 de diciembre | Último día para reclamar las puertas del Calendario de Adviento |
 
 ***
 
@@ -47,9 +65,12 @@ Este es el contenido **confirmado** de Towny y cuándo se libera. Seguimos traba
 
 | Cuándo | Qué |
 |---|---|
-| 🎉 **Todos los domingos** | Evento semanal (el horario se avisa) |
-| 🗣️ **Todos los jueves** | Reuniones comunitarias (el horario se avisa) |
-| 🔄 **Todos los días a las 7:30 AM** (hora de Chile) | Reinicio diario del servidor. A esa hora también se reinicia el límite diario de XP de las skills (`/limite`) |
+| 🎉 **Todos los domingos a las 22:00** | Evento semanal (se avisa en el Discord) |
+| 🗣️ **Todos los jueves a las 22:00** | Reunión de la comunidad para proponer mejoras |
+| 🔄 **Todos los días a las 7:30 AM** (hora de Chile) | Reinicio diario del servidor. A esa hora también se reinicia el límite diario de XP de las skills (`/limite`) y cambia el cartón del [Bingo Diario](bingo-diario.md) |
+| 🎰 **Todos los días a las 14:00 y 21:00** | Sorteos de la [Lotería](loteria.md) |
+| 👑 **Cada 4 horas** | [KOTH](eventos/koth.md) |
+| 🧗 **Domingos a las 20:00** | Premios del top 3 de los [parkours cortos](parkours.md) |
 | 🔥 **Cada 2 semanas, desde el 31 de octubre** | Reinicio del Nether |
 | 🌌 **Cada 3 semanas, desde el 7 de noviembre** | Reinicio del End |
 

@@ -296,7 +296,7 @@ Poderosos, con efectos de área.
 | **Ambit** | Espadas, Hachas | 7 | 4–15% | 8–14 s | Daño a mobs en un radio que aumenta con el nivel de encantamiento. |
 | **Archer** | Arco | 4 | 13–32% | 3 s | Aumenta el daño infligido con arcos. · ⛔ no combina con Piercing |
 | **Arrow Break** | Hachas | 6 | 15–65% | 8–10 s | Posibilidad de que las flechas reboten mientras sostienes un objeto con este encantamiento. |
-| **Arrow Deflect** | Armadura | 4 | 15–45% | 6 s | Posibilidad de prevenir que una flecha enemiga cause daño. |
+| **Arrow Deflect** | Armadura | 4 | 35–80% | 2 s | Posibilidad de prevenir que una flecha enemiga cause daño. |
 | **Auto Reel** | Caña de pescar | 4 | 25–100% | — | Automáticamente recoge la caña de pescar cuando muerde |
 | **Beaconer** | Tridente | 3 | 33–75% | 5 s | Posibilidad de escuchar el sonido del faro desactivándose al hacer clic derecho con un Tridente. |
 | **Bleed** | Hachas | 6 | 8–60% | — | Causar sangrado al oponente. |

@@ -25,7 +25,9 @@ Juegas desde cualquier edición en el **mismo mundo**, sin cambiar de cuenta. �
 <tr><td><a href="el-servidor/sobre-mapucraft.md">🪶 Sobre Mapucraft</a></td></tr>
 <tr><td><a href="el-servidor/como-conectarte.md">🔌 Cómo conectarte</a></td></tr>
 <tr><td><a href="el-servidor/reglas.md">📋 Reglas</a></td></tr>
+<tr><td><a href="towny/como-empezar.md">🌱 Cómo empezar</a></td></tr>
 <tr><td><a href="el-servidor/comandos.md">⌨️ Comandos</a></td></tr>
+<tr><td><a href="el-servidor/warps.md">🧭 Warps</a></td></tr>
 <tr><td><a href="towny/novedades.md">🆕 Novedades</a></td></tr>
 <tr><td><a href="webs/README.md">🌐 Nuestras webs</a></td></tr>
 </tbody></table>
@@ -61,8 +63,10 @@ Juegas desde cualquier edición en el **mismo mundo**, sin cambiar de cuenta. �
 <tr><td><a href="towny/battlepass.md">🎖️ Battle Pass</a></td></tr>
 <tr><td><a href="towny/encantamientos.md">✨ 221 Encantamientos</a></td></tr>
 <tr><td><a href="towny/mascotas.md">🐾 200 Mascotas en 3D</a></td></tr>
-<tr><td><a href="towny/dungeons/README.md">🏰 Dungeons</a></td></tr>
-<tr><td><a href="towny/eventos/README.md">🎯 Eventos: KOTH y Piñata</a></td></tr>
+<tr><td><a href="towny/dungeons/README.md">🏰 5 Dungeons</a></td></tr>
+<tr><td><a href="towny/eventos/README.md">🎯 Eventos: KOTH, Piñata y Navidad</a></td></tr>
+<tr><td><a href="towny/sumo.md">🥋 Sumo con apuestas</a></td></tr>
+<tr><td><a href="towny/bingo-diario.md">🎟️ Bingo Diario</a></td></tr>
 </tbody></table>
 
 ***

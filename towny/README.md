@@ -3,8 +3,10 @@
 ¡Bienvenido a la wiki oficial del **Towny** de Mapucraft! Aquí encontrarás información detallada sobre todos los sistemas, mecánicas y contenido de esta modalidad.
 
 {% hint style="success" %}
-🆕 **Temporada 2:** Battle Pass renovado, 9 encantamientos nuevos, 200 mascotas en 3D y MapuCore. → [Ver novedades](novedades.md)
+🆕 **Noviembre:** Sumo con apuestas, Bingo Diario y de Eventos, Dungeon 4, compra automática en la Lotería y, en diciembre, Calendario de Adviento y Amigo Secreto. → [Ver novedades](novedades.md)
 {% endhint %}
+
+¿Eres nuevo? Empieza por la guía **[🌱 Cómo empezar](como-empezar.md)**.
 
 ¿Dudas o algo incorrecto? Cuéntanos en el [Discord](https://discord.gg/YDJKpgEU3m).
 
@@ -13,11 +15,14 @@
 ## 🏘️ Empieza aquí
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody>
+<tr><td><a href="como-empezar.md">🌱 Cómo empezar</a></td></tr>
 <tr><td><a href="towns.md">🏘️ Towns y Naciones</a></td></tr>
 <tr><td><a href="rangos.md">🏆 Rangos</a></td></tr>
 <tr><td><a href="economia/README.md">💰 Economía</a></td></tr>
 <tr><td><a href="comercio.md">🛒 Comercio y Mercaderes</a></td></tr>
 <tr><td><a href="limites-de-granjas.md">🚜 Límites de Granjas</a></td></tr>
+<tr><td><a href="zonas.md">🛡️ Zonas con reglas especiales</a></td></tr>
+<tr><td><a href="../el-servidor/warps.md">🧭 Warps</a></td></tr>
 </tbody></table>
 
 ## ⚔️ Progresión
@@ -41,6 +46,11 @@
 <tr><td><a href="eventos/README.md">🎯 Eventos</a></td></tr>
 <tr><td><a href="cajas.md">🗝️ Cajas y Llaves</a></td></tr>
 <tr><td><a href="minijuegos.md">🎮 Mini-juegos</a></td></tr>
+<tr><td><a href="sumo.md">🥋 Sumo</a></td></tr>
+<tr><td><a href="parkours.md">🧗 Parkours cortos</a></td></tr>
+<tr><td><a href="bingo-diario.md">🎟️ Bingo Diario</a></td></tr>
+<tr><td><a href="bingo-evento.md">🎉 Bingo de Eventos</a></td></tr>
+<tr><td><a href="chatgames.md">💬 Juegos del chat</a></td></tr>
 <tr><td><a href="coinflip.md">🪙 CoinFlip</a></td></tr>
 <tr><td><a href="loteria.md">🎟️ Lotería</a></td></tr>
 </tbody></table>
@@ -51,6 +61,7 @@
 <tr><td><a href="cosmeticos.md">🎨 Cosméticos</a></td></tr>
 <tr><td><a href="mascotas.md">🐾 Mascotas en 3D</a></td></tr>
 <tr><td><a href="mapucore.md">⚙️ MapuCore</a></td></tr>
+<tr><td><a href="mochilas.md">🎒 Mochilas</a></td></tr>
 <tr><td><a href="brewery.md">🍺 Brewery</a></td></tr>
 </tbody></table>
 

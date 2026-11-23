@@ -1,10 +1,12 @@
-# 🟡 Dungeon 1 — Media
+# 🟡 Dungeon 1 — Castillo Renegado
+
+_Actualizado el 23/11/2026 con los datos reales del servidor._
 
 {% hint style="info" %}
 🗓️ **Disponible desde el 7 de noviembre** (renovado). → [Hoja de ruta](../hoja-de-ruta.md)
 {% endhint %}
 
-La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y es el punto de entrada al mundo de las mazmorras. Desde aquí también se puede acceder a la Dungeon 2.
+La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y una **caverna dorada**, y es el punto de entrada al mundo de las mazmorras. Desde aquí también se puede acceder a la Dungeon 2.
 
 ***
 
@@ -14,29 +16,44 @@ La primera dungeon de Mapucraft. Tiene temática de **castillo renegado** y es e
 |---|---|
 | **Dificultad** | 🟡 Media |
 | **Acceso** | `/warp dungeons` |
-| **KeepInventory** | Sí (no pierdes ítems, sí pierdes EXP) |
+| **Al morir** | No pierdes ítems, sí pierdes EXP → [Dungeons](README.md) |
 | **Salidas** | 4 salidas repartidas o usar Llave Escapatoria |
 | **Zona de Crafteo** | Sí |
+
+> Las cifras de vida y daño son los valores **base**; los mobs con nivel pueden tener algo más.
 
 ***
 
 ## 👹 Mobs
 
-Los mobs de la Dungeon 1 pertenecen a la **Facción Renegados**. Aparecen en dos versiones: normal y élite (versión más fuerte).
+Los mobs de la Dungeon 1 pertenecen a la **Facción Renegados**. Aparecen en versión normal y élite (más fuerte).
 
-| Mob | Tipo | HP (normal / élite) | Daño |
-|---|---|---|---|
-| ⚔️ **Caballero Renegado** | Zombie con escudo | 33 / 59 | 4 / 8 |
-| 💀 **Esqueleto Renegado** | Wither Skeleton con escudo | 33 / 59 | 4 / 8 |
-| 🕷️ **Araña Renegada** | Spider | 26 / 59 | 4 / 7 |
+| Mob | Vida (normal / élite) | Daño (normal / élite) |
+|---|---|---|
+| ⚔️ **Caballero Renegado** | 36 / 65 | 4,4 / 8,8 |
+| 💀 **Lancero Esqueleto Renegado** | 36 / 65 | 4,4 / 8,8 |
+| 🕷️ **Araña Renegada** | 29 / 65 | 4,4 / 7,7 |
 
 ### 🌀 Habilidades especiales
-- Los Caballeros y Esqueletos pueden hacer un **salto de carga** hacia el jugador
+- Los Caballeros y Lanceros pueden hacer un **salto de carga** hacia el jugador
 - Las Arañas tienen un **salto tóxico** que aplica veneno
 
-### 💰 Drops de mobs
-- 📖 Libros de encantamiento AE (Unique 3–6%, Simple 2–4%, Elite 1–2%, Ultimate 0.5–1%, Legendary 0.2–0.4%, Fabled 0.1–0.2%)
-- 💀 Alma lvl 1 (10–30% según versión)
+### 💰 Drops de mobs (a quien da el golpe final)
+
+| | Normal | Élite |
+|---|---|---|
+| Experiencia 20–40 | 70 % | 70 % |
+| Manzana dorada | 10 % | 10 % |
+| Chatarra de netherita | 1 % | 1 % |
+| 💀 Alma Lvl 1 | 10 % | 30 % |
+| 📖 Libro Unique | 1,5 % | 3 % |
+| 📖 Libro Simple | 1 % | 2 % |
+| 📖 Libro Elite | 0,5 % | 1 % |
+| 📖 Libro Ultimate | 0,25 % | 0,5 % |
+| 📖 Libro Legendary | 0,1 % | 0,2 % |
+| 📖 Libro Fabled | 0,05 % | 0,1 % |
+
+Los mobs normales de la Dungeon 1 no sueltan llaves de cajas.
 
 ***
 
@@ -44,57 +61,38 @@ Los mobs de la Dungeon 1 pertenecen a la **Facción Renegados**. Aparecen en dos
 
 La Dungeon 1 tiene **dos bosses** en áreas separadas.
 
-### 👑 Rey Esqueleto
+### 👑 Rey Nigromante
 
-El señor del castillo renegado. Usa la **bossbar roja** para mostrar su vida.
+El señor del castillo renegado.
 
-| | |
+| Vida | Daño |
 |---|---|
-| **HP** | 8,976 |
-| **Daño** | 35 |
-| **Armadura** | 39 |
+| 9.874 | 38,5 |
 
-**Habilidades:**
-- Invoca **Caballeros Esqueléticos** cuando tiene menos del 60% de vida
-- Ataques de golpe, embestida y empuje
-- Lluvia de flechas en área
-- Curación pasiva
+**Habilidades:** golpe al suelo, embestida, empuje, lluvia de flechas, proyectiles teledirigidos, curación e **invocación de guardias** (Guardias de Hueso y Espectros Tiradores).
 
-**Drops:**
-- 500–700 XP (80%)
-- Manzana Dorada (10%)
-- Esmeralda 0–16 (1%)
-- Netherite Scrap 0–1 (1%)
+**Drops para quien da el golpe final:** 500–700 de experiencia (80 %), manzana dorada (10 %), esmeraldas ×0–16 (1 %), chatarra de netherita (1 %).
+
+**Para los jugadores cercanos:** 🗝️ **Llave Boss** (85 %), 5 Almas Lvl 1 (80 %), 1 lingote de netherita (80 %), manzana dorada encantada (20 %) y 🗝️ Llave Escapatoria (100 %).
 
 ***
 
-### ⚔️ Capitán Bruto ColmilloDorado
+### ⚔️ Caudillo Troll ColmilloDorado
 
-El comandante de la caverna dorada. Usa la **bossbar amarilla**.
+El comandante de la caverna dorada.
 
-| | |
+| Vida | Daño |
 |---|---|
-| **HP** | 17,200 |
-| **Daño** | 38 |
-| **Armadura** | 51 |
+| 18.920 | 41,8 |
 
-**Habilidades:**
-- Invoca **Guerreros Piglin** y **Ballesteros Piglin** (disparan veneno)
-- Embestidas furiosas que se aceleran cuando pierde vida
-- Lanzamiento de lingotes de oro como proyectil
-- Grito intimidante en área
-- Terremoto que sacude a jugadores cercanos
+**Habilidades:** Hachazo Brutal, Embestida Feroz y Embestida Rabiosa, Salto Devastador, Terremoto Dorado, Grito Intimidante, Lanzamiento de Oro, Furia Acaparadora e invocación de aliados (Guerreros Goblin del Tesoro, Arqueros Goblin Vigía y Diablillos de Fuego).
 
-**Drops:**
-- 600–850 XP
-- 12–24 Lingotes de Oro
-- 16–32 Pepitas de Oro
-- 1–3 Bloques de Oro (20%)
-- Zanahoria Dorada 3–5 (50%)
-- Netherite Scrap 0–1 (1%)
+**Drops para quien da el golpe final:** 600–850 de experiencia, lingotes de oro ×12–24, pepitas de oro ×16–32 (80 %), bloques de oro ×1–3 (20 %), zanahorias doradas ×3–5 (50 %), sandías relucientes ×2–4 (40 %), chatarra de netherita (1 %).
+
+**Para los jugadores cercanos:** 🗝️ **Llave Boss** (85 %), bloques de oro ×3–6 (80 %), manzana dorada (40 %), manzana dorada encantada (20 %), chatarra de netherita (15 %) y 🗝️ Llave Escapatoria (100 %).
 
 ***
 
 {% hint style="warning" %}
-El Capitán Bruto ColmilloDorado es significativamente más fuerte que el Rey Esqueleto. Asegúrate de tener buen equipo antes de enfrentarlo.
+El Caudillo ColmilloDorado tiene casi el doble de vida que el Rey Nigromante. Asegúrate de tener buen equipo antes de enfrentarlo.
 {% endhint %}

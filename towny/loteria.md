@@ -1,5 +1,7 @@
 # 🎟️ Lotería
 
+_Actualizado el 23/11/2026._
+
 La **Lotería** de Mapucraft es un sorteo con dinero del juego. Compras boletos, todo lo que se junta forma el **pozo** y, cuando llega la hora, el servidor elige un ganador al azar. Cuantos más boletos tengas, más probabilidades tienes.
 
 ***
@@ -13,6 +15,16 @@ La **Lotería** de Mapucraft es un sorteo con dinero del juego. Compras boletos,
 5. El ganador recibe el pozo (menos el impuesto). Si estaba desconectado, se le avisa cuando entra
 
 Hay una ronda abierta a la vez; apenas termina una, empieza otra.
+
+***
+
+## 🤖 Compra automática *(desde el 23 de noviembre)*
+
+Para no tener que entrar a comprar en cada sorteo, activa la **compra automática**:
+
+* `/loteria auto <boletos> [rondas]` — te asegura esa cantidad de boletos en cada ronda (durante las rondas que elijas). Si ya compraste algunos a mano, solo completa lo que falta.
+* Compra **mientras estés conectado y te alcance el dinero**, con las mismas reglas que la compra normal, y nunca compra dos veces en la misma ronda.
+* `/loteria auto` sin más te muestra si la tienes activa; `/loteria auto off` la cancela (los boletos que ya tienes siguen participando).
 
 ***
 
@@ -53,9 +65,23 @@ El servidor te recuerda el sorteo en el chat (a los 60, 30, 10, 5 y 1 minuto, y 
 |---|---|
 | `/loteria` | Abrir el menú de la lotería |
 | `/loteria comprar <cantidad\|max>` | Comprar boletos |
+| `/loteria auto <boletos> [rondas]` | Activar la compra automática (`/loteria auto off` para cancelarla) |
 | `/loteria info` | Ver el estado de la ronda (pozo, hora del sorteo) |
-| `/loteria boletos` | Ver tus boletos |
+| `/loteria boletos` | Ver tus boletos y tu probabilidad de ganar |
 | `/loteria participantes` | Ver quiénes participan |
 | `/loteria historial` | Ver los últimos ganadores |
 | `/loteria top` | Ver a los mayores ganadores |
 | `/loteria avisos [on\|off]` | Silenciar o activar los recordatorios |
+
+***
+
+## ❓ Preguntas frecuentes
+
+**¿Qué pasa si gano estando desconectado?**
+El premio se paga igual y se te avisa cuando entras.
+
+**¿Puedo comprar más de 100 boletos?**
+No: el máximo por jugador y ronda es 100.
+
+**¿A dónde va el impuesto?**
+El 10 % del pozo se elimina (nadie lo recibe): ayuda a que el dinero del servidor no se infle.

@@ -4,6 +4,15 @@ El **mercado global** de Mapucraft funciona con precios que se mueven según la 
 
 Abajo tienes el precio **base** de cada ítem. Úsalo como referencia: el precio del momento puede ser distinto.
 
+{% hint style="warning" %}
+**Cambios del 23 de noviembre de 2026:**
+* Se **sacaron del mercado** el diamante, la esmeralda, el oro (en bruto, lingotes y zanahoria dorada), el lingote de netherita y sus bloques, y el bloque de cobre: ya no se compran ni venden en `/market`. El lingote de cobre y la vara del rayo siguen.
+* Se repararon **18 ítems** que aparecían en los menús sin precio (lingotes, estrella del Nether, caparazón de shulker, casco de tortuga, troncos del Nether, polvo de piedra luminosa, lámpara de redstone, TNT, dispensador, pistón y otros).
+* Llegó **variedad de redstone**: antorcha de redstone, repetidor, comparador, observador, tolva, dispensador, soltador, pistón y pistón pegajoso, palanca, gancho de cuerda trampa, diana, sensor de luz solar y vara del rayo. Su precio va ligado al material que cuesta fabricarlos, así que comprar, craftear y revender no deja ganancia.
+
+La tabla de abajo todavía no muestra los ítems nuevos de redstone: mira sus precios en `/market`.
+{% endhint %}
+
 ***
 
 <!-- AUTO:inicio mercado -->
@@ -193,8 +202,6 @@ Abajo tienes el precio **base** de cada ítem. Úsalo como referencia: el precio
 
 | Ítem | Precio base |
 |---|---|
-| Diamond | $30.00 |
-| ↳ Emerald Block | $270 |
 | Golden Apple | $100 |
 | Blaze Rod | $30.00 |
 
@@ -210,9 +217,7 @@ Abajo tienes el precio **base** de cada ítem. Úsalo como referencia: el precio
 | Ítem | Precio base |
 |---|---|
 | Raw Iron | $5.00 |
-| Raw Gold | $20.00 |
 | Copper Ingot | $5.00 |
-| ↳ Copper Block | $45.00 |
 | Brick | $20.00 |
 | ↳ Bricks | $80.00 |
 | ↳ Brick Stairs | $120 |

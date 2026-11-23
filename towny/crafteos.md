@@ -1,5 +1,7 @@
 # 🔨 Crafteos Custom
 
+_Actualizado el 23/11/2026._
+
 {% hint style="info" %}
 🗓️ **Disponible desde el 31 de octubre** (semana 2). → [Hoja de ruta](hoja-de-ruta.md)
 {% endhint %}
@@ -10,8 +12,46 @@ Usa el comando `/recetas` en el servidor para abrir el menú interactivo, donde 
 
 ***
 
-{% hint style="info" %}
-El menú de `/crafteos` se actualiza con nuevas recetas a medida que el servidor crece. ¡Revísalo seguido para no perderte nada!
+## 📂 Categorías
+
+Al 23/11/2026 hay **347 recetas** en **15 categorías**:
+
+| Categoría | Recetas | Qué hay |
+|---|---|---|
+| Armaduras | 58 | Escaleras de mejora: Acero → Acero Inoxidable → Diamante Pulido → bañado en Oro → Escamoso → Acorazado → Escama de Dragón, y más |
+| Armas | 48 | Espadas, dagas, arcos, mandobles y hachas custom del servidor |
+| Herramientas | 43 | Picos, hachas, palas y azadas mejoradas |
+| Dungeons 1-3 | 40 | Mejoras de las armas y armaduras **Corrompidas**, invocadores de jefes y llaves con materiales de las dungeons |
+| Materiales Custom | 39 | Materiales intermedios: Acero, Acero Inoxidable, Bloque de Platino, Cristal de Bismuto, Diamante Pulido, Escama de Dragón, Núcleo de Fusión y más |
+| Segundo dupeo del huevo del dragón | 34 | Comidas y objetos legendarios (Festín del Antü, Manjar del Lonko, Filete de la Eternidad…) y el huevo del dragón |
+| Fragmentos Irrompibles | 16 | Desarma piezas Corrompidas en fragmentos y fabrica la **Barra Irrompible** |
+| Libros Custom | 15 | Libros, runas y gemas especiales |
+| Escudos | 11 | Escudo de Acero, Escudo Escamoso, Escudo Punzante, escudos de los amuletos y más |
+| Nuevas Armas | 11 | Armas con materiales de las Dungeons 4 y 5 (Ballesta Relmu, Impacto de Trentren, Puños del Pillán, ballestas y garras) |
+| Amuletos Personalizados | 10 | Amuletos y sus fragmentos, incluido el **Amuleto Simple del Wallmapu** |
+| Dupeo del huevo | 8 | Cráneos de jefes, Reliquia del Pillán, Baluarte Ancestral, Monarca Carmesí y el huevo del dragón |
+| Creación ítems normales | 8 | Ítems de Minecraft con receta propia (estrella del Nether, manzana dorada encantada, núcleo denso, aliento de dragón…) |
+| Crafteo de esmeralda Abismal | 4 | Mena de esmeralda de pizarra, Kallfulikan, Karulikan y Pullulikan |
+| Eventos | 2 | Recetas de eventos (Queque Cremoso y Quequespada) |
+
+### 🔩 Ejemplo: Barra Irrompible
+
+1. Desarma una pieza **Corrompida** (Casco Kutral, Peto Wenumapu, Pantalones Lafken, Botas Mapu, Arco Mapu, Espada Wallmapu, Pico Wenumapu o Hacha Kutral) en la mesa: te da su **fragmento** (de casco, de peto, de espada…).
+2. Junta **3 Resinas de Canelo**, **4 Fragmentos Ruku** y **2 fragmentos** iguales y fabrica la **Barra Irrompible**.
+
+***
+
+## 📏 Reglas de los crafteos
+
+* Las recetas se hacen en la **mesa de crafteo de 3×3** (no en la cuadrícula 2×2 del inventario) y **no se pueden reflejar**: respeta la forma tal como aparece.
+* Las herramientas y armas **gastadas sí sirven** como ingrediente: el desgaste no importa.
+* Los ítems custom del servidor **no se pueden usar en recetas normales** de Minecraft (así no los pierdes por error).
+* El **crafter** (fabricador automático) no hace recetas custom.
+* `/recetas` solo te muestra las recetas que puedes hacer con tu rango; algunas solo funcionan en ciertos mundos.
+* Una mochila no sirve como ingrediente.
+
+{% hint style="success" %}
+**Arreglado el 23/11:** las recetas de **mejora** de armas y herramientas (pasar al siguiente tier) y la reparación juntando dos copias del mismo ítem dejaban de funcionar apenas el arma se usaba. Ya no pasa: ahora se compara qué ítem es, no su desgaste ni su descripción.
 {% endhint %}
 
 ***
@@ -21,7 +61,7 @@ El menú de `/crafteos` se actualiza con nuevas recetas a medida que el servidor
 
 > Esta sección se genera automáticamente desde MapuCrafteos. Cada receta muestra la cuadrícula de la mesa de crafteo fila por fila (de arriba hacia abajo); `—` es una casilla vacía. Los ingredientes con nombre propio son ítems custom del servidor. Para actualizarla: `python wiki/tools/generar_wiki.py --solo crafteos`.
 
-Total de recetas: **330** en **14** categorías.
+Total de recetas: **347** en **15** categorías.
 
 ### Amuletos Personalizados (10)
 
@@ -120,8 +160,6 @@ Total de recetas: **330** en **14** categorías.
 - **Espada Antümalen ☀**: Daga Puliwen · Corazón Primordial · Espada Wallmapu Corrompido B4 / Oro reforzado · Espada Mawun · Heavy Core / Espada de Tren Tren wikür · Nucleo de Fusión · Mawün
 - **Espada de Esmeralda**: Emerald · — · Emerald Block / Emerald Block · Ojo Lloroso · — / Espada Envenenada · Emerald Block · Emerald
 - **Espada de Hueso**: — · — · Iron Ingot / Iron Ingot · Diamond · — / Bone · Iron Ingot · —
-- **Espada de Tren Tren wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · AEspada de Tren TrenA · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
-- **Espada del Dragón Ancestral**: Nucleo de Fusión · Corazón de Dragón · Nucleo de Fusión / Tridente Real Oxidado · EnderDragónSword · Tridente Real Oxidado / Spawner Normal · Corazón de Dragón · Spawner Normal
 - **Espada End**: Ojo Lloroso · Wither Skeleton Skull · Dragon Head / Barra Encadenada · Netherite Block · Wither Skeleton Skull / Espada Nether · Barra Encadenada · Ojo Lloroso
 - **Espada Envenenada**: — · Spider Eye · Fermented Spider Eye / Spider Eye · Pufferfish · Spider Eye / Espada de Hueso · Spider Eye · —
 - **Espada Larga de Diamante**: Diamond · Diamond · Diamond Block / Netherite Scrap · Diamond Block · Diamond / Espada de Esmeralda · Netherite Scrap · Diamond
@@ -129,7 +167,6 @@ Total de recetas: **330** en **14** categorías.
 - **Espada Nether**: Barra Encadenada · Ghast Tear · Nether Star / Nether Star · Nether Star · Piedra Misteriosa / Espada Netherite Reforzada · Nether Star · Ojo Lloroso
 - **Espada Netherite Reforzada**: Ojo Lloroso · Barra Encadenada · Piedra Misteriosa / Netherite Ingot · Netherite Block · Barra Encadenada / Espada Larga de Diamante · Netherite Ingot · Ojo Lloroso
 - **Furia de Alicanto wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Furia de Alicanto · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
-- **Hacha Antümalen ☀**: Furia de Alicanto wikür · Hacha Kutral Corrompido · ⚔ Hacha Mahuidache / Pachamama del Dragon · Nucleo de Fusión · Hacha Kutral / Maza de Doble Filo · Oro reforzado · Venganza de Lautaro wikür
 - **Lanza Astillada**: — · Oak Log · Oak Planks / Stick · Bamboo · Oak Log / Bamboo · Stick · —
 - **Lanza de Acero**: — · Piedra Misteriosa · Bloque de Acero Inoxidable / Barra Encadenada · Bloque de Acero Inoxidable · Piedra Misteriosa / Lanza Oxidada · Barra Encadenada · —
 - **Lanza End**: Cinturón de Orión · Cinturón de Orión · Dragon Head / Netherite Block · Barra Encadenada · Cinturón de Orión / Lanza Nether · Netherite Block · Cinturón de Orión
@@ -146,6 +183,9 @@ Total de recetas: **330** en **14** categorías.
 - **Mandoble Envenenado**: Fermented Spider Eye · Spider Eye · Fermented Spider Eye / Spider Eye · Pufferfish · Spider Eye / Mandoble de Hierro · Spider Eye · Fermented Spider Eye
 - **Mandoble ¿?¿?¿?**: Nether Star · Barra Encadenada · Nautilus Shell / Nether Star · Equuleus · Barra Encadenada / Mandoble Antu · Nether Star · Nether Star
 - **Mawün**: Cinturón de Orión · Equuleus · Equuleus / Cinturón de Orión · Nucleo de Fusión · Equuleus / Mandoble ¿?¿?¿? · Cinturón de Orión · Cinturón de Orión
+- **Netherite Axe**: Netherite Axe · Netherite Axe · Diamond Axe / Netherite Axe · Nether Star · Diamond Axe / Netherite Axe · Gold Block · Iron Axe
+- **Netherite Sword**: Nether Star · Netherite Ingot · Nether Star / Trident · Netherite Sword · Trident / Spawner · Netherite Ingot · Spawner
+- **Netherite Sword**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Netherite Sword · Enchanted Golden Apple / Enchanted Golden Apple · Nether Star · Enchanted Golden Apple
 - **Venganza de Lautaro wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Venganza de Lautaro · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
 
 ### Crafteo de esmeralda Abismal (4)
@@ -174,17 +214,17 @@ Total de recetas: **330** en **14** categorías.
 - **Espada Wallmapu Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Espada Wallmapu Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
 - **Espada Wallmapu Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Espada Wallmapu Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
 - **Espada Wallmapu Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro / Núcleo Coralino Puro · Espada Wallmapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
-- **Espada Wallmapu Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Espada Wallmapu Corrompido B4 · Vara de Blaze Concentrada
 - **Fragmento de llave** _(solo en dungeons)_: Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2
 - **Fragmento de llave** _(solo en dungeons)_: Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3) / Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3) / Alma Ígena (D3) · Alma Ígena (D3) · Alma Ígena (D3)
 - **Llave Invocadora D1** _(solo en dungeons)_: Alma lvl 2 · Alma lvl 2 · Alma lvl 2 / Alma lvl 2 · Fragmento de llave · Alma lvl 2 / Alma lvl 2 · Alma lvl 2 · Alma lvl 2
+- **Netherite Axe** _(solo en dungeons)_: Heart Of The Sea · Heart Of The Sea · Heart Of The Sea / Diamond Axe · Heart Of The Sea · Netherite Axe / Heart Of The Sea · Trident · Heart Of The Sea
 - **Netherite Boots** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Boots · Prismarine Shard / Prismarine Shard · Diamond Boots · Prismarine Shard
 - **Netherite Chestplate** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Chestplate · Prismarine Shard / Prismarine Shard · Diamond Chestplate · Prismarine Shard
 - **Netherite Helmet** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Helmet · Prismarine Shard / Prismarine Shard · Diamond Helmet · Prismarine Shard
 - **Netherite Leggings** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Leggings · Prismarine Shard / Prismarine Shard · Diamond Leggings · Prismarine Shard
 - **Netherite Sword** _(solo en dungeons)_: Prismarine Shard · Prismarine Shard · Prismarine Shard / Prismarine Shard · Netherite Sword · Prismarine Shard / Prismarine Shard · Diamond Sword · Prismarine Shard
+- **Netherite Sword** _(solo en dungeons)_: Blaze Rod · Bone · Blaze Rod / Nether Star · Magma Cream · Nether Star / Blaze Rod · Netherite Sword · Blaze Rod
 - **Pachamama del Dragon** _(solo en dungeons)_: Tridente Real Oxidado · Tridente Real Oxidado · Tridente Real Oxidado / Tridente Real Oxidado · Dragon Egg · Tridente Real Oxidado / Tridente Real Oxidado · Pachamama V5 · Tridente Real Oxidado
-- **Pachamama V5** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Hacha Kutral · Núcleo Coralino Puro · Hacha Kutral Corrompida / Núcleo Coralino Puro · Tridente Real Oxidado · Núcleo Coralino Puro
 - **Pantalones Lafken Corrompido B2** _(solo en dungeons)_: Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Pantalones Lafken Corrompido B1 · Fragmento Coralino Resonante / Fragmento Coralino Resonante · Fragmento Coralino Resonante · Fragmento Coralino Resonante
 - **Pantalones Lafken Corrompido B3** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Pantalones Lafken Corrompido B2 · Núcleo Coralino Puro / Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro
 - **Pantalones Lafken Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Pantalones Lafken Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
@@ -194,20 +234,20 @@ Total de recetas: **330** en **14** categorías.
 - **Peto Wenumapu Corrompido B4** _(solo en dungeons)_: Núcleo Coralino Puro · Núcleo Coralino Puro · Núcleo Coralino Puro / Núcleo Coralino Puro · Peto Wenumapu Corrompido B3 · Núcleo Coralino Puro / Fragmento Coralino Dañado · Tridente Real Oxidado · Fragmento Coralino Resonante
 - **Peto Wenumapu Infernal** _(solo en dungeons)_: Vara de Blaze Concentrada · ☠ Colmillo del Rey Zoglin ☠ · Vara de Blaze Concentrada / \| Corazón del Nether \| · Escama del Titán de Magma · \| Corazón del Nether \| / Vara de Blaze Concentrada · Peto Wenumapu Corrompido B4 · Vara de Blaze Concentrada
 - **Tripwire Hook** _(solo en dungeons)_: Prismarine Shard · Prismarine Crystals · Prismarine Shard / Prismarine Crystals · Sugar · Prismarine Crystals / Prismarine Shard · Prismarine Crystals · Prismarine Shard
-- **☠ Invocador Zoglin Rey ☠** _(solo en dungeons)_: Fragmento de llave · Calavera del Lord Wither · Fragmento de llave / Fragmento del Nether Dañado · Escama del Titán de Magma · Ladrillo del Nether Calcinado / Fragmento de llave · Fragmento de llave · Fragmento de llave
+- **Tripwire Hook** _(solo en dungeons)_: Iron Chain · Wither Skeleton Skull · Iron Chain / Netherrack · Magma Cream · Nether Brick / Iron Chain · Iron Chain · Iron Chain
 - **💀 Invocador Lord Wither 💀** _(solo en dungeons)_: Wither Rose · Fragmento del Nether Dañado · Wither Rose / Fragmento del Nether Dañado · Wither Skeleton Skull · Fragmento del Nether Dañado / Wither Rose · Fragmento del Nether Dañado · Wither Rose
 - **🔥 Invocador Titan Magma 🔥** _(solo en dungeons)_: Magma Block · Fragmento del Nether Dañado · Magma Block / Fragmento del Nether Dañado · Magma Cream · Fragmento del Nether Dañado / Magma Block · Fragmento del Nether Dañado · Magma Block
 
 ### Dupeo del huevo (8)
 
 - **Dragon Egg** x2: Player Head · Nether Star · Player Head / Nether Star · Dragon Egg · Nether Star / Player Head · Nether Star · Player Head
-- **Dragon Head**: Skeleton Skull · Nether Star · Skeleton Skull / Dragon Breath · Netherite Sword · Dragon Breath / Skeleton Skull · Dragon Breath · Skeleton Skull
-- **Piglin Head**: Player Head · Wither Skeleton Skull · Player Head / Wither Skeleton Skull · Netherite Sword · Wither Skeleton Skull / Player Head · Wither Skeleton Skull · Player Head
-- **Player Head**: Magma Cream · Nether Brick · Magma Cream / Nether Brick · Netherite Sword · Nether Brick / Magma Cream · Nether Brick · Magma Cream
+- **Dragon Head**: Dragon Breath · Nether Star · Dragon Breath / Skeleton Skull · Netherite Sword · Skeleton Skull / Dragon Breath · Glow Ink Sac · Dragon Breath
+- **Piglin Head**: Ghast Tear · Player Head · Ghast Tear / Wither Skeleton Skull · Netherite Sword · Wither Skeleton Skull / Ghast Tear · Player Head · Ghast Tear
+- **Player Head**: Ghast Tear · Nether Brick · Ghast Tear / Magma Cream · Netherite Sword · Magma Cream / Ghast Tear · Nether Brick · Ghast Tear
 - **Player Head**: Iron Block · Skeleton Skull · Iron Block / Wither Skeleton Skull · Iron Block · Player Head / Iron Block · Piglin Head · Iron Block
 - **Player Head**: Deepslate Emerald Ore · Player Head · Deepslate Emerald Ore / Player Head · Dragon Head · Player Head / Deepslate Emerald Ore · Player Head · Deepslate Emerald Ore
-- **Skeleton Skull**: Piglin Head · Echo Shard · Piglin Head / Echo Shard · Netherite Sword · Echo Shard / Piglin Head · Echo Shard · Piglin Head
-- **Wither Skeleton Skull**: Wither Skeleton Skull · Ghast Tear · Wither Skeleton Skull / Magma Cream · Netherite Sword · Magma Cream / Wither Skeleton Skull · Blaze Rod · Wither Skeleton Skull
+- **Skeleton Skull**: Clay Ball · Echo Shard · Clay Ball / Piglin Head · Netherite Sword · Piglin Head / Clay Ball · Echo Shard · Clay Ball
+- **Wither Skeleton Skull**: Nether Brick · Ghast Tear · Nether Brick / Wither Skeleton Skull · Netherite Sword · Wither Skeleton Skull / Ghast Tear · Ghast Tear · Ghast Tear
 
 ### Escudos (11)
 
@@ -228,6 +268,25 @@ Total de recetas: **330** en **14** categorías.
 - **Queque Cremoso**: Queque · Queque · Queque / Queque · Queque · Queque / Queque · Queque · Queque
 - **Quequespada Cremosa**: Queque Cremoso · Queque Cremoso · Queque Cremoso / Queque Cremoso · Quequespada · Queque Cremoso / Queque Cremoso · Queque Cremoso · Queque Cremoso
 
+### Fragmentos Irrompibles (16)
+
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Breeze Rod**: Honeycomb · Honeycomb · Honeycomb / Clay Ball · Netherite Ingot · Clay Ball / Clay Ball · Netherite Ingot · Clay Ball
+- **Netherite Ingot**: — · Netherite Helmet · —
+- **Netherite Ingot**: — · Netherite Chestplate · —
+- **Netherite Ingot**: — · Netherite Leggings · —
+- **Netherite Ingot**: — · Netherite Boots · —
+- **Netherite Ingot**: — · Netherite Sword · —
+- **Netherite Ingot**: — · Bow · —
+- **Netherite Ingot**: — · Netherite Pickaxe · —
+- **Netherite Ingot**: — · Netherite Axe · —
+
 ### Herramientas (43)
 
 - **Azada Antü**: Bloque de Platino · Bloque de Platino · Bendición de la tierra / Bendición de la tierra · Azada Newen · Bendición de la tierra / Bendición de la tierra · Wangülen · Bendición de la tierra
@@ -243,20 +302,24 @@ Total de recetas: **330** en **14** categorías.
 - **Caña Reforzada de Madera**: — · Oak Log · Palo Reforzado / Oak Log · Palo Reforzado · String / Caña de Madera · — · String
 - **Cetro dimensional**: — · Ojo Lloroso · Ojo Lloroso / — · Vara Reluciente · Ojo Lloroso / Obsidiana Llorosa Cristalizada · — · —
 - **Colmillo de Tue-Tue wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Colmillo de Tue-Tue · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
+- **Diamond Axe**: — · Iron Ingot · Iron Ingot / — · Diamond Axe · Iron Ingot / — · Stick · —
+- **Diamond Axe**: — · Iron Block · Iron Block / — · Diamond Axe · Iron Block / — · Stick · —
 - **Diamond Axe**: Iron Block · Iron Block · Iron Block / — · Diamond Axe · — / — · Stick · —
+- **Diamond Axe**: — · Emerald Block · Emerald Block / — · Diamond Axe · Emerald Block / — · Stick · —
 - **Diamond Pickaxe**: Iron Ingot · Iron Ingot · Iron Ingot / — · Diamond Pickaxe · Iron Ingot / Stick · — · Iron Ingot
 - **Diamond Pickaxe**: Iron Ingot · Iron Ingot · Iron Ingot / — · Diamond Pickaxe · Iron Ingot / Stick · — · Iron Ingot
+- **Diamond Pickaxe**: Emerald Block · Emerald Block · Emerald Block / — · Diamond Pickaxe · Emerald Block / Stick · — · Emerald Block
 - **Diamond Pickaxe**: Iron Block · Iron Block · Iron Block / — · Diamond Pickaxe · Iron Block / Stick · — · Iron Block
 - **Diamond Pickaxe**: Iron Block · Iron Block · Iron Block / — · Diamond Pickaxe · — / — · Stick · —
 - **Hacha de Esmeralda**: — · Esmeralda Endurecida · Esmeralda Endurecida / — · Palo Reforzado · Esmeralda Endurecida / — · Palo Reforzado · —
-- **Hacha de Platino**: — · Platino · Platino / — · Hacha de Rocosidad · Platino / — · Palo Reforzado · —
 - **Hacha de Rocosidad**: — · Rocosidad · Rocosidad / — · Hacha de Esmeralda · Rocosidad / — · Palo Reforzado · —
-- **Hacha gigante de Esmeralda**: — · Bloque de Esmeralda Reforzada · Bloque de Esmeralda Reforzada / — · Hacha de Platino · Bloque de Esmeralda Reforzada / — · Vara Reluciente · —
-- **Hacha gigante de Rocosidad**: — · Bloque de Rocosidad · Bloque de Rocosidad / — · Hacha gigante de Esmeralda · Bloque de Rocosidad / — · Vara Reluciente · —
 - **Iron Hoe**: Iron Ingot · Iron Ingot · — / — · Stone Hoe · — / — · Stick · —
 - **Lagrima de Kai-Kai Vilú wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Lagrima de Kai-Kai Vilú · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
 - **Lagrima de Kai-Kai wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Lagrima de Kai-Kai Vilú · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
 - **Mulichinco wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Mulichinco · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
+- **Netherite Axe**: Nether Star · Nether Star · — / Nether Star · Diamond Axe · — / — · Stick · —
+- **Netherite Pickaxe**: Nether Star · Nether Star · Nether Star / — · Diamond Pickaxe · — / — · Stick · —
+- **Netherite Pickaxe**: — · Netherite Pickaxe · —
 - **Pala de Esmeralda**: — · Esmeralda Endurecida · — / Esmeralda Endurecida · Palo Reforzado · Esmeralda Endurecida / — · Palo Reforzado · —
 - **Pala de Platino**: — · Platino · — / Platino · Pala de Rocosidad · Platino / — · Palo Reforzado · —
 - **Pala de Rocosidad**: — · Rocosidad · — / Rocosidad · Pala de Esmeralda · Rocosidad / — · Palo Reforzado · —
@@ -264,12 +327,8 @@ Total de recetas: **330** en **14** categorías.
 - **Pala gigante de Platino**: — · Bloque de Platino · — / Bloque de Platino · Pala gigante de Rocosidad · Bloque de Platino / — · Vara Reluciente · —
 - **Pala gigante de Rocosidad**: — · Bloque de Rocosidad · — / Bloque de Rocosidad · Pala gigante de Esmeralda · Bloque de Rocosidad / — · Vara Reluciente · —
 - **Picota de Esmeralda**: Esmeralda Endurecida · Esmeralda Endurecida · Esmeralda Endurecida / — · Palo Reforzado · Esmeralda Endurecida / Palo Reforzado · — · Esmeralda Endurecida
-- **Picota gigante de Esmeralda**: Bloque de Esmeralda Reforzada · Bloque de Esmeralda Reforzada · Bloque de Esmeralda Reforzada / — · Picota de Platino · Bloque de Esmeralda Reforzada / Vara Reluciente · — · Bloque de Esmeralda Reforzada
 - **Suerte de Cacique wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Suerte de Cacique · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
 - **Tue-Tue wikür**: Enchanted Golden Apple · Enchanted Golden Apple · Enchanted Golden Apple / Enchanted Golden Apple · Tue-Tue · Enchanted Golden Apple / Enchanted Golden Apple · Nucleo de Fusión · Enchanted Golden Apple
-- **Wangülen Axe**: Wangülen · Wangülen · Wangülen / Wangülen · Hacha gigante de Platino · — / — · Vara Reluciente · —
-- **Wangülen Pickaxe**: Wangülen · Wangülen · Wangülen / — · Picota gigante de Platino · — / — · Vara Reluciente · —
-- **Wangülen Pickaxe**: — · Wangülen Pickaxe · —
 - **Wangülen Pickaxe**: — · Wangülen Pickaxe · —
 - **Wangülen Shovel**: — · Wangülen · — / Wangülen · Pala gigante de Platino · Wangülen / — · Vara Reluciente · —
 - **✦ Caña Lonko ✦ ✦**: Equuleus · Netherite Block · Nucleo de Fusión / Netherite Block · Vara Reluciente · Hilo bañado en Netherita / Caña Küyen Ñamku · — · Hilo bañado en Netherita
@@ -356,7 +415,7 @@ Total de recetas: **330** en **14** categorías.
 - **Beef**: Chicken · Rabbit · Chicken / Rabbit · Porkchop · Rabbit / Chicken · Rabbit · Chicken
 - **Beetroot**: Beetroot Soup · Pumpkin Pie · Beetroot Soup / Pumpkin Pie · Cake · Pumpkin Pie / Beetroot Soup · Pumpkin Pie · Beetroot Soup
 - **Beetroot Soup**: Mushroom Stew · Mushroom Stew · Mushroom Stew / Mushroom Stew · Mushroom Stew · Mushroom Stew / Mushroom Stew · Mushroom Stew · Mushroom Stew
-- **Bread**: Wheat · Wheat · Wheat / Wheat · Wheat · Wheat / Wheat · Wheat · Wheat
+- **Bread**: Wheat Seeds · Wheat Seeds · Wheat Seeds / Wheat Seeds · Wheat Seeds · Wheat Seeds / Wheat Seeds · Wheat Seeds · Wheat Seeds
 - **Cake**: Pumpkin Pie · Pumpkin Pie · Pumpkin Pie / Pumpkin Pie · Pumpkin Pie · Pumpkin Pie / Pumpkin Pie · Pumpkin Pie · Pumpkin Pie
 - **Chorus Fruit**: Beetroot Soup · Beetroot Soup · Beetroot Soup / Beetroot Soup · Beetroot Soup · Beetroot Soup / Beetroot Soup · Beetroot Soup · Beetroot Soup
 - **Cooked Beef**: Beef · Beef · Beef / Beef · Beef · Beef / Beef · Beef · Beef
@@ -379,13 +438,13 @@ Total de recetas: **330** en **14** categorías.
 - **Player Head**: Player Head · Player Head · Player Head / Player Head · Fire Coral Block · Player Head / Player Head · Player Head · Player Head
 - **Prismarine Shard**: Cooked Beef · Rabbit Stew · Nautilus Shell / Rabbit Stew · Rabbit Hide · Rabbit Stew / Nautilus Shell · Rabbit Stew · Cooked Beef
 - **Pumpkin Pie**: Cookie · Cookie · Cookie / Cookie · Cookie · Cookie / Cookie · Cookie · Cookie
-- **Rabbit Stew**: Baked Potato · Wheat · Baked Potato / Wheat · Bread · Wheat / Baked Potato · Wheat · Baked Potato
+- **Rabbit Stew**: Baked Potato · Wheat Seeds · Baked Potato / Wheat Seeds · Bread · Wheat Seeds / Baked Potato · Wheat Seeds · Baked Potato
 - **Rabbit Stew**: Tropical Fish · Beef · Tropical Fish / Beef · Nautilus Shell · Beef / Tropical Fish · Beef · Tropical Fish
 - **Sweet Berries**: Golden Carrot · Golden Apple · Golden Carrot / Golden Apple · Enchanted Golden Apple · Golden Apple / Golden Carrot · Golden Apple · Golden Carrot
 - **Tropical Fish**: Salmon · Cod · Salmon / Cod · Pufferfish · Cod / Salmon · Cod · Salmon
-- **Wheat**: Wheat · Wheat · Wheat / Wheat · Wheat · Wheat / Wheat · Wheat · Wheat
+- **Wheat Seeds**: Wheat · Wheat · Wheat / Wheat · Wheat · Wheat / Wheat · Wheat · Wheat
 
-### Creacion items normales (7)
+### Creacion items normales (8)
 
 - **Bloque de Manzana**: Fragmento de Manzana · Fragmento de Manzana · Fragmento de Manzana / Fragmento de Manzana · Fragmento de Manzana · Fragmento de Manzana / Fragmento de Manzana · Fragmento de Manzana · Fragmento de Manzana
 - **Disc Fragment 5**: Cinturón de Orión · Sculk Catalyst · Cinturón de Orión / Sculk · Equuleus · Sculk Catalyst / Cinturón de Orión · Sculk Sensor · Cinturón de Orión
@@ -394,4 +453,5 @@ Total de recetas: **330** en **14** categorías.
 - **Fragmento de Manzana**: Gold Block · Gold Ingot · Gold Block / Amethyst Shard · Netherite Scrap · Amethyst Shard / Gold Block · Gold Ingot · Gold Block
 - **Heavy Core** x2: Wind Charge · Netherite Ingot · Wind Charge / Netherite Ingot · Heavy Core · Netherite Ingot / Wind Charge · Netherite Ingot · Wind Charge
 - **Nether Star**: Wither Skeleton Skull · Wither Skeleton Skull · — / Wither Skeleton Skull · Wither Skeleton Skull · —
+- **Turtle Scute**: Cactus · Vine · Bamboo / Kelp · Emerald · Green Dye / Seagrass · Lily Pad · Slime Ball
 <!-- AUTO:fin crafteos -->

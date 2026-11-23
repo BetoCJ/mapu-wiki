@@ -8,11 +8,45 @@ Lo último que llegó a Mapucraft con la **temporada 2**.
 
 ***
 
+## 🗓️ Cambios del 16 al 23 de noviembre
+
+_Actualizado el 23/11/2026._
+
+**Nuevo**
+- **Sumo (20 nov):** duelos de empujones 1v1 (y torneos) sin habilidades ni amuletos, con ranking, hologramas y **apuestas opcionales** entre los duelistas (comisión del 5 %). Desde el 23/11 también hay **apuestas de espectador** con `/sumo apostar <jugador> <monto>`. Ver [Sumo](sumo.md).
+- **Bingo Diario (20 nov):** un cartón nuevo cada día a las 07:30; entrega ítems con `/bingo` y gana por líneas, cartón lleno, ser el primero y rachas. Desde el 23/11: ranking semanal (`/bingo top semana`), **bono para el banco de tu town** cuando varios integrantes llenan el cartón el mismo día y días especiales. Ver [Bingo Diario](bingo-diario.md).
+- **Bingo de Eventos (20 nov):** bingos masivos del staff con tómbola en el chat (`/bingoevento`). Desde el 23/11 el premio en dinero se puede repartir con tu town si el staff lo activa. Ver [Bingo de Eventos](bingo-evento.md).
+- **Protección para jugadores nuevos (23 nov):** las cuentas nuevas no reciben ataques de monstruos durante sus primeras 24 horas. Ver [Zonas](zonas.md).
+- **Amigo Secreto (23 nov):** inscríbete con `/amigosecreto` antes del sorteo del **12 de diciembre**; quien no reciba regalo antes del 20 de diciembre recibe uno del staff. Ver [Amigo Secreto](eventos/amigo-secreto.md).
+- **Renovación de rangos (16 nov):** avisos antes de que venza tu rango y **7 días de gracia con 20 % de descuento** para renovarlo. Ver [Renovación de rangos](renovacion-de-rangos.md).
+
+**Mejoras**
+- **Lotería:** compra automática con `/loteria auto <boletos> [rondas]`. Ver [Lotería](loteria.md).
+- **Mochilas:** las mochilas nuevas se abren al instante y las antiguas muestran "Cargando…" mientras se recupera su contenido. Ver [Mochilas](mochilas.md).
+- **Packs de clase:** la entrega está protegida contra duplicados y, si compras desconectado, el pack te llega al entrar. Ver [Packs de clase](packs-y-kits.md).
+- **Calendario de Adviento:** abre el 1 de diciembre con `/adviento` (pista normal y Premium). Ver [Navidad](eventos/navidad.md).
+- **/warps:** el menú quedó en dos páginas (combate, juegos y eventos / comunidad, economía y servicios) y ahora incluye el **Estadio** y el **Sumo**. Ver [Warps](../el-servidor/warps.md).
+- **Crafteos:** ya son **347 recetas** en 15 categorías, con la nueva categoría **Fragmentos Irrompibles**. Ver [Crafteos](crafteos.md).
+- **Dungeons 4 y 5:** sus jefes y mobs se hicieron más resistentes (16 nov). Ver [Dungeon 4](dungeons/dungeon-4.md) y [Dungeon 5](dungeons/dungeon-5.md).
+
+**Arreglos y ajustes**
+- **Crafteos:** las mejoras de armas y herramientas al siguiente tier (y la reparación juntando dos copias) dejaban de funcionar apenas el arma se usaba. Arreglado.
+- **Mercado (`/market`):** se repararon 18 ítems que aparecían sin precio, se corrigió el precio del bloque de esmeralda y llegó **variedad de redstone**. Por pedido, el **diamante, la esmeralda, el oro y la netherita** ya no se compran ni venden en el mercado. Ver [Mercado Global](economia/mercado.md).
+- **Dungeons:** los mini-jefes de las dungeons 2 y 3 sueltan más piezas de crafteo. Ver [Dungeons](dungeons/README.md).
+- **Cofres de muestra de las cajas:** ahora están protegidos (no se pueden vaciar, romper ni saquear con tolvas).
+- **Juegos del chat:** ya no se puede ganar estando silenciado y las rachas quedan guardadas tras los reinicios; se corrigió el top de `/chatgames top`. Ver [Juegos del chat](chatgames.md).
+- **KOTH:** las rachas y premios ya no se mezclan entre zonas distintas.
+- **Pase de Batalla:** las misiones de pesca no avanzaban; se cambiaron por misiones de **cocinar bacalao y salmón** en el horno.
+- **Chat de ciudad:** se corrigió un fallo que impedía a algunos jugadores hablar en `/tc` o unirse a una ciudad.
+- **Discord:** nuevos canales **guiones-video** y **postulaciones-videos** para proponer ideas o postular a salir en los videos del servidor.
+
+***
+
 ## 🗓️ Cambios del 11 al 15 de noviembre
 
 - **Tope de XP progresivo (12 nov):** ya no hay un límite duro por skill. Por día recibes el 100 % de la XP hasta 100.000, el 50 % los siguientes 100.000 y el 25 % después (nunca llega a 0; en pesca son 80.000 + 80.000). Poder no tiene tope. Mira tu avance con `/limite`; se reinicia a las 7:30 AM. Además, la XP por acción de Minería, Excavación, Tala, Agricultura, Pesca, Alquimia y Comercio bajó un 25 %. Detalle en [Skills](skills.md).
 - **Wallmapu (nueva dimensión):** para estar allí hace falta llevar el **Amuleto Simple**; si entras sin él vuelves al spawn. Ver [Wallmapu](wallmapu.md).
-- **Dungeons:** la **Dungeon 3** ya se abre desde el menú de dungeons y desde el 15 de noviembre también la **Dungeon 4**; la 5 sigue cerrada por ahora. Hay un control **anti AFK**: quedarse quieto matando mobs sin parar (autoclicker o macros) da un aviso y luego te lleva al spawn (cerca de los jefes no aplica). Los sonidos de los mobs de la D3 bajaron a la mitad.
+- **Dungeons:** la **Dungeon 3** ya se abre desde el menú de dungeons y desde el 15 de noviembre también la **Dungeon 4**; la **Dungeon 5** ya está abierta. Hay un control **anti AFK**: quedarse quieto matando mobs sin parar (autoclicker o macros) da un aviso y luego te lleva al spawn (cerca de los jefes no aplica). Los sonidos de los mobs de la D3 bajaron a la mitad.
 - **Pase de batalla:** las llaves de Halloween de las recompensas pasaron a ser **Llaves de Navidad**.
 - **Jobs:** plantar caña de azúcar ya no resta puntos, dinero ni experiencia al Granjero.
 - **Crafteos:** ya son **330 recetas** custom en `/crafteos` y `/recetas`.

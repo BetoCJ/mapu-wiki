@@ -1,5 +1,7 @@
 # 🗝️ Cajas y Llaves
 
+_Actualizado el 23/11/2026 (tablas de premios generadas desde la configuración del servidor del 17/11)._
+
 El servidor tiene un sistema de **cajas de recompensas** que se abren con llaves especiales. Las cajas están físicamente en `/warp cajas`. Cada caja tiene su propia tabla de premios, desde materiales comunes hasta ítems exclusivos del servidor.
 
 ***
@@ -167,7 +169,7 @@ El invocador de Tralkan cuesta **$50,000** y se compra en `/adminshops`.
 
 ### 🟡 Llave Boss D1
 
-Obtenida derrotando a los bosses de la Dungeon 1 (Rey Esqueleto / Capitán ColmilloDorado).
+Es la **Llave Boss** general: la dan los jefes de la Dungeon 1 (Rey Nigromante y Caudillo ColmilloDorado), el Guardián Alado del Bambú (D2) y los jefes finales de las Dungeons 3, 4 y 5 (ver [Dungeons](dungeons/README.md)).
 
 | Recompensa | Probabilidad |
 |---|---|
@@ -189,7 +191,7 @@ Obtenida derrotando a los bosses de la Dungeon 1 (Rey Esqueleto / Capitán Colmi
 
 ### 🟠 Llave Boss D2
 
-Obtenida derrotando al **Rey Ahogado** (Dungeon 2).
+Obtenida derrotando al **Rey Espectral de las Mareas** (Dungeon 2).
 
 | Recompensa | Probabilidad |
 |---|---|
@@ -212,7 +214,7 @@ Obtenida derrotando al **Rey Ahogado** (Dungeon 2).
 
 ### 🔴 Llave Boss D3
 
-Obtenida derrotando al **Zoglin Rey del Nether** o al **Señor de la Lava Eterna** (Dungeon 3).
+Obtenida derrotando al **Rey Jabalí del Nether** o al **Señor de la Lava Eterna** (Dungeon 3). Las Llaves Boss D4 y D5 las entregan el Coloso de Piedra Ancestral y la Abominación Radiactiva; sus premios están en las tablas de abajo.
 
 | Recompensa | Probabilidad |
 |---|---|
@@ -238,7 +240,7 @@ Drops: Llaves Mapu, Lafken, Wenumapu, Netherite — Manzana Dorada — Diamante 
 ***
 
 {% hint style="info" %}
-Todas las cajas se abren en `/warp cajas`. Las llaves de los bosses se obtienen al derrotar a los jefes correspondientes. Las llaves de las cajas de progresión se pueden encontrar en otras cajas o como drop de mobs de las dungeons.
+Todas las cajas se abren en `/warp cajas`. Las llaves de los bosses se obtienen al derrotar a los jefes correspondientes. Las llaves de las cajas de progresión se pueden encontrar en otras cajas o como drop de mobs de las dungeons. La **Llave Parkour** se gana en los [parkours cortos](parkours.md) y la **Llave Navidad** en el Pase de Batalla, los parkours y la tienda (ver [Navidad](eventos/navidad.md)).
 {% endhint %}
 
 ***
@@ -248,7 +250,7 @@ Todas las cajas se abren en `/warp cajas`. Las llaves de los bosses se obtienen 
 
 > Esta sección se genera automáticamente desde la configuración de las cajas. La probabilidad es el peso del premio dividido por el peso total de la caja. Para actualizarla: `python wiki/tools/generar_wiki.py --solo cajas`.
 
-Cajas registradas: **29**. Rarezas: Común · Poco Común · Raro · Épico · Legendario · Mítico.
+Cajas registradas: **31**. Rarezas: Común · Poco Común · Raro · Épico · Legendario · Mítico.
 
 ### ✦ Caja Amuletos — Mistico
 
@@ -420,16 +422,16 @@ Llave: **✦ Llave Diaria** · Premios: **26**
 | Común | 6 | 64.69% |
 | Poco Común | 3 | 14.2% |
 | Raro | 7 | 15.25% |
-| Épico | 4 | 5.78% |
-| Legendario | 6 | 0.08% |
+| Épico | 4 | 5.79% |
+| Legendario | 6 | 0.07% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Alicanto | Legendario | 0.0075% |
-| Kit Kaikaivilu | Legendario | 0.0075% |
-| Kit Lautaro | Legendario | 0.0075% |
-| Kit TrenTren | Legendario | 0.0075% |
-| Kit TueTue | Legendario | 0.0075% |
+| Kit Alicanto | Legendario | < 0.01% |
+| Kit Kaikaivilu | Legendario | < 0.01% |
+| Kit Lautaro | Legendario | < 0.01% |
+| Kit TrenTren | Legendario | < 0.01% |
+| Kit TueTue | Legendario | < 0.01% |
 | Llave Netherite | Legendario | 0.05% |
 | Beacon | Épico | 0.79% |
 | Ender Pearl x8 | Raro | 1.58% |
@@ -596,11 +598,11 @@ Llave: **✦ Llave Kutral** · Premios: **18**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 5 | 31.89% |
-| Poco Común | 7 | 46.9% |
+| Común | 5 | 31.9% |
+| Poco Común | 7 | 46.92% |
 | Raro | 3 | 10.32% |
 | Épico | 2 | 10.79% |
-| Legendario | 1 | 0.09% |
+| Legendario | 1 | 0.07% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
@@ -618,9 +620,9 @@ Llave: **✦ Llave Kutral** · Premios: **18**
 | Dragon Head x4 | Común | 6.57% |
 | Enchanting Table x2 | Común | 6.57% |
 | Netherite Ingot x4 | Poco Común | 6.57% |
-| Golden Apple x8 | Común | 7.5% |
-| Magma Cream x5 | Poco Común | 7.5% |
-| Wither Skeleton Skull | Poco Común | 7.5% |
+| Golden Apple x8 | Común | 7.51% |
+| Magma Cream x5 | Poco Común | 7.51% |
+| Wither Skeleton Skull | Poco Común | 7.51% |
 | Diamond x32 | Poco Común | 8.44% |
 
 ### ✦ Caja Lafken — Tier II
@@ -630,16 +632,16 @@ Llave: **✦ Llave Lafken** · Premios: **17**
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
 | Común | 1 | 7.65% |
-| Poco Común | 10 | 71.7% |
+| Poco Común | 10 | 71.72% |
 | Raro | 3 | 12.43% |
 | Épico | 2 | 8.13% |
-| Legendario | 1 | 0.1% |
+| Legendario | 1 | 0.07% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit TrenTren | Legendario | 0.075% |
+| Kit TrenTren | Legendario | 0.07% |
 | Llave Wenumapu | Raro | 2.87% |
-| Grebas Lafken | Épico | 3.82% |
+| Grebas Lafken | Épico | 3.83% |
 | Escudo Lafken | Épico | 4.3% |
 | Cana del Pescador Mapuche | Raro | 4.78% |
 | Netherite Scrap x2 | Raro | 4.78% |
@@ -651,9 +653,9 @@ Llave: **✦ Llave Lafken** · Premios: **17**
 | Turtle Egg x3 | Poco Común | 6.69% |
 | Turtle Helmet | Poco Común | 6.69% |
 | Golden Apple x4 | Común | 7.65% |
-| Dragon Head x2 | Poco Común | 8.6% |
-| Ender Chest | Poco Común | 8.6% |
-| Sponge x5 | Poco Común | 8.6% |
+| Dragon Head x2 | Poco Común | 8.61% |
+| Ender Chest | Poco Común | 8.61% |
+| Sponge x5 | Poco Común | 8.61% |
 
 ### Llaves Aleatorias
 
@@ -777,7 +779,7 @@ Llave: **Llave Boss D4** · Premios: **12**
 | +7 Claims | Raro | 8.2% |
 | 45,000 Coins | Raro | 8.2% |
 | 3x Runa Petrea x3 | Raro | 10.93% |
-| 16x Esencia Fragmentada (Nvl 4) x16 | Raro | 18.21% |
+| 16x Esencia Fragmentada (D2) x16 | Raro | 18.21% |
 | Enchanted Golden Apple x6 | Épico | 36.43% |
 
 ### Caja Boss D5
@@ -802,7 +804,7 @@ Llave: **Llave Boss D5** · Premios: **12**
 | +10 Claims | Raro | 8.2% |
 | 60,000 Coins | Raro | 8.2% |
 | 3x Vial Antirradiacion x3 | Raro | 10.93% |
-| 16x Esencia Radiante (Nvl 5) x16 | Raro | 18.21% |
+| 16x Esencia Radiante (D5) x16 | Raro | 18.21% |
 | Enchanted Golden Apple x8 | Épico | 36.43% |
 
 ### ⚡ Caja Tralkan ⚡
@@ -842,9 +844,9 @@ Llave: **✦ Llave Mapu** · Premios: **21**
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
 | Poco Común | 4 | 30.74% |
-| Raro | 14 | 61.47% |
-| Épico | 2 | 7.68% |
-| Legendario | 1 | 0.11% |
+| Raro | 14 | 61.49% |
+| Épico | 2 | 7.69% |
+| Legendario | 1 | 0.08% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
@@ -865,82 +867,139 @@ Llave: **✦ Llave Mapu** · Premios: **21**
 | Ender Pearl x16 | Raro | 5.49% |
 | Gold Block | Raro | 5.49% |
 | Totem Of Undying | Raro | 5.49% |
-| End Crystal | Poco Común | 7.68% |
-| Experience Bottle x64 | Poco Común | 7.68% |
-| Golden Apple x2 | Poco Común | 7.68% |
-| Golden Apple x3 | Poco Común | 7.68% |
+| End Crystal | Poco Común | 7.69% |
+| Experience Bottle x64 | Poco Común | 7.69% |
+| Golden Apple x2 | Poco Común | 7.69% |
+| Golden Apple x3 | Poco Común | 7.69% |
 
 ### Caja Muebles
 
-Llave: **Llave Muebles** · Premios: **453**
+Llave: **Llave Muebles** · Premios: **904**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 453 | 100% |
+| Común | 904 | 100% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| 2Shelftable | Común | 0.22% |
-| 2Shelftabledark | Común | 0.22% |
-| Airconditionerblack | Común | 0.22% |
-| Airconditionerwhite | Común | 0.22% |
-| Aquariumblack | Común | 0.22% |
-| Aquariumwhite | Común | 0.22% |
-| Bookshelfblack | Común | 0.22% |
-| Bookshelfdark | Común | 0.22% |
-| Bookshelfwhite | Común | 0.22% |
-| Bookshelfwooden | Común | 0.22% |
-| Cafe Awning | Común | 0.22% |
-| Cafe Cafecounter1 | Común | 0.22% |
-| Cafe Cafecounter2 | Común | 0.22% |
-| Cafe Cafelamps | Común | 0.22% |
-| Cafe Cakeshelf | Común | 0.22% |
-| Cafe Cashregister | Común | 0.22% |
-| Cafe Chair1 | Común | 0.22% |
-| Cafe Chair2 | Común | 0.22% |
-| Cafe Coffeecup | Común | 0.22% |
-| Cafe Coffeemachinebeige | Común | 0.22% |
-| Cafe Coffeemachineblack | Común | 0.22% |
-| Cafe Coffeemachinegray | Común | 0.22% |
-| Cafe Coffeemachinered | Común | 0.22% |
-| Cafe Coffeemachinewhite | Común | 0.22% |
-| Cafe Coffeetable | Común | 0.22% |
-| Cafe Cupshelf | Común | 0.22% |
-| Cafe Menuboard | Común | 0.22% |
-| Cafe Stool | Común | 0.22% |
-| Cafe Streetlamp | Común | 0.22% |
-| Cart | Común | 0.22% |
-| Casino Century Furniture Back Jack Table | Común | 0.22% |
-| Casino Century Furniture Carpet | Común | 0.22% |
-| Casino Century Furniture Chair | Común | 0.22% |
-| Casino Century Furniture Chip | Común | 0.22% |
-| Casino Century Furniture Coin Decoration | Común | 0.22% |
-| Casino Century Furniture Glass Chip | Común | 0.22% |
-| Casino Century Furniture Leather Bag | Común | 0.22% |
-| Casino Century Furniture Money | Común | 0.22% |
-| Casino Century Furniture Poker Table | Común | 0.22% |
-| Casino Century Furniture Roulette Table | Común | 0.22% |
-| Ceilingfanblack | Común | 0.22% |
-| Ceilingfanwhite | Común | 0.22% |
-| Chair | Común | 0.22% |
-| Coach | Común | 0.22% |
-| Coffeetable | Común | 0.22% |
-| Coffeetableblack | Común | 0.22% |
-| Coffeetabledark | Común | 0.22% |
-| Coffeetablewhite | Común | 0.22% |
-| Comfortablechairbeige | Común | 0.22% |
-| Comfortablechairblack | Común | 0.22% |
-| Comfortablechairblack | Común | 0.22% |
-| Comfortablechairblue | Común | 0.22% |
-| Comfortablechairgray | Común | 0.22% |
-| Comfortablechairgreen | Común | 0.22% |
-| Comfortablechairorange | Común | 0.22% |
-| Comfortablechairpink | Común | 0.22% |
-| Comfortablechairred | Común | 0.22% |
-| Comfortablechairwhite | Común | 0.22% |
-| Comfortablechairyellow | Común | 0.22% |
-| Curtainbeige | Común | 0.22% |
-| _… y 393 premios más (los más comunes)_ | | |
+| 2Shelftable | Común | 0.11% |
+| 2Shelftabledark | Común | 0.11% |
+| Airconditionerblack | Común | 0.11% |
+| Airconditionerwhite | Común | 0.11% |
+| Alchemical Cube | Común | 0.11% |
+| Aquariumblack | Común | 0.11% |
+| Aquariumwhite | Común | 0.11% |
+| Arcana Workbench | Común | 0.11% |
+| Arcana Workbench 1 | Común | 0.11% |
+| Books Of Knowledge | Común | 0.11% |
+| Bookshelfblack | Común | 0.11% |
+| Bookshelfdark | Común | 0.11% |
+| Bookshelfwhite | Común | 0.11% |
+| Bookshelfwooden | Común | 0.11% |
+| Cafe Awning | Común | 0.11% |
+| Cafe Cafecounter1 | Común | 0.11% |
+| Cafe Cafecounter2 | Común | 0.11% |
+| Cafe Cafelamps | Común | 0.11% |
+| Cafe Cakeshelf | Común | 0.11% |
+| Cafe Cashregister | Común | 0.11% |
+| Cafe Chair1 | Común | 0.11% |
+| Cafe Chair2 | Común | 0.11% |
+| Cafe Coffeecup | Común | 0.11% |
+| Cafe Coffeemachinebeige | Común | 0.11% |
+| Cafe Coffeemachineblack | Común | 0.11% |
+| Cafe Coffeemachinegray | Común | 0.11% |
+| Cafe Coffeemachinered | Común | 0.11% |
+| Cafe Coffeemachinewhite | Común | 0.11% |
+| Cafe Coffeetable | Común | 0.11% |
+| Cafe Cupshelf | Común | 0.11% |
+| Cafe Menuboard | Común | 0.11% |
+| Cafe Stool | Común | 0.11% |
+| Cafe Streetlamp | Común | 0.11% |
+| Calcination Furnace | Común | 0.11% |
+| Cart | Común | 0.11% |
+| Casino Century Furniture Back Jack Table | Común | 0.11% |
+| Casino Century Furniture Carpet | Común | 0.11% |
+| Casino Century Furniture Chair | Común | 0.11% |
+| Casino Century Furniture Chip | Común | 0.11% |
+| Casino Century Furniture Coin Decoration | Común | 0.11% |
+| Casino Century Furniture Glass Chip | Común | 0.11% |
+| Casino Century Furniture Leather Bag | Común | 0.11% |
+| Casino Century Furniture Money | Común | 0.11% |
+| Casino Century Furniture Poker Table | Común | 0.11% |
+| Casino Century Furniture Roulette Table | Común | 0.11% |
+| Ceilingfanblack | Común | 0.11% |
+| Ceilingfanwhite | Común | 0.11% |
+| Chair | Común | 0.11% |
+| Christmas Cookies Merchant | Común | 0.11% |
+| Christmas Cookies Merchant Cart | Común | 0.11% |
+| Coach | Común | 0.11% |
+| Coffeetable | Común | 0.11% |
+| Coffeetableblack | Común | 0.11% |
+| Coffeetabledark | Común | 0.11% |
+| Coffeetablewhite | Común | 0.11% |
+| Comfortablechairbeige | Común | 0.11% |
+| Comfortablechairblack | Común | 0.11% |
+| Comfortablechairblack | Común | 0.11% |
+| Comfortablechairblue | Común | 0.11% |
+| Comfortablechairgray | Común | 0.11% |
+| _… y 844 premios más (los más comunes)_ | | |
+
+### 🎄 Caja Navidad — Apertura
+
+Llave: **🎄 Llave Navidad** · Premios: **42**
+
+| Rareza | Premios | Probabilidad total |
+|---|---|---|
+| Común | 3 | 27.13% |
+| Poco Común | 8 | 28.26% |
+| Raro | 14 | 29.01% |
+| Épico | 15 | 14.77% |
+| Legendario | 2 | 0.83% |
+
+| Premio | Rareza | Probabilidad |
+|---|---|---|
+| Guadaña de Escarcha | Legendario | 0.38% |
+| Espada del Invierno | Legendario | 0.45% |
+| Manzana Encantada | Épico | 0.75% |
+| Alas Navideñas | Épico | 0.9% |
+| Alas de Hada Navideña | Épico | 0.9% |
+| Arco Navideño | Épico | 0.9% |
+| Ballesta Navideña | Épico | 0.9% |
+| Báculo Navideño | Épico | 0.9% |
+| Lanza de Cristal de Hielo | Épico | 0.9% |
+| Martillo de Turrón | Épico | 0.9% |
+| Máscara del Grinch | Épico | 0.9% |
+| 60,000 Coins | Épico | 1.13% |
+| Botas Navideñas | Épico | 1.13% |
+| Casco Navideño | Épico | 1.13% |
+| Estoque Helado | Épico | 1.13% |
+| Grebas Navideñas | Épico | 1.13% |
+| Peto Navideño | Épico | 1.13% |
+| Caña de Pescar Navideña | Raro | 1.88% |
+| Cofre Navideño a la Espalda | Raro | 1.88% |
+| Daga Navideña | Raro | 1.88% |
+| Escudo Navideño | Raro | 1.88% |
+| Gorro de Pingüino | Raro | 1.88% |
+| Hacha Navideña | Raro | 1.88% |
+| Pala Navideña | Raro | 1.88% |
+| Pico de Azúcar | Raro | 1.88% |
+| Sombrero Muñeco de Nieve | Raro | 1.88% |
+| Sombrero Navideño | Raro | 1.88% |
+| Sombrero de Frosty | Raro | 1.88% |
+| Gorro de Elfo Clásico | Poco Común | 2.26% |
+| Gorro de Santa Clásico | Poco Común | 2.26% |
+| Lingote de Netherita x2 | Raro | 2.26% |
+| Llave de Amuletos | Raro | 2.26% |
+| Azada Navideña | Poco Común | 2.64% |
+| Astas de Reno | Poco Común | 3.01% |
+| Gorro de Elfo | Poco Común | 3.01% |
+| Gorro de Santa | Poco Común | 3.01% |
+| 25,000 Coins | Raro | 3.77% |
+| 10,000 Coins | Poco Común | 6.03% |
+| Diamantes x8 | Poco Común | 6.03% |
+| Manzanas Doradas x8 | Común | 7.54% |
+| Esmeraldas x32 | Común | 9.04% |
+| Galletas de Jengibre x16 | Común | 10.55% |
 
 ### ✦ Caja Netherite ✦ — Tier Supremo
 
@@ -977,28 +1036,59 @@ Llave: **✦ Llave Netherite** · Premios: **22**
 | Newen | Legendario | 5.89% |
 | Netherite Ingot x2 | Raro | 7.36% |
 
-### Caja Peluches
+### ✦ Caja Parkour ✦ — Parkour
 
-Llave: **Llave Peluches** · Premios: **594**
+Llave: **✦ Llave Parkour** · Premios: **7**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 594 | 100% |
+| Común | 1 | 39.6% |
+| Poco Común | 2 | 36.63% |
+| Raro | 3 | 21.78% |
+| Épico | 1 | 1.98% |
+
+| Premio | Rareza | Probabilidad |
+|---|---|---|
+| +5 Claims | Épico | 1.98% |
+| +3 Claims | Raro | 5.94% |
+| Fly Towny 7 días | Raro | 5.94% |
+| Vale Builder: Shulker de materiales | Raro | 9.9% |
+| Fly Towny 3 días | Poco Común | 14.85% |
+| 15,000 Pewmas | Poco Común | 21.78% |
+| 5,000 Pewmas | Común | 39.6% |
+
+### Caja Peluches
+
+Llave: **Llave Peluches** · Premios: **606**
+
+| Rareza | Premios | Probabilidad total |
+|---|---|---|
+| Común | 606 | 100% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
 | Aizen | Común | 0.17% |
 | Allmight | Común | 0.17% |
+| Allmight Christmas | Común | 0.17% |
+| Allmight Christmas2 | Común | 0.17% |
+| Asta Christmas | Común | 0.17% |
 | Berserk Armadura | Común | 0.17% |
 | Berserk Peluche | Común | 0.17% |
+| Black Goku Christmas | Común | 0.17% |
 | Deku | Común | 0.17% |
 | Gojo Headband | Común | 0.17% |
+| Gojo Headband Christmas | Común | 0.17% |
+| Goku Christmas | Común | 0.17% |
 | Goku Ultra Instinct | Común | 0.17% |
 | Ichigo | Común | 0.17% |
+| Jotaro Christmas | Común | 0.17% |
+| Jotaro Morioh Christmas | Común | 0.17% |
 | League Teemo Estatua | Común | 0.17% |
 | League Vi Estatua | Común | 0.17% |
 | League Warwick Estatua | Común | 0.17% |
+| Luffy Hat Christmas | Común | 0.17% |
 | Naruto Kurama | Común | 0.17% |
+| Naruto Kurama Christmas | Común | 0.17% |
 | Nav Galleta Jengibre | Común | 0.17% |
 | Op Kid Zangoose Estatua | Común | 0.17% |
 | Op Lucci Estatua | Común | 0.17% |
@@ -1037,17 +1127,7 @@ Llave: **Llave Peluches** · Premios: **594**
 | Peluche Bibarel | Común | 0.17% |
 | Peluche Bidoof | Común | 0.17% |
 | Peluche Big Dialga | Común | 0.17% |
-| Peluche Big Eared Rapscallion | Común | 0.17% |
-| Peluche Big Giratina | Común | 0.17% |
-| Peluche Big Ho-Oh | Común | 0.17% |
-| Peluche Big Jiggles | Común | 0.17% |
-| Peluche Big Palkia | Común | 0.17% |
-| Peluche Black Scowling Penguin | Común | 0.17% |
-| Peluche Blastoise | Común | 0.17% |
-| Peluche Blaze | Común | 0.17% |
-| Peluche Blitzle | Común | 0.17% |
-| Peluche Bonsly | Común | 0.17% |
-| _… y 534 premios más (los más comunes)_ | | |
+| _… y 546 premios más (los más comunes)_ | | |
 
 ### 🎉 Caja Pinata 🎉
 
@@ -1135,11 +1215,11 @@ Llave: **✦ Llave Wallmapu** · Premios: **18**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 1 | 8.59% |
-| Poco Común | 4 | 34.37% |
-| Raro | 9 | 41.89% |
+| Común | 1 | 8.6% |
+| Poco Común | 4 | 34.38% |
+| Raro | 9 | 41.9% |
 | Épico | 3 | 15.04% |
-| Legendario | 1 | 0.11% |
+| Legendario | 1 | 0.08% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
@@ -1156,9 +1236,9 @@ Llave: **✦ Llave Wallmapu** · Premios: **18**
 | Espada Wallmapu | Épico | 5.37% |
 | Pico Wallmapu | Épico | 5.37% |
 | Shulker Shell x2 | Raro | 5.37% |
-| Netherite Ingot x2 | Poco Común | 6.44% |
-| Enchanted Golden Apple | Poco Común | 8.59% |
-| End Crystal | Común | 8.59% |
+| Netherite Ingot x2 | Poco Común | 6.45% |
+| Enchanted Golden Apple | Poco Común | 8.6% |
+| End Crystal | Común | 8.6% |
 | Experience Bottle x64 | Poco Común | 9.67% |
 | Golden Apple x3 | Poco Común | 9.67% |
 
@@ -1168,15 +1248,15 @@ Llave: **✦ Llave Wenumapu** · Premios: **19**
 
 | Rareza | Premios | Probabilidad total |
 |---|---|---|
-| Común | 1 | 8.61% |
-| Poco Común | 10 | 62.88% |
+| Común | 1 | 8.62% |
+| Poco Común | 10 | 62.89% |
 | Raro | 5 | 19.81% |
-| Épico | 2 | 8.61% |
-| Legendario | 1 | 0.09% |
+| Épico | 2 | 8.62% |
+| Legendario | 1 | 0.06% |
 
 | Premio | Rareza | Probabilidad |
 |---|---|---|
-| Kit Kaikaivilu | Legendario | 0.07% |
+| Kit Kaikaivilu | Legendario | 0.06% |
 | Llave Kutral | Raro | 2.58% |
 | 8,000 Pewmas | Raro | 4.31% |
 | Beacon | Raro | 4.31% |
@@ -1194,5 +1274,5 @@ Llave: **✦ Llave Wenumapu** · Premios: **19**
 | Name Tag x3 | Poco Común | 6.89% |
 | Elytra | Poco Común | 7.75% |
 | Ghast Tear x6 | Poco Común | 7.75% |
-| Golden Apple x6 | Común | 8.61% |
+| Golden Apple x6 | Común | 8.62% |
 <!-- AUTO:fin cajas -->

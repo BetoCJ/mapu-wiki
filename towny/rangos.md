@@ -46,6 +46,10 @@ Los rangos de donación son temporales (**30 días**) y se activan con un ítem 
 
 {% hint style="warning" %}
 Los rangos de donación son temporales. Al vencer los 30 días, el rango se retira automáticamente. Se recomienda tener el inventario libre antes de activar el ítem.
+
+{% hint style="info" %}
+🔁 **Renovación con descuento (desde el 16/11/2026):** te avisamos cuando a tu rango le quedan 7, 5, 3 y 1 día, y si vence tienes **7 días de gracia con un 20 % de descuento** para renovarlo con un cupón personal. Revisa tu estado con `/renovacion`. → [Renovación de rangos](renovacion-de-rangos.md)
+{% endhint %}
 {% endhint %}
 
 ### 📊 Tabla de rangos

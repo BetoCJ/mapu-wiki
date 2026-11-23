@@ -1,6 +1,22 @@
 # 🎮 Mini-juegos
 
-Mapucraft cuenta con varios mini-juegos disponibles para toda la comunidad. Están en la zona de ocio accesible desde el spawn principal o mediante `/warps`.
+_Actualizado el 23/11/2026._
+
+Mapucraft cuenta con varios mini-juegos disponibles para toda la comunidad. Están en la zona de ocio accesible desde el spawn principal o mediante `/warps` (→ [lista de warps](../el-servidor/warps.md)).
+
+## 🆕 Juegos con página propia
+
+| Juego | Cómo se juega | Página |
+|---|---|---|
+| 🥋 **Sumo** | Duelos de empujones 1v1 y torneos, con apuestas opcionales y de espectador (`/sumo`, `/warp sumo`) | [Sumo](sumo.md) |
+| 🧗 **Parkours cortos** | 4 parkours con cronómetro y premios semanales (`/mpk lobby`) | [Parkours cortos](parkours.md) |
+| 🎟️ **Bingo Diario** | Un cartón nuevo cada día: entrega ítems y gana dinero (`/bingo`) | [Bingo Diario](bingo-diario.md) |
+| 🎉 **Bingo de Eventos** | Bingo masivo con tómbola organizado por el staff (`/bingoevento`) | [Bingo de Eventos](bingo-evento.md) |
+| 💬 **Juegos del chat** | Un reto rápido en el chat cada 10 minutos | [Juegos del chat](chatgames.md) |
+| 🎰 **Lotería** | Sorteos a las 14:00 y 21:00 (`/loteria`) | [Lotería](loteria.md) |
+| 🪙 **CoinFlip** | Lanza una moneda contra otro jugador, 50/50 (`/cf`) | [CoinFlip](coinflip.md) |
+
+***
 
 ***
 
@@ -37,23 +53,12 @@ Además, hay recompensas periódicas que se repiten indefinidamente:
 
 ### 🧗 Parkours cortos (MapuParkours)
 
-Además del parkour grande, hay **4 parkours cortos** con cronómetro y ranking propio. Abre el menú con `/mpk lobby`, elige uno y entra con `/mpk join <parkour>`.
+Además del parkour grande hay **4 parkours cortos** (`parkour1` a `parkour4`) con cronómetro, checkpoints y ranking propio. Abre el menú con `/mpk lobby` o entra con `/mpk join <parkour>`.
 
-* Al entrar a un parkour se te da un set de botones en la barra: **volver al checkpoint**, **empezar de 0**, **top 10** y **salir** (doble clic).
-* Los checkpoints se activan al pisar la placa; si te caes vuelves al último.
-* Dentro del área no recibes daño, no pierdes hambre ni ítems, y solo puedes empezar con la barra libre y sin efectos de poción u otros plugins (por ejemplo amuletos) que alteren tu velocidad.
-* Tus tiempos quedan guardados en el top de cada parkour.
-* `/mpk leave` te saca al lobby del parkour y `/mpk spawn` al spawn del servidor.
+* Completar cada parkour da **1 Llave Parkour** (una vez cada 72 h por parkour).
+* Cada domingo a las **20:00** se premia al **top 3** de cada parkour con llaves (Parkour, Navidad, Amuletos y MapuKoth), y el top se reinicia el **día 1 de cada mes**.
 
-#### 🏆 Premios y reinicio mensual
-
-* Cada parkour puede dar **un premio por completarlo** y **premios distintos para el top 3** (puesto 1, 2 y 3). El staff define cuáles son; mientras un parkour no tenga premios configurados, solo cuenta para el ranking.
-* Los premios del **top 3** se entregan solos **todos los domingos a las 20:00** (hora de Chile) a quienes ocupen el podio en ese momento. Si no estás conectado o tienes el inventario lleno, el premio queda pendiente y lo recibes con `/mpk claim` fuera del parkour.
-* El **top de tiempos se reinicia el día 1 de cada mes a las 00:00** (hora de Chile): se borran los mejores tiempos para que todos partan de cero, y se avisa en el chat. No se pierden las veces que completaste el parkour.
-
-{% hint style="info" %}
-El primer reparto semanal es el domingo 15 de noviembre y el primer reinicio mensual es el 1 de diciembre.
-{% endhint %}
+→ Reglas, premios exactos y comandos en [Parkours cortos](parkours.md).
 
 ***
 
@@ -143,6 +148,14 @@ Arena abierta para combates libres y eventos especiales.
 | | |
 |---|---|
 | **Warp** | `/warp coliseo` |
+
+## 🏟️ Estadio
+
+Arena competitiva. Dentro del Estadio **los amuletos se desactivan** para que todos peleen en igualdad (→ [Zonas](zonas.md)).
+
+| | |
+|---|---|
+| **Warp** | `/warp Estadio` |
 
 ***
 

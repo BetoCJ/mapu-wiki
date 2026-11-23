@@ -1,5 +1,7 @@
 # ⚙️ MapuCore
 
+_Actualizado el 23/11/2026._
+
 **MapuCore** es el plugin propio de Mapucraft. Reúne varias automatizaciones en un solo menú: personalizar tus ítems, reclamar lo que compras en la tienda y más. Escribe **`/mapucraft`** para abrirlo.
 
 ***
@@ -17,6 +19,8 @@
 | 🔑 **Llaves a elección** | `/mapucraft llaves` | Elige qué llave quieres de las que tienes disponibles |
 | 🏡 **Claims bonus** | `/mapucraft claims` | Suma claims extra a tu town |
 | 🌟 **Nombre especial** | Vale de rango Especial | Elige tu nombre en mapudungun |
+| 🎁 **Kits a elección** | `/mapucraft kits` | Si tienes una elección de kit pendiente, eliges uno de los kits (Trentren, Lautaro, Kaikaivilu, Tuetue o Alicanto). Necesitas al menos 6 espacios libres en el inventario |
+| 🧭 **Brújula de Mapucraft** | `/brujula` | La brújula del último espacio de tu barra abre el menú de atajos con clic derecho. No se puede soltar ni mover; si la pierdes, `/brujula` te la devuelve |
 
 Las opciones de personalización se pagan con **dinero del servidor**. Estos son los precios actuales (pueden cambiar):
 
@@ -85,3 +89,17 @@ Los spawners **no se pueden sacar con Toque de seda** ni minándolos (en Minecra
 - **Spawner Normal:** eliges entre Creeper, Zombie, Skeleton, Cow, Pig y Chicken para cada spawner del pack.
 - **Spawner Premium:** cualquier mob viable, excepto Ender Dragon, Elder Guardian, Wither y Giant.
 - Los mobs que salen de spawners son siempre de nivel 1.
+
+***
+
+## 📦 Cofres de muestra de las cajas
+
+En algunas zonas el staff coloca **cofres de muestra** con los premios reales de cada caja, para que puedas verlos antes de abrir tus llaves. Son solo para mirar: desde el 23/11 están protegidos y no se pueden vaciar, romper ni saquear con tolvas.
+
+## ❓ Preguntas frecuentes
+
+**No puedo usar `/ah sell` con la brújula en la mano.**
+Con la Brújula de Mapucraft en la mano se bloquean los comandos de vender e intercambiar (subastas, `/sell`, `/trade`, `/market`) para que no la vendas por error. Cámbiala de mano y vuelve a intentarlo.
+
+**Compré spawners o claims y no los veo.**
+Se acreditan como saldo: reclámalos con `/mapucraft spawner` o `/mapucraft claims`.

@@ -62,6 +62,10 @@ El **Auction House** es una casa de subastas global donde cualquier jugador pued
 
 El `/mercado` (también `/market`) es el **mercado oficial del servidor**, administrado por el sistema NasCraft. A diferencia de las tiendas de jugadores, aquí compras y vendes directamente con el servidor, sin depender de que otro jugador tenga stock.
 
+{% hint style="warning" %}
+**Desde el 23/11/2026** el diamante, la esmeralda, el oro y la netherita (y sus bloques) **ya no se compran ni venden** en el mercado. Detalle en [Mercado Global](mercado.md).
+{% endhint %}
+
 ### Como funcionan los precios
 
 El mercado usa un sistema de **precios dinamicos**: el precio de cada item cambia en funcion de la oferta y la demanda de todos los jugadores del servidor.
@@ -94,12 +98,12 @@ El mercado esta organizado en 17 categorias:
 | 3 | Aun mas profundo | Basalto, piedra negra, lagrima de ghast, vara de blaze, cuarzo |
 | 4 | El Fin | Piedra del Fin, bloque de purpura, concha de shulker, perla de ender |
 | 5 | Mojado | Arena, fragmentos de prisma, bacalao, salmon, corazon del mar, corales |
-| 6 | Tecnologia | Redstone, lampara de redstone, TNT, pistones, sensor sculk |
+| 6 | Tecnologia | Redstone, lampara de redstone, TNT, pistones, repetidor, comparador, observador, tolva y mas |
 | 7 | En los bosques | Troncos (roble, abedul, pino, jungla, acacia, roble oscuro, manglar, cerezo), hongos |
 | 8 | Botin | Carne podrida, huesos, flechas, hilo, polvora, membrana fantasma |
-| 9 | Valiosos | Diamante, esmeralda, estrella del Nether, manzana dorada |
+| 9 | Valiosos | Estrella del Nether, manzana dorada, vara de blaze |
 | 10 | Combustible | Carbon, bloque de alga seca |
-| 11 | Lingotes y Ladrillos | Hierro bruto, hierro, cobre, oro, netherita, lapislazuli, ladrillo |
+| 11 | Lingotes y Ladrillos | Hierro bruto, hierro, cobre, lapislazuli, ladrillo |
 | 12 | Agricultura | Manzana, zanahoria, papa, remolacha, trigo, calabaza, sandia, cana de azucar, bambu |
 | 13 | Ganaderia | Carne de vaca, cerdo, oveja, pollo, conejo, huevo, cuero |
 | 14 | Tierra y Otros | Tierra, grava, arena roja, bloque de cesped, lana blanca, barro, arcilla, nieve, hielo |
@@ -118,8 +122,6 @@ Los precios cambian con el tiempo, pero estos son los valores iniciales de algun
 | Carbon | $2.00 |
 | Redstone | $2.00 |
 | Hierro bruto | $5.00 |
-| Diamante | $30.00 |
-| Oro bruto | $20.00 |
 | Obsidiana | $100.00 |
 | Manzana dorada | $100.00 |
 | Corazon del mar | $600.00 |

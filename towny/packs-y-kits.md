@@ -1,6 +1,8 @@
 # Packs de clase y kits de paga
 
-Actualizado el 12/11/2026. Todo se entrega dentro de una caja shulker.
+Actualizado el 23/11/2026. Todo se entrega dentro de una caja shulker.
+
+> 📦 **Entrega:** los packs y kits se compran en la [tienda](https://mapucraft.com) y se entregan solos. Si compras estando desconectado, el pack queda en cola y **te llega al entrar**. Desde el 23/11 la entrega está protegida: un mismo pack no se puede reclamar dos veces por doble clic o lag. No hay un comando para que el jugador reclame packs: si algo no llegó, abre un ticket en el Discord.
 
 > 🔒 **Packs de clase:** se vinculan a tu cuenta al recibirlos (llevan tu nombre en el lore) y **no se pierden si mueres**.
 > ⚠️ **Kits de paga (Tue-Tue, Tren-Tren, Kai-Kai Vilú, Lautaro y Alicanto):** no están vinculados; si mueres, sus objetos se pueden perder.
