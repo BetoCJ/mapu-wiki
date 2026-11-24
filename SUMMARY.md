@@ -20,6 +20,7 @@
 ## 🏘️ Towny · Empieza aquí
 * [Introducción](towny/README.md)
 * [🌱 Cómo empezar](towny/como-empezar.md)
+* [🎨 Mis texturas no cargan](towny/texturas-no-cargan.md)
 * [Towns y Naciones](towny/towns.md)
 * [Rangos](towny/rangos.md)
   * [Renovación de rangos](towny/renovacion-de-rangos.md)
